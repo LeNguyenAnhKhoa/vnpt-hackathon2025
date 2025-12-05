@@ -1,1 +1,6 @@
+.env
+
 api-keys.json
+.DS_Store
+
+Thumbs.db
