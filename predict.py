@@ -3,22 +3,44 @@ import json
 import csv
 import requests
 from pathlib import Path
-from dotenv import load_dotenv
 import os
 import time
-from qdrant_client import QdrantClient, models
 
-# Load environment variables
-load_dotenv()
-
-# Get API credentials from .env
-AUTHORIZATION = os.getenv('authorization_llm_small')
-TOKEN_ID = os.getenv('tokenId_llm_small')
-TOKEN_KEY = os.getenv('tokenKey_llm_small')
-LLM_API_NAME = os.getenv('llmApiName_llm_small', 'vnptai_hackathon_small')
-
-# API endpoint
+# Cấu hình API Endpoint theo tài liệu [cite: 21]
 API_URL = 'https://api.idg.vnpt.vn/data-service/v1/chat/completions/vnptai-hackathon-small'
+
+def load_credentials(json_path='api-keys.json'):
+    """
+    Đọc file api-keys.json và lấy credentials cho LLM Small
+    """
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            keys = json.load(f)
+        
+        # Tìm cấu hình có llmApiName là 'LLM small' trong danh sách
+        config = next((item for item in keys if item.get('llmApiName') == 'LLM small'), None)
+        
+        if not config:
+            raise ValueError("Không tìm thấy cấu hình 'LLM small' trong file api-keys.json")
+            
+        return config
+    except FileNotFoundError:
+        print(f"Lỗi: Không tìm thấy file {json_path}")
+        exit(1)
+    except Exception as e:
+        print(f"Lỗi khi đọc file cấu hình: {e}")
+        exit(1)
+
+# Load credentials từ file JSON
+api_config = load_credentials()
+
+# Gán biến toàn cục từ config đã load
+AUTHORIZATION = api_config['authorization'] # File json đã có sẵn chữ "Bearer "
+TOKEN_ID = api_config['tokenId']
+TOKEN_KEY = api_config['tokenKey']
+
+# Lưu ý: Theo tài liệu, tên model trong body request phải chính xác là 'vnptai_hackathon_small'
+LLM_API_NAME = 'vnptai_hackathon_small' 
 
 def create_prompts(question, choices):
     """
@@ -67,17 +89,18 @@ Choices:
 def call_llm_api(system_prompt, user_prompt):
     """
     Call VNPT LLM Small API with the given prompts
+    Reference: Tài liệu mô tả APIs LLM_Embedding Track 2.pdf
     """
     headers = {
-        'Authorization': f'Bearer {AUTHORIZATION}',
-        'Token-id': TOKEN_ID,
-        'Token-key': TOKEN_KEY,
+        'Authorization': AUTHORIZATION,  #  Authorization Bearer ${access_token}
+        'Token-id': TOKEN_ID,            #  Key dịch vụ được cấp
+        'Token-key': TOKEN_KEY,          #  Key dịch vụ được cấp
         'Content-Type': 'application/json',
     }
     
     json_data = {
-        'model': LLM_API_NAME,
-        'messages': [
+        'model': LLM_API_NAME, #  Giá trị là: vnptai_hackathon_small
+        'messages': [          #  List[Dict] role system/user/assistant
             {
                 'role': 'system',
                 'content': system_prompt,
@@ -87,8 +110,8 @@ def call_llm_api(system_prompt, user_prompt):
                 'content': user_prompt,
             },
         ],
-        'temperature': 0,
-        'response_format': {'type': 'json_object'},
+        'temperature': 0,      #  Kiểm soát độ ngẫu nhiên
+        'response_format': {'type': 'json_object'}, # [cite: 35] Đảm bảo trả về JSON hợp lệ
     }
     
     try:
@@ -113,9 +136,13 @@ def process_test_file(input_path, output_path):
     Process the test.json file and generate submission.csv
     """
     # Read test data
-    with open(input_path, 'r', encoding='utf-8') as f:
-        test_data = json.load(f)
-    
+    try:
+        with open(input_path, 'r', encoding='utf-8') as f:
+            test_data = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: Input file not found at {input_path}")
+        return
+
     results = []
     
     # Process each question
@@ -124,7 +151,7 @@ def process_test_file(input_path, output_path):
         question = item['question']
         choices = item['choices']
         
-        print(f"Processing {idx + 1}")
+        print(f"Processing {idx + 1}/{len(test_data)} (ID: {qid})")
         
         # Create prompts
         system_prompt, user_prompt = create_prompts(question, choices)
@@ -142,6 +169,7 @@ def process_test_file(input_path, output_path):
             else:
                 answer = 'A'  # Default to 'A' if invalid
         else:
+            print(f"  Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
             answer = 'A'  # Default to 'A' if API fails
         
         results.append({
@@ -149,7 +177,10 @@ def process_test_file(input_path, output_path):
             'answer': answer
         })
         
-        # Sleep for 1.2 seconds after each sample
+        # Sleep to respect rate limits
+        # Quota: 1000 req/day, 60 req/h 
+        # 60 req/h = 1 req/minute. 1.2s sleep might be too fast if hitting hourly limits,
+        # but okay for short bursts. Adjust if you get 429 errors.
         time.sleep(1.2)
     
     # Write to CSV
@@ -167,8 +198,8 @@ def main():
     parser.add_argument(
         '--input',
         type=str,
-        default='data/test.json',
-        help='Path to the input test.json file (default: data/test.json)'
+        default='data/val.json',
+        help='Path to the input test.json file (default: data/val.json)'
     )
     parser.add_argument(
         '--output',
@@ -182,10 +213,6 @@ def main():
     # Resolve paths
     input_path = Path(args.input)
     output_path = Path(args.output)
-    
-    if not input_path.exists():
-        print(f"Error: Input file not found: {input_path}")
-        return
     
     print(f"Input file: {input_path}")
     print(f"Output file: {output_path}")
