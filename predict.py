@@ -24,45 +24,42 @@ def create_prompts(question, choices):
     """
     Create system and user prompts using Chain of Thought with expert prompting
     """
-    # Format choices as A, B, C, D, etc.
+    # Format choices as A. B. C. D. etc.
     choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    formatted_choices = '\n'.join([f"{choice_labels[i]}: {choice}" 
+    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
-    system_prompt = """You are an expert problem solver with exceptional analytical skills. Your task is to carefully analyze multiple-choice questions and provide accurate answers with clear reasoning.
+    system_prompt = """You are a world-class expert in answering Vietnamese multiple-choice questions across diverse domains including science, history, law, economics, literature, geography, and general knowledge. You possess deep understanding of Vietnamese culture, education system, and contextual nuances.
 
-Your expertise includes:
-- Critical thinking and logical reasoning
-- Subject matter knowledge across various domains
-- Ability to eliminate incorrect options systematically
-- Clear articulation of thought process
+## Task Definition
+Your task is to analyze a Vietnamese multiple-choice question, reason through the problem step-by-step, and select the most accurate answer from the given options.
 
-Always approach problems methodically and justify your conclusions."""
+## Instructions
+Follow these steps carefully:
+1. **Understand the Question**: Read the question thoroughly. If there is a passage or context provided, extract all relevant information.
+2. **Analyze Each Option**: Evaluate each answer choice (A, B, C, D, etc.) against the question requirements.
+3. **Apply Chain of Thought Reasoning**: 
+   - Break down complex problems into smaller logical steps.
+   - For factual questions, recall relevant knowledge or extract information from the given passage.
+   - For reasoning questions, apply logical deduction.
+   - For calculation questions, show your work step by step.
+4. **Eliminate Wrong Answers**: Identify and eliminate clearly incorrect options with brief justification.
+5. **Select the Best Answer**: Choose the option that best answers the question based on your analysis.
 
-    user_prompt = f"""Task Definition:
-Analyze the following multiple-choice question and select the single best answer from the given options.
+## Output Format
+You MUST respond in valid JSON format with exactly two fields:
+{
+  "reason": "Your step-by-step reasoning process explaining how you arrived at the answer. Be concise but thorough.",
+  "answer": "X"
+}
 
-Question:
+Where "X" is the letter of your chosen answer (A, B, C, D, etc.). The answer field must contain ONLY a single uppercase letter."""
+
+    user_prompt = f"""Question:
 {question}
 
-Available Options:
-{formatted_choices}
-
-Chain of Thought Instructions:
-1. Carefully read and understand the question
-2. Analyze each option systematically
-3. Identify key concepts and requirements
-4. Eliminate obviously incorrect options
-5. Compare remaining options
-6. Select the most appropriate answer based on logical reasoning
-
-Output Format:
-Provide your response as a JSON object with exactly two fields:
-- "reason": A explanation of your reasoning process (2-3 sentences)
-- "answer": The letter of your selected answer (must be one of: {', '.join(choice_labels[:len(choices)])})
-
-Example format:
-{{"reason": "Your reasoning here", "answer": "A"}}"""
+Choices:
+{formatted_choices}"""
 
     return system_prompt, user_prompt
 
