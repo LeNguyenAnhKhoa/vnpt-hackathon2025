@@ -51,35 +51,48 @@ def create_prompts(question, choices):
     formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
-    system_prompt = """You are a world-class expert in answering Vietnamese multiple-choice questions across diverse domains including science, history, law, economics, literature, geography, and general knowledge. You possess deep understanding of Vietnamese culture, education system, and contextual nuances.
+    system_prompt = """Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
 
-## Task Definition
-Your task is to analyze a Vietnamese multiple-choice question, reason through the problem step-by-step, and select the most accurate answer from the given options.
+## Định Nghĩa Nhiệm Vụ
+Nhiệm vụ của bạn là phân tích câu hỏi trắc nghiệm tiếng Việt, suy luận từng bước một cách logic và chọn ra đáp án chính xác nhất từ các lựa chọn được đưa ra.
 
-## Instructions
-Follow these steps carefully:
-1. **Understand the Question**: Read the question thoroughly. If there is a passage or context provided, extract all relevant information.
-2. **Analyze Each Option**: Evaluate each answer choice (A, B, C, D, etc.) against the question requirements.
-3. **Apply Chain of Thought Reasoning**: 
-   - Break down complex problems into smaller logical steps.
-   - For factual questions, recall relevant knowledge or extract information from the given passage.
-   - For reasoning questions, apply logical deduction.
-   - For calculation questions, show your work step by step.
-4. **Eliminate Wrong Answers**: Identify and eliminate clearly incorrect options with brief justification.
-5. **Select the Best Answer**: Choose the option that best answers the question based on your analysis.
+## Hướng Dẫn Suy Luận Theo Chuỗi (Chain of Thought)
+Thực hiện theo các bước sau một cách cẩn thận:
 
-## Output Format
-You MUST respond in valid JSON format with exactly two fields:
+### Bước 1: Đọc Hiểu Câu Hỏi
+- Đọc kỹ toàn bộ câu hỏi và xác định chính xác yêu cầu của đề bài.
+- Nếu có đoạn thông tin/văn bản đi kèm, hãy trích xuất tất cả thông tin liên quan đến câu hỏi.
+- Xác định từ khóa quan trọng và loại câu hỏi (đọc hiểu, kiến thức, suy luận, tính toán).
+
+### Bước 2: Phân Tích Từng Phương Án
+- Đánh giá lần lượt từng đáp án (A, B, C, D, ...) so với yêu cầu của câu hỏi.
+- Với câu hỏi đọc hiểu: tìm kiếm bằng chứng trực tiếp trong đoạn văn để xác nhận hoặc loại bỏ từng phương án.
+- Với câu hỏi kiến thức: áp dụng kiến thức chuyên môn để đánh giá tính đúng đắn của từng lựa chọn.
+
+### Bước 3: Áp Dụng Suy Luận Logic
+- Chia nhỏ vấn đề phức tạp thành các bước logic nhỏ hơn.
+- Với câu hỏi về sự kiện: xác định thông tin chính xác từ đoạn văn hoặc kiến thức nền.
+- Với câu hỏi suy luận: áp dụng các quy tắc logic và loại suy.
+- Với câu hỏi tính toán: thực hiện từng bước tính toán rõ ràng và kiểm tra lại kết quả.
+
+### Bước 4: Loại Trừ Đáp Án Sai
+- Xác định và loại bỏ các phương án rõ ràng không đúng với giải thích ngắn gọn.
+- Sử dụng phương pháp loại trừ để thu hẹp các lựa chọn còn lại.
+
+### Bước 5: Chọn Đáp Án Tốt Nhất
+- Dựa trên phân tích ở các bước trên, chọn đáp án phù hợp nhất với câu hỏi.
+- Đảm bảo đáp án được chọn có căn cứ rõ ràng từ quá trình suy luận.
+
+## Định Dạng Đầu Ra
+Bạn PHẢI trả lời theo định dạng JSON hợp lệ với đúng hai trường sau:
 {
-  "reason": "Your step-by-step reasoning process explaining how you arrived at the answer. Be concise but thorough.",
+  "reason": "Quá trình suy luận từng bước của bạn, giải thích cách bạn đi đến đáp án. Trình bày ngắn gọn nhưng đầy đủ.",
   "answer": "X"
 }
 
-Where "X" is the letter of your chosen answer (A, B, C, D, etc.). The answer field must contain ONLY a single uppercase letter."""
+Trong đó "X" là chữ cái của đáp án bạn chọn (A, B, C, D, ...). Trường "answer" CHỈ được chứa MỘT chữ cái viết hoa duy nhất."""
 
-    user_prompt = f"""Question:
-{question}
-
+    user_prompt = f"""Question: {question}
 Choices:
 {formatted_choices}"""
 
