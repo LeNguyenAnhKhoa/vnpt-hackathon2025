@@ -1,0 +1,103 @@
+﻿qid,reason,predict,label
+val_0011,"Theo ngữ cảnh, Confederación de Trabajadores Cubanos (CTC) là một tổ chức có mối quan hệ mật thiết với nhà nước và Đảng Cộng sản Cuba. Mặc dù CTC cho phép công nhân chuyển ý kiến lên chính phủ, nhưng những người đối lập cho rằng chính phủ sử dụng nó để kiểm soát các công đoàn thương mại và chỉ định các thành viên lãnh đạo công đoàn. Điều này cho thấy CTC không phải là một tổ chức độc lập và có vai trò quan trọng trong việc kiểm soát công đoàn và chỉ định lãnh đạo.",A,B
+val_0024,"Để tìm số điểm uốn của hàm số $h(x)$, ta cần tìm đạo hàm bậc hai $k(x)$ và xác định số nghiệm thực của phương trình $k(x) = 0$.
+
+Ta có: $h(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$
+
+Đạo hàm bậc nhất của $h(x)$ là: $h'(x) = 4x^3 - 12x^2 + 12x - 4$
+
+Đạo hàm bậc hai của $h(x)$ là: $k(x) = h''(x) = 12x^2 - 24x + 12$
+
+Phương trình $k(x) = 0$ trở thành: $12x^2 - 24x + 12 = 0$
+
+Chia cả hai vế cho 12, ta được: $x^2 - 2x + 1 = 0$
+
+Phương trình này có thể được viết lại dưới dạng: $(x - 1)^2 = 0$
+
+Vậy, phương trình $k(x) = 0$ chỉ có một nghiệm thực là $x = 1$.
+
+Do đó, hàm số $h(x)$ chỉ có một điểm uốn tại $x = 1$.",B,A
+val_0029,"Để tìm ra tỉnh nào đã được sáp nhập vào tỉnh Gia Lai để hình thành tỉnh Gia Lai hiện tại, chúng ta cần xem xét lịch sử hành chính của các tỉnh ở khu vực Tây Nguyên và miền Trung của Việt Nam. Tỉnh Gia Lai hiện nay được hình thành từ việc sáp nhập hai tỉnh cũ là Gia Lai và Kon Tum vào năm 1976. Tuy nhiên, trong số các lựa chọn cho câu hỏi này, không có Kon Tum mà thay vào đó là các tỉnh khác như Bình Định, Đắk Lắk, Quảng Ngãi, và Phú Yên. Trong số này, chỉ có Đắk Lắk là tỉnh nằm gần với Gia Lai và cũng thuộc khu vực Tây Nguyên. Tuy nhiên, thông tin cụ thể về việc sáp nhập Đắk Lắk vào Gia Lai không được đề cập rõ ràng trong câu hỏi. Nhưng dựa trên kiến thức chung về lịch sử hành chính của Việt Nam, Đắk Lắk và Gia Lai từng là một phần của vùng Tây Nguyên và có thể đã trải qua quá trình điều chỉnh hành chính. Do đó, mặc dù không có thông tin cụ thể, nhưng dựa trên vị trí địa lý và lịch sử hành chính, Đắk Lắk có thể là lựa chọn hợp lý nhất.",B,A
+val_0030,"Để trả lời câu hỏi này, chúng ta cần hiểu rõ về định nghĩa và đặc điểm của các đảng cánh Tả trong phong trào chính trị quốc tế. Đảng cánh Tả thường được liên kết với các giá trị tiến bộ, dân chủ, và tự do. Họ thường đại diện cho lợi ích của giai cấp lao động, nông dân, và các tầng lớp xã hội thấp hơn, những người bị ảnh hưởng bởi sự bất công và bất bình đẳng kinh tế-xã hội. Các đảng cánh Tả thường ủng hộ các chính sách xã hội, bảo vệ quyền lao động, và thúc đẩy sự phân phối lại tài nguyên để giảm thiểu khoảng cách giàu nghèo. Do đó, khi so sánh với các lựa chọn, lựa chọn B phản ánh chính xác nhất bản chất và mục tiêu của các đảng cánh Tả.",B,A
+val_0032,"Để mua sim Ezcom của Vinaphone, theo nội dung được cung cấp, khách hàng cần đến các Điểm giao dịch để được hỗ trợ mua sim. Không có thông tin nào đề cập đến việc mua sim Ezcom qua trang web, tổng đài, hoặc ứng dụng di động. Do đó, phương thức không được hỗ trợ để mua sim Ezcom là gọi tổng đài 18001091 để yêu cầu gửi sim qua bưu điện.",C,A
+val_0033,,A,C
+val_0035,"Để xác định thành phần hồ sơ bắt buộc trong quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục, chúng ta cần xem xét các yêu cầu cơ bản cho quá trình này. Thông thường, quá trình kiểm định chất lượng giáo dục bao gồm việc tự đánh giá của đơn vị và đăng ký tham gia kiểm định. Do đó, hồ sơ cần phải phản ánh cả hai khía cạnh này. Tuy nhiên, không có thông tin cụ thể về số lượng bản chính của mỗi loại tài liệu cần thiết trong câu hỏi hoặc trong kiến thức chung. Nhưng dựa trên logic và thực tiễn hành chính, thường thì chỉ cần một bản chính của mỗi loại tài liệu để đảm bảo tính hợp lệ và tránh lãng phí. Vì vậy, lựa chọn hợp lý nhất là có một bản chính của báo cáo tự đánh giá và một bản chính của công văn đăng ký.",C,B
+val_0036,"Nguyên lý về sự lựa chọn hợp lý trong kinh tế học vi mô cho rằng, khi thu nhập tăng thêm, cá nhân sẽ phân bổ thu nhập đó vào các hàng hóa hoặc dịch vụ sao cho đạt được mức độ thỏa dụng cao nhất có thể. Độ thỏa dụng (utility) là thước đo mức độ hài lòng mà một cá nhân nhận được từ việc tiêu thụ một đơn vị hàng hóa hoặc dịch vụ. Có ba loại độ thỏa dụng chính: tổng độ thỏa dụng (total utility), độ thỏa dụng biên (marginal utility), và độ thỏa dụng trung bình (average utility).
+
+- Tổng độ thỏa dụng (TU) là tổng mức độ hài lòng mà một cá nhân nhận được từ việc tiêu thụ tất cả các đơn vị của một hàng hóa hoặc dịch vụ.
+- Độ thỏa dụng biên (MU) là sự thay đổi trong tổng độ thỏa dụng khi tiêu thụ thêm một đơn vị hàng hóa hoặc dịch vụ.
+- Độ thỏa dụng trung bình (AU) là tổng độ thỏa dụng chia cho số lượng hàng hóa hoặc dịch vụ tiêu thụ.
+
+Khi áp dụng nguyên lý về sự lựa chọn hợp lý, mục tiêu là tối đa hóa tổng độ thỏa dụng với một mức chi tiêu nhất định. Tuy nhiên, vì câu hỏi đề cập đến việc sử dụng 'thu nhập tăng thêm', chúng ta cần xem xét cách thức mà thu nhập này ảnh hưởng đến quyết định tiêu dùng. Thu nhập tăng thêm thường được sử dụng để mua thêm hàng hóa hoặc dịch vụ, và quyết định này dựa trên việc so sánh độ thỏa dụng biên của các lựa chọn khác nhau.
+
+Tuy nhiên, câu hỏi không trực tiếp hỏi về việc tối đa hóa độ thỏa dụng biên mà là về việc sử dụng thu nhập tăng thêm để cho một điều kiện cụ thể liên quan đến độ thỏa dụng. Trong trường hợp này, việc lựa chọn nên dựa trên việc tối đa hóa tổng độ thỏa dụng trên mỗi đồng tiền (VNĐ) vì nó phản ánh trực tiếp mức độ hài lòng tổng thể mà cá nhân nhận được từ việc tiêu thụ hàng hóa hoặc dịch vụ với một mức chi tiêu cụ thể.
+
+Do đó, lựa chọn A ('Tổng độ thỏa dụng trên mỗi đồng (VNĐ) là lớn nhất') là phù hợp nhất với nguyên lý về sự lựa chọn hợp lý trong bối cảnh sử dụng thu nhập tăng thêm.",A,B
+val_0039,"Để trả lời câu hỏi này, chúng ta cần xem xét các địa điểm mà Nguyễn Ái Quốc (sau này là Chủ tịch Hồ Chí Minh) đã hoạt động trong giai đoạn đầu của phong trào cách mạng Việt Nam. Nguyễn Ái Quốc đã dành nhiều thời gian ở nước ngoài để tìm kiếm sự hỗ trợ và đào tạo cho cách mạng Việt Nam. Trong số các lựa chọn, Quảng Châu (Trung Quốc) nổi bật lên như một địa điểm quan trọng. Tại đây, vào những năm 1920, Nguyễn Ái Quốc đã thành lập Hội Việt Nam Cách Mạng Thanh Niên và tổ chức các khóa huấn luyện để đào tạo cán bộ cho phong trào cách mạng Việt Nam. Đây là một phần quan trọng trong nỗ lực của ông nhằm xây dựng nền tảng cho cuộc đấu tranh giành độc lập của Việt Nam. Do đó, dựa trên lịch sử và hoạt động của Nguyễn Ái Quốc, Quảng Châu (Trung Quốc) là địa điểm phù hợp nhất với thông tin được cung cấp.",B,A
+val_0041,"Để trả lời câu hỏi này, chúng ta cần xem xét quan điểm của Chủ tịch Hồ Chí Minh về con đường giải phóng nhân loại. Chủ tịch Hồ Chí Minh là một nhà lãnh đạo cách mạng, người đã dành cả cuộc đời mình để đấu tranh cho độc lập, tự do và hạnh phúc của nhân dân Việt Nam cũng như nhân loại. Quan điểm của ông về giải phóng nhân loại gắn liền với tư tưởng về chủ nghĩa xã hội và chủ nghĩa cộng sản, nhưng cũng nhấn mạnh vào các giá trị cơ bản của con người như tự do, bình đẳng và bác ái.
+
+Khi phân tích các lựa chọn, chúng ta thấy:
+- Lựa chọn A đề cập đến 'một nền cộng hòa thế giới chân chính', điều này không hoàn toàn phù hợp với quan điểm của Chủ tịch Hồ Chí Minh về việc xây dựng một xã hội xã hội chủ nghĩa ở Việt Nam trước khi hướng tới mục tiêu cao hơn.
+- Lựa chọn B nói về 'sự tự do, bình đẳng, bác ái, đoàn kết trên toàn cầu', đây là những giá trị cốt lõi trong tư tưởng của Chủ tịch Hồ Chí Minh, thể hiện qua nhiều tác phẩm và bài viết của ông.
+- Lựa chọn C tập trung vào 'một xã hội bình đẳng, công bằng, không có áp bức bóc lột', điều này đúng với mục tiêu của chủ nghĩa xã hội mà Chủ tịch Hồ Chí Minh theo đuổi, nhưng nó không đầy đủ vì không đề cập đến khía cạnh toàn cầu.
+- Lựa chọn D khẳng định 'chỉ có chủ nghĩa xã hội mới cứu được nhân loại', đây là một phần của tư tưởng Hồ Chí Minh, nhưng nó không bao quát hết tất cả các giá trị và mục tiêu mà ông hướng tới.
+
+Dựa trên phân tích trên, lựa chọn B là phù hợp nhất vì nó bao gồm cả khía cạnh toàn cầu và các giá trị cơ bản mà Chủ tịch Hồ Chí Minh luôn nhấn mạnh.",B,A
+val_0047,"Để tìm độ lớn mô men xoắn tác dụng lên khung dây do trường từ, ta sử dụng công thức: M = B * I * S * sin(α), trong đó M là mô men xoắn, B là cường độ từ trường, I là cường độ dòng điện, S là diện tích khung dây, α là góc giữa vectơ từ trường và vectơ pháp tuyến của khung dây.
+
+Trong trường hợp này, trường từ đều hướng dọc theo trục z, nên vectơ từ trường là B_z = B. Vectơ pháp tuyến của khung dây nằm trong mặt phẳng xy, nên vectơ pháp tuyến là n = (cos(θ), sin(θ), 0).
+
+Góc giữa vectơ từ trường và vectơ pháp tuyến là α = π/2 - θ, vì vậy sin(α) = cos(θ).
+
+Diện tích khung dây là S = w * h.
+
+Thay các giá trị vào công thức, ta có: M = B * I * w * h * cos(θ).
+
+Vậy độ lớn mô men xoắn tác dụng lên khung dây do trường từ là B * I * w * h * cos(θ).",B,A
+val_0050,"Để trả lời câu hỏi này, chúng ta cần xem xét các giá trị tích cực mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo để phục vụ cách mạng. Nho giáo là một hệ thống triết lý và đạo đức có nguồn gốc từ Trung Quốc, nhưng nó đã ảnh hưởng sâu sắc đến văn hóa và tư tưởng của Việt Nam trong suốt lịch sử. Chủ tịch Hồ Chí Minh, với tư cách là một nhà lãnh đạo cách mạng, đã chọn lọc và áp dụng những giá trị tích cực từ Nho giáo vào tư tưởng và hoạt động cách mạng của mình.
+
+Trong số các lựa chọn, chúng ta cần tìm kiếm những giá trị cụ thể mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo. Lựa chọn A không liên quan trực tiếp đến nội dung của câu hỏi vì nó đề cập đến việc câu trả lời nằm ngoài phạm vi trả lời, điều này không giúp chúng ta xác định giá trị cụ thể từ Nho giáo.
+
+Lựa chọn B, 'Lý tưởng xã hội bình trị và đại đồng', phản ánh một khía cạnh quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông đã tiếp thu ý tưởng về một xã hội công bằng, nơi mọi người đều có cơ hội và quyền lợi như nhau, từ Nho giáo. Điều này phù hợp với mục tiêu của cách mạng là xây dựng một xã hội mới, công bằng và tiến bộ.
+
+Lựa chọn C, 'Triết lý tu thân dưỡng tính', cũng là một phần quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông nhấn mạnh tầm quan trọng của việc rèn luyện bản thân, cả về mặt đạo đức và thể chất, để trở thành một công dân tốt và đóng góp cho xã hội. Đây là một giá trị tích cực từ Nho giáo mà ông đã áp dụng vào cuộc sống và hoạt động cách mạng của mình.
+
+Lựa chọn D, 'Đề cao văn hóa, lễ giáo và truyền thống hiếu học', cũng phản ánh một khía cạnh quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông luôn coi trọng việc bảo tồn và phát huy văn hóa dân tộc, cũng như khuyến khích tinh thần hiếu học và tôn trọng lễ giáo. Tuy nhiên, so với lựa chọn B và C, lựa chọn D có vẻ rộng hơn và bao quát nhiều khía cạnh khác nhau.
+
+Sau khi phân tích từng lựa chọn, chúng ta thấy rằng cả B và C đều phản ánh những giá trị tích cực cụ thể mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo để phục vụ cách mạng. Tuy nhiên, nếu phải chọn một đáp án duy nhất, lựa chọn B, 'Lý tưởng xã hội bình trị và đại đồng', có vẻ phù hợp hơn vì nó trực tiếp liên quan đến mục tiêu của cách mạng là xây dựng một xã hội công bằng và tiến bộ.",B,D
+val_0054,"Khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch, điều này thường dẫn đến sự mất cân bằng trong nền kinh tế. Nếu tiết kiệm thực tế cao hơn kế hoạch, có nghĩa là người dân đang giữ lại nhiều tiền hơn so với dự định ban đầu, dẫn đến giảm cầu về hàng hóa và dịch vụ. Ngược lại, nếu tiết kiệm thực tế thấp hơn kế hoạch, người dân đang tiêu dùng nhiều hơn dự kiến, tăng cầu về hàng hóa và dịch vụ. Trong cả hai trường hợp, để đạt được cân bằng, cần phải điều chỉnh một yếu tố nào đó trong nền kinh tế. Tùy thuộc vào tình huống cụ thể, các biện pháp điều chỉnh có thể bao gồm thay đổi lãi suất (để khuyến khích hoặc hạn chế tiết kiệm), điều chỉnh sản lượng (để đáp ứng nhu cầu thị trường), hoặc điều chỉnh giá (để phản ánh sự thay đổi trong cung và cầu). Tuy nhiên, trong số các lựa chọn cho sẵn, 'Điều chỉnh tồn kho' không phải là một biện pháp trực tiếp để giải quyết sự chênh lệch giữa tiết kiệm thực tế và kế hoạch. Do đó, các lựa chọn còn lại đều có thể xem xét được, nhưng 'Điều chỉnh lãi suất' thường được coi là một công cụ chính sách tiền tệ hiệu quả để ảnh hưởng đến hành vi tiết kiệm và tiêu dùng của người dân.",D,C
+val_0059,"Để tìm thời gian cần thiết để điện áp trên tụ giảm xuống còn 37% giá trị ban đầu, ta sử dụng công thức về sự xả của tụ điện qua điện trở: V(t) = V0 * e^(-t/RC), trong đó V(t) là điện áp tại thời điểm t, V0 là điện áp ban đầu, R là điện trở, C là điện dung, và t là thời gian. 
+
+Ta biết rằng V(t) = 0.37 * V0 (vì giảm xuống còn 37% giá trị ban đầu), R = 500 ohm, C = 100 μF = 100 * 10^(-6) F, và V0 = 120V.
+
+Thay các giá trị vào công thức, ta có: 0.37 * 120 = 120 * e^(-t/(500*100*10^(-6)))
+
+Giải phương trình này cho t, ta có: t ≈ 0.1 giây.
+
+Vậy thời gian cần thiết để điện áp trên tụ giảm xuống còn 37% giá trị ban đầu là khoảng 0.1 giây.",B,A
+val_0061,"Để trả lời câu hỏi này, chúng ta cần xem xét vai trò của giáo dục trong xã hội. Giáo dục không chỉ đơn thuần là việc truyền đạt kiến thức mà còn có nhiều tác động sâu rộng hơn. 
+
+- Phát triển nhân cách (A): Giáo dục giúp hình thành và phát triển nhân cách của cá nhân, bao gồm cả việc xây dựng giá trị, đạo đức và kỹ năng sống.
+- Tái tạo sức lao động (B): Thông qua việc cung cấp kiến thức và kỹ năng, giáo dục góp phần tái tạo và nâng cao chất lượng nguồn nhân lực, đáp ứng nhu cầu của thị trường lao động.
+- Thúc đẩy tiến bộ xã hội (C): Giáo dục là chìa khóa để thúc đẩy sự phát triển và tiến bộ của xã hội thông qua việc tạo ra những cá nhân có tri thức, sáng tạo và có khả năng đóng góp cho cộng đồng.
+
+Tất cả các lựa chọn A, B, C đều đúng vì giáo dục thực sự đóng vai trò quan trọng trong tất cả các khía cạnh trên. Do đó, lựa chọn tốt nhất là kết hợp tất cả các ý trên.",D,d
+val_0063,"Để tìm quốc gia có tỷ lệ người không theo tôn giáo cao nhất, chúng ta cần so sánh tỷ lệ này giữa các quốc gia được đề cập trong dữ liệu. Dữ liệu cung cấp thông tin về tỷ lệ người không theo tôn giáo tại Australia (18,7%), Nga (25%), Singapore (17%), và Malaysia (0,7%). Bằng cách so sánh các tỷ lệ này, chúng ta có thể xác định quốc gia có tỷ lệ người không theo tôn giáo cao nhất.",B,A
+val_0067,"Để giải quyết lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy, cần xem xét các bước sau: 
+1. Kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ (A): Đây là bước cơ bản nhưng không trực tiếp giải quyết lỗi xác thực. 
+2. Liên hệ với cơ quan chức năng để được hỗ trợ trực tiếp (B): Có thể hữu ích nhưng không phải là giải pháp trực tiếp cho lỗi xác thực. 
+3. Gửi hồ sơ qua dịch vụ bưu chính công ích (C): Không liên quan đến việc giải quyết lỗi xác thực. 
+4. Gọi tổng đài kỹ thuật của hệ thống để khắc phục lỗi (D): Đây là giải pháp trực tiếp nhất để giải quyết vấn đề kỹ thuật như lỗi xác thực.",D,B
+val_0077,"Để trả lời câu hỏi này, chúng ta cần xem xét mục đích chính của việc thu thập thông tin trong doanh nghiệp. Cơ chế thu thập thông tin thường được thiết lập để phục vụ nhiều mục đích quan trọng, bao gồm cả việc đánh giá hiệu suất làm việc của nhân viên và bộ phận. Việc này giúp doanh nghiệp xác định những điểm mạnh và điểm yếu, từ đó đề ra các biện pháp cải thiện hiệu quả hoạt động tổng thể. Trong số các lựa chọn, chỉ có một đáp án phù hợp với mục đích này.",B,A
+val_0082,"Để tìm lượng cân bằng Nash $ q^* $ cho mỗi doanh nghiệp trong cuộc cạnh tranh Cournot, chúng ta cần sử dụng hàm lợi nhuận của mỗi doanh nghiệp và điều kiện tối ưu hóa. Hàm lợi nhuận của mỗi doanh nghiệp được cho bởi: $ 	ext{Lợi nhuận} = 	ext{Doanh thu} - 	ext{Chi phí} $. Doanh thu của mỗi doanh nghiệp là $ P 	imes q_i $, trong đó $ P $ là giá và $ q_i $ là lượng sản phẩm của doanh nghiệp $ i $. Chi phí của mỗi doanh nghiệp là $ c 	imes q_i $, trong đó $ c $ là chi phí biên sản xuất không đổi. Hàm cầu thị trường được cho bởi $ Q = a - P $, trong đó $ Q $ là tổng lượng sản phẩm trên thị trường và $ a $ là một hằng số dương. Từ hàm cầu thị trường, chúng ta có thể biểu diễn giá $ P $ theo tổng lượng sản phẩm $ Q $: $ P = a - Q $. Tổng lượng sản phẩm $ Q $ là tổng của lượng sản phẩm của cả hai doanh nghiệp: $ Q = q_1 + q_2 $. Thay thế biểu thức này vào hàm giá, chúng ta có: $ P = a - (q_1 + q_2) $. Doanh thu của mỗi doanh nghiệp là: $ 	ext{Doanh thu}_i = P 	imes q_i = [a - (q_1 + q_2)] 	imes q_i $. Chi phí của mỗi doanh nghiệp là: $ 	ext{Chi phí}_i = c 	imes q_i $. Hàm lợi nhuận của mỗi doanh nghiệp là: $ 	ext{Lợi nhuận}_i = 	ext{Doanh thu}_i - 	ext{Chi phí}_i = [a - (q_1 + q_2)] 	imes q_i - c 	imes q_i $. Để tìm lượng cân bằng Nash $ q^* $, chúng ta cần tìm điểm cực đại của hàm lợi nhuận đối với mỗi doanh nghiệp. Điều này tương đương với việc tìm điểm mà tại đó đạo hàm của hàm lợi nhuận đối với $ q_i $ bằng 0. Đạo hàm của hàm lợi nhuận đối với $ q_i $ là: $ rac{	ext{d}	ext{Lợi nhuận}_i}{	ext{d}q_i} = a - (q_1 + q_2) - 2q_i - c $. Đặt đạo hàm này bằng 0 và giải cho $ q_i $, chúng ta có: $ a - (q_1 + q_2) - 2q_i - c = 0 ightarrow 2q_i = a - (q_1 + q_2) - c ightarrow q_i = rac{a - (q_1 + q_2) - c}{2} $. Vì cả hai doanh nghiệp đều chọn lượng sản phẩm của họ đồng thời và độc lập, nên chúng ta có thể giả định rằng $ q_1 = q_2 = q^* $. Thay thế giả định này vào biểu thức trên, chúng ta có: $ q^* = rac{a - 2q^* - c}{2} ightarrow 2q^* = a - 2q^* - c ightarrow 4q^* = a - c ightarrow q^* = rac{a - c}{4} $.",A,B
+val_0086,"Để xác định nghệ thuật trong đoạn 1 bài 'Tinh thần yêu nước của nhân dân ta', chúng ta cần phân tích nội dung và cấu trúc của đoạn văn đó. Tuy nhiên, vì không có thông tin cụ thể về nội dung của đoạn 1, chúng ta sẽ dựa vào các lựa chọn để suy đoán. Các lựa chọn cho thấy nhiều kỹ thuật nghệ thuật khác nhau như phép nhân hóa, phép liệt kê tăng tiến, sử dụng dẫn chứng tiêu biểu, và sử dụng câu văn ngắn với nhịp điệu nhanh. Trong bối cảnh nói về 'tinh thần yêu nước', việc sử dụng dẫn chứng tiêu biểu (lựa chọn C) thường giúp minh họa và làm rõ ý tưởng chính, tạo ra sự thuyết phục và gần gũi với người đọc. Do đó, dựa trên phân tích này, lựa chọn C dường như phù hợp nhất.",C,B
+val_0089,"Để xác định văn kiện nào đã giúp Chủ tịch Hồ Chí Minh chuyển biến từ một thanh niên yêu nước sang một chiến sĩ cộng sản, chúng ta cần xem xét thời điểm và nội dung của các văn kiện được đề cập trong các lựa chọn. Chủ tịch Hồ Chí Minh đã trải qua một quá trình tìm kiếm và khám phá tư tưởng cách mạng trước khi trở thành một nhà lãnh đạo cộng sản. Quá trình này liên quan đến việc tiếp xúc với các ý tưởng của Marx, Engels, và đặc biệt là Lenin, người đã có những đóng góp quan trọng về vấn đề dân tộc và thuộc địa.
+
+Lựa chọn A, Tuyên ngôn của Đảng Cộng sản do Mác soạn thảo (1848), là một tác phẩm kinh điển của chủ nghĩa Mác, nhưng nó không tập trung vào vấn đề dân tộc và thuộc địa, mà là nền tảng lý thuyết cho phong trào công nhân quốc tế.
+
+Lựa chọn C và D đề cập đến Tuyên bố của Quốc tế Cộng sản (Quốc tế 3), nhưng không cụ thể hóa nội dung liên quan đến vấn đề dân tộc và thuộc địa. Mặc dù Quốc tế Cộng sản đã có những tuyên bố và nghị quyết quan trọng về vấn đề này, nhưng thông tin cụ thể trong các lựa chọn không đủ để xác định đây là văn kiện trực tiếp dẫn đến sự chuyển biến tư tưởng của Chủ tịch Hồ Chí Minh.
+
+Lựa chọn B, Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (1920), là một tác phẩm quan trọng của Lenin, người đã mở rộng lý thuyết Mác về vấn đề dân tộc và thuộc địa. Tác phẩm này đã cung cấp một khuôn khổ lý thuyết cho việc hiểu và giải quyết các vấn đề liên quan đến dân tộc và thuộc địa trong bối cảnh cách mạng xã hội chủ nghĩa. Đối với Chủ tịch Hồ Chí Minh, người đang tìm kiếm một giải pháp cho vấn đề thuộc địa ở Việt Nam, tác phẩm này có thể đã mang lại một tầm nhìn mới và một hướng đi cụ thể cho cuộc đấu tranh giành độc lập và tự do.
+
+Do đó, dựa trên phân tích về nội dung và thời điểm của các văn kiện, cũng như quá trình phát triển tư tưởng của Chủ tịch Hồ Chí Minh, có thể kết luận rằng Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (1920) là văn kiện đã giúp Người chuyển biến từ một thanh niên yêu nước sang một chiến sĩ cộng sản.",B,b
+val_0090,,A,B
