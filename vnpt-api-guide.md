@@ -206,7 +206,16 @@ print(result)
 }
 ```
 
-## 4. Lưu ý
+## 4. Model Information
+- Small 
+  - Context Length = 32k
+  - Input length = 28k
+- Large 
+  - Context Length = 22k
+  - Input length = 18k
+- Embedding = 8k
+
+## 5. Lưu ý
 
 - Tuân thủ quota của từng API
 - Sử dụng đúng model name cho từng endpoint

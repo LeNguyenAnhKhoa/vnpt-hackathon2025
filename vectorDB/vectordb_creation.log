@@ -1,0 +1,322 @@
+2025-12-09 11:10:51,473 - INFO - ============================================================
+2025-12-09 11:10:51,474 - INFO - STARTING VECTOR DATABASE CREATION
+2025-12-09 11:10:51,474 - INFO - ============================================================
+2025-12-09 11:10:51,474 - INFO - Loading API credentials...
+2025-12-09 11:10:51,475 - INFO - ✓ Loaded credentials
+2025-12-09 11:10:51,475 - INFO - Connecting to Qdrant...
+2025-12-09 11:10:52,376 - INFO - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-12-09 11:10:52,387 - INFO - ✓ Connected to Qdrant at localhost:6333
+2025-12-09 11:10:52,388 - INFO - Loading data from data/vie_wiki_dataset.csv (first 10000 rows)...
+2025-12-09 11:10:55,471 - INFO - ✓ Loaded 10000 documents
+2025-12-09 11:10:55,498 - INFO - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+2025-12-09 11:10:55,500 - INFO - Creating collection: vnpt_wiki
+2025-12-09 11:10:56,105 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki "HTTP/1.1 200 OK"
+2025-12-09 11:10:56,113 - INFO - HTTP Request: POST http://localhost:6333/collections/vnpt_wiki/points/scroll "HTTP/1.1 200 OK"
+2025-12-09 11:10:56,116 - INFO - Calculating total chunks...
+2025-12-09 11:11:00,914 - INFO - Total documents: 10000
+2025-12-09 11:11:00,914 - INFO - Total chunks to process: 54279
+2025-12-09 11:12:32,428 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 11:12:32,431 - INFO - Upserted batch of 100 points. Total processed: 100
+2025-12-09 11:14:01,524 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 11:14:01,528 - INFO - Upserted batch of 100 points. Total processed: 200
+2025-12-09 11:15:29,129 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 11:15:29,132 - INFO - Upserted batch of 100 points. Total processed: 300
+2025-12-09 11:16:56,682 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 11:16:56,684 - INFO - Upserted batch of 100 points. Total processed: 400
+2025-12-09 11:18:22,365 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 11:18:22,367 - INFO - Upserted batch of 100 points. Total processed: 500
+2025-12-09 11:18:22,509 - INFO - Progress: 500/54279 chunks, Rate: 1.13 chunks/s, ETA: 791.6 minutes
+2025-12-09 14:21:57,737 - INFO - ============================================================
+2025-12-09 14:21:57,744 - INFO - STARTING VECTOR DATABASE CREATION (Multi-threaded)
+2025-12-09 14:21:57,744 - INFO - ============================================================
+2025-12-09 14:21:57,744 - INFO - Loading API credentials...
+2025-12-09 14:21:57,745 - INFO - ✓ Loaded credentials
+2025-12-09 14:21:57,745 - INFO - Initializing rate limiter: 500 req/min
+2025-12-09 14:21:57,747 - INFO - ✓ Rate limiter initialized
+2025-12-09 14:21:57,747 - INFO - Pre-loading BM25 model...
+2025-12-09 14:21:57,748 - INFO - Loading BM25 model: Qdrant/bm25
+2025-12-09 14:21:58,300 - INFO - BM25 model loaded successfully
+2025-12-09 14:21:58,301 - INFO - ✓ BM25 model loaded
+2025-12-09 14:21:58,301 - INFO - Connecting to Qdrant...
+2025-12-09 14:21:59,269 - INFO - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-12-09 14:21:59,282 - INFO - ✓ Connected to Qdrant at localhost:6333
+2025-12-09 14:21:59,282 - INFO - Loading data from data/vie_wiki_dataset.csv (first 10000 rows)...
+2025-12-09 14:22:02,215 - INFO - ✓ Loaded 10000 documents
+2025-12-09 14:22:02,234 - INFO - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+2025-12-09 14:22:02,237 - INFO - Creating collection: vnpt_wiki
+2025-12-09 14:22:02,870 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki "HTTP/1.1 200 OK"
+2025-12-09 14:22:02,872 - INFO - Starting processing with 10 worker threads...
+2025-12-09 14:22:02,878 - INFO - HTTP Request: POST http://localhost:6333/collections/vnpt_wiki/points/scroll "HTTP/1.1 200 OK"
+2025-12-09 14:22:02,882 - INFO - Calculating total chunks and preparing data...
+2025-12-09 14:23:36,884 - INFO - Total chunks: 29182
+2025-12-09 14:23:36,885 - INFO - Skipped (already exists): 0
+2025-12-09 14:23:36,885 - INFO - Chunks to process: 29182
+2025-12-09 14:23:36,885 - INFO - Using 10 threads for parallel processing
+2025-12-09 14:24:01,326 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:24:01,345 - INFO - Upserted batch of 100 points
+2025-12-09 14:24:19,972 - ERROR - Error upserting batch: timed out
+2025-12-09 14:24:38,105 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:24:38,107 - INFO - Upserted batch of 100 points
+2025-12-09 14:24:54,890 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:24:54,894 - INFO - Upserted batch of 100 points
+2025-12-09 14:25:10,520 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:25:10,525 - INFO - Upserted batch of 100 points
+2025-12-09 14:25:10,528 - INFO - Progress: 500/29182 chunks, Rate: 5.34 chunks/s, ETA: 89.5 minutes
+2025-12-09 14:25:33,027 - ERROR - Error upserting batch: timed out
+2025-12-09 14:25:49,316 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:25:49,321 - INFO - Upserted batch of 100 points
+2025-12-09 14:26:13,220 - ERROR - Error upserting batch: timed out
+2025-12-09 14:26:35,346 - ERROR - Error upserting batch: timed out
+2025-12-09 14:26:54,015 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:26:54,018 - INFO - Upserted batch of 100 points
+2025-12-09 14:26:54,032 - INFO - Progress: 1000/29182 chunks, Rate: 5.07 chunks/s, ETA: 92.6 minutes
+2025-12-09 14:31:57,586 - INFO - ============================================================
+2025-12-09 14:31:57,586 - INFO - STARTING VECTOR DATABASE CREATION (Multi-threaded)
+2025-12-09 14:31:57,586 - INFO - ============================================================
+2025-12-09 14:31:57,586 - INFO - Loading API credentials...
+2025-12-09 14:31:57,586 - INFO - ✓ Loaded credentials
+2025-12-09 14:31:57,586 - INFO - Initializing rate limiter: 500 req/min
+2025-12-09 14:31:57,586 - INFO - ✓ Rate limiter initialized
+2025-12-09 14:31:57,596 - INFO - Pre-loading BM25 model...
+2025-12-09 14:31:57,596 - INFO - Loading BM25 model: Qdrant/bm25
+2025-12-09 14:31:57,970 - INFO - BM25 model loaded successfully
+2025-12-09 14:31:57,970 - INFO - ✓ BM25 model loaded
+2025-12-09 14:31:57,970 - INFO - Connecting to Qdrant...
+2025-12-09 14:31:58,870 - INFO - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-12-09 14:31:58,883 - INFO - ✓ Connected to Qdrant at localhost:6333
+2025-12-09 14:31:58,883 - INFO - Loading data from data/vie_wiki_dataset.csv (first 10000 rows)...
+2025-12-09 14:32:01,603 - INFO - ✓ Loaded 10000 documents
+2025-12-09 14:32:01,613 - INFO - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+2025-12-09 14:32:01,616 - INFO - Creating collection: vnpt_wiki
+2025-12-09 14:32:02,219 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki "HTTP/1.1 200 OK"
+2025-12-09 14:32:02,226 - INFO - Starting processing with 10 worker threads...
+2025-12-09 14:32:02,237 - INFO - HTTP Request: POST http://localhost:6333/collections/vnpt_wiki/points/scroll "HTTP/1.1 200 OK"
+2025-12-09 14:32:02,237 - INFO - Calculating total chunks and preparing data...
+2025-12-09 14:33:29,865 - INFO - Total chunks: 29182
+2025-12-09 14:33:29,874 - INFO - Skipped (already exists): 0
+2025-12-09 14:33:29,874 - INFO - Chunks to process: 29182
+2025-12-09 14:33:29,874 - INFO - Using 10 threads for parallel processing
+2025-12-09 14:33:47,925 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:33:47,929 - INFO - Upserted batch of 100 points
+2025-12-09 14:34:09,552 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:34:09,565 - INFO - Upserted batch of 100 points
+2025-12-09 14:34:25,150 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:34:25,161 - INFO - Upserted batch of 100 points
+2025-12-09 14:34:43,685 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:34:43,695 - INFO - Upserted batch of 100 points
+2025-12-09 14:34:56,684 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:34:56,687 - INFO - Upserted batch of 100 points
+2025-12-09 14:34:56,687 - INFO - Progress: 500/29182 chunks, Rate: 5.76 chunks/s, ETA: 83.0 minutes
+2025-12-09 14:35:19,968 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 14:35:19,970 - INFO - Upserted batch of 100 points
+2025-12-09 21:42:27,797 - INFO - ============================================================
+2025-12-09 21:42:27,798 - INFO - STARTING VECTOR DATABASE CREATION (ASYNC VERSION)
+2025-12-09 21:42:27,798 - INFO - ============================================================
+2025-12-09 21:42:27,799 - INFO - Loading API credentials...
+2025-12-09 21:42:27,801 - INFO - ✓ Loaded credentials
+2025-12-09 21:42:27,802 - INFO - Connecting to Qdrant...
+2025-12-09 21:42:28,831 - INFO - HTTP Request: GET http://localhost:6333 "HTTP/1.1 200 OK"
+2025-12-09 21:42:28,844 - INFO - ✓ Connected to Qdrant at localhost:6333
+2025-12-09 21:42:28,844 - INFO - Loading data from data/vie_wiki_dataset.csv (first 10000 rows)...
+2025-12-09 21:42:32,045 - INFO - ✓ Loaded 10000 documents
+2025-12-09 21:42:32,052 - INFO - HTTP Request: GET http://localhost:6333/collections "HTTP/1.1 200 OK"
+2025-12-09 21:42:32,056 - INFO - Collection vnpt_wiki already exists, resuming...
+2025-12-09 21:42:32,083 - INFO - HTTP Request: POST http://localhost:6333/collections/vnpt_wiki/points/scroll "HTTP/1.1 200 OK"
+2025-12-09 21:42:32,090 - INFO - Found 600 existing points, will skip them
+2025-12-09 21:42:32,090 - INFO - Calculating total chunks and preparing data...
+2025-12-09 21:44:10,249 - INFO - Total chunks to process: 28582
+2025-12-09 21:44:10,250 - INFO - Skipped (already exists): 600
+2025-12-09 21:44:10,622 - INFO - Loading BM25 model: Qdrant/bm25
+2025-12-09 21:44:10,992 - INFO - BM25 model loaded successfully
+2025-12-09 21:44:25,668 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:44:25,671 - INFO - Upserted batch of 104 points. Total processed: 104
+2025-12-09 21:44:41,666 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:44:41,669 - INFO - Upserted batch of 104 points. Total processed: 208
+2025-12-09 21:44:58,481 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:44:58,483 - INFO - Upserted batch of 104 points. Total processed: 312
+2025-12-09 21:45:14,477 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:45:14,486 - INFO - Upserted batch of 104 points. Total processed: 416
+2025-12-09 21:45:28,592 - INFO - Progress: 504/28582 chunks, Rate: 6.43 chunks/s, ETA: 72.7 minutes
+2025-12-09 21:45:30,438 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:45:30,447 - INFO - Upserted batch of 104 points. Total processed: 520
+2025-12-09 21:45:47,016 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:45:47,021 - INFO - Upserted batch of 104 points. Total processed: 624
+2025-12-09 21:46:03,299 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:46:03,301 - INFO - Upserted batch of 104 points. Total processed: 728
+2025-12-09 21:46:19,377 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:46:19,398 - INFO - Upserted batch of 104 points. Total processed: 832
+2025-12-09 21:46:34,951 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:46:34,954 - INFO - Upserted batch of 104 points. Total processed: 936
+2025-12-09 21:46:45,249 - INFO - Progress: 1000/28582 chunks, Rate: 6.45 chunks/s, ETA: 71.3 minutes
+2025-12-09 21:46:50,598 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:46:50,601 - INFO - Upserted batch of 104 points. Total processed: 1040
+2025-12-09 21:47:06,074 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:47:06,076 - INFO - Upserted batch of 104 points. Total processed: 1144
+2025-12-09 21:47:21,791 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:47:21,793 - INFO - Upserted batch of 104 points. Total processed: 1248
+2025-12-09 21:47:37,681 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:47:37,683 - INFO - Upserted batch of 104 points. Total processed: 1352
+2025-12-09 21:47:53,869 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:47:53,871 - INFO - Upserted batch of 104 points. Total processed: 1456
+2025-12-09 21:48:02,037 - INFO - Progress: 1504/28582 chunks, Rate: 6.49 chunks/s, ETA: 69.6 minutes
+2025-12-09 21:48:09,380 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:48:09,383 - INFO - Upserted batch of 104 points. Total processed: 1560
+2025-12-09 21:48:25,407 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:48:25,409 - INFO - Upserted batch of 104 points. Total processed: 1664
+2025-12-09 21:48:40,799 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:48:40,802 - INFO - Upserted batch of 104 points. Total processed: 1768
+2025-12-09 21:48:56,199 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:48:56,201 - INFO - Upserted batch of 104 points. Total processed: 1872
+2025-12-09 21:49:11,697 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:49:11,700 - INFO - Upserted batch of 104 points. Total processed: 1976
+2025-12-09 21:49:16,102 - INFO - Progress: 2000/28582 chunks, Rate: 6.54 chunks/s, ETA: 67.8 minutes
+2025-12-09 21:49:26,975 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:49:26,978 - INFO - Upserted batch of 104 points. Total processed: 2080
+2025-12-09 21:49:42,514 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:49:42,516 - INFO - Upserted batch of 104 points. Total processed: 2184
+2025-12-09 21:49:58,093 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:49:58,095 - INFO - Upserted batch of 104 points. Total processed: 2288
+2025-12-09 21:50:13,657 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:50:13,659 - INFO - Upserted batch of 104 points. Total processed: 2392
+2025-12-09 21:50:29,342 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:50:29,344 - INFO - Upserted batch of 104 points. Total processed: 2496
+2025-12-09 21:50:31,450 - INFO - Progress: 2504/28582 chunks, Rate: 6.57 chunks/s, ETA: 66.2 minutes
+2025-12-09 21:50:45,386 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:50:45,388 - INFO - Upserted batch of 104 points. Total processed: 2600
+2025-12-09 21:51:01,196 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:51:01,198 - INFO - Upserted batch of 104 points. Total processed: 2704
+2025-12-09 21:51:18,088 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:51:18,090 - INFO - Upserted batch of 104 points. Total processed: 2808
+2025-12-09 21:51:34,266 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:51:34,268 - INFO - Upserted batch of 104 points. Total processed: 2912
+2025-12-09 21:51:48,248 - INFO - Progress: 3000/28582 chunks, Rate: 6.55 chunks/s, ETA: 65.1 minutes
+2025-12-09 21:51:50,182 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:51:50,185 - INFO - Upserted batch of 104 points. Total processed: 3016
+2025-12-09 21:52:06,140 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:52:06,143 - INFO - Upserted batch of 104 points. Total processed: 3120
+2025-12-09 21:52:22,397 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:52:22,401 - INFO - Upserted batch of 104 points. Total processed: 3224
+2025-12-09 21:52:38,152 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:52:38,154 - INFO - Upserted batch of 104 points. Total processed: 3328
+2025-12-09 21:52:54,037 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:52:54,039 - INFO - Upserted batch of 104 points. Total processed: 3432
+2025-12-09 21:53:05,617 - INFO - Progress: 3504/28582 chunks, Rate: 6.55 chunks/s, ETA: 63.9 minutes
+2025-12-09 21:53:09,833 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:53:09,836 - INFO - Upserted batch of 104 points. Total processed: 3536
+2025-12-09 21:53:25,807 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:53:25,809 - INFO - Upserted batch of 104 points. Total processed: 3640
+2025-12-09 21:53:42,301 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:53:42,304 - INFO - Upserted batch of 104 points. Total processed: 3744
+2025-12-09 21:53:58,225 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:53:58,227 - INFO - Upserted batch of 104 points. Total processed: 3848
+2025-12-09 21:54:13,984 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:54:13,986 - INFO - Upserted batch of 104 points. Total processed: 3952
+2025-12-09 21:54:22,195 - INFO - Progress: 4000/28582 chunks, Rate: 6.54 chunks/s, ETA: 62.7 minutes
+2025-12-09 21:54:29,802 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:54:29,805 - INFO - Upserted batch of 104 points. Total processed: 4056
+2025-12-09 21:54:45,385 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:54:45,388 - INFO - Upserted batch of 104 points. Total processed: 4160
+2025-12-09 21:55:01,381 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:55:01,383 - INFO - Upserted batch of 104 points. Total processed: 4264
+2025-12-09 21:55:17,335 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:55:17,337 - INFO - Upserted batch of 104 points. Total processed: 4368
+2025-12-09 21:55:33,559 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:55:33,561 - INFO - Upserted batch of 104 points. Total processed: 4472
+2025-12-09 21:55:39,201 - INFO - Progress: 4504/28582 chunks, Rate: 6.54 chunks/s, ETA: 61.4 minutes
+2025-12-09 21:55:49,285 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:55:49,289 - INFO - Upserted batch of 104 points. Total processed: 4576
+2025-12-09 21:56:05,119 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:56:05,122 - INFO - Upserted batch of 104 points. Total processed: 4680
+2025-12-09 21:56:21,066 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:56:21,070 - INFO - Upserted batch of 104 points. Total processed: 4784
+2025-12-09 21:56:36,814 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:56:36,816 - INFO - Upserted batch of 104 points. Total processed: 4888
+2025-12-09 21:56:52,554 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:56:52,558 - INFO - Upserted batch of 104 points. Total processed: 4992
+2025-12-09 21:56:54,718 - INFO - Progress: 5000/28582 chunks, Rate: 6.54 chunks/s, ETA: 60.1 minutes
+2025-12-09 21:57:08,102 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:57:08,106 - INFO - Upserted batch of 104 points. Total processed: 5096
+2025-12-09 21:57:23,802 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:57:23,804 - INFO - Upserted batch of 104 points. Total processed: 5200
+2025-12-09 21:57:39,308 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:57:39,311 - INFO - Upserted batch of 104 points. Total processed: 5304
+2025-12-09 21:57:54,880 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:57:54,883 - INFO - Upserted batch of 104 points. Total processed: 5408
+2025-12-09 21:58:09,841 - INFO - Progress: 5504/28582 chunks, Rate: 6.56 chunks/s, ETA: 58.7 minutes
+2025-12-09 21:58:10,676 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:58:10,678 - INFO - Upserted batch of 104 points. Total processed: 5512
+2025-12-09 21:58:26,957 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:58:26,961 - INFO - Upserted batch of 104 points. Total processed: 5616
+2025-12-09 21:58:42,554 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:58:42,557 - INFO - Upserted batch of 104 points. Total processed: 5720
+2025-12-09 21:58:58,165 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:58:58,168 - INFO - Upserted batch of 104 points. Total processed: 5824
+2025-12-09 21:59:13,972 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:59:13,974 - INFO - Upserted batch of 104 points. Total processed: 5928
+2025-12-09 21:59:25,649 - INFO - Progress: 6000/28582 chunks, Rate: 6.55 chunks/s, ETA: 57.4 minutes
+2025-12-09 21:59:29,924 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:59:29,925 - INFO - Upserted batch of 104 points. Total processed: 6032
+2025-12-09 21:59:45,757 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 21:59:45,760 - INFO - Upserted batch of 104 points. Total processed: 6136
+2025-12-09 22:00:01,657 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:00:01,659 - INFO - Upserted batch of 104 points. Total processed: 6240
+2025-12-09 22:00:17,548 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:00:17,550 - INFO - Upserted batch of 104 points. Total processed: 6344
+2025-12-09 22:00:33,492 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:00:33,494 - INFO - Upserted batch of 104 points. Total processed: 6448
+2025-12-09 22:00:42,523 - INFO - Progress: 6504/28582 chunks, Rate: 6.55 chunks/s, ETA: 56.1 minutes
+2025-12-09 22:00:48,851 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:00:48,854 - INFO - Upserted batch of 104 points. Total processed: 6552
+2025-12-09 22:01:04,426 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:01:04,429 - INFO - Upserted batch of 104 points. Total processed: 6656
+2025-12-09 22:01:20,012 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:01:20,016 - INFO - Upserted batch of 104 points. Total processed: 6760
+2025-12-09 22:01:36,069 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:01:36,072 - INFO - Upserted batch of 104 points. Total processed: 6864
+2025-12-09 22:01:52,930 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:01:52,933 - INFO - Upserted batch of 104 points. Total processed: 6968
+2025-12-09 22:01:58,644 - INFO - Progress: 7000/28582 chunks, Rate: 6.55 chunks/s, ETA: 54.9 minutes
+2025-12-09 22:02:08,821 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:02:08,824 - INFO - Upserted batch of 104 points. Total processed: 7072
+2025-12-09 22:02:24,613 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:02:24,616 - INFO - Upserted batch of 104 points. Total processed: 7176
+2025-12-09 22:02:40,491 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:02:40,493 - INFO - Upserted batch of 104 points. Total processed: 7280
+2025-12-09 22:02:56,184 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:02:56,186 - INFO - Upserted batch of 104 points. Total processed: 7384
+2025-12-09 22:03:11,830 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:03:11,833 - INFO - Upserted batch of 104 points. Total processed: 7488
+2025-12-09 22:03:15,126 - INFO - Progress: 7504/28582 chunks, Rate: 6.55 chunks/s, ETA: 53.6 minutes
+2025-12-09 22:03:27,642 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:03:27,645 - INFO - Upserted batch of 104 points. Total processed: 7592
+2025-12-09 22:03:43,213 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:03:43,215 - INFO - Upserted batch of 104 points. Total processed: 7696
+2025-12-09 22:03:58,874 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:03:58,876 - INFO - Upserted batch of 104 points. Total processed: 7800
+2025-12-09 22:04:14,398 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:04:14,400 - INFO - Upserted batch of 104 points. Total processed: 7904
+2025-12-09 22:04:29,471 - INFO - Progress: 8000/28582 chunks, Rate: 6.56 chunks/s, ETA: 52.3 minutes
+2025-12-09 22:04:30,144 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:04:30,147 - INFO - Upserted batch of 104 points. Total processed: 8008
+2025-12-09 22:04:45,740 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:04:45,743 - INFO - Upserted batch of 104 points. Total processed: 8112
+2025-12-09 22:05:01,210 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:05:01,212 - INFO - Upserted batch of 104 points. Total processed: 8216
+2025-12-09 22:05:16,584 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:05:16,587 - INFO - Upserted batch of 104 points. Total processed: 8320
+2025-12-09 22:05:32,332 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:05:32,334 - INFO - Upserted batch of 104 points. Total processed: 8424
+2025-12-09 22:05:44,816 - INFO - Progress: 8504/28582 chunks, Rate: 6.57 chunks/s, ETA: 50.9 minutes
+2025-12-09 22:05:48,098 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:05:48,104 - INFO - Upserted batch of 104 points. Total processed: 8528
+2025-12-09 22:06:03,835 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:06:03,838 - INFO - Upserted batch of 104 points. Total processed: 8632
+2025-12-09 22:06:19,554 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:06:19,557 - INFO - Upserted batch of 104 points. Total processed: 8736
+2025-12-09 22:06:35,581 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:06:35,584 - INFO - Upserted batch of 104 points. Total processed: 8840
+2025-12-09 22:06:51,254 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:06:51,256 - INFO - Upserted batch of 104 points. Total processed: 8944
+2025-12-09 22:07:00,305 - INFO - Progress: 9000/28582 chunks, Rate: 6.57 chunks/s, ETA: 49.7 minutes
+2025-12-09 22:07:06,632 - INFO - HTTP Request: PUT http://localhost:6333/collections/vnpt_wiki/points?wait=true "HTTP/1.1 200 OK"
+2025-12-09 22:07:06,634 - INFO - Upserted batch of 104 points. Total processed: 9048

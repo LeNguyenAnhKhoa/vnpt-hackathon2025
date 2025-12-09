@@ -20,12 +20,22 @@ Qdrant will be available at:
 - gRPC: `localhost:6334`
 - **Dashboard**: `http://localhost:6333/dashboard`
 
-### 3. Run Prediction
+### 3. Run Pipeline
+* Create vector database:
+```bash
+python vectorDB\main_async.py
+```
 
+* Make prediction:
 ```bash
 python predict.py
 ```
 
+### 4. Data
+* Folder vectorDB\data:
+```
+https://drive.google.com/drive/u/0/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR
+```
 ---
 
 ## API Keys Configuration

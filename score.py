@@ -9,7 +9,7 @@ def load_json(file_path):
 def main():
     # Load data
     val_data = load_json('data/val.json')
-    predict_data = load_json('output/predict_en.json')
+    predict_data = load_json('output/predict_vi.json')
     
     # Create mapping from qid to label
     label_map = {item['qid']: item['answer'] for item in val_data}
@@ -61,12 +61,12 @@ def main():
     
     # Export errors to CSV
     os.makedirs('output', exist_ok=True)
-    with open('output/error.csv', 'w', encoding='utf-8-sig', newline='') as f:
+    with open('output/error_vi.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['qid', 'question', 'choices', 'reason', 'predict', 'label'])
         writer.writeheader()
         writer.writerows(errors)
     
-    print(f"\nError details saved to output/error.csv")
+    print(f"\nError details saved to output/error_vi.csv")
 
 if __name__ == "__main__":
     main()
