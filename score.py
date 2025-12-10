@@ -9,7 +9,7 @@ def load_json(file_path):
 def main():
     # Load data
     val_data = load_json('data/val.json')
-    predict_data = load_json('output/predict_vi.json')
+    predict_data = load_json('output/predict.json')
     
     # Create mapping from qid to label
     label_map = {item['qid']: item['answer'] for item in val_data}
@@ -43,14 +43,26 @@ def main():
                     choices_str = '\n'.join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices)])
                 else:
                     choices_str = str(choices)
-                errors.append({
+                
+                # Extract context from reference_docs
+                reference_docs = predict_map[qid].get('reference_docs', [])
+                contexts = {}
+                for i in range(5):
+                    if i < len(reference_docs):
+                        contexts[f'context{i+1}'] = reference_docs[i].get('text', '')
+                    else:
+                        contexts[f'context{i+1}'] = ''
+                
+                error_row = {
                     'qid': qid,
                     'question': question,
                     'choices': choices_str,
                     'reason': reason,
                     'predict': predict,
                     'label': label
-                })
+                }
+                error_row.update(contexts)
+                errors.append(error_row)
     
     # Calculate and print accuracy
     accuracy = correct / total if total > 0 else 0
@@ -61,12 +73,13 @@ def main():
     
     # Export errors to CSV
     os.makedirs('output', exist_ok=True)
-    with open('output/error_vi.csv', 'w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['qid', 'question', 'choices', 'reason', 'predict', 'label'])
+    fieldnames = ['qid', 'question', 'choices', 'context1', 'context2', 'context3', 'context4', 'context5', 'reason', 'predict', 'label']
+    with open('output/error.csv', 'w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(errors)
     
-    print(f"\nError details saved to output/error_vi.csv")
+    print(f"\nError details saved to output/error.csv")
 
 if __name__ == "__main__":
     main()

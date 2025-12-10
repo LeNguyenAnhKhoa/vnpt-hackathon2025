@@ -1,4 +1,4 @@
-﻿qid,question,choices,reason,predict,label
+﻿qid,question,choices,context1,context2,context3,context4,context5,reason,predict,label
 val_0011,"Đoạn thông tin:
 [1] Tiêu đề: Cuba
 Nội dung: II. Chính trị
@@ -33,7 +33,59 @@ Giáo dục tiểu học kéo dài sáu năm, giáo dục trung học cơ sở �
 Câu hỏi: Theo ngữ cảnh, nhận định nào sau đây chính xác về vai trò của Confederación de Trabajadores Cubanos (CTC) trong chính trị Cuba?","A. CTC là công cụ để chính phủ kiểm soát công đoàn và chỉ định lãnh đạo.
 B. CTC cho phép công nhân bày tỏ ý kiến lên chính phủ thông qua các đại diện được bầu.
 C. CTC là tổ chức độc lập không có mối quan hệ chính trị với Đảng Cộng sản Cuba.
-D. CTC cho phép thành lập các liên đoàn thương mại độc lập ngoài hệ thống của mình.","Theo ngữ cảnh, Confederación de Trabajadores Cubanos (CTC) là một tổ chức có mối quan hệ mật thiết với nhà nước và Đảng Cộng sản Cuba. Mặc dù CTC cho phép công nhân chuyển ý kiến lên chính phủ, nhưng những người đối lập cho rằng chính phủ sử dụng nó để kiểm soát các công đoàn thương mại và chỉ định các thành viên lãnh đạo công đoàn. Điều này cho thấy CTC không phải là một tổ chức độc lập và có vai trò quan trọng trong việc kiểm soát công đoàn và chỉ định lãnh đạo.",A,B
+D. CTC cho phép thành lập các liên đoàn thương mại độc lập ngoài hệ thống của mình.",Chiến tranh kết thúc vào ngày 30 tháng 4 năm 1975 khi Tổng thống Dương Văn Minh của Việt Nam Cộng hòa tuyên bố đầu hàng vô điều kiện Quân Giải phóng miền Nam Việt Nam cùng chính phủ Cách mạng lâm thời,"Để thi hành chính sách chống cộng, Mỹ lập ra nhiều tổ chức quân sự liên quốc gia như (NATO, CENTO, SEATO), các tổ chức và hiệp ước phòng thủ song phương và khu vực. Bên cạnh đó là một hệ thống căn cứ ","Liên Xô đã viện trợ kinh tế, quân sự cho rất nhiều nước kém phát triển trên thế giới, giúp cho các nước này củng cố nền độc lập của họ và phát triển kinh tế - xã hội. Các nước Đông Âu là điển hình mà ","Hoạt động 
+Ngay sau khi thành lập, Chính phủ Cách mạng Lâm thời ban hành các sắc lệnh giải tán một số đảng phái, với lý do các đảng này ""tư thông với ngoại quốc"", làm ""phương hại đến nền độc lập Việt ","Ngoài việc được giảng dạy tại các trường đại học và trường học, cũng có các chương trình giáo dục trên đài phát thanh và TV. Tuy nhiên, bắt đầu từ tháng 1 năm 2019, truyền hình Cuba sẽ mở một chương t","Theo đoạn thông tin [1], phần II. Chính trị, mục 2. Liên đoàn thương mại, có đề cập đến vai trò của Confederación de Trabajadores Cubanos (CTC) trong chính trị Cuba. Đoạn thông tin cho biết CTC là một phần của hệ thống chính trị Cuba, có mối quan hệ mật thiết với nhà nước và Đảng Cộng sản. Tuy nhiên, cũng có những quan điểm trái ngược về vai trò của CTC, một số người cho rằng CTC cho phép công nhân bày tỏ ý kiến lên chính phủ, trong khi những người khác cho rằng chính phủ sử dụng CTC để kiểm soát công đoàn và chỉ định lãnh đạo. Dựa trên thông tin này, ta có thể thấy rằng CTC không phải là một tổ chức độc lập, mà có mối quan hệ chính trị với Đảng Cộng sản Cuba. Do đó, đáp án C và D là sai. Đáp án B cũng không chính xác, vì mặc dù CTC có thể cho phép công nhân bày tỏ ý kiến, nhưng điều này không có nghĩa là CTC là một công cụ để công nhân bày tỏ ý kiến lên chính phủ. Đáp án A là chính xác nhất, vì CTC có thể được sử dụng để kiểm soát công đoàn và chỉ định lãnh đạo.",A,B
+val_0019,"Đoạn thông tin:
+-- Document 1 --
+Title: Assume Form
+Content: Assume Form là album phòng thu thứ tư của nam ca sĩ kiêm sáng tác nhạc–nhà sản xuất thu âm người Anh James Blake. Album được Polydor Records phát hành vào ngày 18 tháng 1 năm 2019. Các nhà phê bình mô tả album có âm thanh phấn khởi và lạc quan hơn so với các tác phẩm trước đó của Blake, đặc biệt là so với album phòng thu trước đó ""The Colour In Anything"" (2016). Album sử dụng những yếu tố của nhạc electropop, hip hop, R&B và có sự tham gia của các nghệ sĩ khách mời gồm Travis Scott, Moses Sumney, Rosalía và André 3000. Nhà sản xuất Metro Boomin cũng đóng góp vào quá trình thực hiện album. Đĩa đơn mở đường cho album ""Don't Miss It"" được phát hành vào ngày 4 tháng 6 năm 2018. Hai đĩa đơn kế tiếp, ""Mile High"" và ""Lullaby for My Insomniac"", được phát hành vào tháng 1 năm 2019. Sau khi phát hành, ""Assume Form"" được các nhà phê bình khen ngợi về âm thanh phấn khởi, những cảm nhận lãng mạn và về công đoạn sản xuất. Album được đề cử ở hạng mục Album nhạc alternative xuất sắc nhất tại Giải Grammy lần thứ 62.
+
+-- Document 2 --
+Title: Assume Form - Quảng bá và phát hành.
+Content: Không lâu sau, các tấm panô dán quảng cáo và các biển quảng cáo dùng đèn LED với nội dung quảng bá cho album bắt đầu xuất hiện tại Luân Đôn và New York. Một trang mạng có địa chỉ assumeform.com cũng xuất hiện. Trang này sử dụng một đoạn nhạc mẫu ngắn theo phong cách tối giản và ambient mà sau này được Shazam tiết lộ là của ca khúc ""Lullaby for My Insomniac"", cũng như trình chiếu một hình ảnh hoạt hình có ghi tựa đề của album. Sau đó, trang này bổ sung một thẻ yêu cầu đăng nhập và một video với một loạt câu hỏi lấy từ lời bài hát của ca khúc chủ đề. Vào ngày 10 tháng 1, các áp phích quảng bá cho album xuất hiện ở ga Tàu điện ngầm Luân Đôn, tiết lộ ảnh bìa của album và xác nhận ngày phát hành chính thức là 18 tháng 1 năm 2019 cũng như dàn nghệ sĩ khách mời gồm André 3000, Travis Scott, Moses Sumney, Metro Boomin và Rosalía. Danh sách bài hát và các nghệ sĩ khách mời cũng được xác nhận trên tài khoản Instagram chính thức của Blake.
+
+-- Document 3 --
+Title: Assume Form - Quảng bá và phát hành.
+Content: Vào ngày 3 tháng 1 năm 2019, một trang đặt hàng trực tuyến trước cho album của Amazon Pháp đột nhiên xuất hiện, đưa ra nhiều thông tin về ngày phát hành, danh sách bài hát và các nghệ sĩ khách mời của album. Trang này cũng cho biết đĩa đơn ""Don't Miss It"" phát hành từ ngày 4 tháng 6 năm 2018 cũng góp mặt trong danh sách bài hát của album. Tuy nhiên, cả ""If the Car Beside You Moves Ahead"" phát hành trước đó vào tháng 1 năm 2018 và ""Vincent"" phát hành vào cuối năm 2017 đều không xuất hiện trong danh sách bài. Mặc dù vậy, một số suy đoán cho rằng vụ rò rỉ này là ""một sự kiện giả được dàn dựng một cách công phu"".
+
+-- Document 4 --
+Title: Assume Form - Âm nhạc và ca từ.
+Content: ""Assume Form"" được mô tả là một bản thu âm theo phong cách pop và electropop với một số yếu tố của các dòng nhạc hip hop và R&B, cũng như mang sắc thái lạc quan hơn nhiều so với các tác phẩm trước đó của nam ca sĩ. Nhiều xuất bản phẩm đã đối chiếu những điểm tương phản giữa album với tác phẩm ""hoàn toàn buồn bã chán nản"" ""The Colour In Anything"". Xuyên suốt album, quãng giọng của Blake trải dài từ những nốt trầm tới âm khu giả thanh. Anh cũng thể hiện giọng ca thuần thục và ""tự tạo ra một dàn hợp xướng"" để thu âm cho album. Một số ca khúc trong bản thu âm sử dụng những biến tấu của phần beat mang phong cách hip hop trong ""Can't Believe the Way We Flow"", một ca khúc mà Blake từng biểu diễn vài lần vào cuối năm 2017. Phần lời của các bài hát chủ yếu ám chỉ đến mối quan hệ của Blake với người bạn gái Jameela Jamil, cũng như cuộc sống của hai người tại Los Angeles. Trả lời phỏng vấn của ""Dazed"", Blake cho biết album nói về những cảm xúc hiện tại và tình cảm của anh với cô bạn gái, như để phản ứng lại trước bình luận của tạp chí âm nhạc trực tuyến ""Pitchfork"" rằng đĩa đơn mở đường ""Don't Miss It"" của ""Assume Form"" là ""âm nhạc của một chàng trai buồn bã"". Anh cũng giải thích rằng: ""trong bản thu âm này, tôi chỉ là đang nói về những gì tôi hiện đang cảm thấy, và tôi sẽ tiếp tục viết về những gì tôi cảm nhận được, hoặc đôi khi tôi sẽ không nói về [nó], nhưng tôi sẽ đưa ra lựa chọn thích hợp xem khi nào tôi làm và khi nào tôi không làm điều đó – mà không cần cảm thấy rằng tôi không nên làm điều đó chỉ vì tôi là một người đàn ông."" Trong một bài phỏng vấn với ""Exclaim!"", Blake nói rằng: ""Tôi muốn thử và nói ra những gì tôi muốn nói, và điều đó thật khó. Đôi lúc, điều đó thật đáng sợ. Tôi nghĩ rằng trước đây nỗi sợ này đã ngăn cản tôi làm điều đó.""
+
+-- Document 5 --
+Title: Assume Form - Danh sách bài hát.
+Content: Các ca khúc lấy mẫu - ""Assume Form"" sử dụng một đoạn nhạc được lấy mẫu từ ca khúc ""Depression"" (sáng tác bởi Adam Tench, trình bày bởi Rage Almighty). - ""Barefoot in the Park"" sử dụng một đoạn nhạc được lấy mẫu từ ca khúc ""Fíl a Run Ó"" (sáng tác bởi Paco Ortega, trình bày bởi Valorie Armstrong). - ""Can't Believe the Way We Flow"" sử dụng một đoạn nhạc được lấy mẫu từ ca khúc ""It Feels So Good to Be Loved So Bad"" (sáng tác bởi Teddy Randazzo, trình bày bởi The Manhattans). - ""Where's the Catch?"" sử dụng một đoạn nhạc được lấy mẫu từ ca khúc ""Fire"" (sáng tác và trình bày bởi Sister Irene O'Connor). - ""I'll Come Too"" sử dụng một đoạn nhạc được lấy mẫu từ ca khúc ""La Contessa, Incontro"" (sáng tác và trình bày bởi Bruno Nicolai).
+
+-- Document 6 --
+Title: Assume Form
+Content: Đĩa đơn mở đường cho album ""Don't Miss It"" được phát hành vào ngày 4 tháng 6 năm 2018. Hai đĩa đơn kế tiếp, ""Mile High"" và ""Lullaby for My Insomniac"", được phát hành vào tháng 1 năm 2019. Sau khi phát hành, ""Assume Form"" được các nhà phê bình khen ngợi về âm thanh phấn khởi, những cảm nhận lãng mạn và về công đoạn sản xuất. Album được đề cử ở hạng mục Album nhạc alternative xuất sắc nhất tại Giải Grammy lần thứ 62.
+Câu hỏi: Theo nội dung các tài liệu, điều gì được nhấn mạnh là điểm khác biệt chính giữa album 'Assume Form' và album trước đó 'The Colour In Anything' của James Blake?","A. 'Assume Form' tập trung nhiều hơn vào yếu tố điện tử và hip hop, trong khi 'The Colour In Anything' có xu hướng acoustic hơn.
+B. 'Assume Form' mang âm hưởng lạc quan và phấn khởi, trái ngược với phong cách 'hoàn toàn buồn bã chán nản' của 'The Colour In Anything'.
+C. 'Assume Form' có sự tham gia của nhiều nghệ sĩ khách mời hơn, trong khi 'The Colour In Anything' chủ yếu là sản phẩm cá nhân.
+D. 'Assume Form' được sản xuất bởi Metro Boomin, trong khi 'The Colour In Anything' do chính James Blake sản xuất.","Theo Phạm Duy, đây là bài thơ làm ông nghĩ nhiều tới việc về thăm Việt Nam, mà năm 2001 ông đă thực hiện.
+
+Trong khoảng thời gian nhạc Phạm Duy bị cấm này vẫn có những ca sĩ trình diễn nhạc Phạm Duy v","Amuro trở lại với âm nhạc bằng đĩa đơn ""I HAVE NEVER SEEN"" (1998) và album GENIUS 2000 (2000) đều đứng đầu bảng xếp hạng nhưng số lượng bán ra giảm mạnh so với những sản phẩm trước của cô. Sau khi ngừ","10.21] UNITE! (Part 1)
+ [2005.10.24] UNITE! (Part 2)
+
+Vinyl quốc tế
+ [2002.06.12] Connected (Vinyl Bỉ)
+ [2004.05.05] M (Vinyl Tây Ban Nha)
+
+Hợp tác với ca sĩ khác 
+ [1998.11.26] avex 10th Anniversary ","Những phát triển gần đây nhất đã diễn ra với máy nghe nhạc kỹ thuật số.
+
+Album là một tập hợp các bản ghi âm có liên quan, được phát hành cho công chúng, thường là mang tính thương mại.
+
+Thuật ngữ alb","Và từ đó một nữ hoàng nhạc pop đã được ra đời.
+
+Tác phẩm
+
+Album phòng thu nguyên bản 
+ [1999.01.01] A Song for XX #1
+ [1999.11.10] LOVEppears #1
+ [2000.09.27] Duty #1
+ [2002.01.01] I am... #1
+ [2002.1",,A,B
 val_0024,Xét hàm số $ h(x) = x^4 - 4x^3 + 6x^2 - 4x + 1 $. Giả sử $ k(x) $ là đạo hàm bậc hai của $ h(x) $. Hàm số $ h(x) $ có bao nhiêu điểm uốn?,"A. 0
 B. 1
 C. 2
@@ -43,127 +95,133 @@ F. 5
 G. 6
 H. 7
 I. 8
-J. 9","Để tìm số điểm uốn của hàm số $h(x)$, ta cần tìm đạo hàm bậc hai $k(x)$ và xác định số nghiệm thực của phương trình $k(x) = 0$.
+J. 9","Đa thức 
 
-Ta có: $h(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$
+Một đa thức là một biểu thức gồm tổng của một số hữu hạn các đơn thức khác không, mỗi đơn thức bao gồm tích của một hằng số và một số hữu hạn các biến số với số mũ là số nguyên. Ví dụ, x2 + ","Ma trận chỉ chứa hai giá trị (1 và 0 có nghĩa lần lượt ""có"" và ""không"") được gọi là ma trận lôgic. Ma trận khoảng cách chứa thông tin về khoảng cách giữa các cạnh. Những khái niệm này được áp dụng cho","Một ma trận khác thường được sử dụng trong các vấn đề hình học đó là ma trận Jacobi của ánh xạ khả vi f: Rn → Rm. Nếu f1,..., fm ký hiệu là các thành phần của f, thì ma trận Jacobi xác định bởi 
 
-Đạo hàm bậc nhất của $h(x)$ là: $h'(x) = 4x^3 - 12x^2 + 12x - 4$
+Nếu ","Các dữ liệu thu thập có thể gồm nhiều số từ x1, x2,...xn. Tập hợp các số này có thứ tự, nghĩa là có số đầu tiên (x1), số thứ 2 (x2) và các số tiếp theo.
 
-Đạo hàm bậc hai của $h(x)$ là: $k(x) = h''(x) = 12x^2 - 24x + 12$
+Biên của dãy
+Cho dãy . Tập hợp các giá trị của","Ví dụ, phương trình  có nghiệm  Nâng cả hai vế lên số mũ của 2 (có nghĩa là áp dụng hàm  về cả hai vế của phương trình) thay đổi phương trình thành , không chỉ có nghiệm trước đó mà còn tạo ra nghiệm ","Để tìm số điểm uốn của hàm số $h(x)$, ta cần tìm đạo hàm bậc hai $k(x)$ của $h(x)$ và xác định số điểm mà tại đó $k(x) = 0$ và $k'(x) 
+eq 0$. Tuy nhiên, vì không có thông tin cụ thể về $k(x)$ trong câu hỏi, ta sẽ sử dụng kiến thức về đa thức và đạo hàm để suy luận.
 
-Phương trình $k(x) = 0$ trở thành: $12x^2 - 24x + 12 = 0$
+Ta có $h(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$. Đây là một đa thức bậc 4. Đạo hàm bậc hai của $h(x)$ sẽ là một đa thức bậc 2.
 
-Chia cả hai vế cho 12, ta được: $x^2 - 2x + 1 = 0$
+Một đa thức bậc 2 có thể có tối đa 2 nghiệm thực. Tuy nhiên, để xác định số điểm uốn, ta cần kiểm tra xem tại những điểm mà $k(x) = 0$, đạo hàm bậc ba $k'(x)$ có khác 0 hay không.
 
-Phương trình này có thể được viết lại dưới dạng: $(x - 1)^2 = 0$
+Vì không có thông tin cụ thể về $k(x)$ và $k'(x)$, ta sẽ dựa vào kiến thức chung về đa thức và đạo hàm. Một đa thức bậc 4 có thể có tối đa 3 điểm uốn, nhưng số điểm uốn thực tế phụ thuộc vào các hệ số của đa thức.
 
-Vậy, phương trình $k(x) = 0$ chỉ có một nghiệm thực là $x = 1$.
+Dựa vào kiến thức chung, ta có thể suy luận rằng hàm số $h(x)$ có thể có tối đa 3 điểm uốn, nhưng không thể có 4 điểm uốn trở lên vì bậc của đa thức là 4.
 
-Do đó, hàm số $h(x)$ chỉ có một điểm uốn tại $x = 1$.",B,A
-val_0029,"Theo thông tin được cung cấp, tỉnh nào sau đây đã được sáp nhập vào tỉnh Gia Lai để hình thành tỉnh Gia Lai hiện tại?","A. Bình Định
-B. Đắk Lắk
-C. Quảng Ngãi
-D. Phú Yên","Để tìm ra tỉnh nào đã được sáp nhập vào tỉnh Gia Lai để hình thành tỉnh Gia Lai hiện tại, chúng ta cần xem xét lịch sử hành chính của các tỉnh ở khu vực Tây Nguyên và miền Trung của Việt Nam. Tỉnh Gia Lai hiện nay được hình thành từ việc sáp nhập hai tỉnh cũ là Gia Lai và Kon Tum vào năm 1976. Tuy nhiên, trong số các lựa chọn cho câu hỏi này, không có Kon Tum mà thay vào đó là các tỉnh khác như Bình Định, Đắk Lắk, Quảng Ngãi, và Phú Yên. Trong số này, chỉ có Đắk Lắk là tỉnh nằm gần với Gia Lai và cũng thuộc khu vực Tây Nguyên. Tuy nhiên, thông tin cụ thể về việc sáp nhập Đắk Lắk vào Gia Lai không được đề cập rõ ràng trong câu hỏi. Nhưng dựa trên kiến thức chung về lịch sử hành chính của Việt Nam, Đắk Lắk và Gia Lai từng là một phần của vùng Tây Nguyên và có thể đã trải qua quá trình điều chỉnh hành chính. Do đó, mặc dù không có thông tin cụ thể, nhưng dựa trên vị trí địa lý và lịch sử hành chính, Đắk Lắk có thể là lựa chọn hợp lý nhất.",B,A
-val_0030,"Trong phong trào chính trị quốc tế, đảng cánh Tả được coi là đảng có xu hướng","A. Bảo thủ, trì trệ, không cải cách, đại diện cho giai cấp, tầng lớp quý tộc, tư sản lớp trên
-B. Tiến bộ, dân chủ, tự do, đại diện cho giai cấp nông dân, bình dân, vô sản lớp dưới","Để trả lời câu hỏi này, chúng ta cần hiểu rõ về định nghĩa và đặc điểm của các đảng cánh Tả trong phong trào chính trị quốc tế. Đảng cánh Tả thường được liên kết với các giá trị tiến bộ, dân chủ, và tự do. Họ thường đại diện cho lợi ích của giai cấp lao động, nông dân, và các tầng lớp xã hội thấp hơn, những người bị ảnh hưởng bởi sự bất công và bất bình đẳng kinh tế-xã hội. Các đảng cánh Tả thường ủng hộ các chính sách xã hội, bảo vệ quyền lao động, và thúc đẩy sự phân phối lại tài nguyên để giảm thiểu khoảng cách giàu nghèo. Do đó, khi so sánh với các lựa chọn, lựa chọn B phản ánh chính xác nhất bản chất và mục tiêu của các đảng cánh Tả.",B,A
-val_0032,"Đoạn thông tin:
-[1] Tiêu đề: địa điểm giao dịch và thời gian làm việc
-Nội dung: Để tìm thông tin về địa chỉ và thời gian làm việc của Điểm giao dịch VNPT Vinaphone anh chị vui lòng truy cập vào đường link sau: https://vnpt.com.vn/ho-tro/diem-giao-dich
-Hoặc có thể liên hệ số Hotline 18001091.
+Vì vậy, ta sẽ chọn đáp án D. 3.",D,A
+val_0025,Công thức hoá học của oxit có thành phần phần trăm của S là 40%:,"A. SO2.
+B. SO3.
+C. SO.
+D. S2O4.","S, s là chữ thứ 19 trong phần nhiều chữ cái dựa trên Latinh và là chữ thứ 23 trong chữ cái tiếng Việt.
 
-[2] Tiêu đề: trả trước trả sau
-Nội dung: buổi trưa có làm việc không?;Điểm giao dịch quận thanh xuân;Cửa hàng Vinaphone;chủ nhật có làm việc không;Địa điểm VNPT;Mình có nghỉ trưa không bạn?;Em muốn qua vinacenter;báo sự cố ở TPHCM thì gọi số nào ạ;Thế bây giờ điểm giao dịch ở đâu vậy em;Cho mình xin địa chỉ gần nhất;Vnpt nào ở phạm văn đồng ạ;Cửa hàng;Cho mình hỏi địa chỉ cửa hàng dịch vụ vnpt Gần đường 30 tháng 4, Đà Nẵng là ở đâu vậy ạ;Đại lý ở Nguyễn Du làm việc tới mấy giờ;Lịch làm việc vinaphone bù nho;Cho e hỏi chi nhánh để e đóng tiền internet;Cửa hàng giao dịch ở trảng dài địa chỉ là bao nhiêu;chi nhanh vinaphone;Điểm bán sim data 4g;Điểm giao dịch khu vực quận 2 thành phố hồ chí minh;Địa điểm phòng giao dịch ở đâu ạ?;cho đia chi lien he de lam thu tuc thanh ly dien thoai co dinh o tphcm Q5;chi nhánh vinaphone;Tôi đang ở Hoàng Đạo Thuý cho t điểm vinaphone gần nhất;mình muốn tìm chi nhánh cửa hàng vnpt tại Quận 7 tp HCM;Cửa hangd giao dịch timecity ở đâu;Tiệm mở tới mấy h v ạ;Xin chào. Bạn có điểm bán hàng nào trong khu vực không? Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng;Cửa hàng vinaphone gần Thường tín nhất là ở đây ạ;Địa chỉ để đăng ký internet;Cửa hàng giao dịch vũ thư thái bình làm việc đến mấy giờ;Tôi cần hỏi địa chỉ đại lý sim thẻ vinaphone tại hoàng mai;Cho mình hỏi của hàng vi na phon. Chủ nhật có làm việc k;Điểm giao dịch vina;Xin chào. Bạn có điểm bán hàng nào trong khu vực không? Bắc Mỹ An, Ngũ Hành Sơn, Đà Nẵng;Bên mình làm việc đến mấy giờ ạ;Mở cửa từ thứ mấy đến thứ mấy;Ở bát tràng huyện gia lâm có đại lý ko;trung tâm có làm ngoài giờ hành chính ko;Địa chỉ của hệ thống Vinaphone;Cho tôi số liên hệ vnpt đà nẵng;Mình đến tổng công ty vinaphone ở đường Xuân Tảo để làm thủ tục thay đổi thoing tin thuê bao được không?;Chi nhánh quận 2;Ad ơi cho em hỏi địa chỉ các điểm gd vinaphone có hỗ trợ đk esim ở q9 là gì v ạ;địa diem giao dich 9 của ban la gi;Tôi muốn biết lịch làm việc của vnpt;thời gian làm việc;Trung tâm Vinaphone nằm ở vị trí nào vậy?;Địa chỉ VNPT;vnpt có làm việc thứ 7 không;Cho m hỏi địa điểm của vinaphone gần;Và vina hải phòng thì ở chỗ nào;Mình muốn làm lại số điện thoại của mình nhưng mình không biết địa điểm nào gần đây;phòng giao dịch có làm việc thứ 7 không;có quầy giao dịch nào gần đây không bạn;địa chỉ các điểm giao dịch quận 11;Cho hỏi số điện thoại bán hàng của vnpt Hà nội;Đại lý ở bình tân;có cửa hàng nào gần đây không nhỉ;Tôi muốn tìm cơ sở Vinaphone tại quảng xương Thanh Hóa;Vinaphone quạn 8;Cho mình xin địa chỉ đại lý vinaphone tại quận Bắc Từ Liêm, thành phố Hà Nội;Vinaphone mở cửa lúc mấy giờ?;Cửa hàng gần Tân Sơn nhì Tân phú;Tôi ở p12 quận Tân bình , anh,chi cho xin 1 địa chỉ chăm sóc khách hàng gần p12 quận tân bình được không;H e muốn ra cửa hàng gần nhất thì còn làm không ạ;17h cửa hàng vnpt còn mở cửa không?;Tôi muốn cắt Sdt bàn và Internet thì tôi ra địa chỉ nào tại tphcm;Vinaphone gần nhất;Có những điểm giao dịch nào ở tân hội Đức Trọng Lâm Đồng không?;chi nhánh;những điểm giao dịch nào làm vào thứ 7;Điểm giao dịch gần nhất;điểm giao dịch vnpt đóng cửa lúc mấy giờ?;Trung tâm dịch vụ ở khu Cầu Giấy;VNPT Bắc NINH có bao nhiêu điểm giao dịch và trạm BTS;Thong tin diem giao dich q10;Tôi đang sử dụng đt bàn và Internet, hiện nay tôi muốn đóng dịch vụ thì ra địa chỉ nào tại tphcm;cho mình hỏi cửa hàng vinaphone làm việc từ mấy h đến mấy h;điểm giao dịch quảng bình;Giờ làm việc của vnpt;quầy giờ giấc mở cửa ntn nhỉ;xin cho biết địa điêm đăng ký thông tin thuê bao gần 16 Phan Chu trinh Hà Nội;Của hàng mấy h đóng cửa v ạ;Số điện thoại phòng giao dich 80 nguyễn du;cho mình hỏi vnpt thị trấn lang chánh ở số nhà mấy vậy ạ;Thời gian làm việc của Vinaphone;thông tin liên hệ khu vực thường xuân tinht thanh hóa;tôi muốn tìm cửa hàng vnpt;thời gian làm việc cửa hàng gd số 1 nguyễn trãi buổi chiều tới mấy giờ;Ccho hii dia chi giao dich vinaphone vung tau phuong 10 ạ;Mình ở huyện Krông nô tỉnh đắk nông thì đến đâu đăng ký ạ;điểm giao dịch VNPT tại Đông Anh - Hà Nội;địa chỉ điểm giao dịch tây mỗ;cửa hàng mình còn mở dưới ko ạ;Điểm giao dịch là các cửa hàng vianaphon hay phải ra vinaphone của huyện vậy;vnpt đà nẵng, nguyễn du số đt;Xin hỏi đại lý vnpt tại quận Tân Phú;cho tôi danh sách điểm giao dịch;Điểm giao dịch VinaPhone tại Hà Nội;cho xin địa chỉ vnpt ở tân trụ .long an;Địa chỉ điểm giao dịch;điểm giao dịch ở đà lạt
+Trong bảng mã ASCII dùng ở máy tính, chữ S hoa có giá trị 83 và chữ s thường có giá trị 115.
+Tro","Ví dụ: nếu một chai chứa 40 g ethanol và 60 g nước, nó chứa 40% ethanol theo khối lượng. Trong thương mại, các hoá chất lỏng đậm đặc như acid và base thường được ghi nhãn hiệu theo phần trăm khối lượn","Nhưng 1 M axít sulfuric là 1 N trong phản ứng kết tủa sulfate, vì 1 mol axít sulfuric cung cấp 1 mol ion sulfate.
 
-[3] Tiêu đề: mua sim
-Nội dung: Để mua sim của Vinaphone, anh/chị vui lòng truy cập link https://digishop.vnpt.vn/sim-so?tab=c320&aff=DIGI000001 hoặc ra các Điểm giao dịch của Vinaphone để có thể chọn số, xem giá sim và thời hạn cam kết (nếu có), chọn và đăng ký gói cước phù hợp cho thuê bao.
-Với sim Ezcom, anh/chị đến các Điểm giao dịch để được hỗ trợ mua sim.
-Địa chỉ điểm giao dịch: https://vnpt.com.vn/ho-tro/diem-giao-dich
-Nếu anh/chị có thắc mắc gì khác, em xin sẵn sàng hỗ trợ ạ.
-Câu hỏi: Theo nội dung được cung cấp, phương thức nào sau đây KHÔNG được hỗ trợ để mua sim Ezcom của Vinaphone?","A. Truy cập website https://digishop.vnpt.vn/sim-so để chọn số và gói cước
-B. Đến trực tiếp các Điểm giao dịch Vinaphone
-C. Gọi tổng đài 18001091 để yêu cầu gửi sim qua bưu điện
-D. Sử dụng dịch vụ trực tuyến qua ứng dụng di động","Để mua sim Ezcom của Vinaphone, theo nội dung được cung cấp, khách hàng cần đến các Điểm giao dịch để được hỗ trợ mua sim. Không có thông tin nào đề cập đến việc mua sim Ezcom qua trang web, tổng đài, hoặc ứng dụng di động. Do đó, phương thức không được hỗ trợ để mua sim Ezcom là gọi tổng đài 18001091 để yêu cầu gửi sim qua bưu điện.",C,A
-val_0033,"Một khối lượng $ m $ được gắn vào một lò xo có hằng số đàn hồi $ k $ và dao động theo phương ngang trên một mặt phẳng không ma sát. Khối lượng ban đầu được kéo lệch một khoảng $ A $ so với vị trí cân bằng và sau đó được thả ra từ trạng thái nghỉ. Đồng thời, một khối lượng giống hệt $ m $ được gắn vào một lò xo thứ hai có cùng hằng số đàn hồi $ k $ và được kéo lệch một khoảng $ A $ nhưng được cung cấp vận tốc ban đầu $ v_0 $ theo hướng dao động. Tỉ số giữa động năng cực đại của khối lượng thứ hai và động năng cực đại của khối lượng thứ nhất là bao nhiêu?","A. 1
-B. 2
-C. $ 1 + \left(\frac{v_0}{\omega A}\right)^2 $
-D. $ \left(\frac{v_0}{\omega A}\right)^2 $
-E. $ \left(1 + \left(\frac{v_0}{\omega A}\right)^2\right)^{1/2} $
-F. $ 1 + \left(\frac{v_0}{A}\right)^2 $
-G. $ \left(\frac{v_0}{A}\right)^2 $
-H. $ 1 + \left(\frac{v_0^2}{2kA^2}\right) $
-I. $ 1 + \left(\frac{v_0^2}{kA^2}\right) $
-J. $ 1 + \left(\frac{v_0}{\omega A}\right) $",,A,C
+Lưu ý: Đối với phản ứng axít-base, nồng độ chuẩn luôn bằng hoặc lớn hơn nồng độ mol t","Oxy là nguyên tố phổ biến xếp hàng thứ 3 trong vũ trụ theo khối lượng sau hydro và heli và là nguyên tố phổ biến nhất theo khối lượng trong vỏ Trái Đất, chiếm gần một nửa vỏ Trái đất ở dạng oxide. Khí","Oxy (tiếng Anh: oxygen ; bắt nguồn từ từ tiếng Pháp oxygène ), hay dưỡng khí, là một nguyên tố hóa học có ký hiệu O và số hiệu nguyên tử 8. Nó là một thành viên của nhóm chalcogen trong bảng tuần hoàn","Để tìm công thức hoá học của oxit có thành phần phần trăm của S là 40%, ta cần tính toán tỷ lệ mol của S và O trong hợp chất. Giả sử công thức của oxit là SnOm, ta có thể thiết lập phương trình dựa trên phần trăm khối lượng của S và O. Sau đó, sử dụng thông tin về khối lượng mol của S (32 g/mol) và O (16 g/mol), ta có thể giải phương trình để tìm tỷ lệ mol của S và O. Cuối cùng, dựa trên tỷ lệ mol, ta có thể xác định công thức hoá học của oxit.",A,B
+val_0027,Một hạt chuyển động dọc theo trục y với vị trí của nó được cho bởi hàm số $ y(t) = t^4 - 8t^3 + 18t^2 - 10 $. Ở thời điểm $ t $ nào thì hạt đạt được gia tốc nhỏ nhất trong khoảng $ 0 \leq t \leq 5 $?,"A. $ t = 0 $
+B. $ t = 1 $
+C. $ t = 2 $
+D. $ t = 3 $
+E. $ t = 4 $
+F. $ t = 5 $
+G. $ t = \sqrt{2} $
+H. $ t = 2\sqrt{2} $
+I. $ t = 3\sqrt{2} $
+J. $ t = 4\sqrt{2} $","Do đó, lực ròng tác dụng lên một hạt bằng tốc độ thay đổi động lượng của hạt theo thời gian. Vì định nghĩa của gia tốc là , nên luật thứ hai có thể được viết dưới dạng đơn giản và quen thuộc hơn:
+
+Chừ","Vận tốc có thể thay đổi theo cường độ hoặc hướng hoặc cả hai. Đôi khi, việc giảm độ lớn của vận tốc "" v "" được gọi là giảm tốc, nhưng nói chung, bất kỳ thay đổi nào về vận tốc theo thời gian, bao gồm ","Nó giả định rằng vật chất và năng lượng có các thuộc tính xác định, có thể biết được như vị trí trong không gian và tốc độ. Cơ học không tương đối cũng giả định rằng các lực có tác động tức thời.
+
+Vị ","Công và năng lượng 
+Nếu một lực không đổi F được áp dụng cho một hạt mà làm cho một r chuyển Δ,  công được thực hiện bởi các lực được định nghĩa là tích vô hướng của lực lượng và vectơ chuyển:
+
+Tổng q","Trong trường hợp này, một quan điểm tương đương là động năng của hạt được hấp thụ bởi ma sát (chuyển đổi nó thành năng lượng nhiệt theo sự bảo toàn năng lượng) và hạt đang chậm lại. Biểu thức này có t","Để tìm thời điểm hạt đạt được gia tốc nhỏ nhất, ta cần tìm đạo hàm cấp hai của hàm số y(t) và tìm giá trị nhỏ nhất của đạo hàm cấp hai này trong khoảng 0 ≤ t ≤ 5.
+
+Đạo hàm cấp một của y(t) là:
+y'(t) = 4t^3 - 24t^2 + 36t
+
+Đạo hàm cấp hai của y(t) là:
+y''(t) = 12t^2 - 48t + 36
+
+Để tìm giá trị nhỏ nhất của y''(t), ta cần tìm giá trị của t sao cho y''(t) = 0.
+
+12t^2 - 48t + 36 = 0
+
+Chia cả hai bên cho 12, ta được:
+t^2 - 4t + 3 = 0
+
+Phân tích thành nhân tử, ta được:
+(t - 1)(t - 3) = 0
+
+Vậy t = 1 hoặc t = 3.
+
+Ta cần kiểm tra giá trị của y''(t) tại các điểm này để xác định giá trị nhỏ nhất.
+
+y''(1) = 12(1)^2 - 48(1) + 36 = 0
+
+y''(3) = 12(3)^2 - 48(3) + 36 = 0
+
+Vậy cả hai giá trị t = 1 và t = 3 đều cho giá trị y''(t) = 0, là giá trị nhỏ nhất.
+
+Tuy nhiên, vì câu hỏi yêu cầu tìm thời điểm hạt đạt được gia tốc nhỏ nhất trong khoảng 0 ≤ t ≤ 5, nên cả hai giá trị t = 1 và t = 3 đều là đáp án đúng.
+
+Nhưng vì chỉ có thể chọn một đáp án, nên ta chọn đáp án B. $ t = 1 $.",B,C
+val_0031,Khí nhà kính nào chiếm khoảng một nửa khối lượng khí nhà kính?,"A. Mêtan (CH4)
+B. Ôzôn đối lưu (O3)
+C. Điôxít Cacbon (CO2)
+D. Ôxít nitơ (N2O)","Ở thời kỳ đầu của lịch sử Trái Đất, các điều kiện tạo ra sự sống chỉ có thể xuất hiện vì thành phần của dioxide cacbon trong bầu khí quyển nguyên thủy cao hơn, cân bằng lại lượng bức xạ của mặt trời l","Nếu không có hiệu ứng nhà kính tự nhiên này nhiệt độ Trái Đất của chúng ta chỉ vào khoảng –15 °C.
+
+Có thể hiểu một cách ngắn gọn như sau: ta biết nhiệt độ trung bình của bề mặt Trái Đất được quyết địn","Hiệu ứng nhà kính, xuất phát từ effet de serre trong tiếng Pháp, do Jean Baptiste Joseph Fourier lần đầu tiên đặt tên, dùng để chỉ hiệu ứng xảy ra khi năng lượng bức xạ của tia sáng mặt trời, xuyên qu","Sự thay đổi nồng độ của các khí nhà kính trong vòng 100 năm lại đây (dioxide cacbon tăng 20%, mêtan tăng 90%) đã làm tăng nhiệt độ lên 2 °C.
+
+Không nên nhầm lẫn hiệu ứng nhà kính nhân loại với việc là","Ngày nay người ta hiểu khái niệm này rộng hơn, dẫn xuất từ khái niệm này để miêu tả hiện tượng nghẽn nhiệt trong bầu khí quyển của Trái Đất được Mặt Trời chiếu sáng là hiệu ứng nhà kính khí quyển. Tro","Để trả lời câu hỏi này, chúng ta cần xem xét các tài liệu tham khảo đã cung cấp. Trong [Tài liệu tham khảo 1], phần trăm đóng góp vào hiệu ứng nhà kính trên Trái Đất được liệt kê cho bốn khí chính: Hơi nước (36–72%), Cacbon dioxide (9–26%), Mê tan (4–9%), và Ôzôn (3–7%). Dựa trên thông tin này, không có khí nhà kính nào chiếm khoảng một nửa khối lượng khí nhà kính. Tuy nhiên, Hơi nước chiếm tỷ lệ cao nhất trong danh sách, gần với một nửa nhưng không chính xác là một nửa. Do đó, không có đáp án chính xác trong các lựa chọn đã cho dựa trên thông tin từ tài liệu.",A,C
 val_0035,"Theo quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục, thành phần hồ sơ bắt buộc gồm những tài liệu nào?","A. 01 bản chính báo cáo tự đánh giá và 02 bản chính công văn đăng ký
 B. 02 bản chính báo cáo tự đánh giá và 01 bản chính công văn đăng ký
 C. 01 bản chính báo cáo tự đánh giá và 01 bản chính công văn đăng ký
-D. 02 bản chính báo cáo tự đánh giá và 02 bản chính công văn đăng ký","Để xác định thành phần hồ sơ bắt buộc trong quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục, chúng ta cần xem xét các yêu cầu cơ bản cho quá trình này. Thông thường, quá trình kiểm định chất lượng giáo dục bao gồm việc tự đánh giá của đơn vị và đăng ký tham gia kiểm định. Do đó, hồ sơ cần phải phản ánh cả hai khía cạnh này. Tuy nhiên, không có thông tin cụ thể về số lượng bản chính của mỗi loại tài liệu cần thiết trong câu hỏi hoặc trong kiến thức chung. Nhưng dựa trên logic và thực tiễn hành chính, thường thì chỉ cần một bản chính của mỗi loại tài liệu để đảm bảo tính hợp lệ và tránh lãng phí. Vì vậy, lựa chọn hợp lý nhất là có một bản chính của báo cáo tự đánh giá và một bản chính của công văn đăng ký.",C,B
-val_0036,"Nguyên lý về sự lựa chọn hợp lý phát biểu rằng, bạn sẽ lựa chọn việc sử dụng thu nhập tăng thêm của mình để cho:","A. Tổng độ thỏa dụng trên mỗi đồng (VNĐ) là lớn nhất.
-B. Độ thỏa dụng biên trên mỗi đồng là lớn nhất.
-C. Độ thỏa dụng trung bình trên mỗi đồng là lớn nhất.
-D. Tổng độ thỏa dụng trên mỗi đồng là nhỏ nhất.","Nguyên lý về sự lựa chọn hợp lý trong kinh tế học vi mô cho rằng, khi thu nhập tăng thêm, cá nhân sẽ phân bổ thu nhập đó vào các hàng hóa hoặc dịch vụ sao cho đạt được mức độ thỏa dụng cao nhất có thể. Độ thỏa dụng (utility) là thước đo mức độ hài lòng mà một cá nhân nhận được từ việc tiêu thụ một đơn vị hàng hóa hoặc dịch vụ. Có ba loại độ thỏa dụng chính: tổng độ thỏa dụng (total utility), độ thỏa dụng biên (marginal utility), và độ thỏa dụng trung bình (average utility).
+D. 02 bản chính báo cáo tự đánh giá và 02 bản chính công văn đăng ký","Nhiều bệnh viện của thành phố đã liên doanh với nước ngoài để tăng chất lượng phục vụ.
 
-- Tổng độ thỏa dụng (TU) là tổng mức độ hài lòng mà một cá nhân nhận được từ việc tiêu thụ tất cả các đơn vị của một hàng hóa hoặc dịch vụ.
-- Độ thỏa dụng biên (MU) là sự thay đổi trong tổng độ thỏa dụng khi tiêu thụ thêm một đơn vị hàng hóa hoặc dịch vụ.
-- Độ thỏa dụng trung bình (AU) là tổng độ thỏa dụng chia cho số lượng hàng hóa hoặc dịch vụ tiêu thụ.
+Giáo dục 
 
-Khi áp dụng nguyên lý về sự lựa chọn hợp lý, mục tiêu là tối đa hóa tổng độ thỏa dụng với một mức chi tiêu nhất định. Tuy nhiên, vì câu hỏi đề cập đến việc sử dụng 'thu nhập tăng thêm', chúng ta cần xem xét cách thức mà thu nhập này ảnh hưởng đến quyết định tiêu dùng. Thu nhập tăng thêm thường được sử dụng để mua thêm hàng hóa hoặc dịch vụ, và quyết định này dựa trên việc so sánh độ thỏa dụng biên của các lựa chọn khác nhau.
+Về mặt hành chính, Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh chỉ quản lý các cơ sở giáo dục từ bậc","quận Hải Châu)
+ Bệnh viện Phục hồi Chức năng (đường Trần Văn Trà, quận Cẩm Lệ)
+ Bệnh Viện Mắt Sài Gòn Sông Hàn (357 Lê Văn Hiến, Phường Hòa Hải, Quận Ngũ Hành Sơn, Thành phố Đà Nẵng)
+...
 
-Tuy nhiên, câu hỏi không trực tiếp hỏi về việc tối đa hóa độ thỏa dụng biên mà là về việc sử dụng thu nhập tăng thêm để cho một điều kiện cụ thể liên quan đến độ thỏa dụng. Trong trường hợp này, việc lựa chọn nên dựa trên việc tối đa hóa tổng độ thỏa dụng trên mỗi đồng tiền (VNĐ) vì nó phản ánh trực tiếp mức độ hài lòng tổng thể mà cá nhân nhận được từ việc tiêu thụ hàng hóa hoặc dịch vụ với một mức chi tiêu cụ thể.
-
-Do đó, lựa chọn A ('Tổng độ thỏa dụng trên mỗi đồng (VNĐ) là lớn nhất') là phù hợp nhất với nguyên lý về sự lựa chọn hợp lý trong bối cảnh sử dụng thu nhập tăng thêm.",A,B
-val_0039,Nguyễn Ái Quốc đã mở nhiều lớp huấn luyện đào tạo cán bộ cho cách mạng Việt Nam ở đâu,"A. Việt bắc (Việt Nam)
-B. Quảng Châu (Trung Quốc)
-C. Hồng kông (Trung Quốc)","Để trả lời câu hỏi này, chúng ta cần xem xét các địa điểm mà Nguyễn Ái Quốc (sau này là Chủ tịch Hồ Chí Minh) đã hoạt động trong giai đoạn đầu của phong trào cách mạng Việt Nam. Nguyễn Ái Quốc đã dành nhiều thời gian ở nước ngoài để tìm kiếm sự hỗ trợ và đào tạo cho cách mạng Việt Nam. Trong số các lựa chọn, Quảng Châu (Trung Quốc) nổi bật lên như một địa điểm quan trọng. Tại đây, vào những năm 1920, Nguyễn Ái Quốc đã thành lập Hội Việt Nam Cách Mạng Thanh Niên và tổ chức các khóa huấn luyện để đào tạo cán bộ cho phong trào cách mạng Việt Nam. Đây là một phần quan trọng trong nỗ lực của ông nhằm xây dựng nền tảng cho cuộc đấu tranh giành độc lập của Việt Nam. Do đó, dựa trên lịch sử và hoạt động của Nguyễn Ái Quốc, Quảng Châu (Trung Quốc) là địa điểm phù hợp nhất với thông tin được cung cấp.",B,A
-val_0041,"Theo quan điểm của Chủ Tịch Hồ Chí Minh, con đường giải phóng nhân loại hướng tới mục tiêu nào?","A. Một nền cộng hoà thế giới chân chính, xoá bỏ sự phân biệt giàu nghèo và biên giới quốc gia
-B. Sự tự do, bình đẳng, bác ái, đoàn kết trên toàn cầu
-C. Một xã hội bình đẳng, công bằng, không có áp bức bóc lột
-D. Chỉ có chủ nghĩa xã hội mới cứu được nhân loại","Để trả lời câu hỏi này, chúng ta cần xem xét quan điểm của Chủ tịch Hồ Chí Minh về con đường giải phóng nhân loại. Chủ tịch Hồ Chí Minh là một nhà lãnh đạo cách mạng, người đã dành cả cuộc đời mình để đấu tranh cho độc lập, tự do và hạnh phúc của nhân dân Việt Nam cũng như nhân loại. Quan điểm của ông về giải phóng nhân loại gắn liền với tư tưởng về chủ nghĩa xã hội và chủ nghĩa cộng sản, nhưng cũng nhấn mạnh vào các giá trị cơ bản của con người như tự do, bình đẳng và bác ái.
-
-Khi phân tích các lựa chọn, chúng ta thấy:
-- Lựa chọn A đề cập đến 'một nền cộng hòa thế giới chân chính', điều này không hoàn toàn phù hợp với quan điểm của Chủ tịch Hồ Chí Minh về việc xây dựng một xã hội xã hội chủ nghĩa ở Việt Nam trước khi hướng tới mục tiêu cao hơn.
-- Lựa chọn B nói về 'sự tự do, bình đẳng, bác ái, đoàn kết trên toàn cầu', đây là những giá trị cốt lõi trong tư tưởng của Chủ tịch Hồ Chí Minh, thể hiện qua nhiều tác phẩm và bài viết của ông.
-- Lựa chọn C tập trung vào 'một xã hội bình đẳng, công bằng, không có áp bức bóc lột', điều này đúng với mục tiêu của chủ nghĩa xã hội mà Chủ tịch Hồ Chí Minh theo đuổi, nhưng nó không đầy đủ vì không đề cập đến khía cạnh toàn cầu.
-- Lựa chọn D khẳng định 'chỉ có chủ nghĩa xã hội mới cứu được nhân loại', đây là một phần của tư tưởng Hồ Chí Minh, nhưng nó không bao quát hết tất cả các giá trị và mục tiêu mà ông hướng tới.
-
-Dựa trên phân tích trên, lựa chọn B là phù hợp nhất vì nó bao gồm cả khía cạnh toàn cầu và các giá trị cơ bản mà Chủ tịch Hồ Chí Minh luôn nhấn mạnh.",B,A
-val_0047,Một trường từ đều $ B $ hướng dọc theo trục z. Một khung dây hình chữ nhật có chiều rộng $ w $ và chiều cao $ h $ nằm trong mặt phẳng xy và mang dòng điện $ I $. Khung dây ban đầu đứng yên và có thể quay quanh trục y. Độ lớn mô men xoắn tác dụng lên khung do trường từ là bao nhiêu khi mặt phẳng khung tạo một góc $ \theta $ với trục x?,"A. $ B I w h \sin(\theta) $
-B. $ B I w h \cos(\theta) $
-C. $ B I w h \tan(\theta) $
-D. $ B I w h $
-E. $ B I w h \sin(2\theta) $
-F. $ B I w h \cos(2\theta) $
-G. $ B I w h \sin(\theta/2) $
-H. $ B I w h \cos(\theta/2) $
-I. $ B I w h \tan(2\theta) $
-J. $ B I w h \sin(\theta) \cos(\theta) $","Để tìm độ lớn mô men xoắn tác dụng lên khung dây do trường từ, ta sử dụng công thức: M = B * I * S * sin(α), trong đó M là mô men xoắn, B là cường độ từ trường, I là cường độ dòng điện, S là diện tích khung dây, α là góc giữa vectơ từ trường và vectơ pháp tuyến của khung dây.
-
-Trong trường hợp này, trường từ đều hướng dọc theo trục z, nên vectơ từ trường là B_z = B. Vectơ pháp tuyến của khung dây nằm trong mặt phẳng xy, nên vectơ pháp tuyến là n = (cos(θ), sin(θ), 0).
-
-Góc giữa vectơ từ trường và vectơ pháp tuyến là α = π/2 - θ, vì vậy sin(α) = cos(θ).
-
-Diện tích khung dây là S = w * h.
-
-Thay các giá trị vào công thức, ta có: M = B * I * w * h * cos(θ).
-
-Vậy độ lớn mô men xoắn tác dụng lên khung dây do trường từ là B * I * w * h * cos(θ).",B,A
+Giáo dục - Đ","Nguyễn Đăng Thịnh (phường Hương An)
+Trường THCS Tôn Thất Bách (xã Hương Thọ)
+Trường THCS Thủy Bằng (xã Thủy Bằng)
+Trường THCS Thủy Vân (phường Thủy Vân)
+Trường THCS Phạm Văn Đồng (phường Vĩ Dạ)
+Trường","Năm 1945, có 95% dân số Việt Nam mù chữ. Trước thực trạng đó, để xóa mù chữ, từ ngày 8 tháng 9 năm 1945 Chủ tịch Hồ Chí Minh ra các sắc lệnh: Sắc lệnh số 17 đặt ra một bình dân học vụ trong toàn cõi V","Trong năm 1946, nạn đói cơ bản đã được giải quyết. Ngày 2 tháng 9 năm 1946, Bộ trưởng Bộ Nội vụ Võ Nguyên Giáp tuyên bố: ""Cuộc cách mạng đã chiến thắng được nạn đói, thật là một kỳ công của chế độ dân","Không có thông tin cụ thể về quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục trong các tài liệu tham khảo được cung cấp. Tuy nhiên, dựa trên kiến thức chung về thủ tục hành chính và quy trình kiểm định chất lượng giáo dục, thường thì hồ sơ cần thiết sẽ bao gồm báo cáo tự đánh giá và công văn đăng ký. Số lượng bản chính của mỗi loại tài liệu có thể thay đổi tùy theo quy định cụ thể của cơ quan có thẩm quyền. Do đó, không thể xác định chính xác thành phần hồ sơ bắt buộc mà không có thông tin cụ thể hơn.",C,B
 val_0050,Chủ Tịch Hồ Chí Minh đã tiếp thu những giá trị tích cực nào từ Nho giáo để phục vụ cách mạng?,"A. Câu trả lời nằm ngoài phạm vi trả lời
 B. Lý tưởng xã hội bình trị và đại đồng
 C. Triết lý tu thân dưỡng tính
-D. Đề cao văn hóa, lễ giáo và truyền thống hiếu học","Để trả lời câu hỏi này, chúng ta cần xem xét các giá trị tích cực mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo để phục vụ cách mạng. Nho giáo là một hệ thống triết lý và đạo đức có nguồn gốc từ Trung Quốc, nhưng nó đã ảnh hưởng sâu sắc đến văn hóa và tư tưởng của Việt Nam trong suốt lịch sử. Chủ tịch Hồ Chí Minh, với tư cách là một nhà lãnh đạo cách mạng, đã chọn lọc và áp dụng những giá trị tích cực từ Nho giáo vào tư tưởng và hoạt động cách mạng của mình.
+D. Đề cao văn hóa, lễ giáo và truyền thống hiếu học","Ở đây, ""Trung là trung với Tổ quốc, Hiếu là hiếu với nhân dân"".
 
-Trong số các lựa chọn, chúng ta cần tìm kiếm những giá trị cụ thể mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo. Lựa chọn A không liên quan trực tiếp đến nội dung của câu hỏi vì nó đề cập đến việc câu trả lời nằm ngoài phạm vi trả lời, điều này không giúp chúng ta xác định giá trị cụ thể từ Nho giáo.
-
-Lựa chọn B, 'Lý tưởng xã hội bình trị và đại đồng', phản ánh một khía cạnh quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông đã tiếp thu ý tưởng về một xã hội công bằng, nơi mọi người đều có cơ hội và quyền lợi như nhau, từ Nho giáo. Điều này phù hợp với mục tiêu của cách mạng là xây dựng một xã hội mới, công bằng và tiến bộ.
-
-Lựa chọn C, 'Triết lý tu thân dưỡng tính', cũng là một phần quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông nhấn mạnh tầm quan trọng của việc rèn luyện bản thân, cả về mặt đạo đức và thể chất, để trở thành một công dân tốt và đóng góp cho xã hội. Đây là một giá trị tích cực từ Nho giáo mà ông đã áp dụng vào cuộc sống và hoạt động cách mạng của mình.
-
-Lựa chọn D, 'Đề cao văn hóa, lễ giáo và truyền thống hiếu học', cũng phản ánh một khía cạnh quan trọng trong tư tưởng của Chủ tịch Hồ Chí Minh. Ông luôn coi trọng việc bảo tồn và phát huy văn hóa dân tộc, cũng như khuyến khích tinh thần hiếu học và tôn trọng lễ giáo. Tuy nhiên, so với lựa chọn B và C, lựa chọn D có vẻ rộng hơn và bao quát nhiều khía cạnh khác nhau.
-
-Sau khi phân tích từng lựa chọn, chúng ta thấy rằng cả B và C đều phản ánh những giá trị tích cực cụ thể mà Chủ tịch Hồ Chí Minh đã tiếp thu từ Nho giáo để phục vụ cách mạng. Tuy nhiên, nếu phải chọn một đáp án duy nhất, lựa chọn B, 'Lý tưởng xã hội bình trị và đại đồng', có vẻ phù hợp hơn vì nó trực tiếp liên quan đến mục tiêu của cách mạng là xây dựng một xã hội công bằng và tiến bộ.",B,D
+Chủ tịch Hồ Chí Minh khẳng định: ""Dưới sự lãnh đạo của Đảng và Chính phủ, được sự giúp đỡ hết lòng của nhân dân, quân đội ta hoàn thành",Hồ Chí Minh không tin người Việt đủ trưởng thành về mặt chính trị để có thể chấp nhận chủ nghĩa cộng sản nhưng 1 hình thức dân chủ xã hội chủ nghĩa có cải biên có thể phù hợp hơn. Hồ Chí Minh chủ trươ,"Danh lợi là sắc không, đạo đức mới là của chầy. Muốn có đạo đức thì phải làm điều thiện, sống có hiếu, có khí tiết, không uốn mình, không cầu xin danh lợi, không oán thán, biết tha thứ cho người khác,","Tuy còn nhỏ tuổi, nhưng những câu chuyện đêm đêm mẹ kể cho cậu nghe về tướng quân Tôn Thất Thuyết phò vua Hàm Nghi hạ chiếu Cần Vương, kêu gọi các sĩ phu và dân chúng đứng lên chống Pháp bảo vệ non sô","Ảnh hưởng của Nho giáo với tư tưởng Nguyễn Trãi 
+Tư tưởng Nguyễn Trãi xuất phát từ Nho giáo, mà cụ thể là Nho giáo Khổng Tử. Ông đã vận dụng xuất sắc các tư tưởng Nho giáo vào công cuộc khởi nghĩa, ch","Để trả lời câu hỏi này, chúng ta cần xem xét các tài liệu tham khảo đã được cung cấp. Tuy nhiên, không có tài liệu nào trực tiếp đề cập đến việc Chủ tịch Hồ Chí Minh tiếp thu những giá trị tích cực nào từ Nho giáo để phục vụ cách mạng. Do đó, chúng ta không thể xác định được đáp án chính xác dựa trên thông tin từ các tài liệu tham khảo.",A,C
 val_0054,Điều gì xảy ra khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch?,"A. Điều chỉnh giá
 B. Điều chỉnh sản lượng
 C. Điều chỉnh tồn kho
-D. Điều chỉnh lãi suất","Khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch, điều này thường dẫn đến sự mất cân bằng trong nền kinh tế. Nếu tiết kiệm thực tế cao hơn kế hoạch, có nghĩa là người dân đang giữ lại nhiều tiền hơn so với dự định ban đầu, dẫn đến giảm cầu về hàng hóa và dịch vụ. Ngược lại, nếu tiết kiệm thực tế thấp hơn kế hoạch, người dân đang tiêu dùng nhiều hơn dự kiến, tăng cầu về hàng hóa và dịch vụ. Trong cả hai trường hợp, để đạt được cân bằng, cần phải điều chỉnh một yếu tố nào đó trong nền kinh tế. Tùy thuộc vào tình huống cụ thể, các biện pháp điều chỉnh có thể bao gồm thay đổi lãi suất (để khuyến khích hoặc hạn chế tiết kiệm), điều chỉnh sản lượng (để đáp ứng nhu cầu thị trường), hoặc điều chỉnh giá (để phản ánh sự thay đổi trong cung và cầu). Tuy nhiên, trong số các lựa chọn cho sẵn, 'Điều chỉnh tồn kho' không phải là một biện pháp trực tiếp để giải quyết sự chênh lệch giữa tiết kiệm thực tế và kế hoạch. Do đó, các lựa chọn còn lại đều có thể xem xét được, nhưng 'Điều chỉnh lãi suất' thường được coi là một công cụ chính sách tiền tệ hiệu quả để ảnh hưởng đến hành vi tiết kiệm và tiêu dùng của người dân.",D,C
+D. Điều chỉnh lãi suất","GDP theo cách tính tổng chi phí (lúc này không gọi là GDP nữa, mà gọi là tổng chi tiêu nội địa hay GDE (viết tắt của Gross Domestic Expenditure) được tính toán tương tự, mặc dù trong công thức tính tổ",Năm 1938 chỉ có 379 sự cân đối nguyên vật liệu ở trung ương được chuẩn bị cho một nền kinh tế có hàng triệu mặt hàng. Những sự cân đối này lại dựa trên những thông tin sai lệch. Các nhà sản xuất phải ,"Đây là bằng chứng cho thấy nếu không có áp lực của thị trường và tiến bộ kỹ thuật thì tiết kiệm sẽ bị lãng phí, trong khi sự phát triển của kỹ thuật và nhu cầu của thị trường sẽ dẫn đến tiết kiệm. Cũn",Việc trả lương theo mức chỉ tiêu kế hoạch và kế hoạch hóa theo sản lượng đã triệt tiêu động lực của việc áp dụng tiến bộ khoa học kỹ thuật: sản phẩm chế tạo càng nhanh hoàn thành và vượt chỉ tiêu kế h,"Kinh tế có kế hoạch và tách xa thị trường nên kinh tế Liên Xô tránh được lạm phát, tránh được các khủng hoảng và các rủi ro của thị trường như trong các nền kinh tế tư bản chủ nghĩa, giá cả có khi đượ","Khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch, điều này có thể dẫn đến sự mất cân đối trong nền kinh tế. Nếu tiết kiệm thực tế cao hơn kế hoạch, có thể dẫn đến tình trạng dư thừa vốn, trong khi nếu tiết kiệm thực tế thấp hơn kế hoạch, có thể dẫn đến tình trạng thiếu hụt vốn. Để giải quyết vấn đề này, các biện pháp điều chỉnh có thể được áp dụng. Trong số các lựa chọn, điều chỉnh lãi suất (D) là một công cụ chính sách tiền tệ phổ biến được sử dụng để ảnh hưởng đến mức tiết kiệm và đầu tư trong nền kinh tế. Tăng lãi suất có thể khuyến khích tiết kiệm và giảm đầu tư, trong khi giảm lãi suất có thể khuyến khích đầu tư và giảm tiết kiệm. Do đó, điều chỉnh lãi suất là một cách hiệu quả để giải quyết sự khác biệt giữa tiết kiệm thực tế và tiết kiệm theo kế hoạch.",D,C
+val_0055,Cuộc thi người mẫu nào tổ chức quy mô toàn quốc phải có giấy phép của ai?,"A. Cục Nghệ thuật biểu diễn
+B. Bộ Văn hóa, Thể thao và Du lịch
+C. Ủy ban nhân dân cấp tỉnh
+D. Sở Văn hóa, Thể thao và Du lịch","Trong khi đó sau sự kiện 30 tháng 4 năm 1975, một số võ sư đi ra nước ngoài đã phổ biến Vovinam ra toàn thế giới, những võ sư còn lại bao gồm Chưởng Môn Lê Sáng ở lại tiếp tục duy trì việc phát triển ","Ngày 29/6/2022, hơn 47 năm sau ngày thống nhất đất nước, đơn vị tổ chức đêm nhạc ngày 26/6 tại Đà Lạt nơi ca sĩ Khánh Ly trình diễn bài hát ""Gia tài của mẹ"" đã bị Sở Văn hóa, Thể thao và Du lịch tỉnh ","Bình chọn trong Bảy Kì quan Thiên nhiên Mới của Thế giới 
+Trong 4 năm từ 2007-2011, Bộ Văn hóa, Thể thao và Du lịch cùng kết hợp với Bộ Ngoại giao, Bộ Giáo dục và Đào tạo, Bộ Thông tin và Truyền thông","Vào ngày 1 tháng 12 năm 2007, Jimmy Wales thông báo rằng những cuộc thảo luận và đàm phán lâu dài giữa Quỹ Phần mềm Tự do, Creative Commons, Quỹ Wikimedia và những tổ chức khác đã đưa ra một đề xuất đ","Những miễn trừ này cho phép một dự án cộng tác dựa trên GFDL với nhiều tác giả có thể chuyển sang giấy phép CC-BY-SA 3.0 (thường đòi hỏi sự cho phép của tất cả các tác giả), nếu tác phẩm đó thỏa mãn c","Để trả lời câu hỏi này, chúng ta cần xem xét các tài liệu tham khảo liên quan đến việc tổ chức các sự kiện văn hóa, thể thao và du lịch tại Việt Nam. Tuy nhiên, không có tài liệu tham khảo nào trực tiếp đề cập đến việc tổ chức cuộc thi người mẫu quy mô toàn quốc và yêu cầu giấy phép cụ thể. Nhưng dựa trên kiến thức chung về quản lý và tổ chức các sự kiện văn hóa, thể thao và du lịch tại Việt Nam, chúng ta có thể suy luận như sau: Các sự kiện văn hóa, thể thao và du lịch quy mô toàn quốc thường do Bộ Văn hóa, Thể thao và Du lịch hoặc các cơ quan trực thuộc Bộ này quản lý và cấp phép. Do đó, cuộc thi người mẫu tổ chức quy mô toàn quốc cũng có thể cần có giấy phép của Bộ Văn hóa, Thể thao và Du lịch.",B,A
+val_0057,Tri giác phản ánh điều gì?,"A. Sự vật, hiện tượng một cách trọn vẹn
+B. Các thuộc tính riêng lẻ của sự vật, hiện tượng
+C. Bản chất của sự vật, hiện tượng
+D. Mối quan hệ giữa các sự vật, hiện tượng","Hiệu ứng thị giác
+
+Ảo ảnh quang học (còn gọi là ảo ảnh thị giác) là một đặc điểm do nhận thức của thị giác về hình ảnh khác so với đối tượng thực. Thông tin thu nhận bởi mắt được chuyển thành các tín ","Ứng dụng
+Quang học có mặt trong đời sống hàng ngày. Hệ thống thị giác có mặt ở khắp nơi trong ngành sinh học cho thấy vai trò trung tâm của quang học như là khoa học của một trong năm giác quan. Nhiều",Hệ thống thị giác màu phức tạp nhất trong vương quốc động vật đã được tìm thấy trong các loài tôm tít (như tôm bọ ngựa) với tối đa 12 loại thụ thể quang phổ được cho là hoạt động như nhiều đơn vị lưỡn,"Để tạo ra hình ảnh màu trên màn hình, người ta cũng sử dụng ba loại đèn phát sáng ở 3 vùng quang phổ nhạy cảm của người (xem phối màu phát xạ).
+
+Tế bào cảm giác màu đỏ và màu lục có phổ hấp thụ rất gầ","Chân lý 
+Chân lý chính là tính chính xác, rõ ràng của tư duy. Có người thì cho rằng, chân lý đó là những nguyên lý được nhiều người tán thành thừa nhận. Hay theo quan điểm thực dụng gắn ý nghĩa của ch","Tri giác là quá trình nhận thức về sự vật, hiện tượng thông qua các giác quan. Quá trình này giúp con người nhận biết và hiểu về thế giới xung quanh. Tuy nhiên, tri giác không phải lúc nào cũng phản ánh trọn vẹn sự vật, hiện tượng. Thay vào đó, tri giác thường chỉ phản ánh các thuộc tính riêng lẻ của sự vật, hiện tượng, chẳng hạn như màu sắc, hình dạng, âm thanh, mùi vị, v.v... Điều này có nghĩa là tri giác không thể nắm bắt được bản chất của sự vật, hiện tượng một cách đầy đủ và chính xác.",B,A
 val_0059,"Một tụ điện có điện dung 100 μF được nạp đến điện áp 120V. Sau đó, nó được xả qua một điện trở 500 ohm. Thời gian cần thiết để điện áp trên tụ giảm xuống còn 37% giá trị ban đầu là bao lâu?","A. 0.05 giây
 B. 0.1 giây
 C. 0.2 giây
@@ -173,100 +231,207 @@ F. 2 giây
 G. 5 giây
 H. 10 giây
 I. 20 giây
-J. 50 giây","Để tìm thời gian cần thiết để điện áp trên tụ giảm xuống còn 37% giá trị ban đầu, ta sử dụng công thức về sự xả của tụ điện qua điện trở: V(t) = V0 * e^(-t/RC), trong đó V(t) là điện áp tại thời điểm t, V0 là điện áp ban đầu, R là điện trở, C là điện dung, và t là thời gian. 
+J. 50 giây","Đến cuối thời gian nạp, Điện thế ắc-quy đạt đến 1,75.. 1,8 vôn, giữa các bản cực ắc-quy quá trình bốc khí xảy ra mãnh liệt. Việc nạp được coi là kết thúc khi Điện thế ắc-quy ngừng tăng lên trong khoản","Việc phóng được kết thúc khi tỉ trọng giảm đi từ 0,03 đến 0,06 g/cm3 so với tỉ trọng ban đầu. (Nhưng cũng không được để Điện thế mỗi ngăn giảm xuống thấp hơn 1,75 vôn.)
 
-Ta biết rằng V(t) = 0.37 * V0 (vì giảm xuống còn 37% giá trị ban đầu), R = 500 ohm, C = 100 μF = 100 * 10^(-6) F, và V0 = 120V.
+Đối với ắc quy sắt-kền, Điện t","Điện thế được chọn trong giới hạn từ 2,2  2,35 vôn đối với ắc-quy chì-axit và 1,5  1,55 vôn đối với ắc-quy sắt-kền và được duy trì ổn định trong suốt quá trình nạp. Thời gian nạp độ vài ngày đêm. Tr","Bước 2: Nạp với Điện thế không đổi.
+Việc nạp này được tự động hoá bằng thiết bị nạp có ổn định Điện thế và giới hạn dòng điện
 
-Thay các giá trị vào công thức, ta có: 0.37 * 120 = 120 * e^(-t/(500*100*10^(-6)))
+Các chế độ vận hành
 
-Giải phương trình này cho t, ta có: t ≈ 0.1 giây.
-
-Vậy thời gian cần thiết để điện áp trên tụ giảm xuống còn 37% giá trị ban đầu là khoảng 0.1 giây.",B,A
-val_0061,Giáo dục đóng vai trò:,"A. Phát triển nhân cách
-B. Tái tạo sức lao động
-C. Thúc đẩy tiến bộ xã hội
-D. Tất cả các ý trên","Để trả lời câu hỏi này, chúng ta cần xem xét vai trò của giáo dục trong xã hội. Giáo dục không chỉ đơn thuần là việc truyền đạt kiến thức mà còn có nhiều tác động sâu rộng hơn. 
-
-- Phát triển nhân cách (A): Giáo dục giúp hình thành và phát triển nhân cách của cá nhân, bao gồm cả việc xây dựng giá trị, đạo đức và kỹ năng sống.
-- Tái tạo sức lao động (B): Thông qua việc cung cấp kiến thức và kỹ năng, giáo dục góp phần tái tạo và nâng cao chất lượng nguồn nhân lực, đáp ứng nhu cầu của thị trường lao động.
-- Thúc đẩy tiến bộ xã hội (C): Giáo dục là chìa khóa để thúc đẩy sự phát triển và tiến bộ của xã hội thông qua việc tạo ra những cá nhân có tri thức, sáng tạo và có khả năng đóng góp cho cộng đồng.
-
-Tất cả các lựa chọn A, B, C đều đúng vì giáo dục thực sự đóng vai trò quan trọng trong tất cả các khía cạnh trên. Do đó, lựa chọn tốt nhất là kết hợp tất cả các ý trên.",D,d
-val_0063,"Đoạn thông tin:
-Malaysia
-Hiến pháp Malaysia đảm bảo quyền tự do tôn giáo trong khi xác định Hồi giáo là quốc giáo. Theo số liệu từ Điều tra dân số và nhà ở năm 2010, có sự tương liên cao giữa dân tộc và tôn giáo. Xấp xỉ 61,3% dân số thực hành Hồi giáo, 19,8% thực hành Phật giáo, 9,2% thực hành Ki-tô giáo, 6,3% thực hành Ấn Độ giáo và 1,3% thực hành Nho giáo, Đạo giáo và các tôn giáo truyền thống Trung Hoa. 0,7% tuyên bố là người không tôn giáo và 1,4% còn lại thực hành các tôn giáo khác hoặc không cung cấp thông tin nào. Trong số tín đồ Hồi giáo, tín đồ phái Sunni chiếm đa số trong khi tín đồ Hồi giáo phi giáo phái là nhóm đông thứ hai với 18%.
-
-Malaysia - Nhân khẩu. Tôn giáo.
-Theo Hiến pháp, toàn bộ người Mã Lai được xem là người Hồi giáo. Số liệu từ cuộc điều tra dân số năm 2010 cho thấy rằng 83,6% người Trung Quốc xác định bản thân là Phật tử, và một lượng lớn các tín đồ theo Đạo giáo (3,4%) và Ki-tô giáo (11,1%), cùng với một nhóm nhỏ người Hồi sinh sống tại các khu vực như Penang. Phần lớn người Ấn Độ theo Ấn Độ giáo (86,2%), với một thiểu số quan trọng xác định bản thân là tín đồ Ki-tô giáo (6,0%) hay Hồi giáo (4,1%). Ki-tô giáo là tôn giáo chiếm ưu thế trong cộng đồng ""bumiputera"" phi Mã Lai (46,5%), và thêm 40,4% xác định bản thân là người Hồi giáo.
-
-Chủ nghĩa vô thần - Nhân khẩu học.
-Một lá thư in trong tạp chí ""Nature"" năm 1998 viết về một cuộc thăm dò cho kết quả là: trong các thành viên Viện khoa học quốc gia Hoa Kỳ (""National Academy of Science""), tỷ lệ người có đức tin vào một vị thượng đế cá thể hoặc lai thế (sự sống sau cái chết) chỉ là 7,0% - mức thấp nhất trong lịch sử, trong khi tỷ lệ này ở dân Mỹ là 85%. Cũng năm đó Frank Sulloway ở Viện Công nghệ Massachusetts và Michael Shermer ở Đại học Tiểu bang California (""California State University"") thực hiện một nghiên cứu mà kết quả thăm dò người Mỹ trưởng thành ""có bằng cấp"" (12% có bằng tiến sĩ, 62% tốt nghiệp đại học) cho thấy 64% tin vào Chúa Trời, và có sự tương quan cho thấy đức tin mạnh mẽ vào tôn giáo giảm dần khi học càng cao. Mối tương quan nghịch giữa tôn giáo và trí tuệ đã được thấy ở 39 nghiên cứu khác trong thời gian từ 1927 đến 2002, theo một bài viết tại tạp chí ""Mensa"". Các phát kiến này cũng thuận với siêu - phân tích thống kê năm 1958 của Giáo sư Michael Argyle ở Đại học Oxford. Ông phân tích 7 công trình nghiên cứu đã điều tra mối tương quan giữa thái độ đối với tôn giáo và chỉ số thông minh của các học sinh và sinh viên Mỹ. Tuy tìm thấy một mối tương quan nghịch rõ ràng, phân tích đã không chỉ ra mối quan hệ nhân quả mà ghi nhận rằng các nhân tố như nền tảng gia đình nghiêm khắc và tầng lớp xã hội có thể đã có ảnh hưởng. Trong Điều tra Dân số và Cư trú năm 2006 của Úc, tại câu hỏi về tôn giáo, 18,7% dân số đánh dấu ô ""không có tôn giáo"" hoặc viết một câu trả lời mà sau đó được xếp vào diện không có tôn giáo. Câu hỏi này không bắt buộc, và có 11,2% dân số không trả lời.
-
-Nam Tư - Nam Tư thứ hai. Nhân khẩu.
-Nam Tư luôn có sự đa dạng về dân cư, không chỉ trên mặt sắc tộc, mà còn ở khía cạnh tôn giáo. Hồi giáo, Công giáo La Mã, Do Thái giáo và Tin Lãnh cùng nhiều đức tin Kitô giáo Đông phương hiện diện tại Nam Tư, tổn cộng có 40 tôn giáo. Nhân khẩu các tôn giáo tại Nam Tư đã thay đổi nhiều kể từ Chiến tranh thế giới thứ hai. Các cuộc điều tra dân số được thực hiện vào năm 1921 và năm 1948 cho thấy rằng 99% dân cư tham gia sâu vào việc hành đạo. Cùng với các chương trình hiện đại hóa và đô thị hóa của chính phủ sau chiến tranh, tỉ lệ tín hữu các tôn giáo đã sụt giảm đáng kể. Kết nối giữa niềm tin tôn giáo và sắc tộc đã đặt ra một mối đe dọa nghiêm trọng cho các chính sách hậu chiến của chính phủ cộng sản.
-
-Tôn giáo tại Nga - Nhân khẩu.
-Vào tháng 8 năm 2012, cuộc khảo sát quy mô lớn và lập bản đồ các tôn giáo đầu tiên ở Nga dựa trên sự tự nhận dạng đã được công bố trên Arena Atlat, một phần mở rộng của Tổng điều tra dân số năm 2010, với dữ liệu về bảy mươi chín trong số tám mươi ba trong số tám đối tượng của liên bang Nga. Trên tổng số dân được làm tròn là 142.800.000, cuộc khảo sát cho thấy 66.840.000 người, tương đương 47,1% tổng dân số, là Kitô hữu. Trong số đó, 58.800.000 hoặc 41% dân số là tín đồ trong Giáo hội Chính thống giáo Nga, 5.900.000 hoặc 4,1% là Kitô hữu mà không có giáo phái nào, 2.100.000 hoặc 1,5% là tín đồ Cơ đốc giáo chính thống không thuộc về bất kỳ nhà thờ nào (một nhóm thiểu số nhỏ hơn) thuộc các Giáo hội Chính thống không thuộc Nga (bao gồm Armenia và Gruzia), 400.000 hoặc 0,2% là tín đồ cũ của Chính thống giáo, 300.000 hoặc 0,2% là người Tin lành và 140.000 (dưới 0,1%) là người Công giáo. Trong số những người không theo đạo Cơ đốc, 9,400,000 hoặc 6,5% dân số là người Hồi giáo (bao gồm Hồi giáo Sunni, Hồi giáo Shia và phần lớn người Hồi giáo không liên lạc), 1.700.000 hoặc 1,2% là người Pagan giáo (bao gồm Rodnovery, Uatsdin, và các tôn giáo khác) hoặc Tengri giáo (Turco-Mongol Shaman tôn giáo và các tôn giáo mới), 700.000 tương đương 0,5% là [[Phật tử00 (chủ yếu là các trường [[Phật giáo Tây Tạng|Tây tạng]]), 140.000 tương đương 0,1% là người Hindu (bao gồm Krishnaites) và 140.000 là người [[Do Thái giáo]]. Trong số những người không theo tôn giáo, 36.000.000 người hoặc 25% tuyên bố ""tin vào Chúa (hoặc quyền lực cao hơn)"" nhưng ""không tuyên xưng bất kỳ tôn giáo cụ thể nào"", 18.600.000 hoặc 13% là người vô thần, và 7.900.000 hoặc 5,5% đã không nêu bất kỳ niềm tin tôn giáo, tâm linh hoặc [[Chủ nghĩa vô thần|vô thần.]]
-
-Singapore - Nhân khẩu. Tôn giáo.
-Phật giáo là tôn giáo được thực hành phổ biến nhất tại Singapore, với 33% số cư dân tuyên bố bản thân họ là tín đồ đạo Phật trong cuộc điều tra dân số gần đây nhất. Tôn giáo được thực hành phổ biến thứ nhì là Ki-tô giáo, sau đó là Hồi giáo, Đạo giáo, và Ấn Độ giáo. 17% dân số không gia nhập tôn giáo nào. Tỷ lệ tín đồ Ki-tô giáo, Đạo giáo, và người không tôn giáo tăng trong khoảng thời gian giữa năm 2000 và 2010, mỗi nhóm tăng 3%, trong khi tỷ lệ tín đồ Phật giáo thì giảm xuống. Các đức tin khác vẫn ổn định trên quy mô lớn về tỷ lệ dân số.
-Câu hỏi: Theo dữ liệu được cung cấp, quốc gia nào có tỷ lệ người không theo tôn giáo (không tuyên xưng bất kỳ tôn giáo cụ thể nào) cao nhất?","A. Australia (18,7%)
-B. Nga (25%)
-C. Singapore (17%)
-D. Malaysia (0,7%)","Để tìm quốc gia có tỷ lệ người không theo tôn giáo cao nhất, chúng ta cần so sánh tỷ lệ này giữa các quốc gia được đề cập trong dữ liệu. Dữ liệu cung cấp thông tin về tỷ lệ người không theo tôn giáo tại Australia (18,7%), Nga (25%), Singapore (17%), và Malaysia (0,7%). Bằng cách so sánh các tỷ lệ này, chúng ta có thể xác định quốc gia có tỷ lệ người không theo tôn giáo cao nhất.",B,A
+Chế độ nạp thường xuyên
+Đối với các loại bình ắc-quy","Sau đó vài giờ, tỉ trọng chất điện phân lại bắt đầu tăng lên trở lại. Đó là hiện tượng bình thường.
+Kiểm tra lại việc đấu dây: cực dương của máy nạp phải đấu với cực dương của ắc quy, tương tự, cực âm","Để giải quyết vấn đề này, chúng ta cần sử dụng công thức liên quan đến quá trình xả của tụ điện qua điện trở. Công thức cho thời gian xả (t) của tụ điện là t = RC * ln(V0/V), trong đó R là điện trở, C là điện dung của tụ điện, V0 là điện áp ban đầu, và V là điện áp tại thời điểm đang xét. Trong trường hợp này, V = 0.37 * V0 vì điện áp giảm xuống còn 37% giá trị ban đầu. Thay số vào công thức, ta có t = 500 * 100 * 10^(-6) * ln(1/0.37). Tính toán cho kết quả t ≈ 0.1 giây.",B,A
 val_0067,Giải pháp nào sau đây được đề xuất để xử lý lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy?,"A. Kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ
 B. Liên hệ với cơ quan chức năng để được hỗ trợ trực tiếp
 C. Gửi hồ sơ qua dịch vụ bưu chính công ích
-D. Gọi tổng đài kỹ thuật của hệ thống để khắc phục lỗi","Để giải quyết lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy, cần xem xét các bước sau: 
-1. Kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ (A): Đây là bước cơ bản nhưng không trực tiếp giải quyết lỗi xác thực. 
-2. Liên hệ với cơ quan chức năng để được hỗ trợ trực tiếp (B): Có thể hữu ích nhưng không phải là giải pháp trực tiếp cho lỗi xác thực. 
-3. Gửi hồ sơ qua dịch vụ bưu chính công ích (C): Không liên quan đến việc giải quyết lỗi xác thực. 
-4. Gọi tổng đài kỹ thuật của hệ thống để khắc phục lỗi (D): Đây là giải pháp trực tiếp nhất để giải quyết vấn đề kỹ thuật như lỗi xác thực.",D,B
-val_0077,Tại sao cần có cơ chế thu thập thông tin trong doanh nghiệp?,"A. A: Để theo dõi nhân viên mà không có mục đích cải thiện.
-B. B: Để ghi nhận hiệu quả của cá nhân và bộ phận nhằm cải thiện hoạt động.
-C. C: Để giảm số lượng nhân sự mà không cần đánh giá hiệu suất.
-D. D: Không cần thu thập thông tin về hiệu suất làm việc.","Để trả lời câu hỏi này, chúng ta cần xem xét mục đích chính của việc thu thập thông tin trong doanh nghiệp. Cơ chế thu thập thông tin thường được thiết lập để phục vụ nhiều mục đích quan trọng, bao gồm cả việc đánh giá hiệu suất làm việc của nhân viên và bộ phận. Việc này giúp doanh nghiệp xác định những điểm mạnh và điểm yếu, từ đó đề ra các biện pháp cải thiện hiệu quả hoạt động tổng thể. Trong số các lựa chọn, chỉ có một đáp án phù hợp với mục đích này.",B,A
-val_0082,"Trong một cuộc cạnh tranh Cournot với hai doanh nghiệp, mỗi doanh nghiệp có chi phí biên sản xuất không đổi là $ c $ và hàm cầu thị trường được cho bởi $ Q = a - P $, trong đó $ P $ là giá và $ a $ là một hằng số dương. Nếu cả hai doanh nghiệp chọn lượng sản phẩm của họ đồng thời và độc lập, thì phát biểu nào sau đây là đúng về lượng cân bằng Nash $ q^* $ cho mỗi doanh nghiệp?","A. $ q^* = \frac{a - c}{4} $
-B. $ q^* = \frac{a - c}{3} $
-C. $ q^* = \frac{a - c}{2} $
-D. $ q^* = \frac{a + c}{4} $
-E. $ q^* = \frac{a + c}{3} $
-F. $ q^* = \frac{a}{2} $
-G. $ q^* = \frac{a}{3} $
-H. $ q^* = \frac{a}{4} $
-I. $ q^* = \frac{2a - c}{3} $
-J. $ q^* = \frac{a - 2c}{3} $","Để tìm lượng cân bằng Nash $ q^* $ cho mỗi doanh nghiệp trong cuộc cạnh tranh Cournot, chúng ta cần sử dụng hàm lợi nhuận của mỗi doanh nghiệp và điều kiện tối ưu hóa. Hàm lợi nhuận của mỗi doanh nghiệp được cho bởi: $ 	ext{Lợi nhuận} = 	ext{Doanh thu} - 	ext{Chi phí} $. Doanh thu của mỗi doanh nghiệp là $ P 	imes q_i $, trong đó $ P $ là giá và $ q_i $ là lượng sản phẩm của doanh nghiệp $ i $. Chi phí của mỗi doanh nghiệp là $ c 	imes q_i $, trong đó $ c $ là chi phí biên sản xuất không đổi. Hàm cầu thị trường được cho bởi $ Q = a - P $, trong đó $ Q $ là tổng lượng sản phẩm trên thị trường và $ a $ là một hằng số dương. Từ hàm cầu thị trường, chúng ta có thể biểu diễn giá $ P $ theo tổng lượng sản phẩm $ Q $: $ P = a - Q $. Tổng lượng sản phẩm $ Q $ là tổng của lượng sản phẩm của cả hai doanh nghiệp: $ Q = q_1 + q_2 $. Thay thế biểu thức này vào hàm giá, chúng ta có: $ P = a - (q_1 + q_2) $. Doanh thu của mỗi doanh nghiệp là: $ 	ext{Doanh thu}_i = P 	imes q_i = [a - (q_1 + q_2)] 	imes q_i $. Chi phí của mỗi doanh nghiệp là: $ 	ext{Chi phí}_i = c 	imes q_i $. Hàm lợi nhuận của mỗi doanh nghiệp là: $ 	ext{Lợi nhuận}_i = 	ext{Doanh thu}_i - 	ext{Chi phí}_i = [a - (q_1 + q_2)] 	imes q_i - c 	imes q_i $. Để tìm lượng cân bằng Nash $ q^* $, chúng ta cần tìm điểm cực đại của hàm lợi nhuận đối với mỗi doanh nghiệp. Điều này tương đương với việc tìm điểm mà tại đó đạo hàm của hàm lợi nhuận đối với $ q_i $ bằng 0. Đạo hàm của hàm lợi nhuận đối với $ q_i $ là: $ rac{	ext{d}	ext{Lợi nhuận}_i}{	ext{d}q_i} = a - (q_1 + q_2) - 2q_i - c $. Đặt đạo hàm này bằng 0 và giải cho $ q_i $, chúng ta có: $ a - (q_1 + q_2) - 2q_i - c = 0 ightarrow 2q_i = a - (q_1 + q_2) - c ightarrow q_i = rac{a - (q_1 + q_2) - c}{2} $. Vì cả hai doanh nghiệp đều chọn lượng sản phẩm của họ đồng thời và độc lập, nên chúng ta có thể giả định rằng $ q_1 = q_2 = q^* $. Thay thế giả định này vào biểu thức trên, chúng ta có: $ q^* = rac{a - 2q^* - c}{2} ightarrow 2q^* = a - 2q^* - c ightarrow 4q^* = a - c ightarrow q^* = rac{a - c}{4} $.",A,B
-val_0086,Nghệ thuật trong đoạn 1 bài 'Tinh thần yêu nước của nhân dân ta' là gì?,"A. Phép nhân hóa
-B. Dùng phép liệt kê tăng tiến
-C. Dùng dẫn chứng tiêu biểu
-D. Dùng câu văn ngắn, nhịp điệu nhanh","Để xác định nghệ thuật trong đoạn 1 bài 'Tinh thần yêu nước của nhân dân ta', chúng ta cần phân tích nội dung và cấu trúc của đoạn văn đó. Tuy nhiên, vì không có thông tin cụ thể về nội dung của đoạn 1, chúng ta sẽ dựa vào các lựa chọn để suy đoán. Các lựa chọn cho thấy nhiều kỹ thuật nghệ thuật khác nhau như phép nhân hóa, phép liệt kê tăng tiến, sử dụng dẫn chứng tiêu biểu, và sử dụng câu văn ngắn với nhịp điệu nhanh. Trong bối cảnh nói về 'tinh thần yêu nước', việc sử dụng dẫn chứng tiêu biểu (lựa chọn C) thường giúp minh họa và làm rõ ý tưởng chính, tạo ra sự thuyết phục và gần gũi với người đọc. Do đó, dựa trên phân tích này, lựa chọn C dường như phù hợp nhất.",C,B
-val_0089,"Sự phát triển nhảy vọt về nhận thức, tư tưởng của Chủ Tịch Hồ Chí Minh từ một thanh niên yêu nước chân chính sang một chiến sĩ cộng sản sau khi Người đọc được văn kiện nào sau đây?","A.  Tuyên ngôn của Đảng Cộng sản do Mác soạn thảo (1848)
-B.  Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (1920)
-C.  Tuyên bố của Quốc tế Cộng sản (Quốc tế 3)
-D.  Tuyên bố của Quốc tế Cộng sản (Quốc tế 3) về vấn đề dân tộc và thuộc địa","Để xác định văn kiện nào đã giúp Chủ tịch Hồ Chí Minh chuyển biến từ một thanh niên yêu nước sang một chiến sĩ cộng sản, chúng ta cần xem xét thời điểm và nội dung của các văn kiện được đề cập trong các lựa chọn. Chủ tịch Hồ Chí Minh đã trải qua một quá trình tìm kiếm và khám phá tư tưởng cách mạng trước khi trở thành một nhà lãnh đạo cộng sản. Quá trình này liên quan đến việc tiếp xúc với các ý tưởng của Marx, Engels, và đặc biệt là Lenin, người đã có những đóng góp quan trọng về vấn đề dân tộc và thuộc địa.
+D. Gọi tổng đài kỹ thuật của hệ thống để khắc phục lỗi","Ký hiệu tiêu chuẩn quốc gia thay thế bao gồm số hiệu của tiêu chuẩn quốc gia được thay thế, năm công bố tiêu chuẩn quốc gia thay thế được phân cách bằng dấu hai chấm (:) và được đặt sau ký hiệu TCVN.
+","Mặc dù bước này rất quan trọng, nhưng nó hiếm khi gây ra bất kỳ thay đổi đáng kể nào đối với một tiêu chuẩn khi nó chuyển sang giai đoạn tiếp theo.
 
-Lựa chọn A, Tuyên ngôn của Đảng Cộng sản do Mác soạn thảo (1848), là một tác phẩm kinh điển của chủ nghĩa Mác, nhưng nó không tập trung vào vấn đề dân tộc và thuộc địa, mà là nền tảng lý thuyết cho phong trào công nhân quốc tế.
+Đề xuất W3C (REC) 
+Đây là giai đoạn phát triển trưở","Ngoài ra còn có thể gọi không tốn tiền các số điện thoại cứu cấp khác như số điện thoại cứu cấp toàn Liên minh châu Âu ""112"".
 
-Lựa chọn C và D đề cập đến Tuyên bố của Quốc tế Cộng sản (Quốc tế 3), nhưng không cụ thể hóa nội dung liên quan đến vấn đề dân tộc và thuộc địa. Mặc dù Quốc tế Cộng sản đã có những tuyên bố và nghị quyết quan trọng về vấn đề này, nhưng thông tin cụ thể trong các lựa chọn không đủ để xác định đây là văn kiện trực tiếp dẫn đến sự chuyển biến tư tưởng của Chủ tịch Hồ Chí Minh.
+Cứu hỏa 
+Đọc bài chính về Hệ thống cứu hỏa tại Áo
+Hệ thống cứu hỏa Áo gần","Màu đỏ là màu của nhiệt và cháy. Các vòi nước có dẫn nước nóng thông thường được dán nhãn hoặc đánh dấu bằng màu đỏ. Đỏ là màu phổ biến của các hộp chữa cháy, các thiết bị phòng cháy chữa cháy và nghề","Nếu DBMS cung cấp một cách để tương tác nhập và cập nhật cơ sở dữ liệu, cũng như thẩm vấn nó, khả năng này cho phép quản lý cơ sở dữ liệu cá nhân.
 
-Lựa chọn B, Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (1920), là một tác phẩm quan trọng của Lenin, người đã mở rộng lý thuyết Mác về vấn đề dân tộc và thuộc địa. Tác phẩm này đã cung cấp một khuôn khổ lý thuyết cho việc hiểu và giải quyết các vấn đề liên quan đến dân tộc và thuộc địa trong bối cảnh cách mạng xã hội chủ nghĩa. Đối với Chủ tịch Hồ Chí Minh, người đang tìm kiếm một giải pháp cho vấn đề thuộc địa ở Việt Nam, tác phẩm này có thể đã mang lại một tầm nhìn mới và một hướng đi cụ thể cho cuộc đấu tranh giành độc lập và tự do.
+Bảo mật dữ liệu nói chung liên quan đến việc bảo vệ ","Không có thông tin cụ thể về giải pháp xử lý lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy trong các tài liệu tham khảo. Tuy nhiên, dựa trên kiến thức chung về quy trình nộp hồ sơ và xử lý lỗi, việc kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ (A) thường là bước đầu tiên và quan trọng nhất để giải quyết các vấn đề liên quan đến hồ sơ. Điều này giúp xác định xem lỗi có phải do thiếu thông tin hoặc giấy tờ cần thiết hay không.",A,B
+val_0071,"Xét các điểm $ A(1, 2) $, $ B(4, 6) $, và $ C(7, 2) $ trong mặt phẳng tọa độ. Một đường thẳng $ L $ đi qua điểm $ A $ và song song với đoạn thẳng $ BC $. Phương trình của đường thẳng $ L $ là gì?","A. $ y = \frac{4}{3}x - \frac{2}{3} $
+B. $ y = \frac{3}{4}x + \frac{5}{4} $
+C. $ y = -\frac{4}{3}x + \frac{10}{3} $
+D. $ y = -\frac{3}{4}x + \frac{11}{4} $
+E. $ y = \frac{4}{3}x + \frac{2}{3} $
+F. $ y = \frac{3}{4}x - \frac{1}{4} $
+G. $ y = -\frac{3}{4}x + \frac{13}{4} $
+H. $ y = \frac{4}{3}x - \frac{10}{3} $
+I. $ y = \frac{3}{4}x + \frac{7}{4} $
+J. $ y = -\frac{4}{3}x + \frac{8}{3} $",Việc phát minh ra hệ tọa độ vào thế kỷ XVII do René Descartes (tên Latinh: Cartesius) đã cách mạng hóa toán học bằng cách cung cấp mối liên hệ có hệ thống đầu tiên giữa hình học Euclid và đại số. Sử d,"Phương trình tuyến tính (hay còn gọi là phương trình bậc một hay phương trình bậc nhất) là một phương trình đại số có dạng:
 
-Do đó, dựa trên phân tích về nội dung và thời điểm của các văn kiện, cũng như quá trình phát triển tư tưởng của Chủ tịch Hồ Chí Minh, có thể kết luận rằng Bản Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa của Lênin (1920) là văn kiện đã giúp Người chuyển biến từ một thanh niên yêu nước sang một chiến sĩ cộng sản.",B,b
+ b là một hằng số (hay hệ số bậc 0). 
+ a là hệ số bậc một.
+
+Phương trình bậ","Thực tế, trong hình học mới này, ngày nay được gọi là hình học Descartes, các đường thẳng và mặt phẳng được biểu diễn bằng các phương trình tuyến tính, và việc tính toán các giao điểm của chúng biến t","Hình học giải tích, cũng được gọi là hình học tọa độ hay hình học Descartes, là môn học thuộc hình học sử dụng những nguyên lý của đại số. Thường sử dụng hệ tọa độ Descartes cho những phương trình the","Một nghiệm số cho hệ phương trình trên là
+
+vì nó làm cho cả ba phương trình cùng đúng. Từ ""hệ"" chỉ ra rằng các phương trình được xem xét chung, thay vì riêng lẻ.
+
+Trong toán học, lý thuyết về hệ tuyến","Để tìm phương trình của đường thẳng L đi qua điểm A và song song với đoạn thẳng BC, ta cần thực hiện các bước sau:
+
+1. Tìm độ dốc của đoạn thẳng BC: Độ dốc của đoạn thẳng BC được tính bằng công thức m = (y2 - y1) / (x2 - x1), trong đó (x1, y1) và (x2, y2) là tọa độ của hai điểm B và C.
+
+2. Sử dụng độ dốc của đoạn thẳng BC để tìm phương trình của đường thẳng L: Vì đường thẳng L song song với đoạn thẳng BC, nên độ dốc của đường thẳng L cũng bằng độ dốc của đoạn thẳng BC. Ta có thể sử dụng công thức y = mx + b, trong đó m là độ dốc và b là hệ số tự do.
+
+3. Tìm hệ số tự do b: Để tìm hệ số tự do b, ta có thể sử dụng tọa độ của điểm A. Thay tọa độ của điểm A vào phương trình y = mx + b, ta có thể tìm được giá trị của b.
+
+Sau khi thực hiện các bước trên, ta sẽ có phương trình của đường thẳng L.
+
+Từ các tài liệu tham khảo, ta có thể thấy rằng:
+
+* Tài liệu tham khảo 1 cung cấp thông tin về phương trình Descartes và phương trình tham số.
+* Tài liệu tham khảo 2 cung cấp thông tin về phương trình tuyến tính và nghiệm số.
+* Tài liệu tham khảo 3 cung cấp thông tin về đại số tuyến tính và hình học Descartes.
+* Tài liệu tham khảo 4 cung cấp thông tin về hình học giải tích.
+* Tài liệu tham khảo 5 cung cấp thông tin về phương trình và hệ phương trình.
+
+Tuy nhiên, không có tài liệu tham khảo nào cung cấp thông tin trực tiếp về cách tìm phương trình của đường thẳng L đi qua điểm A và song song với đoạn thẳng BC.
+
+Vì vậy, ta cần sử dụng kiến thức chuyên môn và suy luận logic để tìm phương trình của đường thẳng L.
+
+Sau khi thực hiện các bước trên, ta có thể thấy rằng phương trình của đường thẳng L là y = (4/3)x - (2/3).
+
+Vậy đáp án chính xác nhất là A.",A,C
+val_0072,"Đoạn thông tin:
+[1] Tiêu đề: Ném đá
+Nội dung: Thạch hình là một phương pháp tử hình trong đó một nhóm người ném đá vào người cho đến khi đối tượng chết vì chấn thương cùn. Nó đã được chứng thực như một hình thức trừng phạt cho những hành vi sai trái nghiêm trọng từ thời cổ đại. Việc áp dụng nó trong một số hệ thống pháp lý đã gây ra tranh cãi trong những thập kỷ gần đây.
+Torah và Talmud quy định ném đá là hình phạt cho một số hành vi phạm tội. Trong nhiều thế kỷ, Do Thái giáo Rabbinic đã phát triển một số hạn chế về thủ tục khiến cho các luật này thực tế không thể thực thi được. Mặc dù ném đá không được đề cập trong Kinh Qur'an, luật học Hồi giáo cổ điển (fiqh) đã áp đặt ném đá như một hình phạt hadd (mô tả trong sharia) đối với một số hình thức zina (giao hợp bất hợp pháp) trên cơ sở của hadith (những lời nói và hành động được gán cho nhà tiên tri Hồi giáo Muhammad). Nó cũng phát triển một số yêu cầu về thủ tục khiến zina hầu như không thể chứng minh trong thực tế.
+Ném đá dường như là phương pháp trừng phạt tư bản tiêu chuẩn ở Israel cổ đại. Việc sử dụng nó được chứng thực trong thời kỳ đầu của Kitô giáo, nhưng các tòa án Do Thái thường tránh ném đá các câu trong thời gian sau đó. Chỉ có một vài trường hợp cô lập về ném đá hợp pháp được ghi lại trong lịch sử tiền hiện đại của thế giới Hồi giáo. Luật hình sự của hầu hết các quốc gia đa số Hồi giáo hiện đại đã bắt nguồn từ các mô hình phương Tây. Trong những thập kỷ gần đây, một số quốc gia đã chèn các hình phạt ném đá và các hình phạt hudud (pl. Of hadd) khác vào bộ luật hình sự của họ dưới ảnh hưởng của các phong trào Hồi giáo. Những luật này có tầm quan trọng đặc biệt đối với những người bảo thủ tôn giáo do nguồn gốc kinh điển của họ, mặc dù trong thực tế, chúng đã đóng một vai trò mang tính biểu tượng và có xu hướng rơi vào tình trạng không sử dụng được.
+Trong thời gian gần đây, ném đá là một hình phạt hợp pháp hoặc theo thông lệ ở Các Tiểu vương quốc Ả Rập Thống nhất, Iraq, Qatar, Mauritania, Ả Rập Saudi, Somalia, Sudan, Yemen, miền bắc Nigeria, Afghanistan, Brunei và các bộ lạc của Pakistan, bao gồm cả phía tây bắc Thung lũng Kurram và vùng tây bắc Khwezai-Baezai. Ở một số quốc gia này, bao gồm Afghanistan và Iraq, nơi ném đá là không hợp pháp, nó đã được các chiến binh, lãnh đạo bộ lạc và các quốc gia khác thực hiện theo cách phi pháp. Ở một số quốc gia khác, bao gồm Nigeria và Pakistan, mặc dù ném đá là một hình thức trừng phạt hợp pháp, nó chưa bao giờ được thực hiện một cách hợp pháp. Việc ném đá bị lên án bởi các tổ chức nhân quyền và các bản án ném đá đã gây ra tranh cãi quốc tế. Trừng phạt ngoại tình bằng ném đá có mức độ hỗ trợ từ công chúng khác nhau trong thế giới Hồi giáo, từ 86% với người Hồi giáo ở Pakistan đến 6% với người Hồi giáo ở Albania và Bosnia.
+
+I. Kinh sách tôn giáo và pháp luật
+1. Do Thái giáo
+
+1.1. Torah
+
+Kinh Torah Do Thái (năm cuốn sách đầu tiên của Kinh thánh Do Thái: Genesis, Exodus, Leviticus, Numbers, và Deuteronomy) phục vụ như một tài liệu tham khảo tôn giáo phổ biến cho Do Thái giáo. Ném đá là phương thức thực hiện được đề cập thường xuyên nhất trong Torah. (Kẻ giết người không được nhắc đến như một hành vi phạm tội bị trừng phạt bằng cách ném đá, nhưng có vẻ như một thành viên trong gia đình nạn nhân đã được phép giết kẻ giết người;) Các tội lỗi bị trừng phạt bằng cách ném đá là:
+
+Chạm vào Núi Sinai trong khi Thiên Chúa ban cho Môi-se Mười Điều răn, Exodus 19:13
+Một con bò làm chết người nên bị ném đá, Exodus 21:28
+Phá vỡ ngày Sa-bát, Numbers 15:32 cường36
+Đưa ""con đẻ"" "" cho Molech "" Leviticus 20:2 -5
+Có một "" ma quỷ quen thuộc "" (hoặc là một thầy chiêu hồn) hoặc là một "" phù thủy "", Leviticus 20:27
+Dụ dỗ người khác vào đa thần giáo, Deuteronomy 13:7
+Nguyền rủa Chúa, Leviticus 24:10
+Tham gia vào thờ phụng hình tượng, Phục truyền luật lệ ký 17: 2-7; hoặc dụ dỗ người khác làm như vậy, Deuteronomy 13:7
+""Nổi loạn"" chống lại cha mẹ Deuteronomy 21:18-21.
+Kết hôn như một trinh nữ, khi không còn trinh trắng, Deuteronomy 22:13 22,1321
+Quan hệ tình dục giữa một người đàn ông và một người phụ nữ đã đính hôn với một người đàn ông khác trong thị trấn, vì cô ấy không hét lên báo động, Deuteronomy 22:23-24; cả hai người nên bị ném đá đến chết.
+Quan hệ tình dục cưỡng bức giữa một người đàn ông và một người phụ nữ đính hôn với một người đàn ông khác, trên một cánh đồng, nơi không ai có thể nghe thấy tiếng khóc của cô ấy và cứu cô ấy, Deuteronomy 22:25-27; người đàn ông nên bị ném đá.Một trường hợp được ghi chú trong Kinh Thánh, không thuộc bất kỳ loại nào ở trên, là của Achan, bị ném đá đến chết cùng với cừu, gia súc khác và con của anh ta vì đã cướp được những vật có giá trị từ Jericho trong Cuộc chinh phạt Canaan của Joshua.
+
+1.2. Mishna
+
+Talmud mô tả bốn phương thức xử tử: ném đá, đổ chì nóng chảy xuống họng của người bị kết án, chặt đầu và thắt cổ. Mishna đưa ra danh sách những người nên bị ném đá sau đây.""Áp dụng ném đá cho những kẻ tội lỗi sau đây - אאלו הן הןיהן
+
+một người đã có quan hệ tình dục với mẹ mình - על האם
+với vợ của cha mình - עלעל
+với con dâu của mình - על
+một người đàn ông với một người đàn ông khác -
+hoặc với gia súc - על
+và tương tự là trường hợp với một người phụ nữ khỏa thân trước gia súc - האשההאשההמב
+với một lời báng bổ -
+thờ cúng biểu tượng khác - הע
+người hy sinh một trong những đứa con của mình cho Molech - הנ מז למ
+một người để ma quỷ nhập vào mình - בעל
+một phù thủy - tiếng Tây Ban Nha
+một người vi phạm ngày Sa-bát - המחללהמחלל
+một người nguyền rủa cha hoặc mẹ của mình - המקלל
+một người đã hành hung một cô gái đã hứa hôn - הבא נע סה
+một người đã thuyết phục người khác tôn thờ các biểu tượng khác - המס
+và một người đã lừa đảo cả một thị trấn - המד
+một phù thủy (nam hoặc nữ) - המכשף
+một đứa con trai bướng bỉnh và nổi loạn - בןVì một mình Thiên Chúa được coi là trọng tài duy nhất trong việc sử dụng hình phạt tử hình, không phải là người trần, sách Sanhedrin đã coi ném đá là cận trên giả thuyết về mức độ nghiêm trọng của hình phạt.
+Câu hỏi: Theo nội dung được cung cấp, trong các tội danh sau đây, tội nào được quy định trong Torah (cụ thể là Deuteronomy) là bị xử tử bằng hình thức ném đá?","A. Quan hệ tình dục với một người phụ nữ đã đính hôn với người khác mà không có tiếng kêu cứu (Deuteronomy 22:23-24)
+B. Giao cấu với gia súc (được quy định trong Mishna)
+C. Nguyền rủa cha hoặc mẹ (được quy định trong Mishna)
+D. Con trai bướng bỉnh và nổi loạn (Deuteronomy 21:18-21)","Trong đó, 61% vụ tấn công là nhằm vào người đồng tính nam. Năm 1998, một sinh viên đồng tính là Mathew Shepard đã bị giết, đây là một trong những vụ tai tiếng nhất ở Mỹ.
+ 
+Ở thời điểm năm 2006, hành v","Bị bắt và xét xử 
+
+Giêsu cùng các môn đồ lên thành Jerusalem vào dịp Lễ Vượt Qua (Passover); ông vào Đền thờ Jerusalem, đánh đuổi những người buôn bán và những kẻ đổi tiền, lật đổ bàn của họ và quở tr","Theo Kinh Thánh, Thiên Chúa đã cho Giêsu sống lại từ cõi chết, đặt Giêsu ngồi bên hữu của Chúa Cha và Ngài sẽ trở lại để làm ứng nghiệm lời tiên tri về Đấng Messiah như sự phục sinh, sự phán xét sau c","Nó dựa trên nguyên tắc án lệ (tiền lệ) và là một hệ thống đối địch, tại đó các bên trình bằng chứng trước tòa. Các vụ kiện tòa án do thẩm phán chuyên nghiệp quyết định thay vì bồi thẩm đoàn. Kết hôn v","Kitô giáo mang theo mình nhiều điều từ thần học và lễ nghi của Do Thái giáo như thuyết độc thần, niềm tin vào Đấng Messiah cùng với một vài hình thức thờ phượng như cầu nguyện, xướng đọc Kinh Thánh, c","Để trả lời câu hỏi này, chúng ta cần xem xét các quy định trong Torah, cụ thể là trong sách Deuteronomy, về các tội danh bị xử tử bằng hình thức ném đá. Theo nội dung được cung cấp, trong sách Deuteronomy, các tội danh bị xử tử bằng hình thức ném đá bao gồm: kết hôn như một trinh nữ, khi không còn trinh trắng (Deuteronomy 22:13-21); quan hệ tình dục giữa một người đàn ông và một người phụ nữ đã đính hôn với một người đàn ông khác trong thị trấn, vì cô ấy không hét lên báo động (Deuteronomy 22:23-24); và con trai bướng bỉnh và nổi loạn (Deuteronomy 21:18-21). Tuy nhiên, chỉ có hai lựa chọn A và D được đề cập trong sách Deuteronomy. Lựa chọn B và C được đề cập trong Mishna, không phải trong Deuteronomy. Vì vậy, chúng ta cần chọn giữa A và D. Cả hai đều được quy định trong Deuteronomy, nhưng chỉ có một lựa chọn đúng. Để xác định lựa chọn đúng, chúng ta cần xem xét nội dung của từng lựa chọn. Lựa chọn A đề cập đến quan hệ tình dục với một người phụ nữ đã đính hôn với người khác mà không có tiếng kêu cứu, trong khi lựa chọn D đề cập đến con trai bướng bỉnh và nổi loạn. Cả hai đều là tội danh bị xử tử bằng hình thức ném đá trong Deuteronomy. Tuy nhiên, lựa chọn A được đề cập cụ thể trong Deuteronomy 22:23-24, trong khi lựa chọn D được đề cập trong Deuteronomy 21:18-21. Vì vậy, cả hai lựa chọn đều có thể đúng. Tuy nhiên, nếu chúng ta phải chọn một lựa chọn, chúng ta có thể chọn lựa chọn A vì nó được đề cập cụ thể trong Deuteronomy 22:23-24.",A,D
+val_0079,"Theo Chủ Tịch Hồ Chí Minh, học để làm gì?","A. Làm việc
+B. Làm cán bộ.
+C. Làm người.
+D. Cả a, b, c.","Hệ thống giáo dục phát triển không tương xứng với những hứa hẹn của người Pháp ""khai hóa văn minh"" dân thuộc địa. Chính vì thế, cái mà người Việt thừa hưởng từ người Pháp sau khi Việt Nam giành được đ","Năm 1945, có 95% dân số Việt Nam mù chữ. Trước thực trạng đó, để xóa mù chữ, từ ngày 8 tháng 9 năm 1945 Chủ tịch Hồ Chí Minh ra các sắc lệnh: Sắc lệnh số 17 đặt ra một bình dân học vụ trong toàn cõi V","Trong năm 1946, nạn đói cơ bản đã được giải quyết. Ngày 2 tháng 9 năm 1946, Bộ trưởng Bộ Nội vụ Võ Nguyên Giáp tuyên bố: ""Cuộc cách mạng đã chiến thắng được nạn đói, thật là một kỳ công của chế độ dân","Ngày 4 tháng 10 năm 1945, Chủ tịch Hồ Chí Minh ra lời kêu gọi Chống nạn thất học gửi tới toàn dân: ""...Muốn giữ vững nền độc lập, muốn làm cho dân mạnh nước giàu, mọi người Việt Nam phải hiểu biết quy","Các lớp học Bình dân học vụ được mở khắp nơi ở cả ba miền thu hút sự tham gia của mọi lứa tuổi, mọi tầng lớp nhân dân. Người biết chữ dạy cho người không biết chữ. Đến tháng 9 năm 1946, phong trào Bìn","Để trả lời câu hỏi này, chúng ta cần xem xét các tài liệu tham khảo đã cung cấp. Trong các tài liệu này, không có thông tin trực tiếp về quan điểm của Chủ tịch Hồ Chí Minh về mục đích của việc học. Tuy nhiên, dựa trên các thông tin gián tiếp và bối cảnh lịch sử, chúng ta có thể suy luận về quan điểm của ông.
+
+Trong Tài liệu tham khảo 2, Chủ tịch Hồ Chí Minh nhấn mạnh tầm quan trọng của việc học chữ quốc ngữ và xóa mù chữ để xây dựng đất nước và giữ vững nền độc lập. Ông cũng kêu gọi mọi người Việt Nam phải hiểu biết quyền lợi và bổn phận của mình để tham gia vào công cuộc xây dựng nước nhà.
+
+Từ những thông tin này, chúng ta có thể suy luận rằng Chủ tịch Hồ Chí Minh coi việc học là một phần quan trọng của việc trở thành một công dân có trách nhiệm và đóng góp cho sự phát triển của đất nước. Do đó, đáp án C. Làm người có thể được xem là phù hợp nhất với quan điểm của ông.
+
+Tuy nhiên, cần lưu ý rằng không có thông tin trực tiếp nào trong các tài liệu tham khảo để khẳng định chắc chắn quan điểm của Chủ tịch Hồ Chí Minh về mục đích của việc học.",C,D
+val_0087,"Trong vận chuyển bằng đường ống, sự giảm áp suất $ \Delta P $ trên một đoạn ống có chiều dài $ L $ được cho bởi phương trình Darcy-Weisbach:
+$$ \Delta P = f \cdot \frac{L}{D} \cdot \frac{\rho v^2}{2} $$
+trong đó $ f $ là hệ số ma sát Darcy, $ D $ là đường kính ống, $ \rho $ là mật độ chất lỏng, và $ v $ là tốc độ chất lỏng. Nếu một đường ống đang vận chuyển một chất lỏng có mật độ 800 kg/m³ với tốc độ 2 m/s trên quãng đường 500 mét, và đường kính ống là 0,4 mét, thì sự giảm áp suất là bao nhiêu nếu hệ số ma sát Darcy $ f $ là 0,015?","A. 15 kPa
+B. 30 kPa
+C. 45 kPa
+D. 60 kPa
+E. 75 kPa
+F. 90 kPa
+G. 105 kPa
+H. 120 kPa
+I. 135 kPa
+J. 150 kPa","Ví dụ
+
+ Ep là ký hiệu của thế năng 
+ cp là ký hiệu cho nhiệt dung ở áp suất không đổi (Lưu ý: p đại diện cho đại lượng vật lý áp suất)
+
+Biểu diễn giá trị đo được của một đại lượng 
+
+Lấy một thí dụ:
+
+ ","Theo như các định luật về chuyển động của Newton, nếu một vật có khối lượng m và bị tác động bởi lực F, gia tốc của nó được tính bằng công thức F/m. Khối lượng cũng quyết định tính chất hút vật và bị ","Các chất xúc tác hóa học cũng có thể được dùng như máy tạo oxy hóa học hay oxygen candle là các chất được dùng một phần trong việc hỗ trợ sự sống được trang bị trong các tàu ngầm, và vẫn là một phần c","807 Ω
+xác định
+a
+
+Khối lượng phân tử
+Hằng số
+
+1 × 10−3 kg · mol−1
+xác định
+a
+của carbon-12
+
+12 × 10−3 kg · mol−1
+xác định
+a
+
+Gia tốc hấp dẫn chuẩn (rơi tự do trên Trái Đất)
+
+9.806 65 m·s−2
+xác định
+a
+","Qua hàng thiên niên kỷ vật chất hữu cơ này trộn với bùn, và bị chôn sâu dưới các lớp trầm tích dày. Kết quả làm tăng nhiệt và áp suất khiến cho những thành phần này bị biến hoá, đầu tiên thành một loạ","Để tính sự giảm áp suất ΔP, chúng ta sẽ sử dụng phương trình Darcy-Weisbach với các giá trị đã cho. Phương trình là: ΔP = f * (L/D) * (ρv^2)/2. Thay thế các giá trị đã cho vào phương trình, chúng ta có: ΔP = 0,015 * (500/0,4) * (800*2^2)/2. Tính toán từng bước, chúng ta có: ΔP = 0,015 * 1250 * 1600/2 = 0,015 * 1250 * 800 = 150000 Pa = 150 kPa. Vì vậy, sự giảm áp suất là 150 kPa.",J,B
 val_0090,"Giả sử $ T: \mathbb{R}^3 \to \mathbb{R}^3 $ là một toán tử tuyến tính được biểu diễn bởi ma trận
-$$","A. = \begin{pmatrix}
-B. & 1 & 0 \\
-C. & 2 & 1 \\
-D. & 0 & 2
-E. 
-F. 
-G. nào sau đây là đúng về các giá trị riêng của $ T $?
+$$= \begin{pmatrix}& 1 & 0 \\& 2 & 1 \\& 0 & 2. Câu nào sau đây là đúng về các giá trị riêng của $ T $?","A. Các giá trị riêng là 1, 2 và 3.
+B. Các giá trị riêng là 2, 2 và 2.
+C. Các giá trị riêng là 0, 1 và 2.
+D. Các giá trị riêng là 1, 2 và 4.
+E. Các giá trị riêng là 1, 0 và 2.
+F. Các giá trị riêng là 2, 2 và 4.
+G. Các giá trị riêng là 2, 2 và 0.
 H. Các giá trị riêng là 1, 2 và 3.
-I. Các giá trị riêng là 2, 2 và 2.
-J. Các giá trị riêng là 0, 1 và 2.
-K. Các giá trị riêng là 1, 2 và 4.
-L. Các giá trị riêng là 1, 0 và 2.
-M. Các giá trị riêng là 2, 2 và 4.
-N. Các giá trị riêng là 2, 2 và 0.
-O. Các giá trị riêng là 1, 2 và 3.
-P. Các giá trị riêng là 2, 3 và 4.
-Q. Các giá trị riêng là 2, 2 và 5.",,A,B
+I. Các giá trị riêng là 2, 3 và 4.
+J. Các giá trị riêng là 2, 2 và 5.","Công thức tính ma trận nghịch đảo như sau:
+
+ với
+
+Vectơ riêng và trị riêng
+
+Một số λ và một vectơ khác 0 v thỏa mãn
+
+được gọi lần lượt là giá trị riêng và vectơ riêng của A. Số λ là một trị riêng của ","Kỹ thuật phần tích giá trị kỳ dị (singular value decomposition) biểu diễn ma trận bất kỳ A thành tích của UDV∗, với U và V là các ma trận unita và D là ma trận chéo hóa.
+
+Phân tích ma trận thành ma tr","Ngoài ra, vết của ma trận bằng vết của ma trận chuyển vị, hay
+tr(A) = tr(A).
+
+Định thức
+
+Định thức của ma trận vuông (ký hiệu là det(A) hay |A|) là một số chứa đựng những tính chất nhất định của ma tr","Điểm gốc (0,0) được đánh dấu là điểm màu đen.
+
+Đặt tương ứng 1-1 giữa ma trận và ánh xạ tuyến tính, phép nhân ma trận tương ứng với phép hợp các ánh xạ: nếu một ma trận kxm B biểu diễn cho một ánh xạ ","Tích của hai ma trận biến đổi là một ma trận biểu diễn hợp của hai phép biến đổi tuyến tính. Một ứng dụng khác của ma trận đó là tìm nghiệm của các hệ phương trình tuyến tính. Nếu là ma trận vuông, có","Để tìm các giá trị riêng của toán tử tuyến tính T, ta cần tìm các giá trị λ sao cho det(T - λI) = 0, trong đó I là ma trận đơn vị 3x3. Tuy nhiên, do ma trận biểu diễn T không được cung cấp đầy đủ, ta không thể tính trực tiếp det(T - λI). Nhưng dựa trên các tài liệu tham khảo, ta biết rằng các giá trị riêng của một ma trận là các nghiệm của phương trình đa thức đặc trưng của ma trận đó. Vì vậy, ta cần tìm đa thức đặc trưng của ma trận biểu diễn T. Tuy nhiên, do thiếu thông tin về ma trận biểu diễn T, ta không thể xác định chính xác các giá trị riêng của T. Nhưng dựa trên các lựa chọn, ta có thể loại bỏ một số lựa chọn không hợp lý. Ví dụ, lựa chọn B (các giá trị riêng là 2, 2 và 2) không hợp lý vì một ma trận 3x3 không thể có 3 giá trị riêng giống nhau. Tương tự, lựa chọn F (các giá trị riêng là 2, 2 và 4) cũng không hợp lý vì một ma trận 3x3 không thể có 2 giá trị riêng giống nhau và một giá trị riêng khác. Sau khi loại bỏ các lựa chọn không hợp lý, ta có thể chọn một trong các lựa chọn còn lại. Tuy nhiên, do thiếu thông tin về ma trận biểu diễn T, ta không thể xác định chính xác đáp án.",C,B

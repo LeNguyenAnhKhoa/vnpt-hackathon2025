@@ -105,8 +105,8 @@ def get_dense_embedding(text: str) -> list:
     }
     
     # Truncate text nếu quá dài (API limit 8k tokens)
-    if len(text) > 8000:
-        text = text[:8000]
+    if len(text) > 8192:
+        text = text[:8192]
     
     json_data = {
         'model': 'vnptai_hackathon_embedding',
@@ -216,7 +216,7 @@ def create_rerank_prompts(question: str, choices: list, documents: list) -> tupl
 ## Định Nghĩa Nhiệm Vụ
 Nhiệm vụ của bạn là đánh giá và xếp hạng lại (rerank) một danh sách 30 tài liệu (documents) để chọn ra TOP 5 tài liệu LIÊN QUAN NHẤT với câu hỏi trắc nghiệm được đưa ra. Mục tiêu là tìm ra những tài liệu chứa thông tin hữu ích nhất để trả lời câu hỏi.
 
-## Hướng Dẫn Suy Luận Từng Bước (Chain of Thought)
+## Hướng Dẫn Suy Luận Từng Bước 
 
 ### Bước 1: Phân Tích Câu Hỏi và Đáp Án
 - Đọc kỹ câu hỏi và xác định CHỦ ĐỀ CHÍNH cần tìm kiếm thông tin.
@@ -238,12 +238,12 @@ Với mỗi tài liệu, đánh giá theo các tiêu chí:
 ## Định Dạng Đầu Ra
 Bạn PHẢI trả lời theo định dạng JSON hợp lệ như sau:
 {
-  "reasoning": "Giải thích ngắn gọn quá trình đánh giá và lý do chọn 5 tài liệu này.",
+  "reasoning": "Giải thích quá trình đánh giá và lý do chọn 5 tài liệu này.",
   "top_5_indices": [idx1, idx2, idx3, idx4, idx5]
 }
 
 Trong đó:
-- "reasoning": Mô tả ngắn gọn tiêu chí đánh giá và lý do xếp hạng.
+- "reasoning": Mô tả tiêu chí đánh giá và lý do xếp hạng.
 - "top_5_indices": Mảng chứa 5 số nguyên là INDEX (bắt đầu từ 0) của 5 tài liệu được chọn, theo thứ tự từ liên quan nhất đến ít liên quan hơn.
 
 LƯU Ý QUAN TRỌNG:
@@ -290,12 +290,8 @@ def create_prompts_with_context(question: str, choices: list, top_documents: lis
     
     system_prompt = f"""Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
 
-## Tài Liệu Tham Khảo
-Dưới đây là TOP 5 tài liệu được xem là liên quan nhất đến câu hỏi, đã được hệ thống truy xuất và xếp hạng. Hãy tham khảo các tài liệu này để hỗ trợ việc trả lời câu hỏi:
-{context_text}
-
 ## Hướng Dẫn Sử Dụng Tài Liệu Tham Khảo
-- Các tài liệu trên được xếp theo thứ tự độ liên quan giảm dần (tài liệu 1 liên quan nhất).
+- Các tài liệu tham khảo được cung cấp đã được hệ thống truy xuất và xếp hạng theo độ liên quan.
 - Sử dụng thông tin từ tài liệu để hỗ trợ suy luận, nhưng KHÔNG hoàn toàn phụ thuộc vào chúng.
 - Nếu tài liệu không chứa thông tin phù hợp, hãy sử dụng kiến thức chuyên môn của bạn.
 - Kiểm tra chéo thông tin từ nhiều tài liệu nếu có thể.
@@ -339,15 +335,19 @@ Thực hiện theo các bước sau một cách cẩn thận:
 ## Định Dạng Đầu Ra
 Bạn PHẢI trả lời theo định dạng JSON hợp lệ với đúng hai trường sau:
 {{
-  "reason": "Quá trình suy luận từng bước của bạn, giải thích cách bạn đi đến đáp án. Trình bày ngắn gọn nhưng đầy đủ.",
+  "reason": "Quá trình suy luận từng bước của bạn, giải thích cách bạn đi đến đáp án. Trình bày đầy đủ.",
   "answer": "X"
 }}
 
 Trong đó "X" là chữ cái của đáp án bạn chọn (A, B, C, D, ...). Trường "answer" CHỈ được chứa MỘT chữ cái viết hoa duy nhất."""
 
-    user_prompt = f"""Question: {question}
+    user_prompt = f"""## Tài Liệu Tham Khảo
+Dưới đây là TOP 5 tài liệu được xem là liên quan nhất đến câu hỏi, đã được hệ thống truy xuất và xếp hạng. Hãy tham khảo các tài liệu này để hỗ trợ việc trả lời câu hỏi:
+{context_text}
+Question: {question}
 Choices:
-{formatted_choices}"""
+{formatted_choices}
+"""
 
     return system_prompt, user_prompt
 
@@ -533,9 +533,6 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         else:
             print(f"  Step 2: Skipping rerank (no documents found)")
         
-        # Sleep sau rerank để tuân thủ rate limit của LLM Small
-        time.sleep(2)
-        
         # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
         print(f"  Step 3: Generating answer using LLM Large...")
         
@@ -566,8 +563,8 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             'answer': answer
         })
         
-        # Lưu thêm thông tin về documents được sử dụng
-        doc_refs = [{'title': doc.get('title', ''), 'text': doc.get('text', '')[:200]} 
+        # Lưu thêm thông tin về documents được sử dụng (lưu full text từ vector DB)
+        doc_refs = [{'title': doc.get('title', ''), 'text': doc.get('text', '')} 
                     for doc in top_5_docs]
         
         json_results.append({
@@ -578,8 +575,8 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         })
         
         # Sleep to respect rate limits
-        # LLM Large: 1000 req/day, 60 req/h => ~1 req/minute
-        # LLM Small: 500 req/minute (đã sleep 2s ở trên)
+        # LLM Large: 400 req/day, 60 req/h => ~1 req/minute
+        # LLM Small: 1000 req/day, 40 req/h
         # Embedding: 500 req/minute
         print(f"  Sleeping for rate limit...")
         time.sleep(92)
