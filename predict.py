@@ -5,6 +5,8 @@ import requests
 from pathlib import Path
 import os
 import time
+import logging
+from datetime import datetime
 from qdrant_client import QdrantClient, models
 from fastembed import SparseTextEmbedding
 
@@ -23,10 +25,34 @@ COLLECTION_NAME = "vnpt_wiki"
 HYBRID_SEARCH_TOP_K = 30  # Lấy top 30 từ hybrid search
 RERANK_TOP_K = 5  # Rerank về top 5
 
+# Retry config
+MAX_RETRIES = 5  # Số lần retry tối đa
+RETRY_DELAY = 92  # Thời gian chờ giữa mỗi lần retry (giây)
+
 # Fastembed BM25 model
 BM25_MODEL_NAME = "Qdrant/bm25"
 
-def load_credentials(json_path='api-keys.json'):
+# ===================== LOGGING CONFIGURATION =====================
+# Tạo thư mục logs nếu chưa có
+log_dir = Path('logs')
+log_dir.mkdir(exist_ok=True)
+
+# Tạo tên file log với timestamp
+log_filename = log_dir / f'log1_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log'
+
+# Cấu hình logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(log_filename, encoding='utf-8'),
+        logging.StreamHandler()  # Vẫn in ra console nếu cần
+    ]
+)
+logger = logging.getLogger(__name__)
+logger.info(f"Log file created: {log_filename}")
+
+def load_credentials(json_path='./api-keys.json'):
     """
     Đọc file api-keys.json và lấy credentials cho tất cả các API
     """
@@ -52,10 +78,10 @@ def load_credentials(json_path='api-keys.json'):
             'embedding': config_embedding
         }
     except FileNotFoundError:
-        print(f"Lỗi: Không tìm thấy file {json_path}")
+        logger.error(f"Lỗi: Không tìm thấy file {json_path}")
         exit(1)
     except Exception as e:
-        print(f"Lỗi khi đọc file cấu hình: {e}")
+        logger.error(f"Lỗi khi đọc file cấu hình: {e}")
         exit(1)
 
 # Load credentials từ file JSON
@@ -82,14 +108,14 @@ LLM_API_NAME_LARGE = 'vnptai_hackathon_large'
 LLM_API_NAME_SMALL = 'vnptai_hackathon_small'
 
 # ===================== KHỞI TẠO BM25 MODEL =====================
-print("Loading BM25 model...")
+logger.info("Loading BM25 model...")
 bm25_model = SparseTextEmbedding(model_name=BM25_MODEL_NAME)
-print("✓ BM25 model loaded")
+logger.info("✓ BM25 model loaded")
 
 # ===================== KHỞI TẠO QDRANT CLIENT =====================
-print("Connecting to Qdrant...")
+logger.info("Connecting to Qdrant...")
 qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
-print(f"✓ Connected to Qdrant at {QDRANT_HOST}:{QDRANT_PORT}")
+logger.info(f"✓ Connected to Qdrant at {QDRANT_HOST}:{QDRANT_PORT}")
 
 
 # ===================== EMBEDDING FUNCTION =====================
@@ -114,14 +140,19 @@ def get_dense_embedding(text: str) -> list:
         'encoding_format': 'float',
     }
     
-    try:
-        response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=30)
-        response.raise_for_status()
-        result = response.json()
-        return result['data'][0]['embedding']
-    except Exception as e:
-        print(f"Error getting embedding: {e}")
-        return None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=30)
+            response.raise_for_status()
+            result = response.json()
+            return result['data'][0]['embedding']
+        except Exception as e:
+            logger.error(f"Error getting embedding (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
+            if attempt < MAX_RETRIES - 1:
+                logger.info(f"Retrying immediately...")
+            else:
+                logger.error(f"Failed to get embedding after {MAX_RETRIES} attempts")
+                return None
 
 
 def get_sparse_embedding(text: str) -> tuple:
@@ -139,7 +170,7 @@ def get_sparse_embedding(text: str) -> tuple:
             values = sparse_embedding.values.tolist()
             return indices, values
     except Exception as e:
-        print(f"Error computing BM25 sparse vector: {e}")
+        logger.error(f"Error computing BM25 sparse vector: {e}")
     
     return [], []
 
@@ -153,7 +184,7 @@ def hybrid_search(question: str, top_k: int = HYBRID_SEARCH_TOP_K) -> list:
     # Lấy dense embedding cho câu hỏi
     dense_vector = get_dense_embedding(question)
     if dense_vector is None:
-        print("Warning: Failed to get dense embedding for hybrid search")
+        logger.warning("Warning: Failed to get dense embedding for hybrid search")
         return []
     
     # Lấy sparse embedding cho câu hỏi
@@ -198,7 +229,7 @@ def hybrid_search(question: str, top_k: int = HYBRID_SEARCH_TOP_K) -> list:
         return documents
     
     except Exception as e:
-        print(f"Error in hybrid search: {e}")
+        logger.error(f"Error in hybrid search: {e}")
         return []
 
 
@@ -310,7 +341,7 @@ Thực hiện theo các bước sau một cách cẩn thận:
 ### Bước 2: Tham Khảo Tài Liệu
 - Xem xét các tài liệu tham khảo được cung cấp.
 - Trích xuất thông tin hữu ích từ tài liệu nếu có.
-- Đánh giá độ tin cậy và mức độ phù hợp của thông tin trong tài liệu.
+- Đánh giá độ tin cậy và mức độ phù hợp của thông tin trong tài liệu do tài liệu có thể không hoàn toàn chính xác hoặc liên quan.
 
 ### Bước 3: Phân Tích Từng Phương Án
 - Đánh giá lần lượt từng đáp án (A, B, C, D, ...) so với yêu cầu của câu hỏi.
@@ -328,7 +359,11 @@ Thực hiện theo các bước sau một cách cẩn thận:
 - Xác định và loại bỏ các phương án rõ ràng không đúng với giải thích ngắn gọn.
 - Sử dụng phương pháp loại trừ để thu hẹp các lựa chọn còn lại.
 
-### Bước 6: Chọn Đáp Án Tốt Nhất
+### Bước 6: Kiểm tra lại đáp án
+- Kiểm tra lại đáp án đã chọn so với câu hỏi và các tài liệu tham khảo.
+- Đối với các câu tính toán, kiểm tra lại các bước và kết quả tính toán xem thực hiện phép tính đúng chưa, có thể bạn có công thức đúng nhưng khi tính toán lại sai.
+
+### Bước 7: Chọn Đáp Án Tốt Nhất
 - Dựa trên phân tích ở các bước trên, chọn đáp án phù hợp nhất với câu hỏi.
 - Đảm bảo đáp án được chọn có căn cứ rõ ràng từ quá trình suy luận.
 
@@ -374,18 +409,23 @@ def call_llm_small(system_prompt: str, user_prompt: str) -> dict:
         'response_format': {'type': 'json_object'},
     }
     
-    try:
-        response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=60)
-        response.raise_for_status()
-        result = response.json()
-        
-        if 'choices' in result and len(result['choices']) > 0:
-            content = result['choices'][0]['message']['content']
-            return json.loads(content)
-        return None
-    except Exception as e:
-        print(f"Error calling LLM Small API: {e}")
-        return None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=60)
+            response.raise_for_status()
+            result = response.json()
+            
+            if 'choices' in result and len(result['choices']) > 0:
+                content = result['choices'][0]['message']['content']
+                return json.loads(content)
+            return None
+        except Exception as e:
+            logger.error(f"Error calling LLM Small API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
+            if attempt < MAX_RETRIES - 1:
+                logger.info(f"Retrying immediately...")
+            else:
+                logger.error(f"Failed to call LLM Small API after {MAX_RETRIES} attempts")
+                return None
 
 
 def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
@@ -409,18 +449,24 @@ def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
         'response_format': {'type': 'json_object'},
     }
     
-    try:
-        response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=120)
-        response.raise_for_status()
-        result = response.json()
-        
-        if 'choices' in result and len(result['choices']) > 0:
-            content = result['choices'][0]['message']['content']
-            return json.loads(content)
-        return None
-    except Exception as e:
-        print(f"Error calling LLM Large API: {e}")
-        return None
+    for attempt in range(MAX_RETRIES):
+        try:
+            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=120)
+            response.raise_for_status()
+            result = response.json()
+            
+            if 'choices' in result and len(result['choices']) > 0:
+                content = result['choices'][0]['message']['content']
+                return json.loads(content)
+            return None
+        except Exception as e:
+            logger.error(f"Error calling LLM Large API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
+            if attempt < MAX_RETRIES - 1:
+                logger.info(f"Retrying in {RETRY_DELAY} seconds...")
+                time.sleep(RETRY_DELAY)
+            else:
+                logger.error(f"Failed to call LLM Large API after {MAX_RETRIES} attempts")
+                return None
 
 
 # ===================== RERANK FUNCTION =====================
@@ -453,7 +499,7 @@ def rerank_documents(question: str, choices: list, documents: list) -> list:
         return top_documents
     else:
         # Fallback: trả về top 5 đầu tiên nếu rerank thất bại
-        print("Warning: Rerank failed, using top 5 from hybrid search")
+        logger.warning("Warning: Rerank failed, using top 5 from hybrid search")
         return documents[:RERANK_TOP_K]
 
 
@@ -477,7 +523,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         with open(input_path, 'r', encoding='utf-8') as f:
             test_data = json.load(f)
     except FileNotFoundError:
-        print(f"Error: Input file not found at {input_path}")
+        logger.error(f"Error: Input file not found at {input_path}")
         return
 
     # Apply range filtering
@@ -492,11 +538,11 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
     end_idx = min(total_samples, end_idx)
     
     if start_idx >= end_idx:
-        print(f"Error: Invalid range. start_idx ({start_idx}) >= end_idx ({end_idx})")
+        logger.error(f"Error: Invalid range. start_idx ({start_idx}) >= end_idx ({end_idx}")
         return
     
     test_data = test_data[start_idx:end_idx]
-    print(f"Processing samples from index {start_idx} to {end_idx - 1} (total: {len(test_data)} samples)")
+    logger.info(f"Processing samples from index {start_idx} to {end_idx - 1} (total: {len(test_data)} samples)")
 
     # Ensure output directory exists
     output_dir = Path(output_dir)
@@ -511,30 +557,30 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         question = item['question']
         choices = item['choices']
         
-        print(f"\n{'='*60}")
-        print(f"Processing {idx + 1}/{len(test_data)} (ID: {qid}, original index: {start_idx + idx})")
-        print(f"Question: {question[:100]}...")
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Processing {idx + 1}/{len(test_data)} (ID: {qid}, original index: {start_idx + idx})")
+        logger.info(f"Question: {question[:100]}...")
         
         # ===================== STEP 1: HYBRID SEARCH =====================
-        print(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
+        logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
         top_30_docs = hybrid_search(question, top_k=HYBRID_SEARCH_TOP_K)
-        print(f"    Found {len(top_30_docs)} documents")
+        logger.info(f"    Found {len(top_30_docs)} documents")
         
         # ===================== STEP 2: RERANK =====================
         top_5_docs = []
         if top_30_docs:
-            print(f"  Step 2: Reranking to top {RERANK_TOP_K} using LLM Small...")
+            logger.info(f"  Step 2: Reranking to top {RERANK_TOP_K} using LLM Small...")
             top_5_docs = rerank_documents(question, choices, top_30_docs)
-            print(f"    Reranked to {len(top_5_docs)} documents")
+            logger.info(f"    Reranked to {len(top_5_docs)} documents")
             
             # Log top 5 document titles
             for i, doc in enumerate(top_5_docs):
-                print(f"      [{i+1}] {doc.get('title', 'N/A')[:50]}...")
+                logger.info(f"      [{i+1}] {doc.get('title', 'N/A')[:50]}...")
         else:
-            print(f"  Step 2: Skipping rerank (no documents found)")
+            logger.info(f"  Step 2: Skipping rerank (no documents found)")
         
         # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
-        print(f"  Step 3: Generating answer using LLM Large...")
+        logger.info(f"  Step 3: Generating answer using LLM Large...")
         
         # Tạo prompts với context từ top 5 documents
         system_prompt, user_prompt = create_prompts_with_context(question, choices, top_5_docs)
@@ -550,12 +596,12 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             reason = llm_response.get('reason', '')
             # Validate answer is a single valid character
             if len(answer) == 1 and answer in valid_choices:
-                print(f"    Answer: {answer}")
+                logger.info(f"    Answer: {answer}")
             else:
-                print(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
                 answer = 'A'  # Default to 'A' if invalid
         else:
-            print(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
+            logger.warning(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
             answer = 'A'  # Default to 'A' if API fails
         
         csv_results.append({
@@ -578,7 +624,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         # LLM Large: 400 req/day, 60 req/h => ~1 req/minute
         # LLM Small: 1000 req/day, 40 req/h
         # Embedding: 500 req/minute
-        print(f"  Sleeping for rate limit...")
+        logger.info(f"  Sleeping for rate limit...")
         time.sleep(92)
     
     # Write to CSV
@@ -593,9 +639,9 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_results, f, ensure_ascii=False, indent=2)
     
-    print(f"\nSubmission file saved to: {csv_path}")
-    print(f"Prediction file saved to: {json_path}")
-    print(f"Total questions processed: {len(csv_results)}")
+    logger.info(f"\nSubmission file saved to: {csv_path}")
+    logger.info(f"Prediction file saved to: {json_path}")
+    logger.info(f"Total questions processed: {len(csv_results)}")
 
 
 def main():
@@ -647,13 +693,13 @@ def main():
             start_idx = 0
         end_idx = start_idx + args.num_samples
     
-    print(f"Input file: {input_path}")
-    print(f"Output directory: {output_dir}")
-    print(f"API Models: LLM Large = {LLM_API_NAME_LARGE}, LLM Small = {LLM_API_NAME_SMALL}")
-    print(f"Hybrid Search Config: Top {HYBRID_SEARCH_TOP_K} -> Rerank to Top {RERANK_TOP_K}")
+    logger.info(f"Input file: {input_path}")
+    logger.info(f"Output directory: {output_dir}")
+    logger.info(f"API Models: LLM Large = {LLM_API_NAME_LARGE}, LLM Small = {LLM_API_NAME_SMALL}")
+    logger.info(f"Hybrid Search Config: Top {HYBRID_SEARCH_TOP_K} -> Rerank to Top {RERANK_TOP_K}")
     if start_idx is not None or end_idx is not None:
-        print(f"Sample range: {start_idx if start_idx else 0} to {end_idx if end_idx else 'end'}")
-    print("-" * 50)
+        logger.info(f"Sample range: {start_idx if start_idx else 0} to {end_idx if end_idx else 'end'}")
+    logger.info("-" * 50)
     
     # Process the test file
     process_test_file(input_path, output_dir, start_idx, end_idx)
