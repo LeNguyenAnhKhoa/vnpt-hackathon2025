@@ -1,0 +1,469 @@
+﻿qid,question,choices,context1,context2,context3,context4,context5,reason,predict,label
+val_0013,Khẳng định nào là đúng về chú thích trong Python?,"A. Chú thích giúp cho các lập trình viên hiểu rõ hơn về chương trình.
+B. Trình thông dịch Python sẽ bỏ qua những chú thích.
+C. Có thể viết chú thích trên cùng một dòng với lệnh/biểu thức hoặc viết trên nhiều dòng mà không vấn đề gì cả
+D. Tất cả các đáp án trên.","Các ngôn ngữ dựa trên C sẽ hiểu biểu thức trên khác đi: trong C, biểu thức trên sẽ đánh giá a < b trước tiên, cho ra kết quả 0 hoặc 1, rồi kết quả đó mới được so sánh với c.
+
+Python sử dụng số học có độ chính xác tuỳ ý cho tất cả các thao tác với số nguyên. Kiểu/Lớp Decimal trong mô đun decimal cung cấp số dấu phẩy động thập phân với một độ chính xác tuỳ ý được định trước và một vài chế độ làm tròn. Lớp Fraction trong mô đun fractions cung cấp độ chính xác tuỳ ý cho số hữu tỉ.
+
+Nhờ thư viện toán học rộng lớn của Python và thư viện bên thứ ba NumPy với nhiều tính năng hơn nữa, Python thường được dùng như một ngôn ngữ kịch bản để giải quyết các vấn đề chẳng hạn như thao tác và xử lí dữ liệu số.
+
+Chú thích 
+# dòng chú thích
+
+In giá trị 
+# Từ Python 3
+print((7 + 8) / 2.0)
+print((2 + 3j) * (4 - 6j))Nội suy xâu (string interpolation)print(""Hello {}!"".format(""world""))
+print(""a = {.2f} và b = {.2f}"".format(a,b))
+
+Cấu trúc rẽ nhánh 
+ Dạng 1:if biểu_thức_điều_kiện:
+    # lệnh...
+ Dạng 2:if biểu_thức_điều_kiện:
+    # lệnh...","Chú thích không ảnh hưởng đến các lệnh của chương trình. Mọi chú thích sẽ tự động bỏ qua trong tiến trình dịch.
+
+  { đây là chú thích }
+  begin
+    writeln('Viet Nam');
+    writeln('Hoang Sa, Truong Sa la cua Viet Nam!')
+  end.
+
+Kiểu dữ liệu 
+Pascal gồm các kiểu đơn lẻ như integer, char, boolean, kiểu đoạn con,... Ngoài ra còn kiểu cấu trúc như array, string, record, object, class,... Cuối cùng là kiểu số thực: real.","Chú thích
+
+Tham khảo","Chú thích
+
+Tham khảo","Chú thích
+
+Tham khảo","Theo tài liệu tham khảo 1, chú thích trong Python được bắt đầu bằng dấu '#'. Điều này cho thấy rằng chú thích không ảnh hưởng đến các lệnh của chương trình. Ngoài ra, tài liệu tham khảo 2 cũng khẳng định rằng mọi chú thích sẽ tự động bỏ qua trong tiến trình dịch. Do đó, trình thông dịch Python sẽ bỏ qua những chú thích. Hơn nữa, việc viết chú thích trên cùng một dòng với lệnh/biểu thức hoặc viết trên nhiều dòng mà không vấn đề gì cả cũng là một đặc điểm của chú thích trong Python. Cuối cùng, chú thích giúp cho các lập trình viên hiểu rõ hơn về chương trình, vì nó cung cấp thông tin bổ sung về mục đích và cách thức hoạt động của chương trình.",D,D
+val_0017,Nước Cộng hòa xã hội chủ nghĩa Việt Nam là một hệ thống bao gồm tập hợp các cơ quan:,"A. Cơ quan quyền lực Nhà nước
+B. Cơ quan hành chính Nhà nước
+C. Cơ quan kiểm sát và xét xử
+D. Cả ba phương án còn lại đều đúng","Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam, gọi ngắn gọn hơn là Quốc hội Việt Nam hay đơn giản là Quốc hội (QH), là cơ quan thực hiện quyền lập pháp cao nhất trong hệ thống chính trị Việt Nam, là cơ quan đại biểu cao nhất của nhân dân Việt Nam và là cơ quan quyền lực Nhà nước cao nhất của nước Cộng hòa xã hội chủ nghĩa Việt Nam. Cơ quan này có các chức năng chính:
+Lập hiến, lập pháp;
+Quyết định các vấn đề quan trọng của đất nước;
+Giám sát tối cao hoạt động của Nhà nước;
+Quyết định vấn đề chiến tranh hay hòa bình;
+Quyết định trưng cầu ý dân.
+
+Nhiệm kỳ của mỗi khóa Quốc hội kéo dài 5 năm. Mỗi năm Quốc hội họp thường kỳ 2 lần. Quốc hội Việt Nam tổ chức và hoạt động theo nguyên tắc tập trung dân chủ làm việc theo chế độ hội nghị và quyết định theo đa số.","Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng quyền lực Nhà nước là thống nhất thuộc về nhân dân, nhưng có sự phân chia với nhau trong việc thực hiện các quyền lập pháp, hành pháp và tư pháp. 
+
+Nhà nước có vai trò vô cùng quan trọng, là trụ cột của hệ thống chính trị. Thông qua các cơ chế quyền lực, Nhà nước  quản lý toàn bộ các mặt của đời sống xã hội: Quyền lập pháp giúp Nhà nước ban hành pháp luật, quyền hành pháp giúp Nhà nước tổ chức và thực thi pháp luật, quản lý nền sản xuất, quản lý đời sống xã hội, quyền tư pháp giúp Nhà nước kiểm sát và xét xử các hành vi vi phạm pháp luật, chống lại chế độ kinh tế, chính trị của quốc gia, dân tộc..Hoạt động của Nhà nước chính là trung tâm của sự vận hành hệ thống chính trị.
+
+Các tổ chức liên minh đại diện 
+ Xem thêmː Liên Hợp Quốc
+Các tổ chức liên minh, liên kết, đại diện cho các lực lượng khác nhau trong xã hội. Đó là các tổ chức đoàn kết toàn dân tộc, các tổ chức đại diện cho quyền và lợi ích của các giai cấp, tầng lớp khác trong xã hội.","1. Tòa án nhân dân tối cao, Viện
+kiểm sát nhân dân tối cao, Kiểm toán nhà nước, bộ, cơ quan ngang bộ, Ủy ban
+nhân dân tỉnh, thành phố trực thuộc trung ương, trong phạm vi nhiệm vụ, quyền hạn
+của mình, chủ trì, phối hợp với cơ quan đề xuất thực hiện điều ước quốc tế mà
+nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Cơ quan, tổ chức, cá nhân có
+trách nhiệm tuân thủ điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt
+Nam là thành viên.","Chủ tịch nước Việt Nam hoạt động với tư cách nguyên thủ quốc gia, Thống lĩnh các lực lượng vũ trang và Chủ tịch Hội đồng quốc phòng và an ninh kiêm Tổng Tư lệnh các lực lượng vũ trang. Thủ tướng Việt Nam lãnh đạo một chính phủ hiện gồm 4 phó thủ tướng và 22 bộ trưởng và các ủy ban, tất cả các chức vụ và ủy ban trên đều được Quốc hội thông qua và Chủ tịch nước bổ nhiệm.
+
+Dưới đây là Sơ đồ tổ chức hệ thống chính trị của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam:
+
+Phân bố quyền lực 
+Hiến pháp 2013 tái khẳng định vai trò ưu tiên của Đảng Cộng sản, tuy nhiên, cũng theo bản hiến pháp đó thì Quốc hội là cơ quan đại biểu cao nhất của nhân dân và là tổ chức duy nhất nắm quyền lập pháp. Cơ quan này có trách nhiệm to lớn trong việc giám sát mọi chức năng của Chính phủ.
+
+Tổng Bí thư là chức danh dành cho người lãnh đạo cao nhất trong hệ thống chính trị tại Việt Nam, kiêm nhiệm chức danh Bí thư Quân ủy Trung ương là người lãnh đạo tối cao của Quân đội nhân dân Việt Nam.","1. Nhà nước Cộng hòa xã hội
+chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương chịu trách nhiệm
+về nghĩa vụ dân sự của mình bằng tài sản mà mình là đại diện chủ sở hữu và thống
+nhất quản lý, trừ trường hợp tài sản đã được chuyển giao cho pháp nhân theo quy
+định tại khoản 2 Điều này.
+2. Pháp nhân do Nhà nước Cộng
+hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa phương
+thành lập không chịu trách nhiệm về nghĩa vụ phát sinh từ quan hệ dân sự của
+Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam, cơ quan nhà nước ở Trung ương, ở địa
+phương.
+3.","Dựa trên các tài liệu tham khảo, đặc biệt là Tài liệu tham khảo 1 và 2, chúng ta có thể thấy rằng hệ thống chính trị của nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm nhiều cơ quan khác nhau, mỗi cơ quan có chức năng và nhiệm vụ riêng. Quốc hội là cơ quan quyền lực Nhà nước cao nhất, có chức năng lập hiến, lập pháp, quyết định các vấn đề quan trọng của đất nước, giám sát tối cao hoạt động của Nhà nước. Ngoài ra, còn có các cơ quan hành chính Nhà nước như Chính phủ, các bộ, cơ quan ngang bộ, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương. Cuối cùng, có các cơ quan kiểm sát và xét xử như Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao. Do đó, cả ba phương án A, B, C đều đúng.",D,D
+val_0020,"Một hạt đang chuyển động với tốc độ $0.6c$, trong đó $c$ là tốc độ ánh sáng. Động lượng tương đối $p$ của hạt là bao nhiêu nếu khối lượng nghỉ của nó là $m_0$?","A. $0.6m_0c$
+B. $1.25m_0c$
+C. $0.75m_0c$
+D. $1.5m_0c$
+E. $1.0m_0c$
+F. $1.2m_0c$
+G. $1.33m_0c$
+H. $1.1m_0c$
+I. $1.4m_0c$
+J. $1.6m_0c$","Nếu m là khối lượng nghỉ của hạt thì động lượng tương đối tính của nó được định nghĩa bằng:
+
+và các thành phần của nó là:
+
+Năng lượng tương đối tính được định nghĩa bằng:
+
+mà nó trùng với thành phần thứ 0 của động lượng-bốn
+
+và thỏa mãn
+
+Với , sử dụng khai triển Taylor theo đối số  giúp nhận rõ ra được năng lượng tương đối tính khác so với năng lượng trong cơ học Newton như thế nào:
+
+Trong khi số hạng thứ hai chính là động năng của hạt trong cơ học Newton thì số hạng thứ nhất lại mới lạ và vắng mặt trong cơ học cổ điển. Nó biểu diễn cho năng lượng nghỉ của hạt
+
+mà giá trị này khác 0 ngay cả khi hạt đứng yên. Hiệu số E - E0 được coi là động năng tương đối tính
+
+Chú ý rằng, khi v = 1 cả động năng và năng lượng phân kỳ cho thấy bản chất không có một vật thể với khối lượng hữu hạn nào có thể chuyển động với vận tốc ánh sáng được.","Theo thuyết tương đối hẹp
+
+Trong thuyết tương đối hẹp, khối lượng và năng lượng là tương đương với nhau qua công thức E = mc2 (như khi tính toán công cần thiết để gia tốc một vật). Khi vận tốc của vật tăng lên, thì năng lượng của nó cũng tăng và do vậy khối lượng cũng tăng tương đương (quán tính). Do vậy cần nhiều lực hơn để gia tốc nó so với khi vật có vận tốc nhỏ. Định luật hai của Newton viết dưới dạng
+
+vẫn còn đúng theo định nghĩa toán học. Nhưng để bảo toàn, động lượng tương đối tính phải được định nghĩa lại thành:
+
+với
+ là vận tốc
+ là tốc độ ánh sáng
+ là khối lượng nghỉ.
+
+Biểu thức tương đối tính liên hệ lực và gia tốc cho một hạt với khối lượng nghỉ không đổi khác 0  chuyển động theo hướng  là:
+
+trong đó hệ số Lorentz
+
+Trong giai đoạn đầu của thuyết tương đối đặc biệt, biểu thức  và  được gọi là khối lượng theo phương dọc và phương ngang. Lực tương đối tính không tạo ra gia tốc đều, mà gia tốc của vật giảm khi vận tốc của nó tiệm cận đến tốc độ ánh sáng.","Ta có:
+
+Do đó tổng năng lượng có thể viết thành, (trong xấp xỉ bậc nhất):
+
+Biểu thức động lượng tương đối tính 
+Mặt khác thành phần vận tốc của hạt trong hệ quy chiếu phòng thí nghiệm là:
+
+Tính đến hệ số giãn thời gian giữa dt và d, chúng ta thu được công thức quan trọng của động lượng trong hệ quy chiếu phòng thí nghiệm:
+
+Sự tương đương giữa năng lượng và khối lượng nghỉ 
+Véc tơ-4 năng lượng-động lượng có đặc trưng ở chuẩn của nó, hoặc bình phương vô hướng (hay bình phương của khoảng không-thời gian), là đại lượng bất biến dưới phép thay đổi hệ tọa độ. Viết ngắn gọn đại lượng:
+
+là độc lập với hệ quy chiếu được tính toán. Khi chuyển sang hệ quy chiếu của hạt thì vận tốc của nó bằng 0, và tương ứng động lượng bằng 0, do vậy chuẩn của đại lượng bất biến này trở thành (m c)2. Trong hệ quy chiếu bất kỳ chúng ta có mối liên hệ sau:
+
+hoặc:
+
+Các hệ số c được đưa vào trong công thức nhằm đảm bảo tính đồng nhất giữa các hệ tọa độ, p có độ lớn (mv), và E có độ lớn (mv2).","Khối lượng tương đối tính 
+Trong vật lý cổ điển người ta coi khối lượng của một vật là một đại lượng bất biến, không phụ thuộc vào chuyển động của vật. Tuy nhiên đến vật lý hiện đại người ta lại có cách nhìn khác về khối lượng, khối lượng có thể thay đổi tùy theo hệ quy chiếu. Khối lượng trong vật lý hiện đại bao gồm khối lượng nghỉ, có giá trị trùng với khối lượng cổ điển khi vật thể đứng yên trong hệ quy chiếu đang xét, cộng với khối lượng kèm theo động năng của vật.
+
+Khối lượng toàn phần lúc này, , còn gọi là khối lượng tương đối tính, liên hệ với khối lượng nghỉ, , và vận tốc chuyển động, , theo công thức: với:Khối lượng toàn phần có ý nghĩa tương đương năng lượng toàn phần chứa trong vật, qua mối liên hệ được thể hiện qua công thức của Einstein:Với  là tốc độ ánh sáng.
+
+Khối lượng toàn phần, , cũng được dùng để định nghĩa động lượng tương đối tính, :Ví dụ: Hạt photon có khối lượng nghỉ bằng 0, nhưng có khối lượng toàn phần khác không. Nó do vậy cũng có năng lượng tương đối tính và động lượng tương đối tính.","Trong chân không, photon chuyển động với vận tốc ánh sáng c và năng lượng cùng động lượng của nó được liên hệ trong công thức , với p là độ lớn của vector động lượng p. Công thức này suy ra từ công thức tương đối tính, với :
+
+Năng lượng và động lượng của photon chỉ phụ thuộc vào tần số (ν) của nó hay bước sóng (λ):
+
+Với k là vectơ sóng (trong đó số sóng (wave number) ),  là tần số góc, và  là hằng số Planck thu gọn.
+
+Do p chỉ theo hướng của sự lan truyền photon, độ lớn của động lượng sẽ là
+
+Photon cũng mang động lượng góc spin mà không phụ thuộc vào tần số của nó. Độ lớn của spin là  và thành phần đo dọc theo hướng chuyển động của nó, hay hình chiếu của động lượng (helicity), phải là ±ħ. Có hai hình chiếu của động lượng, gọi là bên phải (right-handed) và bên trái (left-handed), tương ứng với hai trạng thái phân cực tròn của photon.
+
+Để minh họa ý nghĩa của những công thức này, sự hủy của một hạt và phản hạt tương ứng trong chân không phải cho kết quả là tạo ra ít nhất hai photon vì những lý do sau.","Để tính động lượng tương đối tính của hạt, ta sử dụng công thức: p = γ * m0 * v, trong đó γ là hệ số Lorentz, m0 là khối lượng nghỉ của hạt, và v là vận tốc của hạt. Hệ số Lorentz γ được tính bằng công thức: γ = 1 / sqrt(1 - v^2/c^2), trong đó c là tốc độ ánh sáng. Thay số vào công thức, ta có: γ = 1 / sqrt(1 - (0.6c)^2/c^2) = 1 / sqrt(1 - 0.36) = 1 / sqrt(0.64) = 1 / 0.8 = 1.25. Động lượng tương đối tính của hạt là: p = γ * m0 * v = 1.25 * m0 * 0.6c = 0.75m0c.",C,C
+val_0029,"Theo thông tin được cung cấp, tỉnh nào sau đây đã được sáp nhập vào tỉnh Gia Lai để hình thành tỉnh Gia Lai hiện tại?","A. Bình Định
+B. Đắk Lắk
+C. Quảng Ngãi
+D. Phú Yên","2 tỉnh Quảng Ngãi và Bình Định hợp nhất thành tỉnh Nghĩa Bình; 
+ 2 tỉnh Phú Yên và Khánh Hòa hợp nhất thành tỉnh Phú Khánh; 
+ 3 tỉnh Ninh Thuận, Bình Thuận và Bình Tuy hợp nhất thành tỉnh Thuận Hải; 
+ 3 tỉnh Kon Tum, Pleiku, Phú Bổn hợp nhất thành tỉnh Gia Lai – Kon Tum; 
+ 2 tỉnh Darlac và Quảng Đức hợp nhất thành tỉnh Đắk Lắk; 
+ 2 tỉnh Lâm Đồng và Tuyên Đức hợp nhất thành tỉnh Lâm Đồng mới; 
+ 3 tỉnh Biên Hòa, Long Khánh và Phước Tuy hợp nhất thành tỉnh Đồng Nai; 
+ Đô thành Sài Gòn (cộng 2 quận Củ Chi và Phú Hòa tách từ 2 tỉnh Hậu Nghĩa cũ và Bình Dương) và tỉnh Gia Định hợp nhất thành Thành phố Hồ Chí Minh (từ 2/7/1976);
+ 3 tỉnh Bình Dương, Bình Long, Phước Long hợp nhất thành tỉnh Sông Bé; 
+ 3 tỉnh Hậu Nghĩa (trừ 2 huyện Củ Chi và Trảng Bàng), Kiến Tường, Long An cũ hợp nhất thành tỉnh Long An mới; 
+ 2 tỉnh Định Tường và Gò Công hợp nhất thành tỉnh Tiền Giang; 
+ 2 tỉnh Kiến Phong và Sa Đéc hợp nhất thành tỉnh Đồng Tháp;","Gia Lai là một tỉnh thuộc vùng Tây Nguyên. Phía bắc giáp tỉnh Kon Tum, phía nam giáp tỉnh Đắk Lắk, phía đông giáp các tỉnh Bình Định và Phú Yên, phía tây giáp tỉnh Ratanakiri của Vương quốc Campuchia.
+
+Trước năm 1975
+
+Sau năm 1975
+Sau ngày 30 tháng 4 năm 1975, ba tỉnh Kon Tum, Pleiku và Phú Bổn hợp nhất thành tỉnh Gia Lai - Kon Tum, tổ chức hành chính trên địa bàn gồm thị xã Pleiku và 5 huyện: An Khê, Ayun Pa, Chư Păh, Chư Prông, Mang Yang.
+
+Năm 1979, chia tách một số xã, thị trấn thuộc các huyện Chư Prông, An Khê, Ayun Pa. Cùng năm, chia huyện Ayun Pa thành hai huyện lấy tên là huyện Ayun Pa và huyện Krông Pa.
+
+ Điều chỉnh một số đơn vị hành chính cấp xã thuộc huyện Chư Prông:
+
+- Thành lập xã Ia Lâu trên cơ sở một phần xã Ia Mơ
+
+- Thành lập xã Ia Blang trên cơ sở một phần xã Ia Hlốp.
+
+- Sáp nhập một phần xã Ia Hlốp vào xã Ia Hru.
+
+- Thành lập xã Ia Me trên cơ sở một phần xã Ia Pia.
+
+- Sáp nhập một phần xã Ia Pia vào xã Ia Ko
+
+- Thành lập xã Ia Băng trên cơ sở một phần xã Ia Glai.","Sau năm 1975, tỉnh Pleiku đổi tên thành tỉnh Gia Lai.
+Ngày 20 tháng 9 năm 1975, thực hiện theo Nghị quyết của Bộ Chính trị, hợp nhất hai tỉnh Gia Lai và Kon Tum thành tỉnh mới là Gia Lai - Kon Tum.
+Ngày 23 tháng 4 năm 1979, chia huyện Ayun Pa thành 2 huyện: Ayun Pa và Krông Pa.
+Ngày 17 tháng 8 năm 1981, thành lập huyện Chư Sê trên cơ sở tách ra từ 2 huyện: Chư Prông và Mang Yang.
+Ngày 28 tháng 12 năm 1984, chia huyện An Khê thành 2 huyện: An Khê và K'Bang.
+Ngày 30 tháng 5 năm 1988, chia tiếp huyện An Khê thành 2 huyện: An Khê và Kông Chro.
+Ngày 12 tháng 8 năm 1991, theo Nghị quyết kỳ họp thứ 9 của Quốc hội khoá VIII, Gia Lai - Kon Tum tách thành 2 tỉnh: Gia Lai và Kon Tum. Khi tách ra, tỉnh Gia Lai có tỉnh lị là thị xã Pleiku và 9 huyện: An Khê, Ayun Pa, Chư Păh, Chư Prông, Chư Sê, K'Bang, Kông Chro, Krông Pa, Mang Yang.
+Ngày 15 tháng 10 năm 1991, thành lập huyện Đức Cơ trên cơ sở tách ra từ 2 huyện: Chư Păh và Chư Prông.
+Ngày 11 tháng 11 năm 1996, chia huyện Chư Păh thành 2 huyện: Chư Păh và Ia Grai.","Đến trước Cách mạng tháng 8 năm 1945, tỉnh Pleiku có Thị xã Pleiku, huyện An Khê, huyện Plei Kli, huyện Chư Ty và huyện Cheo Reo.
+Sau năm 1945, chính quyền cách mạng gọi là tỉnh Gia Lai. Tháng 6 năm 1946, Pháp chiếm lại vùng đất Gia Lai và gọi tên đây là tỉnh Pleiku. Giai đoạn từ năm 1946 đến năm 1954, tỉnh Pleiku nói riêng, Tây Nguyên nói chung trải qua nhiều lần chủ thể cai quản theo các văn bản của chính quyền thực dân.
+Tuy nhiên về phía chính quyền cách mạng, trong những năm kháng chiến chống Pháp, vẫn gọi là tỉnh Gia Lai, nhưng qua từng thời điểm khác nhau, tỉnh Gia Lai lại thuộc sự chỉ đạo trực tiếp của các cơ quan khác nhau trong khu vực, các huyện trong tỉnh cũng nhiều lần thay đổi tên gọi và địa giới hành chính.
+Dưới chính thể Việt Nam Cộng hòa thì tỉnh mang tên Pleiku với ba quận. Năm 1962 tách quận Cheo Reo lập tỉnh Phú Bổn nên Pleiku chỉ còn hai quận: Lệ Trung và Lệ Thanh. trước năm 1958 thì đổi Lệ Thanh thành Thanh An.
+
+Sau năm 1975, tỉnh Pleiku đổi tên thành tỉnh Gia Lai.","Tài nguyên khoáng sản là một tiềm năng kinh tế quan trọng của tỉnh Gia Lai, với nhiều khoáng sản, nổi bật nhất là vàng, nguồn vật liệu xây dựng, bô xít và đá quý.
+
+Hành chính
+Tỉnh Gia Lai có 17 đơn vị hành chính cấp huyện, bao gồm 1 thành phố, 2 thị xã và 14 huyện, với 220 đơn vị hành chính cấp xã, bao gồm 24 phường, 14 thị trấn và 182 xã.
+
+Lịch sử 
+
+Tỉnh Gia Lai ngày nay xưa kia là địa bàn sinh sống lâu đời của các dân tộc Jrai, Ba Na, Chăm hroi, tập quán sống thành từng làng. Trước khi người Pháp đặt ách đô hộ lên Tây Nguyên, các dân tộc Gia Lai đang ở giai đoạn cuối của xã hội nguyên thủy chuyển sang giai đoạn xã hội có giai cấp.
+
+Từ những năm đầu thập niên 40 của thế kỷ 19, các giáo sĩ người Pháp bắt đầu truyền đạo ở khu vực cư trú của người Ba Na thuộc xã Hà Tây thuộc huyện Chư Pah và xã Hà Đông thuộc địa phận huyện Đak Đoa ngày nay.","Theo thông tin được cung cấp trong các tài liệu tham khảo, tỉnh Gia Lai hiện tại được hình thành từ việc sáp nhập tỉnh Pleiku và tỉnh Kon Tum vào năm 1975. Sau đó, tỉnh Gia Lai - Kon Tum được tách thành hai tỉnh riêng biệt vào năm 1991, trong đó tỉnh Gia Lai giữ nguyên tên gọi. Không có thông tin nào cho thấy tỉnh Gia Lai được sáp nhập từ các tỉnh Bình Định, Đắk Lắk, Quảng Ngãi hay Phú Yên.",A,A
+val_0050,Chủ Tịch Hồ Chí Minh đã tiếp thu những giá trị tích cực nào từ Nho giáo để phục vụ cách mạng?,"A. Câu trả lời nằm ngoài phạm vi trả lời
+B. Lý tưởng xã hội bình trị và đại đồng
+C. Triết lý tu thân dưỡng tính
+D. Đề cao văn hóa, lễ giáo và truyền thống hiếu học","Tuy nhiên Phan Bội Châu chọn việc cầu viện Nhật Bản, Phan Châu Trinh chọn việc khẩn cầu Pháp, Hồ Chí Minh lựa chọn chủ nghĩa cộng sản, Ngô Đình Diệm lựa chọn Thiên chúa giáo kết hợp với tư tưởng nhân vị.
+
+Nhà sử học Pháp, ông Pierre Brocheux tin rằng nhà cách mạng Hồ Chí Minh là một người theo Khổng giáo, ông luôn cố gắng kết hợp những ý tưởng của Khổng Giáo, một truyền thống Đông Á với các dòng tư tưởng châu Âu, từ Mác-xít đến Lênin-nít, và cố gắng đưa vào thực tế tính nhân bản và tính công bằng xã hội theo kiểu Khổng Giáo. Tổng kết 30 năm tiếp thu các dòng tư tưởng của mình, nhà cách mạng Hồ Chí Minh đúc kết: 
+“Học thuyết của Khổng Tử có ưu điểm là sự tu dưỡng đạo đức cá nhân. Tôn giáo Giêsu có ưu điểm là lòng nhân ái cao cả. Chủ nghĩa Marx có ưu điểm là phương pháp biện chứng. Chủ nghĩa Tôn Dật Tiên có ưu điểm là chính sách thích hợp với điều kiện của nước ta… Khổng Tử, Giêsu, Karl Marx, Tôn Dật Tiên chẳng phải có những điểm chung đó sao?","Nhà cách mạng Hồ Chí Minh từng tổng kết: ""Những người An nam chúng ta hãy tự hoàn thiện mình về mặt tinh thần bằng cách đọc các tác phẩm của Khổng Tử, và về cách mạng thì cần đọc các tác phẩm của Lenin”
+
+Triết lý giáo dục
+
+Nho giáo xem trọng hiền tài. Các triều đại quân chủ tôn sùng Nho giáo chủ trương tuyển dụng nhân tài cho đất nước qua các kỳ Khoa bảng (科榜). Các thí sinh đỗ đạt học vị trong các kỳ thi cử này, phần lớn được tuyển chọn làm quan chức cho triều đình.
+
+Một trong những điểm tiến bộ của Nho giáo là chủ trương khuyến khích giáo dục, coi trọng người hiền tài:.
+
+Nho giáo có nhiều yếu tố tiến bộ khi quan niệm rằng giáo dục là cần thiết cho tất cả mọi người, ""hữu giáo vô loại"" (việc dạy dỗ không phân biệt loại người) nên ai cũng có cơ hội được học tập và giáo dục, đây là biện pháp để hướng con người tới những phẩm chất cao quý như ""nhân, nghĩa, lễ, trí, tín"". Nho giáo cho rằng, giáo hóa con người là một trong những nhiệm vụ cơ bản của nhà cầm quyền và cũng là phương tiện hữu hiệu để đưa xã hội từ loạn lạc thành ""thái bình thịnh trị"".","Về những giá trị châu Á cụ thể, trong ""Bản sắc văn hoá Việt Nam"", Phan Ngọc coi những giá trị ưu trội của văn hóa châu Á là:
+Ham học, thông minh và tháo vát, nhạy bén với mọi thay đổi.
+Cần cù, chịu khó, thích nghi với hoàn cảnh.
+Gắn bó với tổ quốc, họ hàng, gia đình.
+Thích sống một cuộc sống giản dị, không bị những đòi hỏi vật chất dày vò, lo cho con cháu còn hơn lo cho chính mình.
+
+Phan Ngọc coi những phẩm chất nói trên là ưu thế của Nho giáo trong thời đại ngày nay. Khái quát từ thực tế các quốc gia có văn hoá Nho giáo, viện dẫn chính Khổng Tử và quan điểm của Hồ Chí Minh, Tôn Dật Tiên... nói về ưu thế của Nho giáo, Phan Ngọc đã trình bày rất ấn tượng về những phẩm chất này. Ông viết: 
+""Tâm thức là cái không cần học cũng biết. Việt kiều hầu như không biết gì tới Nho giáo, ngoài miệng đả kích Nho giáo kịch liệt, nhưng họ vẫn vươn lên từ những địa vị thấp kém nhất để trở thành những người làm chủ kinh tế, khoa học kỹ thuật chính nhờ truyền thống ham học mà Khổng Tử đề xướng.","Theo nhận định của Hồ Sĩ Quý (Viện Thông tin Khoa học Xã hội Việt Nam), ""thời gian gần đây ở Việt Nam, trong xu hướng chung của việc thực hiện tư tưởng giữ gìn bản sắc văn hoá truyền thống, nhiều yếu tố văn hoá Nho giáo đã được khôi phục và đề cao, thậm chí trong các trường học, khẩu hiệu ""Tiên học lễ, hậu học văn"" đã được coi như một phương châm ứng xử nền tảng của giáo dục. Mặc dù thực hiện thì chưa được bao nhiêu, nhưng trong tư tưởng, cả xã hội đều thấy các giá trị văn hoá truyền thống mà trong đó những nét tích cực của văn hoá Nho giáo là một bộ phận, đang cần phải được tôn vinh và khôi phục như là một trong các phương thức để ứng xử với các dạng văn hoá ngoại sinh, ngoại lai đang du nhập từ làn sóng toàn cầu hóa... trên những nét lớn là phù hợp với tâm lý chung của cả cộng đồng trên con đường tiến tới mục tiêu dân giàu, nước mạnh, xã hội công bằng, dân chủ, văn minh.""
+
+Mông Cổ 
+Xem thêm: Nhà Nguyên
+
+Một số quốc gia khác 
+Ngoài ra Nho giáo còn xuất hiện ở một số nước nhưng chiếm tỷ lệ nhỏ như: Malaysia, Indonesia, Brunei.","Cần phải tiếp thu có chọn lọc, để có thể gạt bỏ những yếu tố tiêu cực và sử dụng những yếu tố tích cực của Nho giáo nhằm phục vụ cho công cuộc xây dựng Việt Nam ngày càng văn minh, giàu đẹp và hiện đại. Tại Việt Nam, Đại học Quốc gia Hà Nội đã khởi động dự án dịch Nho tạng ra tiếng Việt.
+
+Năm 2020, khi thế giới diễn ra đại dịch COVID-19, các nước châu Âu bị ảnh hưởng nặng nề trong khi các nước Đông Á khống chế dịch bệnh khá tốt. Cựu đại sứ Pháp tại Việt Nam (2012-2016), ông Jean-Noël Poirier đã có bài viết ""Kỷ luật Nho giáo và phi trật tự châu Âu"" đã phân tích:
+
+Nội dung cơ bản
+
+Tổ chức xã hội 
+Trong thế giới quan Nho giáo, cả ba yếu tố Quốc gia - Gia đình - Cá nhân đều có liên hệ chặt chẽ với nhau. Nho giáo xem cá nhân là yếu tố căn bản nhất cấu thành nên gia đình và xã hội. Sách Đại học viết:
+
+Bàn luận về lòng trung thành, Khổng Tử nói ""Yêu con mà không dạy con phải chịu khó nhọc được ư ? Trung với vua mà không khuyên can vua theo đường chính ư ?"".","Để trả lời câu hỏi này, chúng ta cần xem xét các tài liệu tham khảo đã cung cấp. Tài liệu 1 cho biết Hồ Chí Minh đã kết hợp các ý tưởng của Khổng Giáo với các dòng tư tưởng châu Âu, từ Mác-xít đến Lênin-nít, và cố gắng đưa vào thực tế tính nhân bản và tính công bằng xã hội theo kiểu Khổng Giáo. Tài liệu 2 cho biết Hồ Chí Minh từng tổng kết: ""Những người An nam chúng ta hãy tự hoàn thiện mình về mặt tinh thần bằng cách đọc các tác phẩm của Khổng Tử, và về cách mạng thì cần đọc các tác phẩm của Lenin"". Điều này cho thấy Hồ Chí Minh đã tiếp thu giá trị tích cực từ Nho giáo về triết lý tu thân dưỡng tính. Tài liệu 3 và 4 cũng cho biết về những giá trị tích cực của Nho giáo, nhưng không liên quan trực tiếp đến câu hỏi. Do đó, dựa trên các tài liệu tham khảo, chúng ta có thể kết luận rằng Chủ tịch Hồ Chí Minh đã tiếp thu giá trị tích cực từ Nho giáo về triết lý tu thân dưỡng tính.",C,C
+val_0058,VNNIC là tên viết tắt của đơn vị nào?,"A. Trung tâm Internet Việt Nam, đơn vị thuộc Bộ Thông tin và Truyền thông.
+B. Trung tâm công nghệ và thông tin Nghệ An.
+C. Cổng thông tin điện tử Nghệ An.
+D. tất cả đáp án trên đều đúng","Báo VietNamNet là cơ quan báo tại Việt Nam trực thuộc Bộ Thông tin và Truyền thông. Báo VietNamNet được thành lập vào ngày 19 tháng 12 năm 1997. Ngày 23 tháng 1 năm 2003, VietNamNet được cấp giấy phép là tờ báo mạng điện tử và trở thành một trong những tờ báo mạng có mặt trong thời kỳ đầu xuất hiện loại hình báo mạng đầu tiên ở Việt Nam.
+
+Lịch sử 
+
+ 19/12/1997: Chính thức khai trương Trung tâm Dịch Vụ Gia Tăng Giá Trị VASC và đồng thời khai trương website WWW.VNN.VN, tiền thân của VietNamNet ngày nay. 
+ 2/9/2001: Mạng thông tin trực tuyến VASC Orient ra đời. VASC Orient là sản phẩm thông tin số hóa, được cung cấp miễn phí trên mạng Internet  sử dụng công nghệ VASC ICPSoft để quản lý và duy trì nội dung thông tin.  VASC Orient là dịch vụ thông tin có số lượng truy nhập cao nhất tại Việt Nam lúc đó, có cơ chế bảo mật nhiều lớp, đáp ứng khả năng bảo vệ thông tin.
+ Năm 2003: 
+
+- Mạng thông tin trực tuyến VASC Orient trở thành Báo điện tử VASC Orient, đổi tên miền thành VietNamNet.vn. Tên gọi mới này đã phản ánh được tầm vóc của một mạng thông tin mang tính quốc gia mà trong gần hai năm qua VASC Orient đã đạt được với số lượng truy cập gần 200 triệu lượt/tháng.","ICANN điều phối việc gán các mã định danh duy nhất để sử dụng trên Internet, bao gồm tên miền, địa chỉ Giao thức Internet (IP), số cổng ứng dụng trong giao thức truyền tải và nhiều tham số khác. Không gian tên thống nhất toàn cầu là rất cần thiết để duy trì phạm vi toàn cầu của Internet. Vai trò này của ICANN phân biệt nó có lẽ là cơ quan điều phối trung tâm duy nhất cho Internet toàn cầu.
+
+Cơ quan đăng ký Internet khu vực (RIR) được thành lập cho năm khu vực trên thế giới. Trung tâm thông tin mạng châu Phi (AfriNIC) cho châu Phi, Cơ quan đăng ký số Internet (ARIN) của Mỹ cho Bắc Mỹ, Trung tâm thông tin mạng châu Á-Thái Bình Dương (APNIC) cho châu Á và khu vực Thái Bình Dương, Cơ quan đăng ký địa chỉ Internet ở Mỹ Latinh và Caribbean (LACNIC) cho Châu Mỹ Latinh và khu vực Caribbean và Réseaux IP Européens - Trung tâm điều phối mạng (RIPE NCC) cho Châu Âu, Trung Đông và Trung Á đã được ủy quyền để gán các khối địa chỉ Giao thức Internet và các thông số Internet khác cho các cơ quan đăng ký địa phương, như là nhà cung cấp dịch vụ Internet, từ một nhóm địa chỉ được chỉ định dành riêng cho từng khu vực.","Tập đoàn Bưu chính Viễn thông Việt Nam (tên giao dịch quốc tế: Vietnam Posts and Telecommunications Group, viết tắt: VNPT) là một doanh nghiệp của nhà nước chuyên về đầu tư, sản xuất, kinh doanh trong lĩnh vực Viễn thông và Công nghệ thông tin tại Việt Nam. Theo công bố của VNR 500 - Bảng xếp hạng 500 doanh nghiệp lớn nhất tại Việt Nam công bố năm 2023, đây là doanh nghiệp lớn thứ 23 Việt Nam.
+
+VNPT là tập đoàn kinh tế nhà nước đứng số 2 về lĩnh vực Bưu chính, Viễn thông tại Việt Nam, được Chính phủ Việt Nam giao trọng trách là chủ đầu tư và là doanh nghiệp được quyền kinh doanh, vận hành và khai thác vệ tinh đầu tiên của Việt Nam, VINASAT-1 và VINASAT-2.
+
+Cơ quan chủ quản
+Tập đoàn Bưu chính Viễn thông Việt Nam được thành lập theo Quyết định số 06/2006/QĐ-TTg ngày 09/01/2006 của Thủ tướng Chính phủ về việc thành lập Công ty mẹ - Tập đoàn Bưu chính Viễn thông Việt Nam.
+
+Điều lệ Tổ chức và hoạt động của Tập đoàn Bưu chính Viễn thông Việt Nam được ban hành kèm theo Quyết định số 265/2006/QĐ-TTg ngày 17/11/2006 của Thủ tướng Chính phủ.","Vụ Nông nghiệp;
+
+2. Vụ Công nghiệp;
+
+3. Vụ Năng lượng;
+
+4. Vụ Công nghệ và hạ tầng;
+
+5. Vụ Tổng hợp;
+
+6. Vụ Pháp chế, kiểm soát nội bộ;
+
+7. Vụ Tổ chức cán bộ;
+
+8. Văn phòng;
+
+9. Trung tâm Thông tin.
+
+Các doanh nghiệp thuộc quyền sở hữu 
+Ủy ban được giao quản lý vốn Nhà nước đối với các doanh nghiệp sau:
+
+1. Tổng công ty Đầu tư và Kinh doanh vốn nhà nước (SCIC);
+
+2. Tập đoàn Dầu khí Việt Nam (PVN);
+
+3. Tập đoàn Điện lực Việt Nam (EVN);
+
+4. Tập đoàn Xăng dầu Việt Nam (Petrolimex);
+
+5. Tập đoàn Hóa chất Việt Nam (Vinachem);
+
+6. Tập đoàn Công nghiệp Cao su Việt Nam;
+
+7. Tập đoàn Công nghiệp Than - Khoáng sản Việt Nam;
+
+8. Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT);
+
+9. Tổng công ty Viễn thông MobiFone;
+
+10. Tổng công ty Thuốc lá Việt Nam (Vinataba);
+
+11. Tổng công ty Hàng không Việt Nam (Vietnam Airlines);
+
+12. Tổng công ty Hàng hải Việt Nam (Vinalines);
+
+13. Tổng công ty Đường sắt Việt Nam;
+
+14. Tổng công ty Đầu tư phát triển đường cao tốc Việt Nam VEC;
+
+15. Tổng công ty Cảng hàng không Việt Nam (ACV);
+
+16.","Văn phòng Liên Hợp Quốc về chống Ma túy và Tội phạm, viết tắt tiếng Anh là UNODC (United Nations Office on Drugs and Crime), tiếng Pháp là ONUDC (Office des Nations unies contre la drogue et le crime), là cơ quan Liên Hợp Quốc về phòng chống ma túy và tội phạm.
+
+Cơ quan này được thành lập năm 1997 với tên gọi Văn phòng Kiểm soát Ma túy và Phòng chống Tội phạm (Office for Drug Control and Crime Prevention), hợp nhất Chương trình Kiểm soát thuốc Quốc tế của Liên Hợp Quốc (UNDCP, United Nations International Drug Control Program) và Phòng Phòng chống Tội phạm và Tư pháp Hình sự (Crime Prevention and Criminal Justice Division) tại Trụ sở Liên Hợp Quốc tại Vienna.
+
+Nó là một thành viên của Nhóm Phát triển Liên Hợp Quốc (UNDG, United Nations Development Group)., và năm 2002 được đổi tên ra Văn phòng Liên Hợp Quốc về chống Ma túy và Tội phạm
+
+Xem thêm 
+ Công ước phòng chống tham nhũng
+
+Hoạt động
+
+Tham khảo
+
+Liên kết ngoài 
+ 
+ About Us, United Nations Office on Drugs and Crime.
+ International Narcotics Control Board (INCB)
+ United Nations Rule of Law: The United Nations Office on Drugs and Crime , on the rule of law work conducted by the United Nations Office on Drugs and Crime.
+ Organization of the United Nations Office on Drugs and Crime, Secretary-General's bulletin, ST/SGB/2004/6, ngày 15 tháng 3 năm 2004.","Không có thông tin cụ thể về VNNIC trong các tài liệu tham khảo đã cung cấp. Tuy nhiên, dựa trên kiến thức chung, VNNIC thường được biết đến là viết tắt của 'Trung tâm Internet Việt Nam', một đơn vị thuộc Bộ Thông tin và Truyền thông, chịu trách nhiệm quản lý và phát triển Internet tại Việt Nam. Do không có thông tin cụ thể trong tài liệu, nhưng dựa trên kiến thức chung, lựa chọn A có vẻ là phù hợp nhất.",A,A
+val_0076,"Một công ty đang xem xét việc đầu tư vào một dòng sản phẩm mới. Lợi nhuận kỳ vọng trên vốn đầu tư là 15%, nhưng có khả năng 20% dòng sản phẩm này sẽ thất bại và dẫn đến mức lỗ 10%. Giá trị kỳ vọng của khoản đầu tư này là bao nhiêu?","A. 13%
+B. 12%
+C. 11%
+D. 10%","Trong lý thuyết xác suất và thống kê, giá trị kỳ vọng (Tiếng Anh: expected value), giá trị mong đợi (hoặc kỳ vọng toán học), hoặc trung bình (Tiếng Anh: mean) của một biến ngẫu nhiên là trung bình có trọng số là xác suất của tất cả các giá trị cụ thể của biến đó. Nói cách khác, giá trị kỳ vọng được tính bằng tổng các tích giữa xác suất xảy ra của mỗi giá trị có thể của biến với giá trị đó. Lưu ý rằng bản thân giá trị đó có thể không được ""mong đợi"" theo nghĩa thông thường. Nó có thể ít có khả năng xảy ra hoặc không thể xảy ra.
+
+Ví dụ, một vòng quay roulette có 38 kết quả có thể có khả năng như nhau. Mỗi lần đặt cược vào một số duy nhất thắng 35 (nghĩa là nếu thắng, ta được trả 35 lần số tiền đặt cược, ngược lại mất tiền). Do đó, xét cả 38 kết quả có thể, giá trị kỳ vọng của khoản lợi thu được từ 1 đôla đặt cược cho một số duy nhất là:
+
+nghĩa là khoảng -$0.0526. Do đó, giá trị kỳ vọng là ta sẽ mất trung bình hơn năm xu cho mỗi dollar tiền đặt cược.","Trong kinh tế học và kế toán, chi phí sử dụng vốn là chi phí về vốn của một công ty (cả nợ và vốn chủ sở hữu), hoặc theo quan điểm của nhà đầu tư là ""tỷ suất sinh lợi yêu cầu trên danh mục đầu tư chứng khoán hiện có của một công ty"". Chi phí sử dụng vốn được sử dụng để đánh giá các dự án mới của một công ty. Đây là mức lợi nhuận tối thiểu mà các nhà đầu tư kỳ vọng khi cung cấp vốn cho công ty, do đó đặt ra tiêu chuẩn mà một dự án mới phải đáp ứng.
+
+Khái niệm cơ bản 
+Một khoản đầu tư được coi là đáng giá khi lợi tức trên vốn kỳ vọng phải lớn hơn chi phí sử dụng vốn. Với một số cơ hội đầu tư cạnh tranh, các nhà đầu tư được kỳ vọng sẽ bỏ vốn của mình vào hoạt động để tối đa hóa lợi nhuận. Nói cách khác, chi phí sử dụng vốn là tỷ suất sinh lời mà vốn có thể được mong đợi để kiếm được trong một khoản đầu tư thay thế tốt nhất có rủi ro tương đương, đây là chi phí cơ hội của vốn.","Khi đã xác định được chi phí nợ và chi phí vốn chủ sở hữu, có thể tính toán được sự pha trộn của chúng, chi phí vốn bình quân gia quyền (WACC). WACC có thể được sử dụng như lãi suất chiết khấu cho các dòng tiền tự do dự kiến của một dự án cho doanh nghiệp.
+
+Ví dụ 
+Giả sử một công ty cân nhắc đảm nhiệm một dự án hoặc một hình thức đầu tư nào đó, ví dụ lắp đặt một bộ phận máy móc mới tại một trong các nhà máy của họ. Việc lắp đặt máy móc mới này sẽ tốn kém tiền bạc; trả tiền cho các kỹ thuật viên để lắp đặt máy móc, vận chuyển máy móc, mua các bộ phận... Máy móc mới này cũng được kỳ vọng sẽ tạo ra lợi nhuận mới (nếu không, giả sử công ty quan tâm đến lợi nhuận, công ty sẽ không cân nhắc dự án này ngay từ đầu). Vì vậy, công ty sẽ tài trợ cho dự án bằng hai loại tài trợ: phát hành nợ, bằng việc đi vay hay các công cụ nợ khác như trái phiếu, và phát hành vốn cổ phần, thông thường bằng việc phát hành nhiều cổ phiếu mới.","Tỷ lệ hoàn vốn nội bộ trên một đầu tư hoặc dự án là ""tỷ lệ hoàn vốn kết hợp hiệu quả hàng năm"" hoặc ""tỷ lệ hoàn vốn"" làm cho giá trị hiện tại ròng của tất cả các dòng tiền (cả dương và âm) từ một đầu tư cụ thể bằng không. Cụ thể hơn, IRR của một khoản đầu tư là tỉ lệ chiết khấu mà tại đó giá trị hiện tại ròng của các chi phí (dòng tiền âm) đầu tư bằng giá trị hiện tại ròng của các lợi ích (dòng tiền dương) đầu tư. Tỷ lệ hoàn vốn nội bộ thường được sử dụng để đánh giá mức độ cần thiết của đầu tư hoặc dự án. Tỷ lệ hoàn vốn nội bộ của một dự án càng cao, mong muốn để thực hiện dự án càng nhiều. Giả sử tất cả các dự án yêu cầu cùng một số tiền đầu tư, dự án với mức IRR cao nhất sẽ được xem là tốt nhất và thực hiện đầu tiên. Một công ty (hoặc cá nhân), trong lý thuyết, nên thực hiện tất cả các dự án hoặc đầu tư có sẵn với các IRR vượt quá chi phí vốn. Đầu tư có thể bị giới hạn bởi khả năng tài chính đối với công ty và/hoặc bởi khả năng quản lý nhiều dự án của công ty.","Trong tài chính, đòn bẩy hay đòn bẩy nợ (tiếng anh là leverage  trong Anh-Mỹ hay gearing trong Anh-Anh và Anh-Úc) là bất kỳ kỹ thuật nào liên quan đến việc sử dụng nợ (tiền đi vay) thay vì vốn chủ sở hữu để mua tài sản, với kỳ vọng rằng lợi nhuận sau thuế cho chủ sở hữu vốn từ giao dịch sẽ vượt quá chi phí đi vay, thường là một số bội số ⁠— do đó nguồn gốc của từ này từ tác dụng của một đòn bẩy trong vật lý, một cỗ máy đơn giản khuếch đại việc áp dụng một lực đầu vào tương đối nhỏ thành một lực đầu ra tương ứng lớn hơn. Thông thường, người cho vay sẽ đặt ra giới hạn về mức độ rủi ro mà họ chuẩn bị chấp nhận và sẽ đặt ra giới hạn về mức đòn bẩy cho phép và sẽ yêu cầu tài sản mua được phải được cung cấp làm tài sản đảm bảo cho khoản vay. Tận dụng lợi nhuận được nhân lên. Mặt khác, các khoản lỗ cũng tăng lên gấp bội, và có rủi ro là việc sử dụng đòn bẩy sẽ dẫn đến thua lỗ nếu chi phí tài chính vượt quá thu nhập từ tài sản hoặc giá trị của tài sản giảm xuống.","Để tính giá trị kỳ vọng của khoản đầu tư, ta cần xem xét cả lợi nhuận kỳ vọng và khả năng thất bại. Theo thông tin cho biết, lợi nhuận kỳ vọng trên vốn đầu tư là 15%, nhưng có khả năng 20% dòng sản phẩm này sẽ thất bại và dẫn đến mức lỗ 10%. Để tính giá trị kỳ vọng, ta cần nhân lợi nhuận kỳ vọng với xác suất thành công và nhân mức lỗ với xác suất thất bại, sau đó cộng hai kết quả lại với nhau. Xác suất thành công là 100% - 20% = 80%. Giá trị kỳ vọng = (Lợi nhuận kỳ vọng * Xác suất thành công) + (Mức lỗ * Xác suất thất bại) = (15% * 80%) + (-10% * 20%) = 12% + (-2%) = 10%.",D,D
+val_0079,"Theo Chủ Tịch Hồ Chí Minh, học để làm gì?","A. Làm việc
+B. Làm cán bộ.
+C. Làm người.
+D. Cả a, b, c.","Khẩu hiệu của Hồ Chí Minh là: ""Vì mục đích mười năm phải trồng cây, vì mục đích trăm năm phải trồng người"". Khẩu hiệu này đã động viên dân chúng tham gia dạy và học, kể cả trong hoàn cảnh thời đó nhiều gia đình nông dân lúc đó không muốn cho con cái đi học mà để chúng ở nhà làm việc, họ chưa từng biết chữ và chưa nhận thấy giá trị của kiến thức. Chính phủ đề cao chủ nghĩa dân tộc và tinh thần đoàn kết Bắc-Nam, phù hợp với hoàn cảnh chia cắt về chính trị khi đó.
+
+Các trường Đại học Sư phạm, Đại học Bách Khoa, Đại học Tổng hợp, Đại học Y, Đại học Dược được thành lập và mở rộng. Việc học hoàn toàn miễn phí, hình thức tuyển chọn là cử tuyển. Sinh viên có tiêu chuẩn lương thực và vải mặc như người đi làm. Những học sinh giỏi nhất được cử đi học ở nước ngoài từ trong Kháng chiến chống Pháp. Điều này giải phóng một nguồn lực tri thức lớn trong nông dân. Những trí thức trưởng thành giai đoạn này về sau là lực lượng lãnh đạo kinh tế-kỹ thuật của Việt Nam.","Quan điểm
+
+Vì Giáo dục là của mọi người, vì mọi người, cho mọi người, mọi người được quyền bình đẳng hưởng thụ thành quả của nền giáo dục và có trách nhiệm đóng góp xây dựng, phát triển giáo dục.
+
+Giáo dục là quá trình tiến hóa (Evolution) kế thừa có chọn lọc, không phải cược cách mạng (Revolution) đột biến, hủy diệt.
+
+ Khái niệm về giáo dục:
+
+Công tác đào tạo của nhà trường được tổ chức trên nguyên lý giáo dục bao gồm bốn chữ H: ""Học - Hỏi - Hiểu - Hành"". Học là để biết cách Học như thế nào; Học để biết Hỏi; Hỏi để Học; Hỏi để Hiểu; Hiểu phải Hiểu đúng; Hiểu đúng mới Hành đúng; Hành đúng mới có hiệu quả; Hành có hiệu quả mới lo được cho bản thân, mới lo được cho gia đình, mới lo được cho xã hội, mới có điều kiện chăm sóc thiên nhiên. Nói cách khác Hành có hiệu quả con người mới hoàn thành trách nhiệm của mình đó là: ""Trách nhiệm với bản thân - Trách nhiệm với gia đình - Trách nhiệm với xã hội - Trách nhiệm với thiên nhiên""
+
+ Tôn chỉ mục đích: ""Cổ vũ tinh thần ham học hỏi. Đề cao khả năng tự đào tạo.","Phương pháp “Cộng học” được xây dựng trên nguyên tắc 4 chữ “H”: Học – Hỏi – Hiểu – Hành:
+
+        Học là để biết cách học như thế nào
+
+        Học là để biết cách Hỏi
+
+        Hỏi để học
+
+        Hỏi để hiểu (để tập hợp thông tin, xử lý thông tin, khai thác thông tin để giải quyết những vấn đề của cuộc sống đặt ra.)
+
+        Hiểu phải hiểu đúng
+
+        Hiểu đúng thì hành mới đúng
+
+        Hành đúng mới có hiệu quả
+
+        Hành có hiệu quả mới tạo ra được sản phẩm vật chất hay tinh thần có chất lượng, mới đáp ứng được nhu cầu của bản thân, gia đình, cộng đồng, xã hội, mới có điều kiện bảo vệ thiên nhiên, mới hoàn thành được trách nhiệm và nghĩa vụ xã hội giao phó.
+
+Phương pháp “Cộng học” là phương pháp học tập đối thoại trực tiếp, là phương pháp chủ động. Thực hiện tốt Phương pháp “Cộng học” sẽ tạo nên một xã hội học tập, tạo nên một nền giáo dục mở.
+
+Phương pháp “Cộng học” là phương pháp giáo dục tích cực, chủ động. Người dạy giúp người học và ngược lại, thực hiện dân chủ trong giáo dục, tạo ra động lực cho người dạy và người học.","Năm 1945, có 95% dân số Việt Nam mù chữ. Trước thực trạng đó, để xóa mù chữ, từ ngày 8 tháng 9 năm 1945 Chủ tịch Hồ Chí Minh ra các sắc lệnh: Sắc lệnh số 17 đặt ra một bình dân học vụ trong toàn cõi Việt Nam, Sắc lệnh số 19 lập cho nông dân và thợ thuyền những lớp học bình dân buổi tối, Sắc lệnh số 20 định rằng việc học chữ quốc ngữ từ nay bắt buộc và không mất tiền. Để phục vụ chiến dịch xoá mù chữ, Nha Bình dân học vụ được thành lập ngày 18 tháng 9 năm 1945. Ngày 4 tháng 10 năm 1945, Chủ tịch Hồ Chí Minh ra lời kêu gọi Chống nạn thất học gửi tới toàn dân: ""...Muốn giữ vững nền độc lập, muốn làm cho dân mạnh nước giàu, mọi người Việt Nam phải hiểu biết quyền lợi của mình, bổn phận của mình, phải có kiến thức, mới có thể tham gia vào công cuộc xây dựng nước nhà và trước hết phải biết đọc, biết viết chữ quốc ngữ. Những người đã biết chữ hãy dạy cho những người chưa biết chữ, hãy góp sức vào bình dân học vụ… Những người chưa biết chữ hãy gắng sức mà học cho biết đi.""","Hệ thống giáo dục phát triển không tương xứng với những hứa hẹn của người Pháp ""khai hóa văn minh"" dân thuộc địa. Chính vì thế, cái mà người Việt thừa hưởng từ người Pháp sau khi Việt Nam giành được độc lập chỉ là những mảnh vụn văn hóa và lịch sử; tỷ lệ mù chữ lên đến 95% dân số, hệ thống kiến thức Tây học kém cỏi, thiếu chiều sâu theo như Ngô Đức Kế đã nói ""Âu học vẫn chưa vin được ngọn ngành mà Hán học đã đứt cả cội rễ"" cùng với nền tảng đạo đức xã hội suy đồi. Ngày 3 tháng 9 năm 1945, trong phiên họp đầu tiên của Chính phủ, Chủ tịch Hồ Chí Minh đã nêu ra nhiệm vụ cấp bách nhất, thiết thực nhất phải giải quyết là “nạn dốt” và chỉ rõ: “Nạn dốt là một trong những phương pháp độc ác mà bọn thực dân dùng để cai trị chúng ta… Một dân tộc dốt là một dân tộc yếu. Vì vậy tôi đề nghị mở một chiến dịch để chống nạn mù chữ”.","Để trả lời câu hỏi này, chúng ta cần phân tích các tài liệu tham khảo và tìm kiếm thông tin liên quan đến quan điểm của Chủ tịch Hồ Chí Minh về mục đích của việc học.
+
+Tài liệu 1 đề cập đến khẩu hiệu của Hồ Chí Minh: ""Vì mục đích mười năm phải trồng cây, vì mục đích trăm năm phải trồng người"". Điều này cho thấy tầm quan trọng của việc học trong việc xây dựng con người và xã hội.
+
+Tài liệu 2 và Tài liệu 3 đề cập đến phương pháp ""Cộng học"" và nguyên lý giáo dục bao gồm bốn chữ H: ""Học - Hỏi - Hiểu - Hành"". Điều này cho thấy việc học không chỉ là thu thập kiến thức mà còn là quá trình phát triển toàn diện của con người.
+
+Tuy nhiên, không có tài liệu nào trực tiếp đề cập đến câu hỏi ""Theo Chủ tịch Hồ Chí Minh, học để làm gì?"". Nhưng dựa trên các thông tin trên, chúng ta có thể suy luận rằng mục đích của việc học theo quan điểm của Chủ tịch Hồ Chí Minh là để trở thành người có ích cho xã hội, có kiến thức, kỹ năng và phẩm chất tốt đẹp.
+
+Do đó, đáp án D. Cả a, b, c. là phù hợp nhất, vì nó bao gồm cả ba lựa chọn A. Làm việc, B. Làm cán bộ, và C. Làm người.",D,D
+val_0086,Nghệ thuật trong đoạn 1 bài 'Tinh thần yêu nước của nhân dân ta' là gì?,"A. Phép nhân hóa
+B. Dùng phép liệt kê tăng tiến
+C. Dùng dẫn chứng tiêu biểu
+D. Dùng câu văn ngắn, nhịp điệu nhanh","Tác phẩm
+
+ Ai xây chiến lũy (1949)
+ Bà mẹ Hải Dương (1967)
+ Bài ca năm tấn (1967)
+ Bài ca phụ nữ Việt Nam (1970)
+ Chim hót trên đồng đay (1963)
+ Dáng đứng Bến Tre (1981)
+ Dòng nước quê hương (1963)
+ Dôi-a Việt Nam (1953)
+ Dư âm (1950)
+ Đường về Hộ Độ (1943)
+ Đồng ta rộng mở chân trời (1971)
+ Em đi làm tín dụng (1971)
+ Em hát
+ Em tập lái ô tô 
+ Gà mái mơ (1973)
+ Gương mặt Kiên Giang
+ Huyền diệu (1970)
+ Màu áo chú bộ đội (1968)
+ Mẹ yêu con (1956)
+ Một ánh sao trời (Dư âm 2) (1988)
+ Một khúc tâm tình người Hà Tĩnh (1974)
+ Múa hát mừng chiến công (1966)
+ Mùa hoa nở (1951)
+ Mùa xuân cô đi nuôi dạy trẻ (1980)
+ Người đi xây hồ Kẻ Gỗ (1976)
+ Người giỏi chăn nuôi (1972)
+ Pha màu luống cày (1951)
+ Quảng Nam - Đà Nẵng đất nặng nghĩa tình
+ Ru người trăm năm (1999)
+ Rừng Tuyên Quang in bóng Tân Trào (1972)
+ Tấm áo chiến sĩ mẹ vá năm xưa (1973)
+ Tiễn anh lên đường (1965)
+ Tiếng hát Dôi-a (1953)
+ Thành phố Hồ Chí Minh (1969)
+ Trúng rồi các cụ ta ơi!","Đại tá Nguyên Nhung
+ Phạm Minh Tuấn
+ Giáo sư, Tiến sĩ, Nghệ sĩ Nhân dân Quang Hải
+ Tân Huyền
+ Tô Hải
+ Trần Chung
+ Văn An (các ca khúc: Đường lên Tây Bắc, Quân đội ta quân đội anh hùng, Thái Văn A đứng đó, Đôi dép Bác Hồ, Nhịp cầu nối những bờ vui).
+ Văn Ký
+ Phó Đức Phương (các ca khúc: Những cô gái quan họ, Hồ trên núi, Một thoáng Tây Hồ, Nha Trang thu, Trên đỉnh Phù Vân).
+ Nguyễn Tài Tuệ
+ Huy Thục
+ Tô Vũ
+ Nguyễn Thị Nhung
+
+ Sân khấu 
+ Nghệ sĩ Nhân dân, Đạo diễn Ngô Y Linh
+ Giáo sư, Nghệ sĩ Nhân dân, Đạo diễn Trần Bảng
+ Trúc Đường
+
+ Mỹ thuật 
+Hội họa
+ Đặng Đức Sinh
+ Đinh Trọng Khang
+ Đường Ngọc Cảnh
+ Huỳnh Văn Thuận
+ Hoàng Trầm
+ Lê Thị Kim Bạch
+ Giáo sư,","Việt Minh cùng với nhân dân chống đối việc trưng mua lúa gạo, cùng dân đánh phá các kho lúa của Nhật. Trong nguy cơ đói cận kề cái chết, người dân không còn e sợ sự đàn áp của chính quyền nên hưởng ứng rất đông đảo. Chính tinh thần yêu nước chống thực dân đế quốc (chủ yếu) và hoạt động cứu đói của Việt Minh đã chiếm được cảm tình của một bộ phận nhân dân vùng Việt Minh (thứ yếu), đã dẫn đến sự kiện Cách mạng tháng Tám diễn ra thuận lợi.
+
+Sau ngày Quốc khánh 2/9, Chủ tịch Hồ Chí Minh đã nêu lên 6 vấn đề cấp bách nhất mà Chính phủ cần giải quyết ngay và vấn đề số 1 là cứu đói:
+""Hiện nay những vấn đề gì là vấn đề cấp bách hơn cả. Theo ý tôi, có sáu vấn đề. Một là, nhân dân đang đói (…) Hơn hai triệu đồng bào chúng ta đã chết đói vì chính sách độc ác này. Vừa rồi nạn lụt đã phá hoại tám tỉnh sản xuất lúa gạo (…) Những người thoát chết đói, nay cũng bị đói. Chúng ta phải làm cách nào để có thể cho họ sống.","28/9 - 03/10/1971, học sinh của trường cùng với các tầng lớp nhân dân Đà Lạt tổ chức nhiều cuộc mít tinh, biểu tình, những đêm không ngủ, hát vang những bài ca yêu nước do học sinh, sinh viên sáng tác, rải truyền đơn, căng biểu ngữ, phân phát bản Tuyên bố chung; mỗi ngày tổ chức 3 buổi phát thanh để phản đối cuộc bầu cử độc diễn ngày 03/10 của chính quyền Nguyễn Văn Thiệu, thông báo tình hình đấu tranh, kêu gọi nhân dân trong ngày bầu cử không đi bỏ phiếu. v.v...
+
+Hoạt động cổ vũ tinh thần yêu nước còn diễn ra mạnh mẽ trong hoạt động báo chí, văn nghệ của nhà trường. Báo chí của trường thường viết về hòa bình, tự do, tình yêu quê hương, ôn lại những trang sử anh dũng, hào hùng của dân tộc Việt Nam,... Trường thường tổ chức các buổi nói chuyện, hùng biện, thuyết trình về tác phong thanh niên mới, tuyên truyền giáo dục chống lại văn hoá nô dịch của Mỹ.","Đó là những câu chuyện thần thoại như Thần Trụ Trời của người Việt, Đi san mặt Đất của người Lô Lô,...những sử thi như Đam San của người E Đê, Đẻ đất đẻ nước của người Mường,...những truyền thuyết như Sơn Tinh Thủy Tinh, Thánh Gióng của người Việt, những cổ tích như Thạch Sanh....và các truyện ngụ ngôn, truyện cười, tục ngữ, ca dao,.... Văn học dân gian thường ca ngợi tài năng và lòng dũng cảm của con người trước thiên nhiên khắc nghiệt, trước kẻ thù độc ác, ca ngợi lòng nhân hậu, độ lượng giúp đỡ nhau, ca ngợi tình yêu trai gái, tình chung thủy vợ chồng, yêu con người, yêu thiên nhiên, yêu làng xóm, quê hương. Không những thế văn học dân gian Việt Nam còn là vũ khí đấu tranh chống lại những thói hư tật xấu của con người, chống lại những bất công thối nát trong xã hội. Bằng ngôn ngữ dân gian giàu hình ảnh, bằng nghệ thuật nhạc điệu sinh động, văn học dân gian Việt Nam đã thấm sâu vào lòng người một cách tự nhiên và rất dễ dàng truyền lại cho đời sau
+
+Trong văn học viết, với chữ Hán và chữ Nôm được sử dụng trong một thời gian dài.","Để xác định nghệ thuật trong đoạn 1 bài 'Tinh thần yêu nước của nhân dân ta', chúng ta cần phân tích nội dung và cấu trúc của đoạn văn. Đoạn văn này có thể sử dụng nhiều phương pháp nghệ thuật khác nhau để thể hiện tinh thần yêu nước của nhân dân ta. Tuy nhiên, dựa trên các tài liệu tham khảo, chúng ta có thể thấy rằng đoạn văn này có thể sử dụng phép liệt kê tăng tiến để thể hiện sự đa dạng và phong phú của tinh thần yêu nước. Phép liệt kê tăng tiến là một phương pháp nghệ thuật giúp tạo ra một danh sách các yếu tố, sự kiện, hoặc hình ảnh để thể hiện một ý tưởng hoặc chủ đề. Trong trường hợp này, đoạn văn có thể liệt kê các ví dụ về tinh thần yêu nước của nhân dân ta, chẳng hạn như các cuộc đấu tranh chống lại sự xâm lược, các phong trào yêu nước, hoặc các biểu tượng của tinh thần yêu nước. Việc sử dụng phép liệt kê tăng tiến giúp tạo ra một bức tranh tổng thể về tinh thần yêu nước của nhân dân ta và giúp người đọc hiểu rõ hơn về chủ đề này.",B,B
