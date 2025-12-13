@@ -38,8 +38,8 @@ QDRANT_PORT = 6333
 COLLECTION_NAME = "vnpt_wiki"
 
 # Data config
-CSV_PATH = "data/vie_wiki_dataset.csv"
-NUM_ROWS = 1000  # Chỉ lấy 10000 dòng đầu tiên
+CSV_PATH = "data/data.csv"
+NUM_ROWS = 10000  # Chỉ lấy 10000 dòng đầu tiên
 
 # Chunking config
 MAX_CHUNK_LENGTH = 512
@@ -54,14 +54,17 @@ EMBEDDING_DIM = 1024  # Đã xác nhận từ test
 REQUESTS_PER_MINUTE = 500
 MAX_CONCURRENT_REQUESTS = 8  # Số request đồng thời tối đa
 # Tính delay giữa các batch để đảm bảo không vượt quá rate limit
-BATCH_DELAY = MAX_CONCURRENT_REQUESTS / (REQUESTS_PER_MINUTE / 60)  # ~0.96s cho mỗi batch 8 requests
+BATCH_DELAY = 1.3  # ~0.96s cho mỗi batch 8 requests
 
 # Batch config  
 EMBEDDING_BATCH_SIZE = 8  # Số chunks để embed đồng thời
-UPSERT_BATCH_SIZE = 500  # Số points để upsert mỗi batch
+UPSERT_BATCH_SIZE = 300  # Số points để upsert mỗi batch
 
 # Fastembed BM25 model
 BM25_MODEL_NAME = "Qdrant/bm25"
+
+# Point ID offset để tránh conflict khi chạy nhiều file cùng lúc
+POINT_ID_OFFSET = 4000000  # File 1: bắt đầu từ 4,000,000
 
 # ===================== LOAD API KEYS =====================
 def load_embedding_credentials(json_path='../api-keys.json'):
@@ -90,10 +93,10 @@ sentence_splitter = SentenceSplitter(
     chunk_overlap=CHUNK_OVERLAP,
 )
 
-def chunk_by_sentences(text: str, max_length: int = 2048) -> list:
+def chunk_by_sentences(text: str, max_length: int = 512) -> list:
     """
     Chunking theo câu sử dụng llama-index SentenceSplitter
-    với chunk_size=2048 và chunk_overlap=128
+    với chunk_size=512 và chunk_overlap=32
     """
     if not text or not isinstance(text, str):
         return []
@@ -115,7 +118,7 @@ async def get_embedding_async(
     text: str,
     credentials: dict,
     semaphore: asyncio.Semaphore,
-    max_retries: int = 3
+    max_retries: int = 5
 ) -> list:
     """
     Gọi VNPT Embedding API để lấy vector (async version)
@@ -129,12 +132,20 @@ async def get_embedding_async(
     }
     
     # Truncate text nếu quá dài (API limit 8k tokens)
-    if len(text) > 8000:
-        text = text[:8000]
+    # Với tiếng Việt, ước tính ~3 ký tự = 1 token, giới hạn an toàn là 512 ký tự
+    # để đảm bảo không vượt quá limit của API
+    max_chars = 1024
+    if len(text) > max_chars:
+        text = text[:max_chars]
+    
+    # Validate text không rỗng
+    if not text or not text.strip():
+        logger.warning("Empty or whitespace-only text, skipping embedding")
+        return None
     
     json_data = {
         'model': 'vnptai_hackathon_embedding',
-        'input': text,
+        'input': text.strip(),
         'encoding_format': 'float',
     }
     
@@ -155,17 +166,52 @@ async def get_embedding_async(
                         logger.warning(f"Rate limited, waiting {wait_time}s...")
                         await asyncio.sleep(wait_time)
                     else:
+                        # Log chi tiết đầy đủ về lỗi
                         text_response = await response.text()
-                        logger.error(f"API Error: {response.status} - {text_response}")
+                        logger.error(f"="*80)
+                        logger.error(f"API ERROR DETAILS (Attempt {attempt + 1}/{max_retries}):")
+                        logger.error(f"  Status Code: {response.status}")
+                        logger.error(f"  URL: {EMBEDDING_API_URL}")
+                        logger.error(f"  Request Headers:")
+                        for key, value in headers.items():
+                            if key.lower() in ['authorization', 'token-id', 'token-key']:
+                                logger.error(f"    {key}: {value[:20]}...{value[-10:] if len(value) > 30 else value[20:]}")
+                            else:
+                                logger.error(f"    {key}: {value}")
+                        logger.error(f"  Request Body:")
+                        logger.error(f"    model: {json_data['model']}")
+                        logger.error(f"    input: {json_data['input'][:100]}..." if len(json_data['input']) > 100 else f"    input: {json_data['input']}")
+                        logger.error(f"    encoding_format: {json_data['encoding_format']}")
+                        logger.error(f"  Response Headers:")
+                        for key, value in response.headers.items():
+                            logger.error(f"    {key}: {value}")
+                        logger.error(f"  Response Body:")
+                        logger.error(f"    {text_response}")
+                        logger.error(f"="*80)
+                        
                         if attempt < max_retries - 1:
-                            await asyncio.sleep(2)
+                            # Exponential backoff: 1s, 2s, 4s
+                            wait_time = 2 ** attempt
+                            logger.warning(f"Retrying after {wait_time}s...")
+                            await asyncio.sleep(wait_time)
+                            continue
             except asyncio.TimeoutError:
                 logger.warning(f"Request timeout, attempt {attempt + 1}/{max_retries}")
-                await asyncio.sleep(2)
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt
+                    logger.warning(f"Retrying after {wait_time}s...")
+                    await asyncio.sleep(wait_time)
+                    continue
             except Exception as e:
                 logger.error(f"Request error: {e}")
+                logger.error(f"Exception type: {type(e).__name__}")
+                import traceback
+                logger.error(f"Traceback: {traceback.format_exc()}")
                 if attempt < max_retries - 1:
-                    await asyncio.sleep(2)
+                    wait_time = 2 ** attempt
+                    logger.warning(f"Retrying after {wait_time}s...")
+                    await asyncio.sleep(wait_time)
+                    continue
     
     return None
 
@@ -332,7 +378,9 @@ async def process_documents_async(
     logger.info("Calculating total chunks and preparing data...")
     all_chunks_data = []  # List of (point_id, doc_id, title, chunk_idx, chunk_text)
     
-    global_chunk_idx = 0
+    # Sử dụng POINT_ID_OFFSET làm điểm bắt đầu
+    global_chunk_idx = POINT_ID_OFFSET
+    
     for idx, row in tqdm(df.iterrows(), total=len(df), desc="Analyzing documents"):
         text = row['text']
         if pd.isna(text):
@@ -356,8 +404,11 @@ async def process_documents_async(
             })
     
     total_to_process = len(all_chunks_data)
+    skipped_count = (global_chunk_idx - POINT_ID_OFFSET) - total_to_process
     logger.info(f"Total chunks to process: {total_to_process}")
-    logger.info(f"Skipped (already exists): {global_chunk_idx - total_to_process}")
+    logger.info(f"Skipped (already exists): {skipped_count}")
+    if all_chunks_data:
+        logger.info(f"First point_id: {all_chunks_data[0]['point_id']}")
     
     if total_to_process == 0:
         logger.info("No chunks to process!")
@@ -460,9 +511,9 @@ async def process_documents_async(
     elapsed = (datetime.now() - start_time).total_seconds()
     logger.info("=" * 60)
     logger.info("PROCESSING COMPLETE")
-    logger.info(f"Total chunks: {global_chunk_idx}")
+    logger.info(f"Total chunks: {global_chunk_idx - POINT_ID_OFFSET}")
     logger.info(f"Processed: {processed_count}")
-    logger.info(f"Skipped (already exists): {global_chunk_idx - total_to_process}")
+    logger.info(f"Skipped (already exists): {(global_chunk_idx - POINT_ID_OFFSET) - total_to_process}")
     logger.info(f"Errors: {error_count}")
     logger.info(f"Time elapsed: {elapsed/60:.2f} minutes")
     logger.info(f"Average rate: {processed_count/elapsed:.2f} chunks/s")

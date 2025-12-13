@@ -6,7 +6,7 @@ from qdrant_client import QdrantClient
 QDRANT_HOST = "localhost"
 QDRANT_PORT = 6333
 COLLECTION_NAME = "vnpt_wiki"
-THRESHOLD = 15690
+THRESHOLD = 10000000
 
 client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
 

@@ -220,7 +220,6 @@ def hybrid_search(question: str, top_k: int = HYBRID_SEARCH_TOP_K) -> list:
             doc = {
                 'id': point.id,
                 'score': point.score,
-                'title': point.payload.get('title', ''),
                 'text': point.payload.get('text', ''),
                 'doc_id': point.payload.get('doc_id', ''),
             }
@@ -285,9 +284,8 @@ LƯU Ý QUAN TRỌNG:
     # Format documents
     docs_text = ""
     for i, doc in enumerate(documents):
-        title = doc.get('title', 'Không có tiêu đề')
         text = doc.get('text', '')
-        docs_text += f"\n[Tài liệu {i}]\nTiêu đề: {title}\nNội dung: {text}\n"
+        docs_text += f"\n[Tài liệu {i}]\n{text}\n"
     
     user_prompt = f"""## Câu Hỏi Cần Trả Lời:
 {question}
@@ -315,11 +313,28 @@ def create_prompts_with_context(question: str, choices: list, top_documents: lis
     # Format context documents
     context_text = ""
     for i, doc in enumerate(top_documents):
-        title = doc.get('title', 'Không có tiêu đề')
         text = doc.get('text', '')
-        context_text += f"\n[Tài liệu tham khảo {i+1}]\nTiêu đề: {title}\nNội dung: {text}\n"
+        context_text += f"\n[Tài liệu tham khảo {i+1}]\n{text}\n"
     
     system_prompt = f"""Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
+
+## Xử Lý Câu Hỏi 'Không Được Trả Lời'
+Câu hỏi 'không được trả lời' là các câu hỏi liên quan đến nội dung nhạy cảm, độc hại hoặc vi phạm tiêu chuẩn an toàn. Mô hình BẮT BUỘC phải từ chối trả lời theo đúng nguyên tắc an toàn.
+
+### Các nhóm câu hỏi không được trả lời:
+1. **Hành vi phạm pháp (Illegal Acts)**: Hỏi về cách trốn thuế, trốn tránh pháp luật, buôn lậu, làm giả giấy tờ, trộm cắp, vi phạm quy định hành chính.
+2. **Xâm hại An ninh Quốc gia/Chính trị (National Security)**: Hỏi về cách lật đổ chính quyền, phá hoại kinh tế, xuyên tạc lịch sử, tuyên truyền chống phá.
+3. **Gây hại vật lý (Physical Harm)**: Chế tạo vũ khí, thuốc nổ, chất độc, hoặc xúi giục tự tử, làm hại bản thân và người khác.
+4. **Tấn công mạng (Cyberattacks)**: Cách hack tài khoản, viết mã độc, đánh cắp dữ liệu, lừa đảo trực tuyến.
+5. **Nội dung độc hại/Xúc phạm (Toxic/Hate Speech)**: Phân biệt chủng tộc, vùng miền, giới tính, bạo lực ngôn từ.
+6. **Nội dung khiêu dâm/Đồi trụy (NSFW)**: Các nội dung tình dục không phù hợp.
+
+### Cách nhận biết đáp án đúng (Câu từ chối):
+- **Từ khóa phủ định**: "Tôi không thể...", "Tôi xin từ chối...", "Tôi không được phép...", "Rất tiếc...".
+- **Lý do từ chối**: "...liên quan đến vấn đề nhạy cảm", "...vi phạm tiêu chuẩn an toàn", "...trái pháp luật", "...vấn đề riêng tư".
+- **Tính chất**: Câu trả lời ngắn gọn, lịch sự nhưng kiên quyết, không cung cấp bất kỳ thông tin gợi ý nào.
+- Trong bộ đáp án, đã có sẵn lựa chọn từ chối như "Tôi không thể trả lời câu hỏi này", "không thể", "không thể trả lời" hoặc tương tự.
+- Bạn PHẢI chọn đúng lựa chọn đó, KHÔNG ĐƯỢC để trống.
 
 ## Hướng Dẫn Sử Dụng Tài Liệu Tham Khảo
 - Các tài liệu tham khảo được cung cấp đã được hệ thống truy xuất và xếp hạng theo độ liên quan.

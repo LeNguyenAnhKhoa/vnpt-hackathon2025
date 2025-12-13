@@ -19,10 +19,11 @@ def main():
     # Create mapping from qid to prediction
     predict_map = {item['qid']: item for item in predict_data}
     
-    # Calculate accuracy and collect errors
+    # Calculate accuracy and collect errors and correct predictions
     correct = 0
     total = 0
     errors = []
+    corrects = []
     
     for qid, label in label_map.items():
         if qid in predict_map:
@@ -32,37 +33,39 @@ def main():
             question = question_map.get(qid, '')
             choices = choices_map.get(qid, [])
             
+            # Format choices as:
+            # A. choice 1
+            # B. choice 2
+            # ...
+            if isinstance(choices, list):
+                choices_str = '\n'.join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices)])
+            else:
+                choices_str = str(choices)
+            
+            # Extract context from reference_docs
+            reference_docs = predict_map[qid].get('reference_docs', [])
+            contexts = {}
+            for i in range(5):
+                if i < len(reference_docs):
+                    contexts[f'context{i+1}'] = reference_docs[i].get('text', '')
+                else:
+                    contexts[f'context{i+1}'] = ''
+            
+            row = {
+                'qid': qid,
+                'question': question,
+                'choices': choices_str,
+                'reason': reason,
+                'predict': predict,
+                'label': label
+            }
+            row.update(contexts)
+            
             if predict == label:
                 correct += 1
+                corrects.append(row)
             else:
-                # Format choices as:
-                # A. choice 1
-                # B. choice 2
-                # ...
-                if isinstance(choices, list):
-                    choices_str = '\n'.join([f"{chr(65+i)}. {choice}" for i, choice in enumerate(choices)])
-                else:
-                    choices_str = str(choices)
-                
-                # Extract context from reference_docs
-                reference_docs = predict_map[qid].get('reference_docs', [])
-                contexts = {}
-                for i in range(5):
-                    if i < len(reference_docs):
-                        contexts[f'context{i+1}'] = reference_docs[i].get('text', '')
-                    else:
-                        contexts[f'context{i+1}'] = ''
-                
-                error_row = {
-                    'qid': qid,
-                    'question': question,
-                    'choices': choices_str,
-                    'reason': reason,
-                    'predict': predict,
-                    'label': label
-                }
-                error_row.update(contexts)
-                errors.append(error_row)
+                errors.append(row)
     
     # Calculate and print accuracy
     accuracy = correct / total if total > 0 else 0
@@ -71,15 +74,22 @@ def main():
     print(f"Accuracy: {accuracy:.4f} ({accuracy*100:.2f}%)")
     print(f"Errors: {len(errors)}")
     
-    # Export errors to CSV
+    # Export errors and correct predictions to CSV
     os.makedirs('output', exist_ok=True)
     fieldnames = ['qid', 'question', 'choices', 'context1', 'context2', 'context3', 'context4', 'context5', 'reason', 'predict', 'label']
+    
     with open('output/error.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(errors)
     
+    with open('output/correct.csv', 'w', encoding='utf-8-sig', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(corrects)
+    
     print(f"\nError details saved to output/error.csv")
+    print(f"Correct predictions saved to output/correct.csv")
 
 if __name__ == "__main__":
     main()
