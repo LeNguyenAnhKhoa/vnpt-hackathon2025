@@ -2,7 +2,8 @@ import json
 import csv
 import os
 
-OUTPUT_PATH = 'output_long_q/predict_long_questions.json'
+PREDICT_PATH = 'output_long_q/predict_long_questions.json'
+OUT_DIR = 'output_long_q'
 def load_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
@@ -10,15 +11,15 @@ def load_json(file_path):
 def main():
     # Load data
     val_data = load_json('data/val.json')
-    predict_data = load_json(OUTPUT_PATH)
+    predict_data = load_json(PREDICT_PATH)
     
     # Create mapping from qid to label
-    label_map = {item['qid']: item['answer'] for item in val_data}
-    question_map = {item['qid']: item['question'] for item in val_data}
-    choices_map = {item['qid']: item['choices'] for item in val_data}
+    label_map = {item['qid']: item['answer'] for item in val_data if len(item.get('question', '').split()) > 300}
+    question_map = {item['qid']: item['question'] for item in val_data if len(item.get('question', '').split()) > 300}
+    choices_map = {item['qid']: item['choices'] for item in val_data if len(item.get('question', '').split()) > 300}
     
-    # Create mapping from qid to prediction
-    predict_map = {item['qid']: item for item in predict_data}
+    # Create mapping from qid to prediction, item['question'] length > 200
+    predict_map = {item['qid']: item for item in predict_data if item['qid'] in question_map}
     
     # Calculate accuracy and collect errors and correct predictions
     correct = 0
@@ -79,18 +80,18 @@ def main():
     os.makedirs('output', exist_ok=True)
     fieldnames = ['qid', 'question', 'choices', 'context1', 'context2', 'context3', 'context4', 'context5', 'reason', 'predict', 'label']
     
-    with open('output/error.csv', 'w', encoding='utf-8-sig', newline='') as f:
+    with open(f'{OUT_DIR}/error.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(errors)
     
-    with open('output/correct.csv', 'w', encoding='utf-8-sig', newline='') as f:
+    with open(f'{OUT_DIR}/correct.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(corrects)
     
-    print(f"\nError details saved to output/error.csv")
-    print(f"Correct predictions saved to output/correct.csv")
+    print(f"\nError details saved to {OUT_DIR}/error.csv")
+    print(f"Correct predictions saved to {OUT_DIR}/correct.csv")
 
 if __name__ == "__main__":
     main()

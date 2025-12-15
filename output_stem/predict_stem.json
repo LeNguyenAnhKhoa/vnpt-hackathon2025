@@ -1,0 +1,7 @@
+[
+  {
+    "qid": "val_0024",
+    "predict": "A",
+    "reason": "Chuỗi suy luận có biểu thức số, tính từng bước, kiểm tra điều kiện và kiểm tra lại phép tính."
+  }
+]
