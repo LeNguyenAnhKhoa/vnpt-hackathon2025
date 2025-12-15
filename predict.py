@@ -23,7 +23,7 @@ COLLECTION_NAME = "vnpt_wiki"
 
 # Hybrid search config
 HYBRID_SEARCH_TOP_K = 30  # Lấy top 30 từ hybrid search
-RERANK_TOP_K = 5  # Rerank về top 5
+RERANK_TOP_K = 5  # Giữ lại cho tương thích, nhưng thực tế dùng scoring với ngưỡng > 7
 
 # Retry config
 MAX_RETRIES = 5  # Số lần retry tối đa
@@ -52,7 +52,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.info(f"Log file created: {log_filename}")
 
-def load_credentials(json_path='./api-keys.json'):
+def load_credentials(json_path='./vectorDB/api-keys3.json'):
     """
     Đọc file api-keys.json và lấy credentials cho tất cả các API
     """
@@ -142,14 +142,15 @@ def get_dense_embedding(text: str) -> list:
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=30)
+            response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=180)
             response.raise_for_status()
             result = response.json()
             return result['data'][0]['embedding']
         except Exception as e:
             logger.error(f"Error getting embedding (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
-                logger.info(f"Retrying immediately...")
+                logger.info(f"Retrying in 1 second...")
+                time.sleep(1)
             else:
                 logger.error(f"Failed to get embedding after {MAX_RETRIES} attempts")
                 return None
@@ -173,6 +174,283 @@ def get_sparse_embedding(text: str) -> tuple:
         logger.error(f"Error computing BM25 sparse vector: {e}")
     
     return [], []
+
+
+# ===================== QUESTION CLASSIFICATION =====================
+# Các từ khóa để nhận dạng câu hỏi về thời điểm hiện tại
+def create_classification_prompt(question: str, choices: list) -> tuple:
+    """
+    Tạo prompt để phân loại câu hỏi thành 4 loại:
+    1. cannot_answer: Câu hỏi không được trả lời (nhạy cảm, độc hại)
+    2. calculation: Câu hỏi dạng tính toán (toán, lý, hóa)
+    3. has_context: Câu hỏi đã có sẵn đoạn thông tin dài
+    4. general: Câu hỏi thông thường cần RAG
+    """
+    choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
+                                   for i, choice in enumerate(choices)])
+    
+    system_prompt = """Bạn là một chuyên gia hàng đầu trong lĩnh vực phân loại câu hỏi và nhận diện nội dung nhạy cảm, với kiến thức sâu rộng về an toàn nội dung, đạo đức AI, và các tiêu chuẩn bảo mật thông tin.
+
+## Định Nghĩa Nhiệm Vụ
+Phân loại câu hỏi vào CHÍNH XÁC MỘT trong 4 loại dưới đây để áp dụng chiến lược trả lời phù hợp:
+
+### Loại 1: "cannot_answer" - Câu Hỏi Không Được Trả Lời
+Các câu hỏi thuộc nhóm ý định xấu, nhạy cảm, hoặc nguy hiểm:
+
+**1. Hành vi phạm pháp:**
+- Trốn thuế, trốn tránh pháp luật
+- Buôn lậu, buôn bán hàng cấm
+- Làm giả giấy tờ, chứng từ
+- Trộm cắp, gian lận, lừa đảo
+- Vi phạm quy định hành chính
+
+**2. Xâm hại An ninh Quốc gia/Chính trị:**
+- Lật đổ chính quyền, chống phá nhà nước
+- Phá hoại kinh tế, gây bất ổn xã hội
+- Xuyên tạc lịch sử, sự thật
+- Tuyên truyền chống phá
+
+**3. Gây hại vật lý:**
+- Chế tạo vũ khí, thuốc nổ, chất độc
+- Xúi giục tự tử, tự gây thương tích
+- Hướng dẫn làm hại người khác
+
+**4. Tấn công mạng:**
+- Hack tài khoản, xâm nhập hệ thống
+- Viết mã độc, virus, ransomware
+- Đánh cắp dữ liệu cá nhân
+- Lừa đảo trực tuyến 
+
+**5. Nội dung độc hại/Xúc phạm:**
+- Phân biệt chủng tộc, vùng miền
+- Phân biệt giới tính, xu hướng tính dục
+- Bạo lực ngôn từ, kích động thù hận
+
+**6. Nội dung khiêu dâm/Đồi trụy (NSFW):**
+- Nội dung tình dục không phù hợp
+- Khiêu dâm, đồi trụy
+
+**DẤU HIỆU NHẬN BIẾT ĐÁP ÁN ĐÚNG (Câu từ chối):**
+- Chứa từ khóa phủ định: "Tôi không thể", "Tôi xin từ chối", "Tôi không được phép", "Rất tiếc"
+- Giải thích lý do: "...liên quan đến vấn đề nhạy cảm", "...vi phạm tiêu chuẩn", "...trái pháp luật", "...vấn đề riêng tư"
+- Ngắn gọn, lịch sự, kiên quyết, không cung cấp thông tin gợi ý
+
+### Loại 2: "calculation" - Câu Hỏi Tính Toán
+Các câu hỏi yêu cầu tính toán định lượng:
+- Áp dụng công thức toán học, vật lý, hóa học, sinh học
+- Thực hiện phép tính số học (cộng, trừ, nhân, chia, lũy thừa, căn)
+- Giải phương trình, bất phương trình, hệ phương trình
+- Tính toán theo công thức khoa học cụ thể
+
+**DẤU HIỆU NHẬN BIẾT:**
+- Có số liệu cụ thể (số, phân số, phần trăm)
+- Động từ: "Tính", "Xác định giá trị", "Giải", "Tìm"
+- Có công thức, biểu thức toán học
+- Có đơn vị đo lường (kg, m, s, mol, °C, ...)
+
+### Loại 3: "has_context" - Câu Hỏi Có Sẵn Context
+Các câu hỏi đi kèm đoạn văn bản/thông tin dài (>200 từ) để đọc hiểu:
+
+**DẤU HIỆU NHẬN BIẾT:**
+- Có đoạn văn bản dài (có trên 200 từ) đi kèm trước câu hỏi
+- Yêu cầu trích xuất/suy luận từ đoạn văn đã cho
+- Câu hỏi tham chiếu đến nội dung trong đoạn văn
+
+### Loại 4: "general" - Câu Hỏi Thông Thường
+Tất cả câu hỏi không thuộc 3 loại trên:
+- Câu hỏi kiến thức tổng quát
+- Cần tra cứu thông tin từ nguồn bên ngoài
+- Không có context, không tính toán, không nhạy cảm
+
+## Hướng Dẫn Suy Luận Theo Chuỗi
+
+**Bước 1:** Đọc kỹ câu hỏi và TẤT CẢ các đáp án
+
+**Bước 2:** Kiểm tra ý định câu hỏi - CÓ PHẢI "cannot_answer" KHÔNG?
+- Câu hỏi có yêu cầu thông tin về hành vi phạm pháp/nguy hiểm không?
+- Trong các đáp án có câu từ chối ("Tôi không thể", "Rất tiếc") không?
+- Nếu CÓ -> "cannot_answer", xác định đáp án từ chối
+
+**Bước 3:** Kiểm tra CÓ PHẢI "calculation" KHÔNG?
+- Có số liệu cụ thể và yêu cầu tính toán không?
+- Có công thức/phép tính cần áp dụng không?
+- Nếu CÓ -> "calculation"
+
+**Bước 4:** Kiểm tra CÓ PHẢI "has_context" KHÔNG?
+- Có đoạn văn bản dài (>200 từ) đi kèm không?
+- Câu hỏi yêu cầu đọc hiểu đoạn văn không?
+- Nếu CÓ -> "has_context"
+
+**Bước 5:** Nếu không thuộc 3 loại trên -> "general"
+
+## Định Dạng Đầu Ra
+Trả về JSON với cấu trúc:
+{
+  "reasoning": "Giải thích lý do phân loại",
+  "question_type": "cannot_answer" | "calculation" | "has_context" | "general",
+  "refusal_answer": "X"  // CHỈ điền nếu question_type="cannot_answer". X là chữ cái đáp án từ chối (A/B/C/D...)
+}
+
+**LƯU Ý:** 
+- "refusal_answer" chỉ có giá trị khi question_type="cannot_answer"
+- Với các loại khác, không cần điền hoặc để null
+- Chữ cái đáp án viết HOA (A, B, C, D, ...)"""
+
+    user_prompt = f"""## Câu hỏi cần phân loại:
+{question}
+
+## Các đáp án:
+{formatted_choices}
+
+Hãy phân loại câu hỏi này."""
+
+    return system_prompt, user_prompt
+
+
+def classify_question(question: str, choices: list) -> dict:
+    """
+    Phân loại câu hỏi sử dụng LLM Small
+    Returns: {'question_type': str, 'refusal_answer': str or None, 'reasoning': str}
+    """
+    system_prompt, user_prompt = create_classification_prompt(question, choices)
+    
+    response = call_llm_small(system_prompt, user_prompt)
+    
+    if response and 'question_type' in response:
+        return {
+            'question_type': response.get('question_type', 'general'),
+            'refusal_answer': response.get('refusal_answer'),
+            'reasoning': response.get('reasoning', '')
+        }
+    
+    # Default to general if classification fails
+    return {'question_type': 'general', 'refusal_answer': None, 'reasoning': 'Classification failed, defaulting to general'}
+
+
+# ===================== SPECIALIZED PROMPTS =====================
+def create_calculation_prompt(question: str, choices: list) -> tuple:
+    """
+    Tạo prompt chuyên biệt cho câu hỏi dạng tính toán
+    Không cần RAG context
+    """
+    choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
+                                   for i, choice in enumerate(choices)])
+    
+    system_prompt = """Bạn là một Giáo sư và Chuyên gia hàng đầu trong lĩnh vực Khoa học Tự nhiên (Toán học, Vật lý, Hóa học). Nhiệm vụ của bạn là giải quyết các bài tập trắc nghiệm một cách chính xác tuyệt đối, logic và minh bạch.
+
+### QUY TRÌNH TƯ DUY 5 BƯỚC (CHAIN OF THOUGHT):
+Bắt buộc thực hiện tuần tự các bước sau trong phần lập luận:
+
+1.  **Phân tích đề bài (Analyze):** Tóm tắt dữ kiện (Input) và mục tiêu (Goal).
+2.  **Truy hồi kiến thức (Recall):** Xác định định luật, công thức, hằng số phù hợp.
+3.  **Thực thi giải quyết (Execute):**
+    - Biến đổi công thức và thay số.
+    - Sử dụng LaTeX ($...$) cho biểu thức toán học.
+4.  **Kiểm tra và Thẩm định (Verify):**
+    - Kiểm tra lại tính toán (Arithmetic Check).
+    - Kiểm tra đáp án có thỏa mãn toàn bộ điều kiện đề bài không.
+    - Rà soát các bẫy logic thường gặp trong câu hỏi trắc nghiệm.
+5.  **Kết luận (Conclude):** Chọn đáp án khớp nhất với kết quả đã kiểm tra.
+
+### ĐỊNH DẠNG ĐẦU RA (OUTPUT FORMAT):
+Trả về kết quả dưới dạng JSON hợp lệ (raw JSON, không markdown). Cấu trúc:
+
+{
+  "reason": "Trình bày chi tiết 5 bước tư duy trên. Ngôn ngữ tiếng Việt, học thuật. Công thức dùng LaTeX.",
+  "answer": "KÝ_TỰ_ĐÁP_ÁN"
+}
+
+### QUY TẮC NGHIÊM NGẶT:
+- "answer": Chỉ chứa **DUY NHẤT MỘT** chữ cái in hoa (A, B, C, D...).
+- Nếu không có đáp án nào khớp chính xác 100%, hãy chọn đáp án gần đúng nhất và ghi chú trong phần "reason".
+- Tuyệt đối không bịa đặt số liệu."""
+
+    user_prompt = f"""## Câu hỏi tính toán:
+{question}
+
+## Các đáp án:
+{formatted_choices}
+
+Hãy giải bài toán này theo từng bước và chọn đáp án đúng."""
+
+    return system_prompt, user_prompt
+
+
+def create_context_reading_prompt(question: str, choices: list) -> tuple:
+    """
+    Tạo prompt cho câu hỏi đã có sẵn context (đọc hiểu)
+    Không cần RAG context
+    """
+    choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
+                                   for i, choice in enumerate(choices)])
+    
+    system_prompt = """Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
+
+## Hướng Dẫn Sử Dụng Tài Liệu Tham Khảo
+- Các tài liệu tham khảo được cung cấp đã được hệ thống truy xuất và xếp hạng theo độ liên quan.
+- Sử dụng thông tin từ tài liệu để hỗ trợ suy luận, nhưng KHÔNG hoàn toàn phụ thuộc vào chúng.
+- Nếu tài liệu không chứa thông tin phù hợp, hãy sử dụng kiến thức chuyên môn của bạn.
+- Kiểm tra chéo thông tin từ nhiều tài liệu nếu có thể.
+
+## Định Nghĩa Nhiệm Vụ
+Nhiệm vụ của bạn là phân tích câu hỏi trắc nghiệm tiếng Việt, suy luận từng bước một cách logic và chọn ra đáp án chính xác nhất từ các lựa chọn được đưa ra.
+
+## Hướng Dẫn Suy Luận
+Thực hiện theo các bước sau một cách cẩn thận:
+
+### Bước 1: Đọc Hiểu Câu Hỏi
+- Đọc kỹ toàn bộ câu hỏi và xác định chính xác yêu cầu của đề bài.
+- Nếu có đoạn thông tin/văn bản đi kèm, hãy trích xuất tất cả thông tin liên quan đến câu hỏi.
+- Xác định từ khóa quan trọng và loại câu hỏi.
+
+### Bước 2: Tham Khảo Tài Liệu
+- Xem xét các tài liệu tham khảo được cung cấp.
+- Trích xuất thông tin hữu ích từ tài liệu nếu có.
+- Đánh giá độ tin cậy và mức độ phù hợp của thông tin trong tài liệu do tài liệu có thể không hoàn toàn chính xác hoặc liên quan.
+
+### Bước 3: Phân Tích Từng Phương Án
+- Đánh giá lần lượt từng đáp án (A, B, C, D, ...) so với yêu cầu của câu hỏi.
+- Kết hợp thông tin từ tài liệu tham khảo với kiến thức chuyên môn.
+- Với câu hỏi kiến thức: áp dụng kiến thức chuyên môn và thông tin từ tài liệu.
+
+### Bước 4: Áp Dụng Suy Luận Logic
+- Chia nhỏ vấn đề phức tạp thành các bước logic nhỏ hơn.
+- Với câu hỏi về sự kiện: xác định thông tin chính xác từ đoạn văn, tài liệu hoặc kiến thức nền.
+- Với câu hỏi suy luận: áp dụng các quy tắc logic và loại suy.
+
+### Bước 5: Loại Trừ Đáp Án Sai
+- Xác định và loại bỏ các phương án rõ ràng không đúng với giải thích ngắn gọn.
+- Sử dụng phương pháp loại trừ để thu hẹp các lựa chọn còn lại.
+
+### Bước 6: Kiểm tra lại đáp án
+- Kiểm tra lại đáp án đã chọn so với câu hỏi và các tài liệu tham khảo.
+- Đối với các câu tính toán, kiểm tra lại các bước và kết quả tính toán xem thực hiện phép tính đúng chưa, có thể bạn có công thức đúng nhưng khi tính toán lại sai.
+
+### Bước 7: Chọn Đáp Án Tốt Nhất
+- Dựa trên phân tích ở các bước trên, chọn đáp án phù hợp nhất với câu hỏi.
+- Đảm bảo đáp án được chọn có căn cứ rõ ràng từ quá trình suy luận.
+
+## Định Dạng Đầu Ra
+Bạn PHẢI trả lời theo định dạng JSON hợp lệ với đúng hai trường sau:
+{{
+  "reason": "Quá trình suy luận từng bước của bạn, giải thích cách bạn đi đến đáp án. Trình bày đầy đủ.",
+  "answer": "X"
+}}
+
+Trong đó "X" là chữ cái của đáp án bạn chọn (A, B, C, D, ...). Trường "answer" CHỈ được chứa MỘT chữ cái viết hoa duy nhất."""
+
+    user_prompt = f"""## Câu hỏi đọc hiểu (đã bao gồm đoạn tài liệu tham khảo):
+{question}
+
+## Các đáp án:
+{formatted_choices}
+
+Hãy đọc kỹ đoạn văn trong câu hỏi và chọn đáp án đúng nhất."""
+
+    return system_prompt, user_prompt
 
 
 # ===================== HYBRID SEARCH FUNCTION =====================
@@ -232,54 +510,71 @@ def hybrid_search(question: str, top_k: int = HYBRID_SEARCH_TOP_K) -> list:
         return []
 
 
-# ===================== RERANK PROMPTS =====================
-def create_rerank_prompts(question: str, choices: list, documents: list) -> tuple:
+# ===================== SCORING PROMPTS =====================
+def create_scoring_prompts(question: str, choices: list, documents: list) -> tuple:
     """
-    Tạo prompts cho LLM Small để rerank top 30 documents về top 5
+    Tạo prompts cho LLM Small để chấm điểm 30 documents theo 4 tiêu chí
+    Mỗi tiêu chí 2.5 điểm, tổng 10 điểm
     """
     choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
-    system_prompt = """Bạn là một chuyên gia hàng đầu về truy xuất thông tin (Information Retrieval) và đánh giá độ liên quan của văn bản. Bạn có kiến thức sâu rộng về ngôn ngữ tiếng Việt và khả năng phân tích ngữ nghĩa xuất sắc.
+    system_prompt = """Bạn là chuyên gia hàng đầu về Truy xuất Thông tin (Information Retrieval) với chuyên môn sâu về đánh giá độ liên quan văn bản tiếng Việt.
+
+## Bối Cảnh
+Hôm nay: 15/12/2025. Ưu tiên tài liệu có thông tin mới (2024-2025) nếu câu hỏi về sự kiện gần đây.
 
 ## Định Nghĩa Nhiệm Vụ
-Nhiệm vụ của bạn là đánh giá và xếp hạng lại (rerank) một danh sách 30 tài liệu (documents) để chọn ra TOP 5 tài liệu LIÊN QUAN NHẤT với câu hỏi trắc nghiệm được đưa ra. Mục tiêu là tìm ra những tài liệu chứa thông tin hữu ích nhất để trả lời câu hỏi.
+Chấm điểm 30 tài liệu theo mức độ hữu ích cho việc trả lời câu hỏi trắc nghiệm. Mỗi tài liệu được đánh giá theo 4 tiêu chí, tổng tối đa 10 điểm.
 
-## Hướng Dẫn Suy Luận Từng Bước 
+## Hướng Dẫn Suy Luận
 
-### Bước 1: Phân Tích Câu Hỏi và Đáp Án
-- Đọc kỹ câu hỏi và xác định CHỦ ĐỀ CHÍNH cần tìm kiếm thông tin.
-- Xác định các TỪ KHÓA quan trọng trong câu hỏi và các phương án trả lời.
-- Xác định LĨNH VỰC của câu hỏi (lịch sử, khoa học, địa lý, văn học, pháp luật, v.v.).
+**Bước 1: Phân tích câu hỏi**
+- Xác định chủ đề chính và lĩnh vực (lịch sử, khoa học, pháp luật, ...)
+- Trích xuất TỪ KHÓA quan trọng từ câu hỏi và đáp án
+- Nhận biết yêu cầu về thời gian ("hiện nay", "2025", "gần đây", "mới nhất")
 
-### Bước 2: Đánh Giá Từng Tài Liệu
-Với mỗi tài liệu, đánh giá theo các tiêu chí:
-- **Độ phù hợp chủ đề**: Tài liệu có cùng chủ đề với câu hỏi không?
-- **Chứa từ khóa**: Tài liệu có chứa các từ khóa quan trọng không?
-- **Thông tin hữu ích**: Tài liệu có cung cấp thông tin giúp xác định đáp án đúng không?
-- **Độ tin cậy**: Thông tin trong tài liệu có đáng tin cậy và chính xác không?
+**Bước 2: Chấm điểm từng tài liệu (0-10 điểm)**
+Đánh giá theo 4 tiêu chí (mỗi tiêu chí 0-2.5 điểm):
 
-### Bước 3: Xếp Hạng và Chọn Top 5
-- So sánh các tài liệu và xếp hạng theo mức độ liên quan giảm dần.
-- Chọn ra 5 tài liệu TỐT NHẤT, đảm bảo đa dạng thông tin nếu có thể.
-- Ưu tiên tài liệu trực tiếp trả lời câu hỏi hơn tài liệu chỉ liên quan gián tiếp.
+1. **Phù hợp chủ đề (0-2.5):**
+   - 2.5: Hoàn toàn cùng chủ đề
+   - 1.5-2.0: Liên quan trực tiếp
+   - 0.5-1.0: Liên quan gián tiếp
+   - 0: Không liên quan
+
+2. **Chứa từ khóa (0-2.5):**
+   - 2.5: Chứa hầu hết từ khóa
+   - 1.5-2.0: Chứa nhiều từ khóa
+   - 0.5-1.0: Chứa ít từ khóa
+   - 0: Không có từ khóa
+
+3. **Thông tin hữu ích (0-2.5):**
+   - 2.5: Trả lời trực tiếp câu hỏi
+   - 1.5-2.0: Hỗ trợ suy luận tốt
+   - 0.5-1.0: Ít thông tin hữu ích
+   - 0: Không hữu ích
+
+4. **Tin cậy & cập nhật (0-2.5):**
+   - 2.5: Rất tin cậy, thông tin mới (2024-2025) nếu câu hỏi về hiện tại
+   - 1.5-2.0: Khá tin cậy, cập nhật
+   - 0.5-1.0: Thông tin cũ hoặc cần xác minh
+   - 0: Không tin cậy
 
 ## Định Dạng Đầu Ra
-Bạn PHẢI trả lời theo định dạng JSON hợp lệ như sau:
+JSON:
 {
-  "reasoning": "Giải thích quá trình đánh giá và lý do chọn 5 tài liệu này.",
-  "top_5_indices": [idx1, idx2, idx3, idx4, idx5]
+  "reasoning": "Tóm tắt ngắn gọn quy trình xử lý và chấm điểm từng tài liệu.",
+  "indices": [idx1, idx2, ...],
+  "scores": [score1, score2, ...]
 }
 
-Trong đó:
-- "reasoning": Mô tả tiêu chí đánh giá và lý do xếp hạng.
-- "top_5_indices": Mảng chứa 5 số nguyên là INDEX (bắt đầu từ 0) của 5 tài liệu được chọn, theo thứ tự từ liên quan nhất đến ít liên quan hơn.
-
-LƯU Ý QUAN TRỌNG:
-- Chỉ trả về đúng 5 indices trong mảng "top_5_indices".
-- Indices phải nằm trong phạm vi hợp lệ (0 đến số_tài_liệu - 1).
-- Nếu có ít hơn 5 tài liệu liên quan, vẫn trả về đủ 5 indices (chọn các tài liệu ít liên quan hơn)."""
+**Quy tắc:**
+- "indices": Chỉ số tài liệu (0-29), chỉ chứa tài liệu có điểm > 0
+- "scores": Điểm 0-10, làm tròn 1 chữ số thập phân
+- Sắp xếp giảm dần theo điểm
+- Hai mảng phải cùng độ dài"""
 
     # Format documents
     docs_text = ""
@@ -293,10 +588,10 @@ LƯU Ý QUAN TRỌNG:
 ## Các Phương Án:
 {formatted_choices}
 
-## Danh Sách 30 Tài Liệu Cần Đánh Giá:
+## Danh Sách 30 Tài Liệu Cần Chấm Điểm:
 {docs_text}
 
-Hãy phân tích và chọn ra TOP 5 tài liệu liên quan nhất để giúp trả lời câu hỏi trên."""
+Hãy chấm điểm từng tài liệu theo 4 tiêu chí và trả về kết quả dạng JSON."""
 
     return system_prompt, user_prompt
 
@@ -304,37 +599,20 @@ Hãy phân tích và chọn ra TOP 5 tài liệu liên quan nhất để giúp t
 # ===================== ANSWER PROMPTS WITH CONTEXT =====================
 def create_prompts_with_context(question: str, choices: list, top_documents: list) -> tuple:
     """
-    Tạo prompts cho LLM Large với context từ top 5 documents đã rerank
+    Tạo prompts cho LLM Large với context từ documents đã được scoring
     """
     choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
     formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
     # Format context documents
+    num_docs = len(top_documents)
     context_text = ""
     for i, doc in enumerate(top_documents):
         text = doc.get('text', '')
         context_text += f"\n[Tài liệu tham khảo {i+1}]\n{text}\n"
     
     system_prompt = f"""Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
-
-## Xử Lý Câu Hỏi 'Không Được Trả Lời'
-Câu hỏi 'không được trả lời' là các câu hỏi liên quan đến nội dung nhạy cảm, độc hại hoặc vi phạm tiêu chuẩn an toàn. Mô hình BẮT BUỘC phải từ chối trả lời theo đúng nguyên tắc an toàn.
-
-### Các nhóm câu hỏi không được trả lời:
-1. **Hành vi phạm pháp (Illegal Acts)**: Hỏi về cách trốn thuế, trốn tránh pháp luật, buôn lậu, làm giả giấy tờ, trộm cắp, vi phạm quy định hành chính.
-2. **Xâm hại An ninh Quốc gia/Chính trị (National Security)**: Hỏi về cách lật đổ chính quyền, phá hoại kinh tế, xuyên tạc lịch sử, tuyên truyền chống phá.
-3. **Gây hại vật lý (Physical Harm)**: Chế tạo vũ khí, thuốc nổ, chất độc, hoặc xúi giục tự tử, làm hại bản thân và người khác.
-4. **Tấn công mạng (Cyberattacks)**: Cách hack tài khoản, viết mã độc, đánh cắp dữ liệu, lừa đảo trực tuyến.
-5. **Nội dung độc hại/Xúc phạm (Toxic/Hate Speech)**: Phân biệt chủng tộc, vùng miền, giới tính, bạo lực ngôn từ.
-6. **Nội dung khiêu dâm/Đồi trụy (NSFW)**: Các nội dung tình dục không phù hợp.
-
-### Cách nhận biết đáp án đúng (Câu từ chối):
-- **Từ khóa phủ định**: "Tôi không thể...", "Tôi xin từ chối...", "Tôi không được phép...", "Rất tiếc...".
-- **Lý do từ chối**: "...liên quan đến vấn đề nhạy cảm", "...vi phạm tiêu chuẩn an toàn", "...trái pháp luật", "...vấn đề riêng tư".
-- **Tính chất**: Câu trả lời ngắn gọn, lịch sự nhưng kiên quyết, không cung cấp bất kỳ thông tin gợi ý nào.
-- Trong bộ đáp án, đã có sẵn lựa chọn từ chối như "Tôi không thể trả lời câu hỏi này", "không thể", "không thể trả lời" hoặc tương tự.
-- Bạn PHẢI chọn đúng lựa chọn đó, KHÔNG ĐƯỢC để trống.
 
 ## Hướng Dẫn Sử Dụng Tài Liệu Tham Khảo
 - Các tài liệu tham khảo được cung cấp đã được hệ thống truy xuất và xếp hạng theo độ liên quan.
@@ -345,13 +623,13 @@ Câu hỏi 'không được trả lời' là các câu hỏi liên quan đến n
 ## Định Nghĩa Nhiệm Vụ
 Nhiệm vụ của bạn là phân tích câu hỏi trắc nghiệm tiếng Việt, suy luận từng bước một cách logic và chọn ra đáp án chính xác nhất từ các lựa chọn được đưa ra.
 
-## Hướng Dẫn Suy Luận Theo Chuỗi (Chain of Thought)
+## Hướng Dẫn Suy Luận
 Thực hiện theo các bước sau một cách cẩn thận:
 
 ### Bước 1: Đọc Hiểu Câu Hỏi
 - Đọc kỹ toàn bộ câu hỏi và xác định chính xác yêu cầu của đề bài.
 - Nếu có đoạn thông tin/văn bản đi kèm, hãy trích xuất tất cả thông tin liên quan đến câu hỏi.
-- Xác định từ khóa quan trọng và loại câu hỏi (đọc hiểu, kiến thức, suy luận, tính toán).
+- Xác định từ khóa quan trọng và loại câu hỏi.
 
 ### Bước 2: Tham Khảo Tài Liệu
 - Xem xét các tài liệu tham khảo được cung cấp.
@@ -361,14 +639,12 @@ Thực hiện theo các bước sau một cách cẩn thận:
 ### Bước 3: Phân Tích Từng Phương Án
 - Đánh giá lần lượt từng đáp án (A, B, C, D, ...) so với yêu cầu của câu hỏi.
 - Kết hợp thông tin từ tài liệu tham khảo với kiến thức chuyên môn.
-- Với câu hỏi đọc hiểu: tìm kiếm bằng chứng trực tiếp trong đoạn văn.
 - Với câu hỏi kiến thức: áp dụng kiến thức chuyên môn và thông tin từ tài liệu.
 
 ### Bước 4: Áp Dụng Suy Luận Logic
 - Chia nhỏ vấn đề phức tạp thành các bước logic nhỏ hơn.
 - Với câu hỏi về sự kiện: xác định thông tin chính xác từ đoạn văn, tài liệu hoặc kiến thức nền.
 - Với câu hỏi suy luận: áp dụng các quy tắc logic và loại suy.
-- Với câu hỏi tính toán: thực hiện từng bước tính toán rõ ràng và kiểm tra lại kết quả.
 
 ### Bước 5: Loại Trừ Đáp Án Sai
 - Xác định và loại bỏ các phương án rõ ràng không đúng với giải thích ngắn gọn.
@@ -392,7 +668,7 @@ Bạn PHẢI trả lời theo định dạng JSON hợp lệ với đúng hai tr
 Trong đó "X" là chữ cái của đáp án bạn chọn (A, B, C, D, ...). Trường "answer" CHỈ được chứa MỘT chữ cái viết hoa duy nhất."""
 
     user_prompt = f"""## Tài Liệu Tham Khảo
-Dưới đây là TOP 5 tài liệu được xem là liên quan nhất đến câu hỏi, đã được hệ thống truy xuất và xếp hạng. Hãy tham khảo các tài liệu này để hỗ trợ việc trả lời câu hỏi:
+Dưới đây là {num_docs} tài liệu được xem là liên quan nhất đến câu hỏi. Hãy tham khảo các tài liệu này để hỗ trợ việc trả lời câu hỏi:
 {context_text}
 Question: {question}
 Choices:
@@ -426,7 +702,7 @@ def call_llm_small(system_prompt: str, user_prompt: str) -> dict:
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=60)
+            response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=180)
             response.raise_for_status()
             result = response.json()
             
@@ -437,7 +713,8 @@ def call_llm_small(system_prompt: str, user_prompt: str) -> dict:
         except Exception as e:
             logger.error(f"Error calling LLM Small API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
-                logger.info(f"Retrying immediately...")
+                logger.info(f"Retrying in 62 seconds...")
+                time.sleep(62)
             else:
                 logger.error(f"Failed to call LLM Small API after {MAX_RETRIES} attempts")
                 return None
@@ -466,7 +743,7 @@ def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=120)
+            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=180)
             response.raise_for_status()
             result = response.json()
             
@@ -477,55 +754,78 @@ def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
         except Exception as e:
             logger.error(f"Error calling LLM Large API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
-                logger.info(f"Retrying in {RETRY_DELAY} seconds...")
-                time.sleep(RETRY_DELAY)
+                logger.info(f"Retrying in 92 seconds...")
+                time.sleep(92)
             else:
                 logger.error(f"Failed to call LLM Large API after {MAX_RETRIES} attempts")
                 return None
 
 
-# ===================== RERANK FUNCTION =====================
-def rerank_documents(question: str, choices: list, documents: list) -> list:
+# ===================== SCORING FUNCTION =====================
+# Ngưỡng điểm tối thiểu (điểm > 7 tức là > 0.7 * 10)
+MIN_SCORE_THRESHOLD = 7.0
+MAX_SELECTED_DOCS = 5
+
+def score_documents(question: str, choices: list, documents: list) -> list:
     """
-    Sử dụng LLM Small để rerank documents và chọn top 5
+    Sử dụng LLM Small để chấm điểm documents theo 4 tiêu chí
+    Chỉ lấy các documents có điểm > 7 và tối đa 5 documents
+    LLM sẽ tự động cộng điểm cao hơn cho documents có thông tin mới nhất nếu câu hỏi liên quan đến sự kiện gần đây
     """
     if not documents:
         return []
     
-    # Tạo prompts cho rerank
-    system_prompt, user_prompt = create_rerank_prompts(question, choices, documents)
+    # Tạo prompts cho scoring (prompt đã được cập nhật để LLM tự hiểu về tính cập nhật)
+    system_prompt, user_prompt = create_scoring_prompts(question, choices, documents)
     
-    # Gọi LLM Small để rerank
-    rerank_response = call_llm_small(system_prompt, user_prompt)
+    # Gọi LLM Small để chấm điểm
+    score_response = call_llm_small(system_prompt, user_prompt)
     
-    if rerank_response and 'top_5_indices' in rerank_response:
-        indices = rerank_response['top_5_indices']
-        # Validate indices
-        valid_indices = [i for i in indices if isinstance(i, int) and 0 <= i < len(documents)]
+    if score_response and 'indices' in score_response and 'scores' in score_response:
+        indices = score_response['indices']
+        scores = score_response['scores']
         
-        # Lấy top 5 documents theo thứ tự đã rerank
-        top_documents = [documents[i] for i in valid_indices[:RERANK_TOP_K]]
+        # Log kết quả scoring
+        logger.info(f"    Scoring response: {len(indices)} documents scored")
+        if 'reasoning' in score_response:
+            logger.info(f"    Reasoning: {score_response['reasoning'][:200]}...")
         
-        # Nếu không đủ 5, bổ sung thêm từ đầu danh sách
-        if len(top_documents) < RERANK_TOP_K:
-            remaining = [doc for i, doc in enumerate(documents) if i not in valid_indices]
-            top_documents.extend(remaining[:RERANK_TOP_K - len(top_documents)])
+        # Validate và lọc documents
+        selected_docs = []
+        for idx, score in zip(indices, scores):
+            if isinstance(idx, int) and 0 <= idx < len(documents):
+                if isinstance(score, (int, float)):
+                    if score > MIN_SCORE_THRESHOLD:
+                        doc = documents[idx].copy()
+                        doc['relevance_score'] = score
+                        selected_docs.append(doc)
+                        logger.info(f"      [Doc {idx}] Score: {score:.1f} - SELECTED")
+                    else:
+                        logger.info(f"      [Doc {idx}] Score: {score:.1f} - FILTERED (below threshold {MIN_SCORE_THRESHOLD})")
+        
+        # Sắp xếp theo điểm giảm dần và lấy tối đa 5 documents
+        selected_docs.sort(key=lambda x: x.get('relevance_score', 0), reverse=True)
+        top_documents = selected_docs[:MAX_SELECTED_DOCS]
+        
+        logger.info(f"    Final selection: {len(top_documents)} documents (threshold: >{MIN_SCORE_THRESHOLD}, max: {MAX_SELECTED_DOCS})")
         
         return top_documents
     else:
-        # Fallback: trả về top 5 đầu tiên nếu rerank thất bại
-        logger.warning("Warning: Rerank failed, using top 5 from hybrid search")
-        return documents[:RERANK_TOP_K]
+        # Fallback: nếu scoring thất bại, không trả về document nào
+        logger.warning("Warning: Scoring failed, returning empty list")
+        return []
 
 
 def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
     """
     Process the test.json file and generate submission.csv and predict.json
     
-    Pipeline mới:
-    1. Hybrid search (dense + sparse) để lấy top 30 documents
-    2. Rerank bằng LLM Small để chọn top 5
-    3. Trả lời bằng LLM Large với context từ top 5 documents
+    Pipeline mới với phân loại câu hỏi:
+    0. Phân loại câu hỏi bằng LLM Small (cannot_answer, calculation, has_context, general)
+    1. Nếu cannot_answer: trả về đáp án từ chối ngay
+    2. Nếu calculation: dùng prompt tính toán chuyên biệt (không RAG)
+    3. Nếu has_context: dùng prompt đọc hiểu (không RAG)
+    4. Nếu general: Hybrid search -> Rerank -> Answer với context
     
     Args:
         input_path: Path to input JSON file
@@ -576,48 +876,109 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         logger.info(f"Processing {idx + 1}/{len(test_data)} (ID: {qid}, original index: {start_idx + idx})")
         logger.info(f"Question: {question[:100]}...")
         
-        # ===================== STEP 1: HYBRID SEARCH =====================
-        logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
-        top_30_docs = hybrid_search(question, top_k=HYBRID_SEARCH_TOP_K)
-        logger.info(f"    Found {len(top_30_docs)} documents")
+        # ===================== STEP 0: CLASSIFY QUESTION =====================
+        logger.info(f"  Step 0: Classifying question using LLM Small...")
+        classification = classify_question(question, choices)
+        question_type = classification['question_type']
+        logger.info(f"    Question type: {question_type}")
+        logger.info(f"    Classification reasoning: {classification['reasoning'][:100]}...")
         
-        # ===================== STEP 2: RERANK =====================
-        top_5_docs = []
-        if top_30_docs:
-            logger.info(f"  Step 2: Reranking to top {RERANK_TOP_K} using LLM Small...")
-            top_5_docs = rerank_documents(question, choices, top_30_docs)
-            logger.info(f"    Reranked to {len(top_5_docs)} documents")
-            
-            # Log top 5 document titles
-            for i, doc in enumerate(top_5_docs):
-                logger.info(f"      [{i+1}] {doc.get('title', 'N/A')[:50]}...")
-        else:
-            logger.info(f"  Step 2: Skipping rerank (no documents found)")
-        
-        # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
-        logger.info(f"  Step 3: Generating answer using LLM Large...")
-        
-        # Tạo prompts với context từ top 5 documents
-        system_prompt, user_prompt = create_prompts_with_context(question, choices, top_5_docs)
-        
-        # Gọi LLM Large để trả lời
-        llm_response = call_llm_large(system_prompt, user_prompt)
-        
-        # Validate and extract answer
         valid_choices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+        answer = 'A'
         reason = ""
-        if llm_response and 'answer' in llm_response:
-            answer = llm_response['answer'].strip().upper()
-            reason = llm_response.get('reason', '')
-            # Validate answer is a single valid character
-            if len(answer) == 1 and answer in valid_choices:
-                logger.info(f"    Answer: {answer}")
+        top_5_docs = []
+        sleep_time = 122  # Default for general questions
+        
+        # ===================== HANDLE BY QUESTION TYPE =====================
+        if question_type == 'cannot_answer':
+            # Type 1: Câu hỏi không được trả lời - chọn đáp án từ chối
+            logger.info(f"  Processing as 'cannot_answer' - selecting refusal answer...")
+            refusal_answer = classification.get('refusal_answer')
+            if refusal_answer and len(refusal_answer) == 1 and refusal_answer.upper() in valid_choices:
+                answer = refusal_answer.upper()
+                reason = f"Đây là câu hỏi nhạy cảm/không được trả lời. Chọn đáp án từ chối: {answer}"
             else:
-                logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
-                answer = 'A'  # Default to 'A' if invalid
+                # Fallback: tìm đáp án từ chối trong choices
+                refusal_keywords = ['không thể', 'tôi không thể', 'rất tiếc', 'từ chối', 'không được phép']
+                for i, choice in enumerate(choices):
+                    if any(kw in choice.lower() for kw in refusal_keywords):
+                        answer = valid_choices[i]
+                        reason = f"Đây là câu hỏi nhạy cảm. Tự động chọn đáp án từ chối: {answer}. {choice}"
+                        break
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 62  # Shorter sleep for cannot_answer
+            
+        elif question_type == 'calculation':
+            # Type 2: Câu hỏi tính toán - không cần RAG
+            logger.info(f"  Processing as 'calculation' - using calculation prompt (no RAG)...")
+            system_prompt, user_prompt = create_calculation_prompt(question, choices)
+            llm_response = call_llm_large(system_prompt, user_prompt)
+            
+            if llm_response and 'answer' in llm_response:
+                answer = llm_response['answer'].strip().upper()
+                reason = llm_response.get('reason', '')
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 92  # Medium sleep for calculation
+            
+        elif question_type == 'has_context':
+            # Type 3: Câu hỏi có sẵn context - không cần RAG
+            logger.info(f"  Processing as 'has_context' - using context reading prompt (no RAG)...")
+            system_prompt, user_prompt = create_context_reading_prompt(question, choices)
+            llm_response = call_llm_large(system_prompt, user_prompt)
+            
+            if llm_response and 'answer' in llm_response:
+                answer = llm_response['answer'].strip().upper()
+                reason = llm_response.get('reason', '')
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 92  # Medium sleep for has_context
+            
         else:
-            logger.warning(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
-            answer = 'A'  # Default to 'A' if API fails
+            # Type 4: Câu hỏi thông thường - dùng full RAG pipeline
+            logger.info(f"  Processing as 'general' - using full RAG pipeline...")
+            
+            # ===================== STEP 1: HYBRID SEARCH =====================
+            logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
+            top_30_docs = hybrid_search(question, top_k=HYBRID_SEARCH_TOP_K)
+            logger.info(f"    Found {len(top_30_docs)} documents")
+            
+            # ===================== STEP 2: SCORING =====================
+            if top_30_docs:
+                logger.info(f"  Step 2: Scoring documents using LLM Small (threshold: >7, max: 5)...")
+                top_5_docs = score_documents(question, choices, top_30_docs)
+                logger.info(f"    Selected {len(top_5_docs)} documents after scoring")
+                
+                # Log selected document info
+                for i, doc in enumerate(top_5_docs):
+                    score = doc.get('relevance_score', 'N/A')
+                    logger.info(f"      [{i+1}] Score: {score} - {doc.get('title', 'N/A')[:50]}...")
+            else:
+                logger.info(f"  Step 2: Skipping scoring (no documents found)")
+            
+            # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
+            logger.info(f"  Step 3: Generating answer using LLM Large...")
+            
+            # Tạo prompts với context từ top 5 documents
+            system_prompt, user_prompt = create_prompts_with_context(question, choices, top_5_docs)
+            
+            # Gọi LLM Large để trả lời
+            llm_response = call_llm_large(system_prompt, user_prompt)
+            
+            if llm_response and 'answer' in llm_response:
+                answer = llm_response['answer'].strip().upper()
+                reason = llm_response.get('reason', '')
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            else:
+                logger.warning(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 122  # Longer sleep for general (full pipeline)
         
         csv_results.append({
             'qid': qid,
@@ -632,15 +993,16 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             'qid': qid,
             'predict': answer,
             'reason': reason,
+            'question_type': question_type,
             'reference_docs': doc_refs
         })
         
-        # Sleep to respect rate limits
-        # LLM Large: 400 req/day, 60 req/h => ~1 req/minute
-        # LLM Small: 1000 req/day, 40 req/h
-        # Embedding: 500 req/minute
-        logger.info(f"  Sleeping for rate limit...")
-        time.sleep(92)
+        # Sleep to respect rate limits - different based on question type
+        # Type 1 (cannot_answer): 62s
+        # Type 2,3 (calculation, has_context): 92s
+        # Type 4 (general): 122s
+        logger.info(f"  Sleeping {sleep_time}s for rate limit (question_type: {question_type})...")
+        time.sleep(sleep_time)
     
     # Write to CSV
     csv_path = output_dir / 'submission1.csv'
@@ -650,7 +1012,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         writer.writerows(csv_results)
     
     # Write to JSON
-    json_path = output_dir / 'predict.json'
+    json_path = output_dir / 'predict1.json'
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_results, f, ensure_ascii=False, indent=2)
     
@@ -711,7 +1073,7 @@ def main():
     logger.info(f"Input file: {input_path}")
     logger.info(f"Output directory: {output_dir}")
     logger.info(f"API Models: LLM Large = {LLM_API_NAME_LARGE}, LLM Small = {LLM_API_NAME_SMALL}")
-    logger.info(f"Hybrid Search Config: Top {HYBRID_SEARCH_TOP_K} -> Rerank to Top {RERANK_TOP_K}")
+    logger.info(f"Scoring Config: Top {HYBRID_SEARCH_TOP_K} -> Score with threshold >7, max 5 docs")
     if start_idx is not None or end_idx is not None:
         logger.info(f"Sample range: {start_idx if start_idx else 0} to {end_idx if end_idx else 'end'}")
     logger.info("-" * 50)
