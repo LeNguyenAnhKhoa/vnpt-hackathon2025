@@ -142,7 +142,7 @@ def get_dense_embedding(text: str) -> list:
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=180)
+            response = requests.post(EMBEDDING_API_URL, headers=headers, json=json_data, timeout=3)
             response.raise_for_status()
             result = response.json()
             return result['data'][0]['embedding']
@@ -150,7 +150,7 @@ def get_dense_embedding(text: str) -> list:
             logger.error(f"Error getting embedding (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
                 logger.info(f"Retrying in 1 second...")
-                time.sleep(1)
+                #time.sleep(1)
             else:
                 logger.error(f"Failed to get embedding after {MAX_RETRIES} attempts")
                 return None
@@ -338,34 +338,35 @@ def create_calculation_prompt(question: str, choices: list) -> tuple:
     formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
-    system_prompt = """Bạn là một Giáo sư và Chuyên gia hàng đầu trong lĩnh vực Khoa học Tự nhiên (Toán học, Vật lý, Hóa học). Nhiệm vụ của bạn là giải quyết các bài tập trắc nghiệm một cách chính xác tuyệt đối, logic và minh bạch.
+    system_prompt = """Bạn là Giáo sư và Chuyên gia hàng đầu trong lĩnh vực Khoa học Tự nhiên. Nhiệm vụ của bạn là giải quyết các bài tập trắc nghiệm với độ chính xác tuyệt đối.
 
-### QUY TRÌNH TƯ DUY 5 BƯỚC (CHAIN OF THOUGHT):
-Bắt buộc thực hiện tuần tự các bước sau trong phần lập luận:
+Bắt buộc thực hiện tuần tự và nghiêm ngặt các bước sau trong phần lập luận ("reason"):
 
-1.  **Phân tích đề bài (Analyze):** Tóm tắt dữ kiện (Input) và mục tiêu (Goal).
-2.  **Truy hồi kiến thức (Recall):** Xác định định luật, công thức, hằng số phù hợp.
-3.  **Thực thi giải quyết (Execute):**
-    - Biến đổi công thức và thay số.
-    - Sử dụng LaTeX ($...$) cho biểu thức toán học.
-4.  **Kiểm tra và Thẩm định (Verify):**
-    - Kiểm tra lại tính toán (Arithmetic Check).
-    - Kiểm tra đáp án có thỏa mãn toàn bộ điều kiện đề bài không.
-    - Rà soát các bẫy logic thường gặp trong câu hỏi trắc nghiệm.
-5.  **Kết luận (Conclude):** Chọn đáp án khớp nhất với kết quả đã kiểm tra.
+1. Xác định vấn đề
+2. Thiết lập công thức HOẶC Phương trình phản ứng HOẶC Luận điểm logic. Phân biệt rõ "Điều kiện cần" và "Điều kiện đủ".
+3. Thực thi giải quyết 
+- Thực hiện biến đổi đại số từng bước (step-by-step).
+- Tuyệt đối không làm tắt.
+4. **Kiểm tra và Thẩm định (Verify):**
+- **CƠ CHẾ BACKTRACKING:** So sánh kết quả tính được với các phương án lựa chọn (A, B, C...).
+    - Nếu có một đáp án khớp chính xác (hoặc sai số làm tròn rất nhỏ <0.01%): Chọn đáp án đó.
+    - Nếu kết quả lệch đáng kể so với tất cả đáp án: **BẮT BUỘC quay lại Bước 2**, đổi công thức/giả định khác và tính lại.
+    - Chỉ chấp nhận chọn "đáp án gần nhất" nếu sự sai lệch chỉ do làm tròn số vô tỉ, không phải do sai công thức.
+- **Kiểm tra lý thuyết (Theoretical Check):** 
+    - Kết quả có thỏa mãn ĐIỀU KIỆN ĐỦ không?
+   
+5. Đưa ra kết luận cuối cùng (Kết quả số hoặc Mệnh đề đúng)
 
 ### ĐỊNH DẠNG ĐẦU RA (OUTPUT FORMAT):
-Trả về kết quả dưới dạng JSON hợp lệ (raw JSON, không markdown). Cấu trúc:
-
+Trả về kết quả dưới dạng JSON hợp lệ (raw JSON). Cấu trúc:
 {
-  "reason": "Trình bày chi tiết 5 bước tư duy trên. Ngôn ngữ tiếng Việt, học thuật. Công thức dùng LaTeX.",
-  "answer": "KÝ_TỰ_ĐÁP_ÁN"
+  "reason": "Giải thích quá trình suy luận và phân tích để đưa ra đáp án. Sử dụng LaTeX cho biểu thức toán ($...$).",
+  "answer": "X"
 }
-
-### QUY TẮC NGHIÊM NGẶT:
-- "answer": Chỉ chứa **DUY NHẤT MỘT** chữ cái in hoa (A, B, C, D...).
-- Nếu không có đáp án nào khớp chính xác 100%, hãy chọn đáp án gần đúng nhất và ghi chú trong phần "reason".
-- Tuyệt đối không bịa đặt số liệu."""
+Trong đó X là ký tự (A, B, C, ...) của đáp án đúng.
+### LƯU Ý QUAN TRỌNG:
+- Nếu bài toán yêu cầu tìm giá trị gần đúng, hãy tính chính xác rồi mới làm tròn.
+- Tuyệt đối trung thực với số liệu, không được bịa đặt kết quả để ép khớp với đáp án.."""
 
     user_prompt = f"""## Câu hỏi tính toán:
 {question}
@@ -387,60 +388,35 @@ def create_context_reading_prompt(question: str, choices: list) -> tuple:
     formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
                                    for i, choice in enumerate(choices)])
     
-    system_prompt = """Bạn là một chuyên gia hàng đầu thế giới trong việc trả lời các câu hỏi trắc nghiệm tiếng Việt thuộc nhiều lĩnh vực đa dạng bao gồm: khoa học tự nhiên, lịch sử, pháp luật, kinh tế, văn học, địa lý, vật lý, hóa học, sinh học, y học, công nghệ thông tin, và kiến thức tổng hợp. Bạn có hiểu biết sâu sắc về văn hóa, lịch sử, giáo dục và bối cảnh xã hội Việt Nam.
+    system_prompt = """Bạn là chuyên gia phân tích logic và đọc hiểu văn bản tiếng Việt. Nhiệm vụ của bạn là chọn đáp án chính xác nhất cho câu hỏi trắc nghiệm dựa trên đoạn thông tin được cung cấp.
 
-## Hướng Dẫn Sử Dụng Tài Liệu Tham Khảo
-- Các tài liệu tham khảo được cung cấp đã được hệ thống truy xuất và xếp hạng theo độ liên quan.
-- Sử dụng thông tin từ tài liệu để hỗ trợ suy luận, nhưng KHÔNG hoàn toàn phụ thuộc vào chúng.
-- Nếu tài liệu không chứa thông tin phù hợp, hãy sử dụng kiến thức chuyên môn của bạn.
-- Kiểm tra chéo thông tin từ nhiều tài liệu nếu có thể.
+## Nguyên Tắc Suy Luận Cốt Lõi:
+1.  **Bằng chứng là duy nhất:** Chỉ sử dụng thông tin CÓ trong đoạn văn bản. Tuyệt đối không sử dụng kiến thức bên ngoài.
+2.  **Phân biệt "Sự kiện" và "Quan điểm":**
+    - Nếu văn bản dùng các từ dẫn: "cho rằng", "nhận định", "theo phe...", "tin rằng" => Đây là Ý KIẾN, không phải Sự thật mặc nhiên.
+    - **Quy tắc ưu tiên:** Khi văn bản trình bày hai luồng ý kiến trái chiều (Ủng hộ vs Đối lập) về vai trò/chức năng của một thực thể:
+        + Nếu câu hỏi hỏi về "Vai trò", "Chức năng", "Mục đích": Hãy ưu tiên chọn đáp án mô tả **cơ chế hoạt động/mục đích được tuyên bố** (thường thuộc phe ủng hộ/chính thống).
+        + Chỉ chọn đáp án mang tính "chỉ trích/cáo buộc" (phe đối lập) khi câu hỏi yêu cầu cụ thể (VD: "Phe đối lập cho rằng gì?") hoặc văn bản xác nhận lời chỉ trích đó là sự thật khách quan.
+3.  **Tư duy loại trừ:** Nếu một đáp án đúng một nửa nhưng sai một chi tiết nhỏ (ví dụ: sai chủ thể, sai thời gian, sai mức độ khẳng định), hãy loại bỏ ngay.
+4.  **Nguyên tắc "Khớp lệnh toàn phần":** Một thông tin chỉ được coi là đáp án đúng khi khớp chính xác cả 3 yếu tố:
+    - **Chủ thể (Subject):** Đối tượng thực hiện hành động (Ví dụ: Bài hát A hay Bài hát B?).
+    - **Hành động/Sự kiện:** Điều gì xảy ra?
+    - **Thời gian/Địa điểm:** Khi nào và ở đâu?
+    -> Cảnh giác với bẫy "Râu ông nọ cắm cằm bà kia": Thông tin thời gian đúng, sự kiện đúng, nhưng sai chủ thể => ĐÁP ÁN SAI.
 
-## Định Nghĩa Nhiệm Vụ
-Nhiệm vụ của bạn là phân tích câu hỏi trắc nghiệm tiếng Việt, suy luận từng bước một cách logic và chọn ra đáp án chính xác nhất từ các lựa chọn được đưa ra.
+## Quy Trình Xử Lý:
+- **Bước 1:** Phân tích câu hỏi để xác định Chủ thể và Loại câu hỏi (Hỏi về sự kiện thực tế hay hỏi về quan điểm? ...).
+- **Bước 2:** Đối chiếu từ khóa với đoạn văn bản, xác định nguồn gốc thông tin (Thông tin này do ai nói? Là Fact hay Opinion?).
+- **Bước 3:** **Xử lý xung đột:** Nếu các đáp án đều xuất hiện trong bài nhưng thuộc các luồng quan điểm khác nhau, hãy áp dụng "Quy tắc ưu tiên" ở Nguyên tắc 2 để chọn đáp án đại diện cho chức năng cốt lõi hoặc quan điểm chính thống của văn bản, trừ khi câu hỏi yêu cầu khác.
+- **Bước 4:** Chọn đáp án cuối cùng và đảm bảo logic trong phần giải thích thống nhất với đáp án đó.
 
-## Hướng Dẫn Suy Luận
-Thực hiện theo các bước sau một cách cẩn thận:
-
-### Bước 1: Đọc Hiểu Câu Hỏi
-- Đọc kỹ toàn bộ câu hỏi và xác định chính xác yêu cầu của đề bài.
-- Nếu có đoạn thông tin/văn bản đi kèm, hãy trích xuất tất cả thông tin liên quan đến câu hỏi.
-- Xác định từ khóa quan trọng và loại câu hỏi.
-
-### Bước 2: Tham Khảo Tài Liệu
-- Xem xét các tài liệu tham khảo được cung cấp.
-- Trích xuất thông tin hữu ích từ tài liệu nếu có.
-- Đánh giá độ tin cậy và mức độ phù hợp của thông tin trong tài liệu do tài liệu có thể không hoàn toàn chính xác hoặc liên quan.
-
-### Bước 3: Phân Tích Từng Phương Án
-- Đánh giá lần lượt từng đáp án (A, B, C, D, ...) so với yêu cầu của câu hỏi.
-- Kết hợp thông tin từ tài liệu tham khảo với kiến thức chuyên môn.
-- Với câu hỏi kiến thức: áp dụng kiến thức chuyên môn và thông tin từ tài liệu.
-
-### Bước 4: Áp Dụng Suy Luận Logic
-- Chia nhỏ vấn đề phức tạp thành các bước logic nhỏ hơn.
-- Với câu hỏi về sự kiện: xác định thông tin chính xác từ đoạn văn, tài liệu hoặc kiến thức nền.
-- Với câu hỏi suy luận: áp dụng các quy tắc logic và loại suy.
-
-### Bước 5: Loại Trừ Đáp Án Sai
-- Xác định và loại bỏ các phương án rõ ràng không đúng với giải thích ngắn gọn.
-- Sử dụng phương pháp loại trừ để thu hẹp các lựa chọn còn lại.
-
-### Bước 6: Kiểm tra lại đáp án
-- Kiểm tra lại đáp án đã chọn so với câu hỏi và các tài liệu tham khảo.
-- Đối với các câu tính toán, kiểm tra lại các bước và kết quả tính toán xem thực hiện phép tính đúng chưa, có thể bạn có công thức đúng nhưng khi tính toán lại sai.
-
-### Bước 7: Chọn Đáp Án Tốt Nhất
-- Dựa trên phân tích ở các bước trên, chọn đáp án phù hợp nhất với câu hỏi.
-- Đảm bảo đáp án được chọn có căn cứ rõ ràng từ quá trình suy luận.
-
-## Định Dạng Đầu Ra
-Bạn PHẢI trả lời theo định dạng JSON hợp lệ với đúng hai trường sau:
+## Định Dạng Đầu Ra:
+Bắt buộc trả về JSON hợp lệ:
 {{
-  "reason": "Quá trình suy luận từng bước của bạn, giải thích cách bạn đi đến đáp án. Trình bày đầy đủ.",
+  "reason": "Giải thích quy trình suy luận và phân tích đoạn văn để chọn đáp án.",
   "answer": "X"
 }}
-
-Trong đó "X" là chữ cái của đáp án bạn chọn (A, B, C, D, ...). Trường "answer" CHỈ được chứa MỘT chữ cái viết hoa duy nhất."""
+Trong đó X là ký tự (A, B, C, ...) của đáp án đúng."""
 
     user_prompt = f"""## Câu hỏi đọc hiểu (đã bao gồm đoạn tài liệu tham khảo):
 {question}
@@ -526,7 +502,7 @@ def create_scoring_prompts(question: str, choices: list, documents: list) -> tup
 Hôm nay: 15/12/2025. Ưu tiên tài liệu có thông tin mới (2024-2025) nếu câu hỏi về sự kiện gần đây.
 
 ## Định Nghĩa Nhiệm Vụ
-Chấm điểm 30 tài liệu theo mức độ hữu ích cho việc trả lời câu hỏi trắc nghiệm. Mỗi tài liệu được đánh giá theo 4 tiêu chí, tổng tối đa 10 điểm.
+Chấm điểm 30 tài liệu theo mức độ hữu ích cho việc trả lời câu hỏi trắc nghiệm. Mỗi tài liệu được đánh giá theo 4 tiêu chí, tổng tối đa 10 điểm. Tài liệu được cho là có độ chính xác 100% nên hoàn toàn có thể tin tưởng.
 
 ## Hướng Dẫn Suy Luận
 
@@ -556,16 +532,16 @@ Chấm điểm 30 tài liệu theo mức độ hữu ích cho việc trả lời
    - 0.5-1.0: Ít thông tin hữu ích
    - 0: Không hữu ích
 
-4. **Tin cậy & cập nhật (0-2.5):**
-   - 2.5: Rất tin cậy, thông tin mới (2024-2025) nếu câu hỏi về hiện tại
-   - 1.5-2.0: Khá tin cậy, cập nhật
-   - 0.5-1.0: Thông tin cũ hoặc cần xác minh
-   - 0: Không tin cậy
+4. **Tính cập nhật & Chi tiết (0-2.5):**
+   - 2.5: Thông tin mới nhất (2024-2025) HOẶC chứa số liệu/dữ kiện cụ thể giải quyết triệt để câu hỏi.
+   - 1.5-2.0: Thông tin còn hiệu lực, khá chi tiết.
+   - 0.5-1.0: Thông tin đúng nhưng chung chung hoặc đã cũ (nhưng chưa hết hạn).
+   - 0: Lỗi thời hoặc không khớp mốc thời gian yêu cầu.
 
 ## Định Dạng Đầu Ra
 JSON:
 {
-  "reasoning": "Tóm tắt ngắn gọn quy trình xử lý và chấm điểm từng tài liệu.",
+  "reasoning": "Quy trình xử lý và chấm điểm từng tài liệu.",
   "indices": [idx1, idx2, ...],
   "scores": [score1, score2, ...]
 }
@@ -698,11 +674,12 @@ def call_llm_small(system_prompt: str, user_prompt: str) -> dict:
         ],
         'temperature': 0,
         'response_format': {'type': 'json_object'},
+        'max_completion_tokens ': 8192
     }
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=180)
+            response = requests.post(API_URL_SMALL, headers=headers, json=json_data, timeout=30)
             response.raise_for_status()
             result = response.json()
             
@@ -714,7 +691,7 @@ def call_llm_small(system_prompt: str, user_prompt: str) -> dict:
             logger.error(f"Error calling LLM Small API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
                 logger.info(f"Retrying in 62 seconds...")
-                time.sleep(62)
+                #time.sleep(62)
             else:
                 logger.error(f"Failed to call LLM Small API after {MAX_RETRIES} attempts")
                 return None
@@ -739,23 +716,28 @@ def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
         ],
         'temperature': 0,
         'response_format': {'type': 'json_object'},
+        'max_completion_tokens ': 8192,  # Tăng giới hạn để tránh bị cắt response
     }
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=180)
+            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=60)
             response.raise_for_status()
             result = response.json()
             
             if 'choices' in result and len(result['choices']) > 0:
                 content = result['choices'][0]['message']['content']
-                return json.loads(content)
+                logger.info(f"LLM Large raw response (FULL): {content}")  # Log FULL response
+                parsed_response = json.loads(content)
+                logger.info(f"LLM Large parsed keys: {list(parsed_response.keys())}")
+                logger.info(f"LLM Large parsed values: {parsed_response}")
+                return parsed_response
             return None
         except Exception as e:
             logger.error(f"Error calling LLM Large API (attempt {attempt + 1}/{MAX_RETRIES}): {e}")
             if attempt < MAX_RETRIES - 1:
                 logger.info(f"Retrying in 92 seconds...")
-                time.sleep(92)
+                #time.sleep(92)
             else:
                 logger.error(f"Failed to call LLM Large API after {MAX_RETRIES} attempts")
                 return None
@@ -917,10 +899,15 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             if llm_response and 'answer' in llm_response:
                 answer = llm_response['answer'].strip().upper()
                 reason = llm_response.get('reason', '')
+                # Nếu reason rỗng, thêm message mặc định
+                if not reason or reason.strip() == '':
+                    reason = f"Đáp án được tính toán dựa trên công thức và phương pháp giải (question_type: {question_type})"
+                    logger.warning(f"    Warning: LLM returned empty reason, using default message")
                 if len(answer) != 1 or answer not in valid_choices:
                     logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
                     answer = 'A'
             logger.info(f"    Answer: {answer}")
+            logger.info(f"    Reason length: {len(reason)} chars")
             sleep_time = 92  # Medium sleep for calculation
             
         elif question_type == 'has_context':
@@ -932,10 +919,15 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             if llm_response and 'answer' in llm_response:
                 answer = llm_response['answer'].strip().upper()
                 reason = llm_response.get('reason', '')
+                # Nếu reason rỗng, thêm message mặc định
+                if not reason or reason.strip() == '':
+                    reason = f"Đáp án được chọn dựa trên phân tích đoạn thông tin trong câu hỏi (question_type: {question_type})"
+                    logger.warning(f"    Warning: LLM returned empty reason, using default message")
                 if len(answer) != 1 or answer not in valid_choices:
                     logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
                     answer = 'A'
             logger.info(f"    Answer: {answer}")
+            logger.info(f"    Reason length: {len(reason)} chars")
             sleep_time = 92  # Medium sleep for has_context
             
         else:
@@ -944,7 +936,19 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             
             # ===================== STEP 1: HYBRID SEARCH =====================
             logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
-            top_30_docs = hybrid_search(question, top_k=HYBRID_SEARCH_TOP_K)
+            
+            # --- PHẦN SỬA ĐỔI: Ghép câu hỏi và đáp án ---
+            # Tạo chuỗi choices dạng: "A. Bình Định B. Đắk Lắk..."
+            choices_str = " ".join([f"{valid_choices[i]}. {choice}" for i, choice in enumerate(choices)])
+            # Ghép vào câu hỏi
+            search_query = f"{question} {choices_str}"
+            
+            logger.info(f"    Querying with: {search_query[:100]}...") # Log để kiểm tra
+            
+            # Truyền search_query mới vào hàm thay vì question gốc
+            top_30_docs = hybrid_search(search_query, top_k=HYBRID_SEARCH_TOP_K)
+            # ---------------------------------------------
+            
             logger.info(f"    Found {len(top_30_docs)} documents")
             
             # ===================== STEP 2: SCORING =====================
@@ -1002,7 +1006,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         # Type 2,3 (calculation, has_context): 92s
         # Type 4 (general): 122s
         logger.info(f"  Sleeping {sleep_time}s for rate limit (question_type: {question_type})...")
-        time.sleep(sleep_time)
+        #time.sleep(sleep_time)
     
     # Write to CSV
     csv_path = output_dir / 'submission1.csv'
@@ -1026,7 +1030,7 @@ def main():
     parser.add_argument(
         '--input',
         type=str,
-        default='data/val.json',
+        default='data/test.json',
         help='Path to the input test.json file (default: data/val.json)'
     )
     parser.add_argument(
