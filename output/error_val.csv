@@ -1,0 +1,181 @@
+﻿qid,question,choices,context1,context2,context3,context4,context5,reason,predict,label
+val_0003,"Việc đưa ra các quy định về thuế, pháp luật đã tác động đến lĩnh vực:","A. Môi trường
+B. Kinh tế
+C. Văn hóa
+D. Quốc phòng an ninh","- Pháp luật về việc làm
+
+- Môi trường và pháp luật về bảo vệ người tiêu dùng
+
+- Chính sách thuế và thương mại, kiểm soát thuế
+quan
+
+- Quy tắc của pháp luật và mức quan liêu tham
+nhũng
+
+- Chính phủ có tham gia các hiệp định thương mại?
+
+- Chính sách của chính phủ với nền kinh tế đất nước như thế nào?
+	
+Kinh tế
+
+- Giai đoạn của chu kỳ kinh doanh
+
+- Hiện tại và dự toán tăng trường kinh tế, lạm phát và lãi xuất
+
+- Thất nghiệp và cung ứng lao động
+
+- Chí phí lao động
+
+- Mức thu nhập khả dụng và phân phối thu nhập
+
+- Tác động của toàn cầu hóa
+
+- Các khả năng tác động của những thay đổi trong
+công nghệ hoặc các nền kinh tế
+
+- GDP, GNP và triển vọng GDP dài hạn trên đầu người
+
+Văn hóa - Xã hội
+
+- Tỷ lệ tăng dân số và dộ tuổi
+
+- Phong cách sống và thái độ với sự lựa chọn
+
+- Văn hóa xã hội thay đổi như thế nào
+
+- Thái độ với báo chí, thái độ và những cấp kỵ xã hội
+
+- Ngôn ngữ
+
+- Văn hóa trong thái độ làm việc
+
+- Văn hóa trong kinh doanh
+
+- Sức khỏe dân số, giáo dục,","Ủy ban thường vụ Quốc hội;
+
+b) Lãnh đạo, chỉ đạo xây dựng các văn bản pháp luật và các chiến lược, quy hoạch, kế hoạch, chính sách và các dự án khác thuộc thẩm quyền quyết định của Chính phủ, Thủ tướng Chính phủ;
+
+c) Chỉ đạo, điều hòa, phối hợp hoạt động giữa các thành viên Chính phủ; quyết định các vấn đề khi còn có ý kiến khác nhau giữa các Bộ trưởng, Thủ trưởng cơ quan ngang bộ;
+
+d) Lãnh đạo việc thực hiện công tác phòng, chống quan liêu, tham nhũng, lãng phí trong hoạt động của bộ máy nhà nước và các hoạt động kinh tế - xã hội;
+
+đ) Lãnh đạo, chỉ đạo Chủ tịch Ủy ban nhân dân cấp tỉnh thực hiện các quy định của pháp luật và các chương trình, kế hoạch, chiến lược của Chính phủ trên các lĩnh vực quản lý kinh tế, văn hóa, xã hội và quốc phòng, an ninh;
+
+e) Lãnh đạo, chỉ đạo, kiểm tra và xử lý các vi phạm trong quá trình triển khai thực hiện Hiến pháp và pháp luật trong phạm vi toàn quốc.
+
+2. Lãnh đạo và chịu trách nhiệm về hoạt động của hệ thống hành chính nhà nước từ trung ương đến địa phương,","1.
+Thuế tài nguyên được áp dụng đối với nước thiên nhiên theo quy định của pháp luật
+về thuế tài nguyên.
+2.
+Giá tính thuế tài nguyên đối với nước thiên nhiên được thực hiện theo quy định
+của pháp luật về thuế tài nguyên và quy định khác của pháp luật có liên quan.
+3. Thuế
+bảo vệ môi trường áp dụng đối với sản phẩm, hàng hoá mà việc sử dụng gây tác động
+xấu đến môi trường hoặc chất ô nhiễm môi trường được thực hiện theo quy định của
+pháp luật về thuế bảo vệ môi trường.
+4.
+Phí về tài nguyên nước bao gồm:
+a) Phí khai thác, sử dụng nguồn nước theo quy định của pháp
+luật về phí, lệ phí. Mức phí quy định tại điểm này được xác định trên cơ sở
+tính chất của dịch vụ công, hoạt động thuộc lĩnh vực tài nguyên nước;
+b)
+Phí, mức phí bảo vệ môi trường đối với nước thải áp dụng đối với hoạt động xả
+nước thải ra môi trường theo quy định của pháp luật về phí, lệ phí và pháp luật
+về bảo vệ môi trường.","Việc thu thuế tài nguyên, phí bay qua vùng trời
+Việt Nam, phí bảo vệ nguồn lợi thủy sản, phí tham quan danh lam thắng cảnh, phí
+khai thác, sử dụng nguồn nước, phí khai thác, sử dụng tài liệu, dữ liệu về
+tài nguyên và các loại thuế, phí, lệ phí khác liên quan đến tài nguyên thực
+hiện theo quy định của pháp luật về thuế, pháp luật về phí và lệ phí.","Các thuế bị ảnh hưởng 
+Ví dụ về các khoản thuế có thể được giảm hoặc loại bỏ bằng một thay đổi sang thuế xanh là:
+
+ Thuế lương, thuế thu nhập, và ở mức độ thấp hơn, thuế doanh thu.
+ Thuế doanh nghiệp (thuế đầu tư và thuế doanh nghiệp).
+ Thuế tài sản về các tòa nhà và các cơ sở hạ tầng khác.
+
+Ví dụ về các thuế sinh thái có thể được thực hiện hoặc tăng lên là:
+
+ Thuế carbon đánh vào việc sử dụng các nhiên liệu hóa thạch do lượng khí nhà kính mà nó tạo ra. Thuế hydrocarbon cũ không phạt các quá trình tạo ra khí nhà kính.
+ Thuế đối với hàng nhập khẩu có chứa năng lượng phi sinh thái đáng kể (đến mức cần thiết phải bảo vệ các nhà sản xuất trong nước khác sản xuất cùng sản phẩm)
+ Thuế khai thác đối với các sản phẩm được sản xuất từ nguyên liệu khoáng vật, năng lượng, và rừng.
+ Phí cấp phép cho cắm trại, câu cá, săn bắn và các thiết bị liên quan.
+ Thuế đặc biệt cho công nghệ và sản phẩm có  ảnh hưởng ngoại lai tiêu cực đáng kể 
+ Thuế quản lý chất thải và chi phí có thể trả lại
+ Thuế định hướng trên nước thải, ô nhiễm môi trường và các chất thải nguy hại khác.","Các tài liệu tham khảo cung cấp thông tin về các quy định về thuế và pháp luật, cũng như tác động của chúng đến các lĩnh vực khác nhau. Tài liệu tham khảo 1 đề cập đến pháp luật về việc làm, môi trường và pháp luật về bảo vệ người tiêu dùng, chính sách thuế và thương mại, kiểm soát thuế quan, v.v. Tài liệu tham khảo 2 đề cập đến vai trò của Chính phủ trong việc lãnh đạo và chỉ đạo xây dựng các văn bản pháp luật và các chiến lược, quy hoạch, kế hoạch, chính sách và các dự án khác thuộc thẩm quyền quyết định của Chính phủ. Tài liệu tham khảo 3 đề cập đến thuế tài nguyên, phí về tài nguyên nước và thuế bảo vệ môi trường. Tài liệu tham khảo 4 đề cập đến việc thu thuế tài nguyên, phí bay qua vùng trời Việt Nam, phí bảo vệ nguồn lợi thủy sản, phí tham quan danh lam thắng cảnh, phí khai thác, sử dụng nguồn nước, v.v. Tài liệu tham khảo 5 đề cập đến các thuế bị ảnh hưởng và các thuế sinh thái có thể được thực hiện hoặc tăng lên.
+
+Từ các tài liệu tham khảo trên, có thể thấy rằng việc đưa ra các quy định về thuế, pháp luật đã tác động đến lĩnh vực môi trường. Các quy định về thuế tài nguyên, phí về tài nguyên nước và thuế bảo vệ môi trường đã được đề cập trong Tài liệu tham khảo 3. Ngoài ra, Tài liệu tham khảo 5 cũng đề cập đến các thuế sinh thái có thể được thực hiện hoặc tăng lên, bao gồm thuế carbon, thuế đối với hàng nhập khẩu có chứa năng lượng phi sinh thái đáng kể, thuế khai thác đối với các sản phẩm được sản xuất từ nguyên liệu khoáng vật, năng lượng, và rừng, v.v.
+
+Do đó, có thể kết luận rằng việc đưa ra các quy định về thuế, pháp luật đã tác động đến lĩnh vực môi trường.",A,B
+val_0035,"Theo quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục, thành phần hồ sơ bắt buộc gồm những tài liệu nào?","A. 01 bản chính báo cáo tự đánh giá và 02 bản chính công văn đăng ký
+B. 02 bản chính báo cáo tự đánh giá và 01 bản chính công văn đăng ký
+C. 01 bản chính báo cáo tự đánh giá và 01 bản chính công văn đăng ký
+D. 02 bản chính báo cáo tự đánh giá và 02 bản chính công văn đăng ký","13. Kiểm định chất lượng giáo dục: a) Quy định tiêu chuẩn đánh giá chất lượng giáo dục; quy trình và chu kỳ kiểm định chất lượng giáo dục ở các cấp học và các trình độ đào tạo thuộc phạm vi quản lý nhà nước của bộ; b) Xây dựng, trình Chính phủ quy định điều kiện thành lập, giải thể, nhiệm vụ, quyền hạn của tổ chức kiểm định chất lượng giáo dục; c) Quy định việc cấp và thu hồi giấy chứng nhận kiểm định chất lượng giáo dục; d) Chỉ đạo, hướng dẫn công tác kiểm định chất lượng cơ sở giáo dục, đào tạo, chương trình giáo dục, đào tạo thuộc phạm vi quản lý nhà nước của bộ. CÔNG BÁO/Số 417 + 418/Ngày 04-6-2017 33 14.",,,,,"Theo quy trình cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục, thành phần hồ sơ bắt buộc gồm những tài liệu nào? Để trả lời câu hỏi này, chúng ta cần xem xét các quy định liên quan đến kiểm định chất lượng giáo dục và hồ sơ cần thiết cho quá trình này. Tuy nhiên, trong tài liệu tham khảo được cung cấp, không có thông tin cụ thể về thành phần hồ sơ bắt buộc cho việc cấp Chứng nhận trường mầm non đạt kiểm định chất lượng giáo dục. Do đó, chúng ta cần dựa vào kiến thức chung về quy trình kiểm định chất lượng giáo dục và hồ sơ thường được yêu cầu trong các thủ tục hành chính tương tự. Thông thường, hồ sơ cần thiết cho việc kiểm định chất lượng giáo dục bao gồm báo cáo tự đánh giá của cơ sở giáo dục và công văn đăng ký kiểm định. Số lượng bản chính của mỗi loại tài liệu có thể khác nhau tùy theo quy định cụ thể của từng cơ quan quản lý. Vì không có thông tin cụ thể trong tài liệu tham khảo, chúng ta sẽ chọn đáp án dựa trên logic và kinh nghiệm chung.",C,B
+val_0050,Chủ Tịch Hồ Chí Minh đã tiếp thu những giá trị tích cực nào từ Nho giáo để phục vụ cách mạng?,"A. Câu trả lời nằm ngoài phạm vi trả lời
+B. Lý tưởng xã hội bình trị và đại đồng
+C. Triết lý tu thân dưỡng tính
+D. Đề cao văn hóa, lễ giáo và truyền thống hiếu học","Đó chính là một cơ sở hình thành nên tư tưởng, phẩm chất của nhà văn hóa kiệt xuất Hồ Chí Minh với chủ trương văn hóa là mục tiêu, động lực của cách mạng; cần giữ gìn cốt cách văn hóa dân tộc đồng thời tiếp thu tinh hoa văn hóa nhân loại, xây dựng nền văn hoá mới của Việt Nam. Chính Hồ Chí Minh là một biểu tượng cao đẹp của sự tích hợp tinh hoa văn hóa Phương Đông và Phương Tây. b. Tinh hoa văn hoá nhân loại - Tinh hoa văn hóa Phương Đông Tinh hoa văn hóa, tư tưởng phương Đông kết tinh trong ba học thuyết lớn là Nho giáo, Phật giáo, Lão giáo. Đó là những học thuyết có ảnh hưởng sâu rộng ở Phương Đông, và ở Việt Nam trước đây. Đối với Nho giáo, Hồ Chí Minh phân tích: ""Tuy Khổng Tử là phong kiến và tuy trong học thuyết của Khổng Tử có nhiều điều không đúng song những điều hay trong đó thì chúng ta nên học. ""Chỉ có những người cách mạng chân chính mới thu thái vậy"". Hồ Chí Minh chú ý kế thừa và đổi mới tư tưởng dùng nhân trị, đức trị để quản lý xã hội.","Kế thừa và phát triển quan niệm của Nho giáo về việc xây dựng một xã hội lý tưởng trong đó công bằng, bác ái, nhân, nghĩa, trí, dũng, tín, liêm được coi trọng để có thể đi đến một thế giới đại đồng với hòa bình, không có chiến tranh, các dân tộc có quan hệ hữu nghị và hợp tác. Đặc biệt, Hồ Chí Minh chú ý kế thừa, đổi mới, phát triển tinh thần trọng đạo đức của Nho giáo trong việc tu dưỡng, rèn luyên đạo đức của con người; trong công tác xây dựng Đảng về đạo đức. Đối với Phật giáo, Hồ Chí Minh chú ý kế thừa, phát triển tư tưởng từ bi, vị tha, yêu thương con người, khuyến khích làm việc thiện, chống lại điều ác; đề cao quyền bình đẳng của con người và chân lý; khuyên con người sống hòa đồng, gắn bó với đất nước của Đạo Phật. Những quan điểm tích cực đó trong triết lý của Đạo Phật được Hồ Chí Minh vận dụng sáng tạo để đoàn kết đồng bào theo Đạo Phật, đoàn kết toàn dân vì nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ và giàu mạnh.","Đạo đức cách mạng bao gồm những đức tính và những quan hệ rộng lớn, sâu xa, mới mẻ hơn là đạo đức cổ truyền, như chống chủ nghĩa cá nhân, xây dựng ý thức tập thể, bổn phận, trách nhiệm tận tâm tận lực phục vụ tổ quốc, phục vụ cách mạng, phục vụ nhân dân.
+
+Nho giáo là một nguồn gốc hình thành tư tưởng đạo đức Hồ Chí Minh. Sinh ra trong một gia đình nhà Nho, Hồ Chí Minh hiểu rằng “Khổng giáo không phải là tôn giáo mà là một thứ khoa học về kinh nghiệm đạo đức và phép ứng xử”. Khổng Tử đứng đầu các nhà hiền triết, được tôn sùng, vì “đạo đức của ông, học vấn của ông và những kiến thức của ông làm cho những người cùng thời và hậu thế phải cảm phục… Đạo đức của ông là hoàn hảo. Những người An Nam chúng ta hãy tự hoàn thiện mình, về mặt tinh thần bằng cách đọc các tác phẩm của Khổng Tử”.
+
+ Bản chất 
+
+ Đạo đức Hồ Chí Minh mang bản chất giai cấp công nhân.
+ Đạo đức Hồ Chí Minh thể hiện sự sự thống nhất giữa chính trị với đạo đức.
+ Đạo đức Hồ Chí Minh thống nhất giữa tư tưởng và hành động, lý luận và thực tiễn, nói và làm.","Nhà cách mạng Hồ Chí Minh từng tổng kết: ""Những người An nam chúng ta hãy tự hoàn thiện mình về mặt tinh thần bằng cách đọc các tác phẩm của Khổng Tử, và về cách mạng thì cần đọc các tác phẩm của Lenin”
+
+Triết lý giáo dục
+
+Nho giáo xem trọng hiền tài. Các triều đại quân chủ tôn sùng Nho giáo chủ trương tuyển dụng nhân tài cho đất nước qua các kỳ Khoa bảng (科榜). Các thí sinh đỗ đạt học vị trong các kỳ thi cử này, phần lớn được tuyển chọn làm quan chức cho triều đình.
+
+Một trong những điểm tiến bộ của Nho giáo là chủ trương khuyến khích giáo dục, coi trọng người hiền tài:.
+
+Nho giáo có nhiều yếu tố tiến bộ khi quan niệm rằng giáo dục là cần thiết cho tất cả mọi người, ""hữu giáo vô loại"" (việc dạy dỗ không phân biệt loại người) nên ai cũng có cơ hội được học tập và giáo dục, đây là biện pháp để hướng con người tới những phẩm chất cao quý như ""nhân, nghĩa, lễ, trí, tín"". Nho giáo cho rằng, giáo hóa con người là một trong những nhiệm vụ cơ bản của nhà cầm quyền và cũng là phương tiện hữu hiệu để đưa xã hội từ loạn lạc thành ""thái bình thịnh trị"".","Tuy nhiên Phan Bội Châu chọn việc cầu viện Nhật Bản, Phan Châu Trinh chọn việc khẩn cầu Pháp, Hồ Chí Minh lựa chọn chủ nghĩa cộng sản, Ngô Đình Diệm lựa chọn Thiên chúa giáo kết hợp với tư tưởng nhân vị.
+
+Nhà sử học Pháp, ông Pierre Brocheux tin rằng nhà cách mạng Hồ Chí Minh là một người theo Khổng giáo, ông luôn cố gắng kết hợp những ý tưởng của Khổng Giáo, một truyền thống Đông Á với các dòng tư tưởng châu Âu, từ Mác-xít đến Lênin-nít, và cố gắng đưa vào thực tế tính nhân bản và tính công bằng xã hội theo kiểu Khổng Giáo. Tổng kết 30 năm tiếp thu các dòng tư tưởng của mình, nhà cách mạng Hồ Chí Minh đúc kết: 
+“Học thuyết của Khổng Tử có ưu điểm là sự tu dưỡng đạo đức cá nhân. Tôn giáo Giêsu có ưu điểm là lòng nhân ái cao cả. Chủ nghĩa Marx có ưu điểm là phương pháp biện chứng. Chủ nghĩa Tôn Dật Tiên có ưu điểm là chính sách thích hợp với điều kiện của nước ta… Khổng Tử, Giêsu, Karl Marx, Tôn Dật Tiên chẳng phải có những điểm chung đó sao?","Theo tài liệu tham khảo 1, Hồ Chí Minh đã tiếp thu những giá trị tích cực từ Nho giáo để phục vụ cách mạng, bao gồm: 
+- Lý tưởng xã hội bình trị và đại đồng: Hồ Chí Minh đã kế thừa và phát triển quan niệm của Nho giáo về việc xây dựng một xã hội lý tưởng trong đó công bằng, bác ái, nhân, nghĩa, trí, dũng, tín, liêm được coi trọng để có thể đi đến một thế giới đại đồng với hòa bình, không có chiến tranh, các dân tộc có quan hệ hữu nghị và hợp tác.
+- Triết lý tu thân dưỡng tính: Hồ Chí Minh chú ý kế thừa và đổi mới tư tưởng dùng nhân trị, đức trị để quản lý xã hội.
+- Đề cao văn hóa, lễ giáo và truyền thống hiếu học: Hồ Chí Minh đã kế thừa và phát triển tư tưởng của Nho giáo về việc đề cao văn hóa, lễ giáo và truyền thống hiếu học.
+Vì vậy, đáp án B, C, D đều đúng. Tuy nhiên, câu hỏi chỉ yêu cầu chọn một đáp án, nên tôi sẽ chọn đáp án B vì nó là một trong những giá trị tích cực quan trọng nhất mà Hồ Chí Minh đã tiếp thu từ Nho giáo.",B,C
+val_0054,Điều gì xảy ra khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch?,"A. Điều chỉnh giá
+B. Điều chỉnh sản lượng
+C. Điều chỉnh tồn kho
+D. Điều chỉnh lãi suất","Câu 210 : Theo lý thuyết xác định sản lượng ( được minh họa bằng đồ thị có đường 45o),  nếu tổng chi tiêu theo kế hoạch ( tổng cầu dự kiến ) lớn hơn GDP thực ( hoặc sản lượng )  thì :  
+a. Các doanh nghiệp sẽ giảm sản lượng để giải phóng thặng dư tồn kho so với mức  tồn kho dự kiến 
+b. Các doanh nghiệp se tăng hoặc giảm sản lượng tùy theo tình hình tồn kho thực tế  ít hơn hay nhiều hơn mức tồn kho dự kiến  
+c. Các doanh nghiệp sẽ không thay đổi sản lượng vì tồn kho thực tế đã bằng mức tồn  kho dự kiến  
+d. Các doanh nghiệp sẽ tăng sản lượng để bổ sung tồn kho cho đủ mức tồn kho dự  kiến 
+Đáp án: a
+Giải thích: ADthực < AD dự kiến => hàng hóa doanh nghiệp sx theo AD dự kiến sẽ bị  tồn kho => để không bị động trong Sx , doanh nghiệp sẽ sản lượng để GP thặng  dư tồn kho so với mức tồn kho dự kiến","Bài 2 Những sự kiện dưới đây tác động đến tỷ giá giữa USD và VND như thế nào a. Người Việt Nam sử dụng nhiều hàng hóa của Mỹ hơn b. Lượng người Mỹ du lịch sang Việt Nam giảm c. Lãi suất của Mỹ cao hơn lãi suất của Việt Nam d. Lạm phát của Mỹ giảm trong khi lạm phát ở Việt Nam ổn định Bài 3 Giả sử có các hàm số sau ở 1 quốc gia C = 200 + 0,75Yd; I = 300 + 0,15Y; G = 500; T = 0,2Y + 40; NX = 100 – 10e – 0,15Y; DM = 100 + 0,2Y; SM = 500 a. Viết phương trình đường IS – LM b. Tìm mức sản lượng và tỷ giá cân bằng c. Nếu chính phủ tăng chi tiêu mua hàng hóa dịch vụ là 50. Tìm sản lượng và tỷ giá cân bằng mới Bài 4 Nếu mức giá của hàng Việt nam là 200, mức giá của hàng ngoại là 125, và ngoại tệ tính bằng VND là 12. Tính tỷ giá hối đoái thực tế của đồng ngoại tệ? Bài giảng Kinh tế vĩ mô Chương 8: Kinh tế vĩ mô trong nền kinh tế mở Bài 5 Điều gì đang xảy ra đối với tỷ giá hối đoái thực tế của một nước trong mỗi trường hợp sau? Hãy giải thích?","(Sự tích lũy hàng tồn kho sẽ tương ứng với lượng cung hàng hóa dư thừa; theo “Tài khoản thu nhập và tổng sản lượng quốc dân”, nó được coi là một loại hàng hóa được mua bởi nhà sản xuất) Do đó, chỉ những khoản đầu tư đã được lên kế hoạch hoặc có dự định thực hiện mới được coi là một phần của tổng cầu. (Vậy nên I không bao gồm các khoản đầu tư nhằm làm giảm hàng tồn kho.)
+ Đầu tư bị ảnh hưởng bởi sản lượng và lãi suất (i). Bởi vậy, ta có thể viết hàm I (Y, i), với tổng thu nhập và lãi suất là tham số. Đầu tư có mối quan hệ tỷ lệ thuận với sản lượng và tỷ lệ nghịch với lãi suất. Do vậy, lãi suất tăng sẽ khiến tổng cầu giảm. Chi phí lãi vay là một phần của chi phí đi vay và khi nó tăng, cả doanh nghiệp và hộ gia đình đều phải cắt giảm chi tiêu. Điều này khiến đường tổng cầu dịch sang trái và giảm GDP cân bằng xuống dưới mức GDP tiềm năng.
+
+ Tổng chi tiêu và đầu tư của Chính phủ về hàng hóa và dịch vụ (G), còn được xác định là G - T, là khoảng chênh lệch giữa chi tiêu của Chính phủ và thuế.","Câu 103 : Nếu sản lượng thực tế thấp hơn sản lượng cân bằng những việc ngoài dự kiến  nào có thể xảy ra. 
+a. Sản lượng thực tế thấp hơn chi tiêu dự kiến 
+b. Hàng tồn khi ngoài dự kiến là số âm  
+c. Sản lượng thực tế sẽ tăng dần 
+d. Các câu trên đều đúng 
+Đáp án: d
+Giải thích: ⬄ Giải thích : Vì khi Y ( sản lượng thực tế ) < Yd ( sản lượng cân bằng ) có nghĩa là  tổng cầu đang lớn hơn GDP thực do đó người ta chi tiêu thực tế ít hơn so với kế hoạch  dự kiến , Vì thế trên thị trường sẽ khan hiếm hàng hóa --> Doanh nghiệp phải xuất kho  dự trữ , làm giảm tồn kho --> DN tăng sản lượng để bù đắp thiếu hụt","Câu 143 : Nếu sản lượng thực tế thấp hơn sản lượng cân bằng những việc ngoài dự kiến  nào có thể xảy ra. 
+a. Sản lượng thực tế thấp hơn chi tiêu dự kiến 
+b. Hàng tồn khi ngoài dự kiến là số âm  
+c. Sản lượng thực tế sẽ tăng dần
+d. Các câu trên đều đúng 
+Đáp án: d
+Giải thích: ⬄ Giải thích : Vì khi Y ( sản lượng thực tế ) < Yd ( sản lượng cân bằng ) có nghĩa là  tổng cầu đang lớn hơn GDP thực do đó người ta chi tiêu thực tế ít hơn so với kế hoạch  dự kiến , Vì thế trên thị trường sẽ khan hiếm hàng hóa --> Doanh nghiệp phải xuất kho  dự trữ , làm giảm tồn kho --> DN tăng sản lượng để bù đắp thiếu hụt","Khi tiết kiệm thực tế khác với tiết kiệm theo kế hoạch, điều này có nghĩa là tổng chi tiêu thực tế không khớp với tổng chi tiêu dự kiến. Trong trường hợp này, nếu tiết kiệm thực tế cao hơn tiết kiệm theo kế hoạch, thì tổng chi tiêu thực tế sẽ thấp hơn tổng chi tiêu dự kiến, dẫn đến tình trạng hàng hóa tồn kho tăng lên. Ngược lại, nếu tiết kiệm thực tế thấp hơn tiết kiệm theo kế hoạch, thì tổng chi tiêu thực tế sẽ cao hơn tổng chi tiêu dự kiến, dẫn đến tình trạng hàng hóa tồn kho giảm xuống. Để giải quyết tình trạng này, các doanh nghiệp sẽ điều chỉnh sản lượng của mình để phù hợp với tổng chi tiêu thực tế. Nếu hàng hóa tồn kho tăng lên, các doanh nghiệp sẽ giảm sản lượng để giảm thiểu tồn kho. Nếu hàng hóa tồn kho giảm xuống, các doanh nghiệp sẽ tăng sản lượng để bổ sung tồn kho. Do đó, điều chỉnh sản lượng là phản ứng trực tiếp của các doanh nghiệp đối với sự khác biệt giữa tiết kiệm thực tế và tiết kiệm theo kế hoạch.",B,C
+val_0067,Giải pháp nào sau đây được đề xuất để xử lý lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy?,"A. Kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ
+B. Liên hệ với cơ quan chức năng để được hỗ trợ trực tiếp
+C. Gửi hồ sơ qua dịch vụ bưu chính công ích
+D. Gọi tổng đài kỹ thuật của hệ thống để khắc phục lỗi","1. Quy trình cấp giấy phép xây dựng và điều chỉnh
+giấy phép xây dựng được quy định như sau:
+a) Chủ đầu tư nộp 02 bộ hồ sơ đề nghị cấp giấy phép
+xây dựng, điều chỉnh giấy phép xây dựng cho cơ quan có thẩm quyền cấp giấy phép
+xây dựng;
+b) Cơ quan có thẩm quyền cấp giấy phép xây dựng có
+trách nhiệm tiếp nhận hồ sơ của tổ chức, cá nhân đề nghị cấp, điều chỉnh giấy
+phép xây dựng; kiểm tra hồ sơ; ghi giấy biên nhận đối với trường hợp hồ sơ đáp ứng
+theo quy định hoặc hướng dẫn để chủ đầu tư hoàn thiện hồ sơ đối với trường hợp
+hồ sơ không đáp ứng theo quy định;
+c) Trong thời hạn 07 ngày làm việc kể từ ngày nhận
+được hồ sơ, cơ quan có thẩm quyền cấp giấy phép xây dựng phải tổ chức thẩm định
+hồ sơ, kiểm tra thực địa. Khi thẩm định hồ sơ, cơ quan có thẩm quyền phải xác định
+tài liệu còn thiếu, tài liệu không đúng theo quy định hoặc không đúng với thực
+tế để thông báo một lần bằng văn bản cho chủ đầu tư bổ sung , hoàn chỉnh hồ sơ.",,,,,"Câu hỏi yêu cầu giải pháp để xử lý lỗi xác thực khi nộp hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy. Tuy nhiên, tài liệu tham khảo chỉ cung cấp thông tin về quy trình cấp giấy phép xây dựng và điều chỉnh giấy phép xây dựng, không đề cập đến lỗi xác thực hay hồ sơ thẩm duyệt thiết kế về phòng cháy và chữa cháy. Do đó, không có thông tin cụ thể trong tài liệu để hỗ trợ việc lựa chọn đáp án. Tuy nhiên, dựa trên kinh nghiệm và kiến thức chung, khi gặp lỗi xác thực, việc kiểm tra lại hồ sơ để đảm bảo đầy đủ giấy tờ thường là bước đầu tiên và quan trọng để giải quyết vấn đề. Điều này giúp xác định xem lỗi có phải do thiếu sót trong hồ sơ hay không.",A,B

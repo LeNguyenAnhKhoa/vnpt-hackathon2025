@@ -3,7 +3,8 @@
 ## Pipeline Flow
 
 ## Data Processing
-
+- Data được crawl từ nhiều nguồn khác nhau. Sau khi crawl, data được gộp lại thành 1 file .csv có 3 cột "id", "title" và "text"
+- 
 ## How to Run
 
 ### 1. Install Requirements

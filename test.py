@@ -10,7 +10,7 @@ print("Đang gộp file JSON...")
 merged_json_data = []
 
 # Duyệt qua các file từ 1 đến n
-for i in range(1, 3):
+for i in range(1, 4):
     file_name = f'predict{i}.json'
     file_path = os.path.join(folder_path, file_name)
     
@@ -43,7 +43,7 @@ header_saved = False
 with open(output_csv_path, 'w', newline='', encoding='utf-8') as f_out:
     writer = csv.writer(f_out)
     
-    for i in range(1, 3):
+    for i in range(1, 4):
         file_name = f'submission{i}.csv'
         file_path = os.path.join(folder_path, file_name)
         
