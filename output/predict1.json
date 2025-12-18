@@ -1,0 +1,9 @@
+[
+  {
+    "qid": "test_0244",
+    "predict": "B",
+    "reason": "{\"large\": {\"method\": \"Sử dụng định luật Dalton về áp suất riêng phần\", \"key_expression\": \"P_O2 = P_tổng * X_O2\", \"step_by_step\": [\"Bước 1: Xác định áp suất tổng (P_tổng) trong không gian phế nang ở mức sea level. Thông thường, áp suất này bằng với áp suất khí quyển, khoảng 760 mmHg.\", \"Bước 2: Tìm tỷ lệ mol của oxy (X_O2) trong không khí. Không khí chứa khoảng 21% O₂ theo thể tích, tương đương với tỷ lệ mol.\", \"Bước 3: Áp dụng định luật Dalton để tính áp suất riêng phần của oxy (P_O2): P_O2 = P_tổng * X_O2\"], \"final_result\": \"Áp suất riêng phần của oxy (O₂) trong không gian phế nang ≈ 760 mmHg * 0.21 ≈ 159.6 mmHg\"}, \"small\": \"Tôi đã tính lại biểu thức P_O2 = P_tổng * X_O2 với P_tổng = 760 mmHg và X_O2 = 0.21. Kết quả là 760 * 0.21 = 159.6 mmHg. Sau đó, tôi chuyển đổi đơn vị từ mmHg sang kPa: 159.6 mmHg * (101.325 kPa / 760 mmHg) ≈ 21.27 kPa. Tuy nhiên, câu hỏi hỏi về áp suất riêng phần của oxy trong PHẾ NANG, không phải trong không khí hít vào. Trong phế nang, do tiêu thụ O₂ và thải CO₂, áp suất riêng phần của O₂ giảm xuống còn khoảng 13–14 kPa. Giá trị 159.6 mmHg (≈21.3 kPa) là áp suất trong không khí hít vào, không phải trong phế nang. Giá trị đúng trong phế nang là khoảng 13.5 kPa (tương đương 100 mmHg). Do đó, lời giải chuyên gia đã nhầm giữa áp suất riêng phần trong không khí hít vào và trong phế nang. Đáp án chính xác là 13.5 kPa.\"}",
+    "question_type": "calculation",
+    "reference_docs": []
+  }
+]

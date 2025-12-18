@@ -212,7 +212,7 @@ print(result)
   - Input length = 28k
 - Large 
   - Context Length = 22k
-  - Input length = 18k
+  - Input length = 18k  
 - Embedding = 8k
 
 ## 5. Lưu ý

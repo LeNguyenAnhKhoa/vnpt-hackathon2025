@@ -3,8 +3,6 @@
 api-keys.json
 .DS_Store
 
-Thumbs.db
-
 predict1.py
 predict2.py
 predict3.py

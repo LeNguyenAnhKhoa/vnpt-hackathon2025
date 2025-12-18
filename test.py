@@ -9,8 +9,8 @@ folder_path = 'output'
 print("Đang gộp file JSON...")
 merged_json_data = []
 
-# Duyệt qua các file từ 1 đến 3
-for i in range(1, 4):
+# Duyệt qua các file từ 1 đến n
+for i in range(1, 3):
     file_name = f'predict{i}.json'
     file_path = os.path.join(folder_path, file_name)
     
@@ -29,7 +29,7 @@ for i in range(1, 4):
         print(f" -> Không tìm thấy {file_name}")
 
 # Ghi ra file predict.json tổng
-output_json_path = os.path.join(folder_path, 'predict.json')
+output_json_path = os.path.join(folder_path, 'predict_val.json')
 with open(output_json_path, 'w', encoding='utf-8') as f:
     json.dump(merged_json_data, f, ensure_ascii=False, indent=2)
 print(f"Hoàn tất! File JSON tổng tại: {output_json_path}\n")
@@ -37,13 +37,13 @@ print(f"Hoàn tất! File JSON tổng tại: {output_json_path}\n")
 
 # --- PHẦN 2: GỘP FILE CSV ---
 print("Đang gộp file CSV...")
-output_csv_path = os.path.join(folder_path, 'submission.csv')
+output_csv_path = os.path.join(folder_path, 'submission_val.csv')
 header_saved = False
 
 with open(output_csv_path, 'w', newline='', encoding='utf-8') as f_out:
     writer = csv.writer(f_out)
     
-    for i in range(1, 4):
+    for i in range(1, 3):
         file_name = f'submission{i}.csv'
         file_path = os.path.join(folder_path, file_name)
         

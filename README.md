@@ -1,5 +1,9 @@
 # VNPT Hackathon 2025
 
+## Pipeline Flow
+
+## Data Processing
+
 ## How to Run
 
 ### 1. Install Requirements
@@ -30,13 +34,6 @@ python vectorDB\main_async.py
 ```bash
 python predict.py
 ```
-
-### 4. Data
-* Folder vectorDB\data:
-```
-https://drive.google.com/drive/u/0/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR
-```
----
 
 ## API Keys Configuration
 

@@ -6,15 +6,26 @@ def load_json(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+def load_csv_labels(file_path):
+    label_map = {}
+    with open(file_path, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            label_map[row['qid']] = row['answer']
+    return label_map
+
 def main():
     # Load data
-    val_data = load_json('data/val.json')
-    predict_data = load_json('output/predict_val.json')
+    label_data = load_csv_labels('output/submission_deep.csv')
+    predict_data = load_json('output/predict.json')
+    test_data = load_json('data/test.json')
     
     # Create mapping from qid to label
-    label_map = {item['qid']: item['answer'] for item in val_data}
-    question_map = {item['qid']: item['question'] for item in val_data}
-    choices_map = {item['qid']: item['choices'] for item in val_data}
+    label_map = label_data
+    
+    # Create mapping from qid to question and choices
+    question_map = {item['qid']: item['question'] for item in test_data}
+    choices_map = {item['qid']: item['choices'] for item in test_data}
     
     # Create mapping from qid to prediction
     predict_map = {item['qid']: item for item in predict_data}
@@ -78,18 +89,12 @@ def main():
     os.makedirs('output', exist_ok=True)
     fieldnames = ['qid', 'question', 'choices', 'context1', 'context2', 'context3', 'context4', 'context5', 'reason', 'predict', 'label']
     
-    with open('output/error_val.csv', 'w', encoding='utf-8-sig', newline='') as f:
+    with open('output/error_test.csv', 'w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(errors)
     
-    with open('output/correct.csv', 'w', encoding='utf-8-sig', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(corrects)
-    
-    print(f"\nError details saved to output/error.csv")
-    print(f"Correct predictions saved to output/correct.csv")
+    print(f"\nError details saved to output/error_qwen.csv")
 
 if __name__ == "__main__":
     main()

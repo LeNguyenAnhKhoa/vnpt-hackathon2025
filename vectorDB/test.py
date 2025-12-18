@@ -1,47 +1,43 @@
 import os
-import csv
-from pathlib import Path
+import json
+import pandas as pd
 
-# Đường dẫn đến thư mục data
-data_dir = Path(__file__).parent / "data"
-output_file = Path(__file__).parent / "mix.csv"
+def process_json_to_csv(input_folder, output_file):
+    all_data = []
+    
+    # 1. Kiểm tra và tạo thư mục output nếu chưa có
+    output_dir = os.path.dirname(output_file)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-# Tìm tất cả file .txt
-txt_files = sorted(data_dir.glob("*.txt"))
+    # 2. Quét tất cả các file .json trong thư mục đầu vào
+    files = [f for f in os.listdir(input_folder) if f.endswith('.json')]
+    
+    for file_name in files:
+        file_path = os.path.join(input_folder, file_name)
+        with open(file_path, 'r', encoding='utf-8') as f:
+            try:
+                data = json.load(f)
+                all_data.extend(data)
+            except json.JSONDecodeError:
+                print(f"Lỗi: Không thể đọc file {file_name}")
 
-# Tạo danh sách dữ liệu
-rows = []
-id_counter = 1
-
-for txt_file in txt_files:
-    try:
-        # Đọc nội dung file
-        with open(txt_file, 'r', encoding='utf-8') as f:
-            content = f.read()
+    # 3. Chế biến dữ liệu theo định dạng yêu cầu
+    processed_list = []
+    for index, item in enumerate(all_data, start=1):
+        # Kết hợp dieu và content, xóa các ký tự xuống dòng thừa
+        full_text = f"{item.get('dieu', '')} {item.get('content', '')}".replace('\n', ' ').strip()
         
-        # Thêm vào danh sách
-        rows.append({
-            'id': id_counter,
-            'title': txt_file.name,
-            'text': content
+        processed_list.append({
+            "id": index,
+            "title": index,
+            "text": full_text
         })
-        
-        print(f"Đã đọc file: {txt_file.name} (ID: {id_counter})")
-        id_counter += 1
-    
-    except Exception as e:
-        print(f"Lỗi khi đọc file {txt_file.name}: {e}")
 
-# Ghi vào file CSV
-if rows:
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = ['id', 'title', 'text']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        writer.writerows(rows)
-    
-    print(f"\nĐã tạo file {output_file}")
-    print(f"Tổng số file: {len(rows)}")
-else:
-    print("Không tìm thấy file .txt nào!")
+    # 4. Xuất ra file CSV
+    df = pd.DataFrame(processed_list)
+    df.to_csv(output_file, index=False, encoding='utf-8-sig')
+    print(f"Đã xử lý xong {len(processed_list)} dòng. File lưu tại: {output_file}")
+
+# Thực thi
+process_json_to_csv('./json_data', './data/phap_luat.csv')

@@ -52,7 +52,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.info(f"Log file created: {log_filename}")
 
-def load_credentials(json_path='./vectorDB/api-keys3.json'):
+def load_credentials(json_path='./vectorDB/api-keys1.json'):
     """
     Đọc file api-keys.json và lấy credentials cho tất cả các API
     """
@@ -238,16 +238,16 @@ Các câu hỏi thuộc nhóm ý định xấu, nhạy cảm, hoặc nguy hiểm
 
 ### Loại 2: "calculation" - Câu Hỏi Tính Toán
 Các câu hỏi yêu cầu tính toán định lượng:
-- Áp dụng công thức toán học, vật lý, hóa học, sinh học
+- Áp dụng công thức toán học, vật lý, hóa học, sinh học ...
 - Thực hiện phép tính số học (cộng, trừ, nhân, chia, lũy thừa, căn)
 - Giải phương trình, bất phương trình, hệ phương trình
 - Tính toán theo công thức khoa học cụ thể
 
 **DẤU HIỆU NHẬN BIẾT:**
-- Có số liệu cụ thể (số, phân số, phần trăm)
 - Động từ: "Tính", "Xác định giá trị", "Giải", "Tìm"
 - Có công thức, biểu thức toán học
-- Có đơn vị đo lường (kg, m, s, mol, °C, ...)
+
+**Đặc biệt:** Nếu câu hỏi chỉ yêu cầu kiến thức lý thuyết, khái niệm, định nghĩa mà không yêu cầu tính toán cụ thể thì KHÔNG thuộc loại này.
 
 ### Loại 3: "has_context" - Câu Hỏi Có Sẵn Context
 Các câu hỏi đi kèm đoạn văn bản/thông tin dài (>200 từ) để đọc hiểu:
@@ -329,54 +329,73 @@ def classify_question(question: str, choices: list) -> dict:
 
 
 # ===================== SPECIALIZED PROMPTS =====================
-def create_calculation_prompt(question: str, choices: list) -> tuple:
+# ===================== STAGE 1: REASONING (LLM LARGE) =====================
+def create_calculation_prompt_large(question: str) -> tuple:
     """
-    Tạo prompt chuyên biệt cho câu hỏi dạng tính toán
-    Không cần RAG context
+    Stage 1: Tạo prompt cho LLM Large để giải quyết bài toán một cách chi tiết
+    """
+    system = """Bạn là Chuyên gia Khoa học Tự nhiên (Expert STEM Reasoner).
+
+Nhiệm vụ: Giải quyết bài toán một cách chi tiết để tìm ra kết quả chính xác.
+
+QUY TRÌNH BẮT BUỘC:
+1. Xác định vấn đề.
+2. Thiết lập công thức HOẶC Phương trình phản ứng HOẶC Luận điểm logic.
+3. THAY SỐ (nếu có) hoặc CÂN BẰNG (nếu là hóa học).
+4. Đưa ra kết luận cuối cùng (Kết quả số hoặc Mệnh đề đúng).
+
+LƯU Ý QUAN TRỌNG: 
+- Nếu là bài toán TÍNH TOÁN: Phải viết `key_expression` là biểu thức số tường minh (VD: "10 * 2.5 / 100").
+- Nếu là bài toán HÓA HỌC/LÝ THUYẾT: Phải viết `key_expression` là phương trình/luận điểm chính.
+
+OUTPUT JSON:
+{
+  "method": "Công thức / Định luật sử dụng",
+  "key_expression": "Biểu thức số hoặc Phương trình quan trọng nhất",
+  "step_by_step": ["Bước 1...", "Bước 2..."],
+  "final_result": "Kết quả cuối cùng (Số hoặc Đáp án chữ)"
+}
+"""
+    user = f"Câu hỏi: {question}\n\nHãy giải chi tiết."
+    return system, user
+
+
+# ===================== STAGE 2: VERIFICATION (LLM SMALL) =====================
+def create_calculation_prompt_small(question: str, choices: list, large_output: dict) -> tuple:
+    """
+    Stage 2: Tạo prompt cho LLM Small để kiểm tra và chọn đáp án cuối cùng
     """
     choice_labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" 
-                                   for i, choice in enumerate(choices)])
+    formatted_choices = '\n'.join([f"{choice_labels[i]}. {choice}" for i, choice in enumerate(choices)])
     
-    system_prompt = """Bạn là Giáo sư và Chuyên gia hàng đầu trong lĩnh vực Khoa học Tự nhiên. Nhiệm vụ của bạn là giải quyết các bài tập trắc nghiệm với độ chính xác tuyệt đối.
+    key_expr = large_output.get('key_expression', 'N/A')
+    result = large_output.get('final_result', 'N/A')
+    steps = json.dumps(large_output.get('step_by_step', []), ensure_ascii=False)
 
-Bắt buộc thực hiện tuần tự và nghiêm ngặt các bước sau trong phần lập luận ("reason"):
+    system = """Bạn là Kiểm toán viên. Nhiệm vụ:
+1. Kiểm tra lời giải của Chuyên gia.
+2. Nếu `key_expression` là biểu thức SỐ: Hãy TÍNH TOÁN LẠI.
+3. Nếu `key_expression` là Phương trình Hóa học/Logic: Hãy kiểm tra xem nó ĐÚNG hay SAI (cân bằng chưa, logic đúng không).
+4. Chọn đáp án A, B, C, D khớp nhất với kết quả kiểm tra.
 
-1. Xác định vấn đề
-2. Thiết lập công thức HOẶC Phương trình phản ứng HOẶC Luận điểm logic. Phân biệt rõ "Điều kiện cần" và "Điều kiện đủ".
-3. Thực thi giải quyết 
-- Thực hiện biến đổi đại số từng bước (step-by-step).
-- Tuyệt đối không làm tắt.
-4. **Kiểm tra và Thẩm định (Verify):**
-- **CƠ CHẾ BACKTRACKING:** So sánh kết quả tính được với các phương án lựa chọn (A, B, C...).
-    - Nếu có một đáp án khớp chính xác (hoặc sai số làm tròn rất nhỏ <0.01%): Chọn đáp án đó.
-    - Nếu kết quả lệch đáng kể so với tất cả đáp án: **BẮT BUỘC quay lại Bước 2**, đổi công thức/giả định khác và tính lại.
-    - Chỉ chấp nhận chọn "đáp án gần nhất" nếu sự sai lệch chỉ do làm tròn số vô tỉ, không phải do sai công thức.
-- **Kiểm tra lý thuyết (Theoretical Check):** 
-    - Kết quả có thỏa mãn ĐIỀU KIỆN ĐỦ không?
-   
-5. Đưa ra kết luận cuối cùng (Kết quả số hoặc Mệnh đề đúng)
-
-### ĐỊNH DẠNG ĐẦU RA (OUTPUT FORMAT):
-Trả về kết quả dưới dạng JSON hợp lệ (raw JSON). Cấu trúc:
+OUTPUT JSON:
 {
-  "reason": "Giải thích quá trình suy luận và phân tích để đưa ra đáp án. Sử dụng LaTeX cho biểu thức toán ($...$).",
+  "check_process": "Tôi đã tính/kiểm tra lại [key_expression]...",
   "answer": "X"
 }
-Trong đó X là ký tự (A, B, C, ...) của đáp án đúng.
-### LƯU Ý QUAN TRỌNG:
-- Nếu bài toán yêu cầu tìm giá trị gần đúng, hãy tính chính xác rồi mới làm tròn.
-- Tuyệt đối trung thực với số liệu, không được bịa đặt kết quả để ép khớp với đáp án.."""
-
-    user_prompt = f"""## Câu hỏi tính toán:
-{question}
-
-## Các đáp án:
+(X là chữ cái in hoa).
+"""
+    user = f"""Câu hỏi: {question}
+Lựa chọn:
 {formatted_choices}
 
-Hãy giải bài toán này theo từng bước và chọn đáp án đúng."""
+Lời giải chuyên gia:
+- Biểu thức/Phương trình chính: {key_expr}
+- Kết quả họ tìm ra: {result}
+- Các bước: {steps}
 
-    return system_prompt, user_prompt
+Hãy kiểm tra và chọn đáp án."""
+    return system, user
 
 
 def create_context_reading_prompt(question: str, choices: list) -> tuple:
@@ -416,7 +435,8 @@ Bắt buộc trả về JSON hợp lệ:
   "reason": "Giải thích quy trình suy luận và phân tích đoạn văn để chọn đáp án.",
   "answer": "X"
 }}
-Trong đó X là ký tự (A, B, C, ...) của đáp án đúng."""
+Trong đó X là ký tự (A, B, C, ...) của đáp án đúng.
+**QUAN TRỌNG**: Đầu ra phải là dạng JSON có đầy đủ HAI trường "reason" và "answer"."""
 
     user_prompt = f"""## Câu hỏi đọc hiểu (đã bao gồm đoạn tài liệu tham khảo):
 {question}
@@ -547,10 +567,10 @@ JSON:
 }
 
 **Quy tắc:**
-- "indices": Chỉ số tài liệu (0-29), chỉ chứa tài liệu có điểm > 0
+- "indices": Chỉ số tài liệu (0-29), chứa toàn bộ tài liệu
 - "scores": Điểm 0-10, làm tròn 1 chữ số thập phân
 - Sắp xếp giảm dần theo điểm
-- Hai mảng phải cùng độ dài"""
+- Hai mảng phải cùng độ dài là 30"""
 
     # Format documents
     docs_text = ""
@@ -863,7 +883,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         classification = classify_question(question, choices)
         question_type = classification['question_type']
         logger.info(f"    Question type: {question_type}")
-        logger.info(f"    Classification reasoning: {classification['reasoning'][:100]}...")
+        logger.info(f"    Classification reasoning: {classification['reasoning'][:300]}...")
         
         valid_choices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
         answer = 'A'
@@ -891,24 +911,46 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
             sleep_time = 62  # Shorter sleep for cannot_answer
             
         elif question_type == 'calculation':
-            # Type 2: Câu hỏi tính toán - không cần RAG
-            logger.info(f"  Processing as 'calculation' - using calculation prompt (no RAG)...")
-            system_prompt, user_prompt = create_calculation_prompt(question, choices)
-            llm_response = call_llm_large(system_prompt, user_prompt)
+            # Type 2: Câu hỏi tính toán - dùng 2-step approach
+            logger.info(f"  Processing as 'calculation' - using 2-step calculation approach (no RAG)...")
             
-            if llm_response and 'answer' in llm_response:
-                answer = llm_response['answer'].strip().upper()
-                reason = llm_response.get('reason', '')
-                # Nếu reason rỗng, thêm message mặc định
-                if not reason or reason.strip() == '':
-                    reason = f"Đáp án được tính toán dựa trên công thức và phương pháp giải (question_type: {question_type})"
-                    logger.warning(f"    Warning: LLM returned empty reason, using default message")
+            # --- STAGE 1: LARGE REASONING ---
+            logger.info(f"    Stage 1: Large Reasoning...")
+            sys_1, user_1 = create_calculation_prompt_large(question)
+            large_out = call_llm_large(sys_1, user_1)
+            
+            if not large_out:
+                logger.error(f"      Stage 1 Failed.")
+                large_out = {}
+            else:
+                logger.info(f"      Stage 1 Complete - method: {large_out.get('method', 'N/A')}")
+                logger.info(f"      Key expression: {large_out.get('key_expression', 'N/A')}")
+                logger.info(f"      Final result: {large_out.get('final_result', 'N/A')}")
+
+            # --- STAGE 2: SMALL VERIFICATION ---
+            logger.info(f"    Stage 2: Small Verifying...")
+            sys_2, user_2 = create_calculation_prompt_small(question, choices, large_out)
+            small_out = call_llm_small(sys_2, user_2)
+            
+            if small_out and 'answer' in small_out:
+                answer = small_out.get('answer', 'A').strip().upper()
+                # Tạo reason từ cả 2 stage
+                reason = json.dumps({
+                    "large": large_out,
+                    "small": small_out.get('check_process', '')
+                }, ensure_ascii=False)
+                logger.info(f"      Stage 2 Complete - Final Answer: {answer}")
                 if len(answer) != 1 or answer not in valid_choices:
-                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    logger.warning(f"      Warning: Invalid answer '{answer}', defaulting to A")
                     answer = 'A'
+            else:
+                logger.error(f"      Stage 2 Failed. Defaulting to A.")
+                answer = 'A'
+                reason = json.dumps(large_out, ensure_ascii=False)
+                
             logger.info(f"    Answer: {answer}")
             logger.info(f"    Reason length: {len(reason)} chars")
-            sleep_time = 92  # Medium sleep for calculation
+            sleep_time = 122  # Changed from 92 to 122 as requested
             
         elif question_type == 'has_context':
             # Type 3: Câu hỏi có sẵn context - không cần RAG
