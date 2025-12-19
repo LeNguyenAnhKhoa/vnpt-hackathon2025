@@ -2,14 +2,3 @@
 /qdrant_storage/*
 !qdrant_storage/.gitkeep
 
-/logs
-
-api-keys1.json
-api-keys2.json
-api-keys3.json
-
-main_async1.py
-main_async2.py
-main_async3.py
-
-*.log

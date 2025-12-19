@@ -39,7 +39,7 @@ COLLECTION_NAME = "vnpt_wiki"
 
 # Data config
 CSV_PATH = "data/data.csv"
-NUM_ROWS = 100000000  # Chỉ lấy 10000 dòng đầu tiên
+NUM_ROWS = 100000000  # Chỉ lấy 100000000 dòng đầu tiên
 
 # Chunking config
 MAX_CHUNK_LENGTH = 512
@@ -64,10 +64,10 @@ UPSERT_BATCH_SIZE = 500  # Số points để upsert mỗi batch
 BM25_MODEL_NAME = "Qdrant/bm25"
 
 # Point ID offset để tránh conflict khi chạy nhiều file cùng lúc
-POINT_ID_OFFSET = 0  # File 1: bắt đầu từ 4,000,000
+POINT_ID_OFFSET = 0  # File: bắt đầu từ 100000000
 
 # ===================== LOAD API KEYS =====================
-def load_embedding_credentials(json_path='./api-keys1.json'):
+def load_embedding_credentials(json_path='../api-keys.json'):
     """Đọc file api-keys.json và lấy credentials cho Embedding"""
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
@@ -118,7 +118,7 @@ async def get_embedding_async(
     text: str,
     credentials: dict,
     semaphore: asyncio.Semaphore,
-    max_retries: int = 5
+    max_retries: int = 100
 ) -> list:
     """
     Gọi VNPT Embedding API để lấy vector (async version)
@@ -164,7 +164,7 @@ async def get_embedding_async(
                     elif response.status == 429:  # Rate limited
                         wait_time = (attempt + 1) * 5
                         logger.warning(f"Rate limited, waiting {wait_time}s...")
-                        await asyncio.sleep(wait_time)
+                        #await asyncio.sleep(wait_time)
                     else:
                         # Log chi tiết đầy đủ về lỗi
                         text_response = await response.text()
@@ -193,14 +193,14 @@ async def get_embedding_async(
                             # Exponential backoff: 1s, 2s, 4s
                             wait_time = 2 ** attempt
                             logger.warning(f"Retrying after {wait_time}s...")
-                            await asyncio.sleep(wait_time)
+                            #await asyncio.sleep(wait_time)
                             continue
             except asyncio.TimeoutError:
                 logger.warning(f"Request timeout, attempt {attempt + 1}/{max_retries}")
                 if attempt < max_retries - 1:
                     wait_time = 2 ** attempt
                     logger.warning(f"Retrying after {wait_time}s...")
-                    await asyncio.sleep(wait_time)
+                    #await asyncio.sleep(wait_time)
                     continue
             except Exception as e:
                 logger.error(f"Request error: {e}")
@@ -210,7 +210,7 @@ async def get_embedding_async(
                 if attempt < max_retries - 1:
                     wait_time = 2 ** attempt
                     logger.warning(f"Retrying after {wait_time}s...")
-                    await asyncio.sleep(wait_time)
+                    #await asyncio.sleep(wait_time)
                     continue
     
     return None
@@ -484,7 +484,7 @@ async def process_documents_async(
                     points_batch = []
                 
                 # Rate limiting delay between batches
-                await asyncio.sleep(BATCH_DELAY)
+                #await asyncio.sleep(BATCH_DELAY)
                 
                 # Log progress every ~500 chunks
                 if processed_count > 0 and processed_count % 500 < EMBEDDING_BATCH_SIZE:
