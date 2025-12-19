@@ -26,7 +26,7 @@ HYBRID_SEARCH_TOP_K = 30  # Lấy top 30 từ hybrid search
 RERANK_TOP_K = 5  # Giữ lại cho tương thích, nhưng thực tế dùng scoring với ngưỡng > 7
 
 # Retry config
-MAX_RETRIES = 3  # Số lần retry tối đa
+MAX_RETRIES = 100  # Số lần retry tối đa
 RETRY_DELAY = 92  # Thời gian chờ giữa mỗi lần retry (giây)
 
 # Fastembed BM25 model

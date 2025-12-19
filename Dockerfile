@@ -27,9 +27,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY predict.py .
 COPY entrypoint.sh .
 COPY api-keys.json .
-# Nếu bạn có dùng các file phụ trong vectorDB (trừ storage), hãy copy riêng:
-COPY vectorDB/main_async.py ./vectorDB/
-# COPY thêm các file/folder code khác nếu cần (ví dụ folder img, utils...)
 
 # 3. SETUP DATABASE (Đây là dòng quan trọng nhất đảm bảo có Data)
 RUN mkdir -p /qdrant/storage
