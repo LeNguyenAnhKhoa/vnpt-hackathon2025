@@ -3,67 +3,67 @@
 ## Pipeline Flow (predict.py)
 ![Workflow](img/workflow.jpg)
 
-Hệ thống chúng tôi sử dụng kiến trúc **Adaptive Pipeline** thông minh, tự động điều hướng câu hỏi đến quy trình xử lý tối ưu nhất thay vì áp dụng RAG rập khuôn cho mọi trường hợp.
+Our system uses an intelligent **Adaptive Pipeline** architecture, automatically routing questions to the most optimal processing workflow instead of applying a rigid RAG approach for every case.
 
 ### 1. Question Classification (Adaptive Routing)
-Mọi Query đầu vào (Question + Choices) được **LLM Small** phân loại thành 4 nhóm chiến lược:
+Every input Query (Question + Choices) is classified by **LLM Small** into 4 strategic groups:
 
 *   **🛡️ Safety & Policy Filter (`cannot_answer`)**:
-    *   Nhận diện các câu hỏi nhạy cảm, vi phạm chính sách hoặc độc hại.
-    *   **Hành động**: Hệ thống lập tức chọn đáp án từ chối (ví dụ: "Tôi không thể trả lời...") mà không cần xử lý thêm, đảm bảo an toàn tuyệt đối.
+    *   Identifies sensitive, policy-violating, or harmful questions.
+    *   **Action**: The system immediately selects a refusal answer (e.g., "I cannot answer...") without further processing, ensuring absolute safety.
 
 *   **🧮 Advanced STEM Reasoning (`calculation`)**:
-    *   Dành cho các câu hỏi Toán, Lý, Hóa cần tính toán chính xác.
-    *   **Mô hình "Expert-Auditor"**:
-        1.  **Stage 1 (The Expert - LLM Large)**: Phân tích bài toán, thiết lập công thức và giải chi tiết từng bước rồi đưa ra đáp án ban đầu.
-        2.  **Stage 2 (The Auditor - LLM Large)**: Đóng vai trò kiểm toán viên, kiểm tra lại logic và tính toán của chuyên gia để đảm bảo không có lỗi "ảo giác" số học, sau đó mới chốt đáp án cuối cùng.
+    *   Dedicated to Math, Physics, and Chemistry questions requiring precise calculations.
+    *   **"Expert-Auditor" Model**:
+        1.  **Stage 1 (The Expert - LLM Large)**: Analyzes the problem, sets up formulas, solves step-by-step, and provides an initial answer.
+        2.  **Stage 2 (The Auditor - LLM Large)**: Acts as an auditor, double-checking the expert's logic and calculations to ensure no arithmetic "hallucinations" before finalizing the answer.
 
 *   **📖 Context-Aware Reading (`has_context`)**:
-    *   Dành cho các câu hỏi đọc hiểu đã có sẵn đoạn văn bản dài trong đề bài.
-    *   Sử dụng **LLM Large** với prompt chuyên biệt cho kỹ năng đọc hiểu, tập trung khai thác dữ kiện nội tại mà không kích hoạt RAG để tránh nhiễu thông tin bên ngoài.
+    *   Dedicated to reading comprehension questions that already include a long text passage in the prompt.
+    *   Uses **LLM Large** with a specialized prompt for reading comprehension skills, focusing on exploiting internal data without triggering RAG to avoid external information noise.
 
 *   **🌐 Adaptive RAG (`general`)**:
-    *   Dành cho các câu hỏi kiến thức chung cần tra cứu thông tin bên ngoài.
-    *   **Quy trình RAG nâng cao**:
-        1.  **Query Expansion**: Ghép `Question + Choices` để tăng ngữ cảnh tìm kiếm.
-        2.  **Hybrid Search**: Kết hợp **Dense Embedding** (VNPT API) và **Sparse Embedding** (BM25) trên Qdrant, sử dụng thuật toán **Reciprocal Rank Fusion (RRF with k = 60)** để lấy Top 30 tài liệu tiềm năng.
-        3.  **LLM-as-a-Judge Reranking**: Thay vì dùng Cross-Encoder thông thường, hệ thống sử dụng **LLM Small** để "chấm điểm" 30 tài liệu theo 4 tiêu chí: *Đúng chủ đề, Có từ khóa, Thông tin hữu ích, và Tính cập nhật (Freshness)*.
-        4.  **Filtering**: Chỉ giữ lại tối đa **Top 5** tài liệu có điểm số > 7.0.
-        5.  **Final Answer**: **LLM Large** tổng hợp thông tin từ các tài liệu chất lượng cao này để đưa ra câu trả lời cuối cùng.
+    *   Dedicated to general knowledge questions requiring external information lookup.
+    *   **Advanced RAG Process**:
+        1.  **Query Expansion**: Combines `Question + Choices` to increase search context.
+        2.  **Hybrid Search**: Combines **Dense Embedding** (VNPT API) and **Sparse Embedding** (BM25) on Qdrant, using the **Reciprocal Rank Fusion (RRF with k = 60)** algorithm to retrieve the Top 30 potential documents.
+        3.  **LLM-as-a-Judge Reranking**: Instead of using a standard Cross-Encoder, the system uses **LLM Small** to "score" 30 documents based on 4 criteria: *Topic Relevance, Keyword Presence, Information Usefulness, and Freshness*.
+        4.  **Filtering**: Retains only a maximum of **Top 5** documents with a score > 7.0.
+        5.  **Final Answer**: **LLM Large** synthesizes information from these high-quality documents to provide the final answer.
 
-> **Note**: Việc sử dụng `LLM Small` làm Reranker cho phép xử lý Context Window lớn hơn (đánh giá được 30 tài liệu cùng lúc) và linh hoạt hơn trong việc đánh giá "tính cập nhật" của thông tin so với các mô hình Rerank truyền thống. Tất cả LLMs đều sử dụng `temperature  = 0` để tránh bị Hallucinations.
+> **Note**: Using `LLM Small` as a Reranker allows processing a larger Context Window (evaluating 30 documents at once) and is more flexible in assessing information "freshness" compared to traditional Rerank models. All LLMs use `temperature = 0` to avoid Hallucinations.
 
 ## Data Processing
-- Các nguồn dữ liệu và cách xử lý được để ở link: [sheet](https://docs.google.com/spreadsheets/d/176Hs2OUBhQj6UrNkRyu4dse9xK_ag_6VMZZsd2maLy8/edit?usp=sharing)
-- Tổng hợp dữ liệu được để ở link: [Data](https://drive.google.com/drive/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR?usp=sharing). Trong đó, folder `input` chứa các file đã được crawl xong, folder `output` chứa các file được đưa về dạng `.csv`.
-- Data được crawl từ nhiều nguồn khác nhau. Sau khi crawl, data được gộp lại thành 1 file .csv có 3 cột "id", "title" và "text". Trong đó, cột "id" và "title" không quan trọng, cột "text" đóng góp trực tiếp vô vector database.
-- Cuối cùng, gộp tất cả lại thành 1 file `vectorDB/data/data.csv` duy nhất.
+- Data sources and processing methods are available at: [sheet](https://docs.google.com/spreadsheets/d/176Hs2OUBhQj6UrNkRyu4dse9xK_ag_6VMZZsd2maLy8/edit?usp=sharing)
+- Aggregated data is available at: [Data](https://drive.google.com/drive/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR?usp=sharing). In this folder, `input` contains crawled files, and `output` contains files converted to `.csv` format.
+- Data is crawled from various sources. After crawling, data is merged into a single `.csv` file with 3 columns: "id", "title", and "text". The "id" and "title" columns are not critical, while the "text" column contributes directly to the vector database.
+- Finally, everything is merged into a single file: `vectorDB/data/data.csv`.
 
 ## Vector Database work flow (High-Performance Indexing)
 
-Chúng tôi đã xây dựng một quy trình **Asynchronous Indexing Pipeline** (`vectorDB/main_async.py`) được tối ưu hóa cao độ để xử lý lượng dữ liệu lớn một cách nhanh chóng và bền bỉ:
+We have built a highly optimized **Asynchronous Indexing Pipeline** (`vectorDB/main_async.py`) to process large amounts of data quickly and robustly:
 
 1.  **Hybrid Search Architecture**:
-    *   Kết hợp sức mạnh của **Dense Embedding** (VNPT AI API, 1024 dim) để bắt ngữ nghĩa và **Sparse Embedding** (FastEmbed BM25) để bắt từ khóa chính xác.
-    *   Cấu hình Qdrant collection với cả `vectors_config` (Cosine) và `sparse_vectors_config` (IDF), tạo tiền đề cho thuật toán Hybrid Search chính xác cao.
+    *   Combines the power of **Dense Embedding** (VNPT AI API, 1024 dim) to capture semantics and **Sparse Embedding** (FastEmbed BM25) to capture exact keywords.
+    *   Configures the Qdrant collection with both `vectors_config` (Cosine) and `sparse_vectors_config` (IDF), laying the foundation for a high-precision Hybrid Search algorithm.
 
-2.  **Parallel Async Processing (Sáng tạo & Tối ưu)**:
-    *   Thay vì chạy tuần tự, hệ thống sử dụng `asyncio` để thực hiện song song hai tác vụ nặng nhất: **Gọi API Embedding** và **Tính toán BM25** cùng lúc (`asyncio.gather`).
-    *   Tăng tốc độ xử lý lên gấp **5-8 lần** so với phiên bản synchronous truyền thống.
+2.  **Parallel Async Processing (Creative & Optimized)**:
+    *   Instead of running sequentially, the system uses `asyncio` to execute the two heaviest tasks in parallel: **Calling Embedding API** and **Calculating BM25** simultaneously (`asyncio.gather`).
+    *   Increases processing speed by **5-8 times** compared to the traditional synchronous version.
 
 3.  **Robust API Rate Limiting & Resilience**:
-    *   Thiết kế cơ chế **Semaphore** để kiểm soát chặt chẽ số lượng request đồng thời (`MAX_CONCURRENT_REQUESTS`), đảm bảo không bao giờ vượt quá giới hạn 500 req/phút của VNPT API.
-    *   Tích hợp cơ chế **Exponential Backoff** thông minh: tự động chờ và thử lại khi gặp lỗi mạng hoặc 429 Too Many Requests.
-    *   **Note**: Khi chạy lại từ đầu có thể comment các dòng `.sleep` để chạy nhanh hơn
+    *   Designed a **Semaphore** mechanism to strictly control the number of concurrent requests (`MAX_CONCURRENT_REQUESTS`), ensuring the 500 req/min limit of VNPT API is never exceeded.
+    *   Integrated intelligent **Exponential Backoff** mechanism: automatically waits and retries when encountering network errors or 429 Too Many Requests.
+    *   **Note**: When restarting from scratch, you can comment out `.sleep` lines to run faster.
 
 4.  **Smart Resume & Deduplication**:
-    *   Hệ thống tự động quét các Point ID đã tồn tại trong Qdrant trước khi chạy.
-    *   Cho phép tạm dừng và tiếp tục (Resume) quá trình đánh index bất cứ lúc nào mà không cần chạy lại từ đầu, tiết kiệm chi phí API và thời gian.
+    *   The system automatically scans for existing Point IDs in Qdrant before running.
+    *   Allows pausing and resuming the indexing process at any time without restarting from the beginning, saving API costs and time.
 
 5.  **Context-Aware Chunking**:
-    *   Sử dụng `SentenceSplitter` của Llama-index để cắt văn bản theo ngữ nghĩa câu (`chunk_size=512`, `overlap=32`), tránh việc cắt giữa chừng làm mất ngữ cảnh.
+    *   Uses `SentenceSplitter` from Llama-index to split text by sentence semantics (`chunk_size=512`, `overlap=32`), avoiding cutting in the middle and losing context.
 
-**Cấu trúc dữ liệu lưu trữ (Payload):**
+**Storage Data Structure (Payload):**
 ```json
 {
   "id": "point_id (generated sequentially)",
