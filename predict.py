@@ -6,7 +6,6 @@ from pathlib import Path
 import os
 import time
 import logging
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from qdrant_client import QdrantClient, models
 from fastembed import SparseTextEmbedding
@@ -27,7 +26,7 @@ HYBRID_SEARCH_TOP_K = 30  # Lấy top 30 từ hybrid search
 RERANK_TOP_K = 5  # Giữ lại cho tương thích, nhưng thực tế dùng scoring với ngưỡng > 7
 
 # Retry config
-MAX_RETRIES = 100  # Số lần retry tối đa
+MAX_RETRIES = 3  # Số lần retry tối đa
 RETRY_DELAY = 92  # Thời gian chờ giữa mỗi lần retry (giây)
 
 # Fastembed BM25 model
@@ -373,9 +372,9 @@ def create_calculation_prompt_verification(question: str, choices: list, large_o
     result = large_output.get('final_result', 'N/A')
     steps = json.dumps(large_output.get('step_by_step', []), ensure_ascii=False)
 
-    system = """Bạn là Chuyên gia Kiểm định (Senior Verifier). Nhiệm vụ:
-1. Kiểm tra kỹ lưỡng lời giải của Chuyên gia ban đầu.
-2. Nếu `key_expression` là biểu thức SỐ: Hãy TÍNH TOÁN LẠI một cách chính xác tuyệt đối.
+    system = """Bạn là Kiểm toán viên. Nhiệm vụ:
+1. Kiểm tra lời giải của Chuyên gia.
+2. Nếu `key_expression` là biểu thức SỐ: Hãy TÍNH TOÁN LẠI.
 3. Nếu `key_expression` là Phương trình Hóa học/Logic: Hãy kiểm tra xem nó ĐÚNG hay SAI (cân bằng chưa, logic đúng không).
 4. Chọn đáp án A, B, C, D khớp nhất với kết quả kiểm tra.
 
@@ -742,7 +741,7 @@ def call_llm_large(system_prompt: str, user_prompt: str) -> dict:
     
     for attempt in range(MAX_RETRIES):
         try:
-            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=40)
+            response = requests.post(API_URL_LARGE, headers=headers, json=json_data, timeout=60)
             response.raise_for_status()
             result = response.json()
             
@@ -819,182 +818,6 @@ def score_documents(question: str, choices: list, documents: list) -> list:
         return []
 
 
-def process_single_question(item, idx, total_samples, start_idx):
-    qid = item['qid']
-    question = item['question']
-    choices = item['choices']
-    
-    logger.info(f"\n{'='*60}")
-    logger.info(f"Processing {idx + 1}/{total_samples} (ID: {qid}, original index: {start_idx + idx})")
-    logger.info(f"Question: {question[:100]}...")
-    
-    # ===================== STEP 0: CLASSIFY QUESTION =====================
-    logger.info(f"  Step 0: Classifying question using LLM Small...")
-    classification = classify_question(question, choices)
-    question_type = classification['question_type']
-    logger.info(f"    Question type: {question_type}")
-    logger.info(f"    Classification reasoning: {classification['reasoning'][:300]}...")
-    
-    valid_choices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-    answer = 'A'
-    reason = ""
-    top_5_docs = []
-    sleep_time = 122  # Default for general questions
-    
-    # ===================== HANDLE BY QUESTION TYPE =====================
-    if question_type == 'cannot_answer':
-        # Type 1: Câu hỏi không được trả lời - chọn đáp án từ chối
-        logger.info(f"  Processing as 'cannot_answer' - selecting refusal answer...")
-        refusal_answer = classification.get('refusal_answer')
-        if refusal_answer and len(refusal_answer) == 1 and refusal_answer.upper() in valid_choices:
-            answer = refusal_answer.upper()
-            reason = f"Đây là câu hỏi nhạy cảm/không được trả lời. Chọn đáp án từ chối: {answer}"
-        else:
-            # Fallback: tìm đáp án từ chối trong choices
-            refusal_keywords = ['không thể', 'tôi không thể', 'rất tiếc', 'từ chối', 'không được phép']
-            for i, choice in enumerate(choices):
-                if any(kw in choice.lower() for kw in refusal_keywords):
-                    answer = valid_choices[i]
-                    reason = f"Đây là câu hỏi nhạy cảm. Tự động chọn đáp án từ chối: {answer}. {choice}"
-                    break
-        logger.info(f"    Answer: {answer}")
-        sleep_time = 62  # Shorter sleep for cannot_answer
-        
-    elif question_type == 'calculation':
-        # Type 2: Câu hỏi tính toán - dùng 2-step approach
-        logger.info(f"  Processing as 'calculation' - using 2-step calculation approach (no RAG)...")
-        
-        # --- STAGE 1: LARGE REASONING ---
-        logger.info(f"    Stage 1: Large Reasoning...")
-        sys_1, user_1 = create_calculation_prompt_large(question)
-        large_out = call_llm_large(sys_1, user_1)
-        
-        if not large_out:
-            logger.error(f"      Stage 1 Failed.")
-            large_out = {}
-        else:
-            logger.info(f"      Stage 1 Complete - method: {large_out.get('method', 'N/A')}")
-            logger.info(f"      Key expression: {large_out.get('key_expression', 'N/A')}")
-            logger.info(f"      Final result: {large_out.get('final_result', 'N/A')}")
-
-        # --- STAGE 2: LARGE VERIFICATION ---
-        logger.info(f"    Stage 2: Large Verifying...")
-        sys_2, user_2 = create_calculation_prompt_verification(question, choices, large_out)
-        verify_out = call_llm_large(sys_2, user_2)
-        
-        if verify_out and 'answer' in verify_out:
-            answer = verify_out.get('answer', 'A').strip().upper()
-            # Tạo reason từ cả 2 stage
-            reason = json.dumps({
-                "large": large_out,
-                "verification": verify_out.get('check_process', '')
-            }, ensure_ascii=False)
-            logger.info(f"      Stage 2 Complete - Final Answer: {answer}")
-            if len(answer) != 1 or answer not in valid_choices:
-                logger.warning(f"      Warning: Invalid answer '{answer}', defaulting to A")
-                answer = 'A'
-        else:
-            logger.error(f"      Stage 2 Failed. Defaulting to A.")
-            answer = 'A'
-            reason = json.dumps(large_out, ensure_ascii=False)
-            
-        logger.info(f"    Answer: {answer}")
-        logger.info(f"    Reason length: {len(reason)} chars")
-        sleep_time = 122  # Changed from 92 to 122 as requested
-        
-    elif question_type == 'has_context':
-        # Type 3: Câu hỏi có sẵn context - không cần RAG
-        logger.info(f"  Processing as 'has_context' - using context reading prompt (no RAG)...")
-        system_prompt, user_prompt = create_context_reading_prompt(question, choices)
-        llm_response = call_llm_large(system_prompt, user_prompt)
-        
-        if llm_response and 'answer' in llm_response:
-            answer = llm_response['answer'].strip().upper()
-            reason = llm_response.get('reason', '')
-            # Nếu reason rỗng, thêm message mặc định
-            if not reason or reason.strip() == '':
-                reason = f"Đáp án được chọn dựa trên phân tích đoạn thông tin trong câu hỏi (question_type: {question_type})"
-                logger.warning(f"    Warning: LLM returned empty reason, using default message")
-            if len(answer) != 1 or answer not in valid_choices:
-                logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
-                answer = 'A'
-        logger.info(f"    Answer: {answer}")
-        logger.info(f"    Reason length: {len(reason)} chars")
-        sleep_time = 92  # Medium sleep for has_context
-        
-    else:
-        # Type 4: Câu hỏi thông thường - dùng full RAG pipeline
-        logger.info(f"  Processing as 'general' - using full RAG pipeline...")
-        
-        # ===================== STEP 1: HYBRID SEARCH =====================
-        logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
-        
-        # --- PHẦN SỬA ĐỔI: Ghép câu hỏi và đáp án ---
-        # Tạo chuỗi choices dạng: "A. Bình Định B. Đắk Lắk..."
-        choices_str = " ".join([f"{valid_choices[i]}. {choice}" for i, choice in enumerate(choices)])
-        # Ghép vào câu hỏi
-        search_query = f"{question} {choices_str}"
-        
-        logger.info(f"    Querying with: {search_query[:100]}...") # Log để kiểm tra
-        
-        # Truyền search_query mới vào hàm thay vì question gốc
-        top_30_docs = hybrid_search(search_query, top_k=HYBRID_SEARCH_TOP_K)
-        # ---------------------------------------------
-        
-        logger.info(f"    Found {len(top_30_docs)} documents")
-        
-        # ===================== STEP 2: SCORING =====================
-        if top_30_docs:
-            logger.info(f"  Step 2: Scoring documents using LLM Small (threshold: >7, max: 5)...")
-            top_5_docs = score_documents(question, choices, top_30_docs)
-            logger.info(f"    Selected {len(top_5_docs)} documents after scoring")
-            
-            # Log selected document info
-            for i, doc in enumerate(top_5_docs):
-                score = doc.get('relevance_score', 'N/A')
-                logger.info(f"      [{i+1}] Score: {score} - {doc.get('title', 'N/A')[:50]}...")
-        else:
-            logger.info(f"  Step 2: Skipping scoring (no documents found)")
-        
-        # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
-        logger.info(f"  Step 3: Generating answer using LLM Large...")
-        
-        # Tạo prompts với context từ top 5 documents
-        system_prompt, user_prompt = create_prompts_with_context(question, choices, top_5_docs)
-        
-        # Gọi LLM Large để trả lời
-        llm_response = call_llm_large(system_prompt, user_prompt)
-        
-        if llm_response and 'answer' in llm_response:
-            answer = llm_response['answer'].strip().upper()
-            reason = llm_response.get('reason', '')
-            if len(answer) != 1 or answer not in valid_choices:
-                logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
-                answer = 'A'
-        else:
-            logger.warning(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
-        logger.info(f"    Answer: {answer}")
-        sleep_time = 122  # Longer sleep for general (full pipeline)
-    
-    # Lưu thêm thông tin về documents được sử dụng (lưu full text từ vector DB)
-    doc_refs = [{'title': doc.get('title', ''), 'text': doc.get('text', '')} 
-                for doc in top_5_docs]
-    
-    return {
-        'index': idx,
-        'csv_result': {
-            'qid': qid,
-            'answer': answer
-        },
-        'json_result': {
-            'qid': qid,
-            'predict': answer,
-            'reason': reason,
-            'question_type': question_type,
-            'reference_docs': doc_refs
-        }
-    }
-
 def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
     """
     Process the test.json file and generate submission.csv and predict.json
@@ -1044,31 +867,199 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
 
     csv_results = []
     json_results = []
+    csv_time_results = []
     
-    # Process each question using ThreadPoolExecutor
-    max_workers = 6
-    logger.info(f"Starting processing with max_workers={max_workers}")
-    
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        future_to_idx = {
-            executor.submit(process_single_question, item, idx, len(test_data), start_idx): idx 
-            for idx, item in enumerate(test_data)
-        }
+    # Process each question
+    for idx, item in enumerate(test_data):
+        start_time = time.time()
+        qid = item['qid']
+        question = item['question']
+        choices = item['choices']
         
-        results = []
-        for future in as_completed(future_to_idx):
-            try:
-                result = future.result()
-                results.append(result)
-            except Exception as exc:
-                logger.error(f"Generated an exception: {exc}")
-    
-    # Sort results by index to maintain order
-    results.sort(key=lambda x: x['index'])
-    
-    for res in results:
-        csv_results.append(res['csv_result'])
-        json_results.append(res['json_result'])
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Processing {idx + 1}/{len(test_data)} (ID: {qid}, original index: {start_idx + idx})")
+        logger.info(f"Question: {question[:100]}...")
+        
+        # ===================== STEP 0: CLASSIFY QUESTION =====================
+        logger.info(f"  Step 0: Classifying question using LLM Small...")
+        classification = classify_question(question, choices)
+        question_type = classification['question_type']
+        logger.info(f"    Question type: {question_type}")
+        logger.info(f"    Classification reasoning: {classification['reasoning'][:300]}...")
+        
+        valid_choices = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+        answer = 'A'
+        reason = ""
+        top_5_docs = []
+        sleep_time = 122  # Default for general questions
+        
+        # ===================== HANDLE BY QUESTION TYPE =====================
+        if question_type == 'cannot_answer':
+            # Type 1: Câu hỏi không được trả lời - chọn đáp án từ chối
+            logger.info(f"  Processing as 'cannot_answer' - selecting refusal answer...")
+            refusal_answer = classification.get('refusal_answer')
+            if refusal_answer and len(refusal_answer) == 1 and refusal_answer.upper() in valid_choices:
+                answer = refusal_answer.upper()
+                reason = f"Đây là câu hỏi nhạy cảm/không được trả lời. Chọn đáp án từ chối: {answer}"
+            else:
+                # Fallback: tìm đáp án từ chối trong choices
+                refusal_keywords = ['không thể', 'tôi không thể', 'rất tiếc', 'từ chối', 'không được phép']
+                for i, choice in enumerate(choices):
+                    if any(kw in choice.lower() for kw in refusal_keywords):
+                        answer = valid_choices[i]
+                        reason = f"Đây là câu hỏi nhạy cảm. Tự động chọn đáp án từ chối: {answer}. {choice}"
+                        break
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 62  # Shorter sleep for cannot_answer
+            
+        elif question_type == 'calculation':
+            # Type 2: Câu hỏi tính toán - dùng 2-step approach
+            logger.info(f"  Processing as 'calculation' - using 2-step calculation approach (no RAG)...")
+            
+            # --- STAGE 1: LARGE REASONING ---
+            logger.info(f"    Stage 1: Large Reasoning...")
+            sys_1, user_1 = create_calculation_prompt_large(question)
+            large_out = call_llm_large(sys_1, user_1)
+            
+            if not large_out:
+                logger.error(f"      Stage 1 Failed.")
+                large_out = {}
+            else:
+                logger.info(f"      Stage 1 Complete - method: {large_out.get('method', 'N/A')}")
+                logger.info(f"      Key expression: {large_out.get('key_expression', 'N/A')}")
+                logger.info(f"      Final result: {large_out.get('final_result', 'N/A')}")
+
+            # --- STAGE 2: VERIFICATION ---
+            logger.info(f"    Stage 2: Verifying...")
+            sys_2, user_2 = create_calculation_prompt_verification(question, choices, large_out)
+            small_out = call_llm_large(sys_2, user_2)
+            
+            if small_out and 'answer' in small_out:
+                answer = small_out.get('answer', 'A').strip().upper()
+                # Tạo reason từ cả 2 stage
+                reason = json.dumps({
+                    "large": large_out,
+                    "verification": small_out.get('check_process', '')
+                }, ensure_ascii=False)
+                logger.info(f"      Stage 2 Complete - Final Answer: {answer}")
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"      Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            else:
+                logger.error(f"      Stage 2 Failed. Defaulting to A.")
+                answer = 'A'
+                reason = json.dumps(large_out, ensure_ascii=False)
+                
+            logger.info(f"    Answer: {answer}")
+            logger.info(f"    Reason length: {len(reason)} chars")
+            sleep_time = 122  # Changed from 92 to 122 as requested
+            
+        elif question_type == 'has_context':
+            # Type 3: Câu hỏi có sẵn context - không cần RAG
+            logger.info(f"  Processing as 'has_context' - using context reading prompt (no RAG)...")
+            system_prompt, user_prompt = create_context_reading_prompt(question, choices)
+            llm_response = call_llm_large(system_prompt, user_prompt)
+            
+            if llm_response and 'answer' in llm_response:
+                answer = llm_response['answer'].strip().upper()
+                reason = llm_response.get('reason', '')
+                # Nếu reason rỗng, thêm message mặc định
+                if not reason or reason.strip() == '':
+                    reason = f"Đáp án được chọn dựa trên phân tích đoạn thông tin trong câu hỏi (question_type: {question_type})"
+                    logger.warning(f"    Warning: LLM returned empty reason, using default message")
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            logger.info(f"    Answer: {answer}")
+            logger.info(f"    Reason length: {len(reason)} chars")
+            sleep_time = 92  # Medium sleep for has_context
+            
+        else:
+            # Type 4: Câu hỏi thông thường - dùng full RAG pipeline
+            logger.info(f"  Processing as 'general' - using full RAG pipeline...")
+            
+            # ===================== STEP 1: HYBRID SEARCH =====================
+            logger.info(f"  Step 1: Hybrid search (top {HYBRID_SEARCH_TOP_K})...")
+            
+            # --- PHẦN SỬA ĐỔI: Ghép câu hỏi và đáp án ---
+            # Tạo chuỗi choices dạng: "A. Bình Định B. Đắk Lắk..."
+            choices_str = " ".join([f"{valid_choices[i]}. {choice}" for i, choice in enumerate(choices)])
+            # Ghép vào câu hỏi
+            search_query = f"{question} {choices_str}"
+            
+            logger.info(f"    Querying with: {search_query[:100]}...") # Log để kiểm tra
+            
+            # Truyền search_query mới vào hàm thay vì question gốc
+            top_30_docs = hybrid_search(search_query, top_k=HYBRID_SEARCH_TOP_K)
+            # ---------------------------------------------
+            
+            logger.info(f"    Found {len(top_30_docs)} documents")
+            
+            # ===================== STEP 2: SCORING =====================
+            if top_30_docs:
+                logger.info(f"  Step 2: Scoring documents using LLM Small (threshold: >7, max: 5)...")
+                top_5_docs = score_documents(question, choices, top_30_docs)
+                logger.info(f"    Selected {len(top_5_docs)} documents after scoring")
+                
+                # Log selected document info
+                for i, doc in enumerate(top_5_docs):
+                    score = doc.get('relevance_score', 'N/A')
+                    logger.info(f"      [{i+1}] Score: {score} - {doc.get('title', 'N/A')[:50]}...")
+            else:
+                logger.info(f"  Step 2: Skipping scoring (no documents found)")
+            
+            # ===================== STEP 3: ANSWER WITH LLM LARGE =====================
+            logger.info(f"  Step 3: Generating answer using LLM Large...")
+            
+            # Tạo prompts với context từ top 5 documents
+            system_prompt, user_prompt = create_prompts_with_context(question, choices, top_5_docs)
+            
+            # Gọi LLM Large để trả lời
+            llm_response = call_llm_large(system_prompt, user_prompt)
+            
+            if llm_response and 'answer' in llm_response:
+                answer = llm_response['answer'].strip().upper()
+                reason = llm_response.get('reason', '')
+                if len(answer) != 1 or answer not in valid_choices:
+                    logger.warning(f"    Warning: Invalid answer '{answer}', defaulting to A")
+                    answer = 'A'
+            else:
+                logger.warning(f"    Warning: Failed to get valid response for QID {qid}. Defaulting to A.")
+            logger.info(f"    Answer: {answer}")
+            sleep_time = 122  # Longer sleep for general (full pipeline)
+        
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+
+        csv_results.append({
+            'qid': qid,
+            'answer': answer
+        })
+
+        csv_time_results.append({
+            'qid': qid,
+            'answer': answer,
+            'time': elapsed_time
+        })
+        
+        # Lưu thêm thông tin về documents được sử dụng (lưu full text từ vector DB)
+        doc_refs = [{'title': doc.get('title', ''), 'text': doc.get('text', '')} 
+                    for doc in top_5_docs]
+        
+        json_results.append({
+            'qid': qid,
+            'predict': answer,
+            'reason': reason,
+            'question_type': question_type,
+            'reference_docs': doc_refs
+        })
+        
+        # Sleep to respect rate limits - different based on question type
+        # Type 1 (cannot_answer): 62s
+        # Type 2,3 (calculation, has_context): 92s
+        # Type 4 (general): 122s
+        logger.info(f"  Sleeping {sleep_time}s for rate limit (question_type: {question_type})...")
+        #time.sleep(sleep_time)
     
     # Write to CSV
     csv_path = output_dir / 'submission.csv'
@@ -1076,6 +1067,13 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         writer = csv.DictWriter(f, fieldnames=['qid', 'answer'])
         writer.writeheader()
         writer.writerows(csv_results)
+
+    # Write to CSV Time
+    csv_time_path = output_dir / 'submission_time.csv'
+    with open(csv_time_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=['qid', 'answer', 'time'])
+        writer.writeheader()
+        writer.writerows(csv_time_results)
     
     # Write to JSON
     json_path = output_dir / 'predict.json'
@@ -1083,6 +1081,7 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         json.dump(json_results, f, ensure_ascii=False, indent=2)
     
     logger.info(f"\nSubmission file saved to: {csv_path}")
+    logger.info(f"Submission time file saved to: {csv_time_path}")
     logger.info(f"Prediction file saved to: {json_path}")
     logger.info(f"Total questions processed: {len(csv_results)}")
 
@@ -1093,7 +1092,7 @@ def main():
         '--input',
         type=str,
         default='private_test.json',
-        help='Path to the input test.json file (default: private_test.json)'
+        help='Path to the input private_test.json file (default: private_test.json)'
     )
     parser.add_argument(
         '--output-dir',
