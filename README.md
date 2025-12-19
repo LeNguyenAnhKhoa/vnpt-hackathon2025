@@ -15,7 +15,7 @@ Mọi Query đầu vào (Question + Choices) được **LLM Small** phân loại
 *   **🧮 Advanced STEM Reasoning (`calculation`)**:
     *   Dành cho các câu hỏi Toán, Lý, Hóa cần tính toán chính xác.
     *   **Mô hình "Expert-Auditor"**:
-        1.  **Stage 1 (The Expert - LLM Large)**: Phân tích bài toán, thiết lập công thức và giải chi tiết từng bước.
+        1.  **Stage 1 (The Expert - LLM Large)**: Phân tích bài toán, thiết lập công thức và giải chi tiết từng bước rồi đưa ra đáp án ban đầu.
         2.  **Stage 2 (The Auditor - LLM Large)**: Đóng vai trò kiểm toán viên, kiểm tra lại logic và tính toán của chuyên gia để đảm bảo không có lỗi "ảo giác" số học, sau đó mới chốt đáp án cuối cùng.
 
 *   **📖 Context-Aware Reading (`has_context`)**:
@@ -26,7 +26,7 @@ Mọi Query đầu vào (Question + Choices) được **LLM Small** phân loại
     *   Dành cho các câu hỏi kiến thức chung cần tra cứu thông tin bên ngoài.
     *   **Quy trình RAG nâng cao**:
         1.  **Query Expansion**: Ghép `Question + Choices` để tăng ngữ cảnh tìm kiếm.
-        2.  **Hybrid Search**: Kết hợp **Dense Embedding** (VNPT API) và **Sparse Embedding** (BM25) trên Qdrant, sử dụng thuật toán **Reciprocal Rank Fusion (RRF)** để lấy Top 30 tài liệu tiềm năng.
+        2.  **Hybrid Search**: Kết hợp **Dense Embedding** (VNPT API) và **Sparse Embedding** (BM25) trên Qdrant, sử dụng thuật toán **Reciprocal Rank Fusion (RRF with k = 60)** để lấy Top 30 tài liệu tiềm năng.
         3.  **LLM-as-a-Judge Reranking**: Thay vì dùng Cross-Encoder thông thường, hệ thống sử dụng **LLM Small** để "chấm điểm" 30 tài liệu theo 4 tiêu chí: *Đúng chủ đề, Có từ khóa, Thông tin hữu ích, và Tính cập nhật (Freshness)*.
         4.  **Filtering**: Chỉ giữ lại tối đa **Top 5** tài liệu có điểm số > 7.0.
         5.  **Final Answer**: **LLM Large** tổng hợp thông tin từ các tài liệu chất lượng cao này để đưa ra câu trả lời cuối cùng.
@@ -123,3 +123,6 @@ python main_async.py
 python main.py
 ```
 5. `submission.csv` and `predict.json` is in folder `output`
+6. Note:
+- `main_async.py`: To follow the api rate limit (500 req/m), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`
+- `predict.py`: To follow the api rate limit (40 req/h for LLM Large and 60 req/h for LLM Small), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`. If there is a line say **Default to A** in file `.log`, please run that test case again.
