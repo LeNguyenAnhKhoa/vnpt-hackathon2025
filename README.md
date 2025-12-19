@@ -113,16 +113,20 @@ The `api-keys.json` file contains API credentials for VNPT AI Services:
 ```
 pip install -r requirements.txt
 ```
-3. Run the Qdrant vector database workflow:
+3. Run the Qdrant vector database:
+```
+docker-compose up -d
+```
+4. Run the Qdrant vector database workflow:
 ```
 cd vectorDB
 python main_async.py
 ```
-4. Ensure file `private_test.json` is in the main folder. Run the workflow pipeline:
+5. Ensure file `private_test.json` is in the main folder. Run the workflow pipeline:
 ```
 python main.py
 ```
-5. `submission.csv` and `predict.json` is in folder `output`
-6. Note:
+6. `submission.csv` and `predict.json` is in folder `output`
+7. Note:
 - `main_async.py`: To follow the api rate limit (500 req/m), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`
 - `predict.py`: To follow the api rate limit (40 req/h for LLM Large and 60 req/h for LLM Small), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`. If there is a line say **Default to A** in file `.log`, please run that test case again.
