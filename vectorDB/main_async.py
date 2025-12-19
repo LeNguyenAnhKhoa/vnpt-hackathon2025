@@ -64,7 +64,7 @@ UPSERT_BATCH_SIZE = 500  # Số points để upsert mỗi batch
 BM25_MODEL_NAME = "Qdrant/bm25"
 
 # Point ID offset để tránh conflict khi chạy nhiều file cùng lúc
-POINT_ID_OFFSET = 0  # File: bắt đầu từ 100000000
+POINT_ID_OFFSET = 1000000000  # File: bắt đầu từ 1000000000
 
 # ===================== LOAD API KEYS =====================
 def load_embedding_credentials(json_path='../api-keys.json'):
