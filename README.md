@@ -39,7 +39,7 @@ Mọi Query đầu vào (Question + Choices) được **LLM Small** phân loại
 - Data được crawl từ nhiều nguồn khác nhau. Sau khi crawl, data được gộp lại thành 1 file .csv có 3 cột "id", "title" và "text". Trong đó, cột "id" và "title" không quan trọng, cột "text" đóng góp trực tiếp vô vector database.
 - Cuối cùng, gộp tất cả lại thành 1 file `vectorDB/data/data.csv` duy nhất.
 
-## Lưu Giữ Dữ Liệu vào Qdrant (High-Performance Indexing)
+## Vector Database work flow (High-Performance Indexing)
 
 Chúng tôi đã xây dựng một quy trình **Asynchronous Indexing Pipeline** (`vectorDB/main_async.py`) được tối ưu hóa cao độ để xử lý lượng dữ liệu lớn một cách nhanh chóng và bền bỉ:
 
@@ -82,8 +82,9 @@ Chúng tôi đã xây dựng một quy trình **Asynchronous Indexing Pipeline**
   }
 }
 ```
-## API Keys Configuration
 
+## Resource Initialization
+### API Keys Configuration
 The `api-keys.json` file contains API credentials for VNPT AI Services:
 
 ```json
@@ -104,4 +105,21 @@ The `api-keys.json` file contains API credentials for VNPT AI Services:
 | `llmApiName` | Model name: `LLM large`, `LLM small`, or `LLM embedings` |
 | `tokenId` | Token UUID identifier |
 
-> **Note:** Configure `api-keys.json` with valid credentials before running `predict.py` and `vectorDB/main_async.py`.
+> **Note:** Configure `api-keys.json` with valid credentials before running `predict.py` and `vectorDB/main_async.py`. This file is in the main folder.
+
+### How to run
+1. Download file `data.csv` in `data.zip` at this [drive](https://drive.google.com/drive/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR?usp=sharing). Put it in folder `/vectorDB/data`
+2. Install Dependencies!
+```
+pip install -r requirements.txt
+```
+3. Run the Qdrant vector database workflow:
+```
+cd vectorDB
+python main_async.py
+```
+4. Ensure file `test.json` is in folder `data`. Run the workflow pipeline:
+```
+python main.py
+```
+5. `submission.csv` and `predict.json` is in folder `output`
