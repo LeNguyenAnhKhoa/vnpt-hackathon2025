@@ -18,7 +18,7 @@ RUN mkdir -p /qdrant/config
 COPY --from=qdrant-source /qdrant/config /qdrant/config
 
 # Set working directory
-WORKDIR /app
+WORKDIR /code
 
 # Install Python dependencies
 COPY requirements.txt .
