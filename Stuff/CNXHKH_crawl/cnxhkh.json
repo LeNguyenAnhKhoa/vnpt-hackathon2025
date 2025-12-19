@@ -1,0 +1,862 @@
+[
+    {
+        "question": "Trong khoa học tự nhiên những phát minh vạch thời đại trong vật lý và sinh học nào đã làm tiền đề khoa học cho sự ra đời của Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử?",
+        "choice": "A. Học thuyết tiến hóa\nB. Định luật bảo toàn và chuyển hóa năng lượng\nC. Học thuyết tế bào\nD. Tất cả đều đúng",
+        "answer": "D. Tất cả đều đúng"
+    },
+    {
+        "question": "Trong khoa học xã hội những thành tựu nào đã làm tiền đề lý luận cho sự ra đời của Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử?",
+        "choice": "A. Triết học cổ điển Đức\nB. Kinh tế chính trị học cổ điển Anh\nC. Chủ nghĩa không tưởng phê phán Anh, Pháp\nD. Tất cả đều đúng",
+        "answer": "D. Tất cả đều đúng"
+    },
+    {
+        "question": "Với C.Mác từ cuối năm 1843 đến 4/1844, thông qua tác phẩm “Góp phần phê phán triết học Pháp Quyền của Heghen – Lời nói đầu (1844)” đã thể hiện rõ sự chuyển biến?",
+        "choice": "A. Từ thế giới quan duy vật sang thế giới quan duy tâm\nB. Từ lập trường dân chủ sang lập trường cộng sản chủ nghĩa\nC. Từ thế giới quan duy tâm sang thế giới quan duy vật. Từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa\nD. Tất cả đều đúng",
+        "answer": "C. Từ thế giới quan duy tâm sang thế giới quan duy vật. Từ lập trường dân chủcách mạng sang lập trường cộng sản chủ nghĩa"
+    },
+    {
+        "question": "Với Ph.Ăngghen từ năm 1843, tác phẩm “Tình cảnh nước Anh”; “Lược khảo khoa Kinh tế - Chính trị” đã thể hiện rõ sự chuyển biến?",
+        "choice": "A. Từ thế giới quan duy tâm sang thế giới quan duy vật. Từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa\nB. Từ lập trường dân chủ cách mạng sang lập trường dân chủ xã hội C. Từ thế giới quan duy vật sang thế giới quan duy tâm\nD. Tất cả đều đúng",
+        "answer": "A. Từ thế giới quan duy tâm sang thế giới quan duy vật. Từ lập trường dân chủcách mạng sang lập trường cộng sản chủ nghĩa"
+    },
+    {
+        "question": "Ba phát kiến vĩ đại của C.Mác và Ph.Ănghen?",
+        "choice": "A. Chủ nghĩa duy vật, Chủ nghĩa duy vật lịch sử, Học thuyết về giá trị thặng dư\nB. Chủ nghĩa duy vật lịch sử, Chủ nghĩa duy tâm biện chứng, Học thuyết về giá trị thặng dư\nC. Học thuyết giá trị thặng dư, Chủ nghĩa duy vậ t lịch sử, Phép biện chứng duy tâm\nD. Chủ nghĩa duy vật lịch sử, Học thuyết về giá trị thặng dư, Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân",
+        "answer": "D. Chủ nghĩa duy vật lịch sử, Học thuyết về giá trị thặng dư, Học thuyết về sứmệnh lịch sử toàn thế giới của giai cấp công nhân"
+    },
+    {
+        "question": "C.Mác và Ph.Ănghen đã kế thừa gì ở V.Ph.Hêghen và L.Phoiơbắc để sáng lập chủ nghĩa duy vật biện chứng?",
+        "choice": "A. Phép biện chứng của V.Ph.Hêghen và quan điểm duy vật của L.Phoiơbắc\nB. Phép biện chứng và quan điểm siêu hình\nC. Phép biện chứng duy vật của V.Ph.Hêghen và quan điểm siêu hình của L.Phoiơbắc\nD. Phép biện chứng duy tâm của V.Ph.Hêghen và quan điểm duy vật của L.Phoiơbắc",
+        "answer": "A. Phép biện chứng của V.Ph.Hêghen và quan điểm duy vật của L.Phoiơbắc"
+    },
+    {
+        "question": "Phát kiến vĩ đại của C.Mác và Ph.Ănghen – “Học thuyết về giá trị thặng dư” là sự khẳng định về điều gì?",
+        "choice": "A. Về phương diện kinh tế sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nB. Về phương diện triết học sự sụp đổ của chủ nghĩa tư bản và sự thắng lợi của chủ nghĩa xã hội đều tất yếu như nhau\nC. Về phương diện chính trị - xã hội sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nD. Tất cả đều đúng",
+        "answer": "A. Về phương diện kinh tế sự diệt vong không tránh khỏi của chủ nghĩa tư bản vàsự ra đời tất yếu của chủ nghĩa xã hội"
+    },
+    {
+        "question": "Phát kiến vĩ đại của C.Mác và Ph. Ănghen – “Chủ nghĩa duy vật lịch sử” là sự khẳng định về điều gì?",
+        "choice": "A. Về phương diện kinh tế sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nB. Về phương diện triết học sự sụp đổ của chủ nghĩa tư bản và sự thắng lợi của chủ nghĩa xã hội đều tất yếu như nhau\nC. Về phương diện chính trị - xã hội sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nD. Tất cả đều đúng",
+        "answer": "B. Về phương diện triết học sự sụp đổ của chủ nghĩa tư bản và sự thắng lợi củachủ nghĩa xã hội đều tất yếu như nhau"
+    },
+    {
+        "question": "Phát kiến vĩ đại của C.Mác và Ph.Ănghen – “Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân” là sự khẳng định về điều gì?",
+        "choice": "A. Về phương diện kinh tế sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nB. Về phương diện triết học sự sụp đổ của chủ nghĩa tư bản và sự thắng lợi của chủ nghĩa xã hội đều tất yếu như nhau\nC. Về phương diện chính trị - xã hội sự diệt vong không tránh khỏi của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa xã hội\nD. Tất cả đều đúng",
+        "answer": "C. Về phương diện chính trị - xã hội sự diệt vong không tránh khỏi của chủ nghĩatư bản và sự ra đời tất yếu của chủ nghĩa xã hội"
+    },
+    {
+        "question": "Tác phẩm nào được xem là tác phẩm kinh điển chủ yếu, đánh dấu sự ra đời của chủ nghĩa xã hội khoa học?",
+        "choice": "A. Bộ “Tư bản”\nB. Tình cảnh nước Anh\nC. Lược khảo khoa Kinh tế - Chính trị\nD. Tuyên ngôn của Đảng Cộng sản",
+        "answer": "A. Tuyên ngôn của Đảng Cộng sản"
+    },
+    {
+        "question": "Câu 12: Trong tác phẩm nào Ph.Ăngghen đã khái quát nhiệm vụ của chủ nghĩa xã hội khoa học về thực hiện sự nghiệp giải phóng thế giới, sự thể hiện về mặt lý luận của phong trào công nhân?",
+        "choice": "A. Trong lời nói đầu viết cho tác phẩm “Đấu tranh giai cấp ở Pháp từ 1848-1850”\nB. Chủ nghĩa xã hội từ không tưởng đến khoa học\nC. Lược khảo khoa Kinh tế - Chính trị\nD. Chống Đuyrinh",
+        "answer": "Chủ nghĩa xã hội từ không tưởng đến khoa học"
+    },
+    {
+        "question": "Trong Tác phẩm nào Ph.Ăngghen đã luận chứng sự phát triển của chủ nghĩa xã hội không tưởng đến khoa học và đánh giá công lao của các nhà xã hội chủ nghĩa không tưởng Anh, Pháp?",
+        "choice": "A. Bộ “Tư bản”\nB. Tình cảnh nước Anh\nC. Lược khảo khoa Kinh tế - Chính trị\nD. Chống Đuyrinh",
+        "answer": "D. Chống Đuyrinh"
+    },
+    {
+        "question": "Trong Tác phẩm nào V.I.Lênin đã nhận xét về sự tiên đoán thiên tài của Xanhximông, Phuriê và Ô-oen về rất nhiều chân lý mà ngày nay chúng ta đang chứng minh sự đúng đắn của chúng một cách khoa học?",
+        "choice": "A. Làm gì?\nB. Thà ít mà tốt\nC. Sự phát triển tư bản ở Nga\nD. Chống Đuyrinh",
+        "answer": "A. Làm gì?"
+    },
+    {
+        "question": "Trong Tác phẩm nào C.Mác và Ph.Ăngghen đã thẳng thắn thừa nhận sai lầm về dự báo khả năng nổ ra của những cuộc cách mạng vô sản ở Châu Âu?",
+        "choice": "A. Trong lời nói đầu viết cho tác phẩm “Đấu tranh giai cấp ở Pháp từ 1848-1850”\nB. Góp phần phê phán triết học Pháp Quyền của Heghen – Lời nói đầu (1844)\nC. Lược khảo khoa Kinh tế - Chính trị\nD. Chống Đuyrinh",
+        "answer": "A. Trong lời nói đầu viết cho tác phẩm “Đấu tranh giai cấp ở Pháp từ 1848-1850”"
+    },
+    {
+        "question": "Khi đánh giá về chủ nghĩa Mác, ai là người đã chỉ rõ: “Học thuyết của Mác là học thuyết vạn năng vì nó là học thuyết chính xác”?",
+        "choice": "A. V.I.Lênin\nB. Ph.Ăngghen\nC. C.Mác\nD. Plekhanov",
+        "answer": "A. V.I.Lênin"
+    },
+    {
+        "question": "Chủ nghĩa xã hội khoa học đã sử dụng phương pháp luận chung nhất nào của triết học Mác – Lênin để luận giải đúng đắn, khoa học về sứ mệnh lịch sử của giai cấp công nhân?",
+        "choice": "A. Chủ nghĩa duy vật biện chứng\nB. Chủ nghĩa duy vật lịch sử\nC. Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử\nD. Không có câu trả lời đúng",
+        "answer": "C. Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử"
+    },
+    {
+        "question": "Đối tượng nghiên cứu của Chủ nghĩa xã hội khoa học?",
+        "choice": "A. Những quy luật, tính quy luật\nB. Lĩnh vực chính trị - xã hội của đời sống xã hội\nC. Lĩnh vực kinh tế của đời sống xã hội\nD. Sứ mệnh lịch sử của giai cấp công nhân, những điều kiện, những con đường để giai cấp công nhân hoàn thành sứ mệnh lịch sử của mình",
+        "answer": "A. Những quy luật, tính quy luật"
+    },
+    {
+        "question": "Một trong những nhiệm vụ quan trọng của Chủ nghĩa xã hội khoa học là gì?",
+        "choice": "A. Giác ngộ và hướng dẫn giai cấp công nhân thực hiện sứ mệnh lịch sử của mình để đấu tranh chống lại sự thống trị của giai cấp tư sản\nB. Luận chứng một cách khoa học tính tất yếu về mặt lịch sử xây dựng chủ nghĩa xã hội và chủ nghĩa cộng sản\nC. Luận giải một cách khoa học những phương hướng và chiến lược, con đường hình thức đấu tranh theo hướng xã hội chủ nghĩa\nD. Phê phán đấu tranh bác bỏ những trào lưu tư tưởng chống cộng, chống chủ nghĩa xã hội, bảo vệ sự trong sáng của Chủ nghĩa Mác – Lênin và những thành quả cách mạng xã hội chủ nghĩa",
+        "answer": "B. Luận chứng một cách khoa học tính tất yếu về mặt lịch sử xây dựng chủ nghĩaxã hội và chủ nghĩa cộng sản"
+    },
+    {
+        "question": "Phương pháp nghiên cứu nào được xem là phương pháp có tính đặc thù của Chủ nghĩa xã hội khoa học?",
+        "choice": "A. Phương pháp luận chung nhất là Chủ nghĩa duy vật biện chứng và Chủ nghĩa duy vật lịch sử\nB. Phương pháp kết hợp lôgic dựa trên các điều kiện kinh tế - xã hội cụ thể\nC. Phương pháp lịch sử dựa trên các điều kiện kinh tế - xã hội cụ thể\nD. Phương pháp khảo sát và phân tích về mặt chính trị - xã hội dựa trên các điều kiện kinh tế - xã hội cụ thể",
+        "answer": "D. Phương pháp khảo sát và phân tích về mặt chính trị - xã hội dựa trên các điềukiện kinh tế - xã hội cụ thể"
+    },
+    {
+        "question": "Xét trong quan hệ sản xuất tư bản chủ nghĩa, địa vị của giai cấp công nhân được xác định:",
+        "choice": "A. Đại diện cho phương thức sản xuất tiên tiến.\nB. Không sở hữu tư liệu sản xuất chủ yếu của xã hội\nC. Có số lượng đông nhất trong dân cư\nD. Trực tiếp hay gián tiếp vận hành máy móc có tính chất công nghiệp ngày càng hiện đại",
+        "answer": "B. Không sở hữu tư liệu sản xuất chủ yếu của xã hội"
+    },
+    {
+        "question": "Nhân tố chủ quan quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình là:",
+        "choice": "A. Sự phát triển của bản thân giai cấp công nhân\nB. Đảng Cộng sản\nC. Sự liên minh giai cấp\nD. Tất cả đều đúng",
+        "answer": "B. Đảng Cộng sản"
+    },
+    {
+        "question": "Đặc trưng cơ bản phân biệt người công nhân hiện đại với người thợ thủ công?",
+        "choice": "A. Phương thức lao động của giai cấp công nhân\nB. Địa vị của giai cấp công nhân\nC. Vai trò của giai cấp công nhân\nD. Trình độ của giai cấp công nhân",
+        "answer": "A. Phương thức lao động của giai cấp công nhân"
+    },
+    {
+        "question": "Trong Tuyên ngôn của Đảng cộng sản, C.Mác và Ph.Ăngghen khẳng định, cơ sở chính trị - xã hội của Đảng cộng sản là:",
+        "choice": "A. Giai cấp nông dân\nB. Giai cấp công nhân\nC. Trí thức\nD. Nhân dân lao động",
+        "answer": "B. Giai cấp công nhân"
+    },
+    {
+        "question": "C.Mác và Ph.Ăngghen viết: “trong quá trình thống trị giai cấp chưa đầy một thế kỷ, đã tạo ra những lực lượng sản xuất nhiều hơn và đồ sộ hơn lực lượng sản xuất của tất cả các thế hệ trước gộp lại”. Đó là nhận xét về giai cấp nào?",
+        "choice": "A. Giai cấp phong kiến\nB. Gia cấp công nhân\nC. Giai cấp tư sản\nD. Trí thức",
+        "answer": "C. Giai cấp tư sản"
+    },
+    {
+        "question": "Điều gì khiến cho giai cấp công nhân trở thành giai cấp đối kháng với giai cấp tư sản?",
+        "choice": "A. Không sở hữu tư liệu sản xuất chủ yếu của xã hội\nB. Lao động trong nền công nghiệp có kỹ thuật hiện đại\nC. Là giai cấp chiếm số đông trong dân cư\nD. Có tinh thần cách mạng, chống giai cấp tư sản",
+        "answer": "Không sở hữu tư liệu sản xuất chủ yếu của xã hội"
+    },
+    {
+        "question": "Phát hiện nào sau đây là của C.Mác và Ph.Ăngghen?",
+        "choice": "A. Chủ nghĩa duy vật lịch sử\nB. Học thuyết giá trị thặng dư\nC. Sứ mệnh lịch sử của giai cấp công nhân\nD. Tất cả đều đúng",
+        "answer": "D. Tất cả đều đúng"
+    },
+    {
+        "question": "Những đặc điểm chủ yếu của giai cấp công nhân Việt Nam:",
+        "choice": "A. Ra đời trước giai cấp tư sản vào đầu thế kỷ XX\nB. Trực tiếp đối kháng với tư bản thực dân Pháp\nC. Gắn bó mật thiết với các tầng lớp nhân dân trong xã hội\nD. Tất cả đều đúng",
+        "answer": "D. Tất cả đều đúng"
+    },
+    {
+        "question": "Theo V.I.Lênin, trong nền sản xuất tư bản chủ nghĩa, giai cấp công nhân hiện đại chỉ có thể sống với điều kiện là kiếm được việc làm, và chỉ kiếm được việc làm, nếu lao động của họ:",
+        "choice": "A. Làm tăng thêm tư bản\nB. Nuôi sống được bản thân và gia đình\nC. Có ích cho xã hội\nD. Không ảnh hưởng đến giai cấp tư sản",
+        "answer": "A. Làm tăng thêm tư bản"
+    },
+    {
+        "question": "Sứ mệnh lịch sử của giai cấp công nhân có gì khác so với sứ mệnh lịch của các giai cấp trước đó?",
+        "choice": "A. Xóa bỏ triệt để chế độ tư hữu về tư liệu sản xuất\nB. Không có gì khác biệt\nC. Thay thế chế độ sở hữu tư nhân này bằng một chế độ sở hữu tư nhân khác\nD. Không có câu trả lời đúng",
+        "answer": "A. Xóa bỏ triệt để chế độ tư hữu về tư liệu sản xuất"
+    },
+    {
+        "question": "Quan điểm: “Giai cấp vô sản là một giai cấp xã hội hoàn toàn chỉ kiếm sống bằng việc bán lao động của mình, chứ không phải sống bằng lợi nhuận của bất cứ tư bản nào...” của Ph.Ăngghen được trích trong tác phẩm nào?",
+        "choice": "A. Tuyên ngôn của Đảng Cộng sản\nB. Chống Đuyrinh\nC. Những nguyên lý của chủ nghĩa cộng sản\nD. Đấu tranh giai cấp ở Pháp",
+        "answer": "C. Những nguyên lý của chủ nghĩa cộng sản"
+    },
+    {
+        "question": "Phát hiện ra sứ mệnh lịch sử của giai cấp công nhân là một trong những cống hiến vĩ đại của:",
+        "choice": "A. R.Ô-oen\nB. Ph.Ăngghen\nC. V.I.Lênin\nD. C.Mác và Ph.Ăngghen",
+        "answer": "D. C.Mác và Ph.Ăngghen"
+    },
+    {
+        "question": "Thêm cụm từ thích hợp vào chỗ trống để hoàn thành luận điểm của V.I.Lênin:“Điểm chủ yếu trong học thuyết của Mác là ở chỗ nó làm sáng rõ vai trò lịch sử thế giới của.\tlà người xây dựng chủ nghĩa xã hội”.",
+        "choice": "A. Giai cấp nông dân\nB. Giai cấp vô sản\nC. Nhân dân lao động\nD. Quần chúng nhân dân",
+        "answer": "B. Giai cấp vô sản"
+    },
+    {
+        "question": "Công nhân ở nước nào được xem là đứa con đầu lòng của nền công nghiệp hiện đại?",
+        "choice": "A. Anh\nB. Mỹ\nC. Nhật\nD. Đức",
+        "answer": "A. Anh"
+    },
+    {
+        "question": "Thêm cụm từ thích hợp vào chỗ trống của câu sau để được câu đúng: “Trong chủ nghĩa tư bản và chủ nghĩa xã hội, với nền sản xuất đại công nghiệp ngày càng phát triển, thì lực lượng sản xuất hàng đầu của toàn nhân loại là   ”",
+        "choice": "A. Giai cấp vô sản\nB. Nhân dân lao động\nC. Công nhân, là người lao động\nD. Giai cấp công nhân",
+        "answer": "C. Công nhân, là người lao động"
+    },
+    {
+        "question": "Khái niệm giai cấp công nhân được các nhà kinh điển xác định trên hai phương diện cơ bản là:",
+        "choice": "A. Kinh tế - xã hội và chính trị - xã hội\nB. Phương thức sản xuất và địa vị của giai cấp công nhân\nC. Kinh tế và chính trị\nD. Phương thức sản xuất và sứ mệnh lịch sử",
+        "answer": "A. Kinh tế - xã hội và chính trị - xã hội"
+    },
+    {
+        "question": "Giai cấp công nhân là giai cấp tiên phong cách mạng vì họ đại biểu cho:",
+        "choice": "A. Phương thức sản xuất tiên tiến và có một lý luận khoa học, cách mạng\nB. Tinh thần cách mạng tiên tiến và có lợi ích đối kháng với giai cấp tư sản\nC. Khoa học kỹ thuật tiến tiến và có tinh thần tổ chức kỷ luật\nD. Trình độ nhận thức tiên tiến và gắn bó với phong trào công nhân quốc tế",
+        "answer": "A. Phương thức sản xuất tiên tiến và có một lý luận khoa học, cách mạng"
+    },
+    {
+        "question": "Phong trào đấu tranh của giai cấp công nhân thật sự mang tính chất chính trị khi và chỉ khi giai cấp công nhân:",
+        "choice": "A. Đạt đến trình độ khoa học về lý luận cách mạng\nB. Đạt đến trình độ tự giác bằng cách tiếp thu lý luận khoa học và cách mạng\nC. Trực tiếp tiếp thu lý luận khoa học và cách mạng.\nD. Kế thừa lý luận khoa học và cách mạng của Chủ nghĩa Mác – Lênin",
+        "answer": "B. Đạt đến trình độ tự giác bằng cách tiếp thu lý luận khoa học và cách mạng"
+    },
+    {
+        "question": "Do vậy, đội ngũ công nhân cần được:",
+        "choice": "A. Nâng cao trình độ chuyên môn\nB. Học tập và nghiên cứu\nC. Rèn luyện tay nghề\nD. Tri thức hóa",
+        "answer": "D. Tri thức hóa"
+    },
+    {
+        "question": "Phạm trù nào được coi là phạm trù trung tâm, nguyên lý xuất phát của Chủ nghĩa xã hội khoa học?",
+        "choice": "A. Giai cấp công nhân\nB. Chuyên chính vô sản\nC. Sứ mệnh lịch sử của giai cấp công nhân\nD. Xã hội chủ nghĩa",
+        "answer": "C. Sứ mệnh lịch sử của giai cấp công nhân"
+    },
+    {
+        "question": "Những điều kiện thuộc về nhân tố chủ quan để giai cấp công nhân hoàn thành sứ mệnh lịch sử của mình là:",
+        "choice": "A. Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng B. Đảng Cộng sản\nC. Sự liên minh giai cấp giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo\nD. Tất cả đều đúng",
+        "answer": "D. Tất cả đều đúng"
+    },
+    {
+        "question": "Sứ mệnh lịch sử của giai cấp công nhân sở dĩ được thực hiện được là bởi…",
+        "choice": "A. Giai cấp công nhân là một giai cấp cách mạng; đại diện cho lực lượng sản xuất hiện đại, phương thức sản xuất tiên tiến\nB. Giai cấp công nhân đại diện cho lực lượng sản xuất hiện đại, phương thức sản xuất tiên tiến\nC. Giai cấp công nhân là giai cấp nghèo khổ, không có tài sản\nD. Không có câu trả lời đúng",
+        "answer": "A. Giai cấp công nhân là một giai cấp cách mạng; đại diện cho lực lượng sản xuấthiện đại, phương thức sản xuất tiên tiến"
+    },
+    {
+        "question": "Giai cấp công nhân hiện nay là những tập đoàn…",
+        "choice": "A. Xã hội ổn định, hình thành và phát triển cùng với quá trình phát triển của nền công nghiệp hiện đại\nB. Người sản xuất và dịch vụ bằng phương thức công nghiệp tạo nên cơ sở vật chất cho sự tồn tại và phát triển của thế giới hiện nay\nC. Người lao động ổn định, hình thành và phát triển cùng với quá trình phát triển của nền công nghiệp hiện đại; là lực lượng cơ bản của các quan hệ xã hội\nD. Cơ bản, chủ yếu của tiến trình lịch sử loài người",
+        "answer": "B. Người sản xuất và dịch vụ bằng phương thức công nghiệp tạo nên cơ sở vậtchất cho sự tồn tại và phát triển của thế giới hiện nay"
+    },
+    {
+        "question": "Điều kiện nào quyết định giai cấp công nhân chiến thắng trong cuộc đấu tranh chống lại giai cấp tư sản?",
+        "choice": "A. Tăng năng suất lao động, tạo ra nhiều sản phẩm\nB. Giác ngộ lý luận khoa học, cách mạng; có chính Đảng lãnh đạo\nC. Ứng dụng những thành tựu khoa học công nghệ\nD. Thủ tiêu các giai cấp đối kháng",
+        "answer": "B. Giác ngộ lý luận khoa học, cách mạng; có chính Đảng lãnh đạo"
+    },
+    {
+        "question": "Theo V.I.Lênin, chính Đảng của giai cấp công nhân được hình thành từ sự kết hợp giữa:",
+        "choice": "A. Chủ nghĩa Mác với phong trào công nhân.\nB. Chủ nghĩa Mác với phong trào công nhân và phong trào yêu nước.\nC. Chủ nghĩa Mác - Lênin với phong trào công nhân và phong trào yêu nước.\nD. Chủ nghĩa Mác - Lênin với phong trào công nhân",
+        "answer": "D. Chủ nghĩa Mác - Lênin với phong trào công nhân"
+    },
+    {
+        "question": "Theo Ph. Ăngghen: “Phương thức sản xuất tư bản chủ nghĩa tạo ra một lực lượng bị buộc phải hoàn thành cuộc cách mạng ấy, nếu không thì sẽ bị diệt vong”. Lực lượng đó là lực lượng nào?",
+        "choice": "A. Giai cấp nông dân\nB. Giai cấp vô sản hiện đại\nC. Quần chúng nhân dân\nD. Giai cấp tư sản",
+        "answer": "Giai cấp vô sản hiện đại"
+    },
+    {
+        "question": "Sứ mệnh lịch sử của giai cấp công nhân do những điều kiện khách quan nào quy định?",
+        "choice": "A. Là sản phẩm của nền đại công nghiệp và có bản chất quốc tế\nB. Có lợi ích thống nhất với đại đa số nhân dân lao động\nC. Do sự phát triển của lực lượng sản xuất hiện đại\nD. Địa vị kinh tế và địa vị chính trị - xã hội của GCCN quy định",
+        "answer": "Địa vị kinh tế và địa vị chính trị - xã hội của GCCN quy định"
+    },
+    {
+        "question": "xã hội cộng sản chủ nghĩa, được thực hiện thông qua:",
+        "choice": "A. Cách mạng xã hội chủ nghĩa\nB. Cách mạng xã hội\nC. Cách mạng dân tộc\nD. Cách mạng dân tộc dân chủ nhân dân",
+        "answer": "Cách mạng xã hội chủ nghĩa"
+    },
+    {
+        "question": "Theo quan điểm của C. Mác và Ph. Ăngghen hình thái kinh tế - xã hội cộng sản chủ nghĩa trải qua các giai đoạn:",
+        "choice": "A. Chủ nghĩa xã hội và chủ nghĩa cộng sản\nB. Thời kỳ quá độ, chủ nghĩa xã hội và chủ nghĩa cộng sản\nC. Giai đoạn đầu và chủ nghĩa xã hội\nD. Giai đoạn thấp và giai đoạn cao",
+        "answer": "Giai đoạn thấp và giai đoạn cao"
+    },
+    {
+        "question": "Theo V. I. Lênin: “cần phải có thời kỳ quá độ khá lâu dài từ chủ nghĩa tư bản",
+        "choice": "",
+        "answer": ""
+    },
+    {
+        "question": "lên chủ nghĩa xã hội” đối với những nước:",
+        "choice": "A. Đã trở thành chủ nghĩa tư bản phát triển\nB. Chưa trải qua chủ nghĩa tư bản phát triển\nC. Bị chiến tranh tàn phá nặng nề\nD. Là thuộc địa của chủ nghĩa đế quốc",
+        "answer": "Chưa trải qua chủ nghĩa tư bản phát triển"
+    },
+    {
+        "question": "Cách mạng vô sản là cuộc cách mạng của giai cấp công nhân và nhân dân lao động dưới sự lãnh đạo của Đảng Cộng sản, trên thực tế được thực hiện bằng con đường:",
+        "choice": "A. Đấu tranh bất bạo động\nB. Đấu tranh nghị trường\nC. Bạo lực cách mạng\nD. Giáo dục thuyết phục",
+        "answer": "Bạo lực cách mạng"
+    },
+    {
+        "question": "Cách mạng vô sản là cuộc cách mạng của giai cấp công nhân và nhân dân lao động dưới sự lãnh đạo của Đảng Cộng sản, về mặt lý thuyết cũng có thể được tiến hành bằng con đường:",
+        "choice": "A. Hòa bình\nB. Bạo lực\nC. Chính trị\nD. Kinh tế",
+        "answer": "Hòa bình"
+    },
+    {
+        "question": "Giai đoạn đầu (giai đoạn thấp) của hình thái kinh tế - xã hội công sản chủ nghĩa có mấy đặc trưng cơ bản?",
+        "choice": "A. 5\nB. 6\nC. 7\nD. 8",
+        "answer": "6"
+    },
+    {
+        "question": "Trong điều kiện mới của đời sống chính trị - xã hội thế giới đầu thế kỷ XX, đồng thời từ thực tiễn của công cuộc xây dựng chủ nghĩa xã hội ở nước Nga Xô - Viết, V.I.Lênin đã cho rằng, mục đích cao nhất, cuối cùng của những cải tạo xã hội chủ nghĩa là thực hiện nguyên tắc:",
+        "choice": "A. Làm theo năng lực, hưởng theo hiệu quả công việc\nB. Làm theo năng lực, hưởng theo sản phẩm\nC. Làm theo năng lực, hưởng theo nhu cầu\nD. Làm theo năng lực, hưởng theo lao động",
+        "answer": "Làm theo năng lực, hưởng theo nhu cầu"
+    },
+    {
+        "question": "Quá độ từ chủ nghĩa tư bản lên chủ nghĩa cộng sản trải qua những hình thức nào?",
+        "choice": "A. Trực tiếp và gián tiếp\nB. Tiệm tiến và đột biến\nC. Trực tiếp và đột biến\nD. Tiệm tiến và gián tiếp",
+        "answer": "A. Trực tiếp và gián tiếp"
+    },
+    {
+        "question": "Đặc điểm thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội về phương diện chính trị, là việc thiết lập, tăng cường chuyên chính vô sản mà thực chất của nó là:",
+        "choice": "A. Sự thống trị về chính trị của giai cấp công nhân với chức năng thực hiện bạo lực cách mạng với giai cấp tư sản\nB. Tổ chức xây dựng và phát triển kinh tế, chuyên chính với các giai cấp tầng lớp khác trong xã hội\nC. Giai cấp công nhân nắm và sử dụng quyền lực nhà nước trấn áp giai cấp tư sản, tiến hành xây dựng một xã hội không giai cấp\nD. Cuộc đấu tranh giai cấp giữa giai cấp vô sản với giai cấp tư sản giành chính quyền",
+        "answer": "C. Giai cấp công nhân nắm và sử dụng  trấn áp tiến hành xây dựng một xã hội không giai cấp"
+    },
+    {
+        "question": "Đại hội IX của Đảng Cộng sản Việt Nam xác định, quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa ở Việt Nam là bỏ qua những yếu tố nào?",
+        "choice": "A. Bỏ qua sự thống trị về mặt kinh tế và chính trị của chủ nghĩa tư bản\nB. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa\nC. Bỏ qua sự áp bức bốc lột và những thành tựu khoa học kỹ thuật của chủ nghĩa tư bản\nD. Bỏ qua giai đoạn phát triển cao của chủ nghĩa tư bản",
+        "answer": "B. Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượngtầng tư bản chủ nghĩa"
+    },
+    {
+        "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (bổ sung, phát triển năm 2011) đã phát triển mô hình chủ nghĩa xã hội Việt Nam với mấy đặc trưng?",
+        "choice": "A. 5\nB. 6\nC. 7\nD. 8",
+        "answer": "D. 8"
+    },
+    {
+        "question": "Đặc điểm của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội, xét trên phương diện kinh tế là thời kỳ còn tồn tại:",
+        "choice": "A. Nền kinh tế hàng hóa, vận động theo cơ chế thị trường có sự quản lí của nhà nước\nB. Nền kinh tế tri thức, lấy tri thức làm động lực cho sự tăng trưởng kinh tế\nC. Nền kinh tế nhiều thành phần, trong đó có thành phần đối lập",
+        "answer": "C. Nền kinh tế nhiều thành phần, trong đó có thành phần đối lập"
+    },
+    {
+        "question": "D. Nền kinh tế tư bản dựa trên sự tư hữu tư bản chủ nghĩa về tư liệu sản xuất Câu 14: Đặc điểm của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội, xét trên phương diện tư tưởng – văn hóa là thời kỳ còn tồn tại:",
+        "choice": "A. Nhiều tư tưởng khác nhau, chủ yếu là tư tưởng vô sản và tư tưởng tư sản\nB. Tư tưởng sùng ngoại, coi thường những giá trị văn hóa dân tộc\nC. Tư tưởng không coi trọng những chuẩn mực đạo đức của xã hội\nD. Tư tưởng, lối sống thực dụng, chỉ coi trọng giá trị vật chất, bàng quan về chính trị",
+        "answer": "A. Nhiều tư tưởng khác nhau, chủ yếu là tư tưởng vô sản và tư tưởng tư sản"
+    },
+    {
+        "question": "Đặc trưng nào thể hiện thuộc tính bản chất của chủ nghĩa xã hội?",
+        "choice": "A. Giải phóng giai cấp, giải phóng dân tộc, giải phóng xã hội, giải phóng con người, tạo điều kiện để con người phát triển toàn diện\nB. Do nhân dân lao động làm chủ\nC. Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu\nD. Chủ nghĩa xã hội có nền văn hóa phát triển cao, kế thừa và phát huy những giá trị của văn hóa dân tộc và tinh hoa văn nhân loại.",
+        "answer": "B. Do nhân dân lao động làm chủ"
+    },
+    {
+        "question": "Mục tiêu cao nhất của chủ nghĩa xã hội là giải phóng con người trên cơ sở điều kiện:",
+        "choice": "A. Kinh tế - xã hội phát triển, mà xét đến cùng là trình độ phát triển cao của lực lượng\nB. sản xuất.\nB. Kinh tế phát triển cao, với lực lượng sản xuất hiện đại, quan hệ sản xuất dựa trên chế độ công hữu về tư liệu sản xuất\nC. Kinh tế được tổ chức quản lý có hiệu quả, năng suất lao động cao và phân phối chủ yếu theo lao động.\nD. Không có câu trả lời đúng",
+        "answer": "A. Kinh tế - xã hội phát triển, mà xét đến cùng là trình độ phát triển cao của lực lượng sản xuất."
+    },
+    {
+        "question": "Đâu là tiền đề kinh tế - xã hội dẫn tới sự sụp đổ không tránh khỏi của chủ nghĩa tư bản?",
+        "choice": "A. Sự phát triển về lực lượng sản xuất và sự trưởng thành của giai cấp công nhân\nB. Sự phát triển về lực lượng sản xuất và sự trưởng thành của giai cấp nông dân\nC. Sự phát triển về lực lượng sản xuất và sự trưởng thành của tầng lớp trí thức\nD. Sự phát triển về lực lượng sản xuất và sự trưởng thành của giai cấp công nhân, nông dân",
+        "answer": "Sự phát triển về lực lượng sản xuất và sự trưởng thành của giai cấp công nhân"
+    },
+    {
+        "question": "Quan điểm: “Về lý luận, không thể nghi ngờ gì được rằng giữa chủ nghĩa tư bản và chủ nghĩa cộng sản, có một thời kỳ quá độ nhất định” là của ai?",
+        "choice": "C.Mác\nB. Ph.Ăngghen\nC. V.I. Lênin\nC. Mác - Ph.Ăngghen",
+        "answer": "V.I. Lênin"
+    },
+    {
+        "question": "Chủ nghĩa xã hội ra đời ra do mâu thuẫn giữa tính chất xã hội hóa của lực lượng sản xuất với chế độ chiếm hữu tư nhân tư bản chủ nghĩa đối với tư liệu sản xuất. Mâu thuẫn này biểu hiện về mặt xã hội là:",
+        "choice": "A. Mâu thuẫn giữa giai cấp nông dân với giai cấp tư sản\nB. Mâu thuẫn giữa giai cấp công nhân hiện đại với giai cấp tư sản lỗi thời\nC. Mâu thuẫn giữa tầng lớp trí thức với giai cấp tư sản.\nD. Mâu thuẫn giữa địa chủ phong kiến với giai cấp tư sản",
+        "answer": "Mâu thuẫn giữa giai cấp công nhân hiện đại với giai cấp tư sản lỗi thời"
+    },
+    {
+        "question": "Trong giai đoạn đầu của chủ nghĩa cộng sản cùng với việc từng bước xác lập chế độ công hữu về tư liệu sản xuất, đ ể nâng cao năng suất lao động cầ n phải làm gì?",
+        "choice": "A. Tổ chức lao động theo một trình độ cao hơn, tổ chức chặt chẽ và kỷ luật lao động nghiêm\nB. Tổ chức chặt chẽ, kỷ luật lao động nghiêm, trang thiết bị hiện đại\nC. Trình độ tay nghề của người lao động cao, trang thiết bị hiện đại\nD. Cải tiến máy móc và thường xuyên đào tạo nâng cao trình độ cho người lao động",
+        "answer": "Tổ chức lao động theo một trình độ cao hơn, tổ chức chặt chẽ và kỷ luật lao độngnghiêm"
+    },
+    {
+        "question": "Đặc trưng của chủ nghĩa xã hội xét về phương diện kinh tế, mục tiêu cao nhất của chủ nghĩa xã hội:",
+        "choice": "A. Có nền kinh tế phát triển cao, với lực lượng sản xuất hiện đại, quan hệ sản xuất dựa trên chế độ công hữu về tư liệu sản xuất\nB. Có nền kinh tế được tổ chức quản lý có hiệu quả, năng suất lao động cao và phân phối chủ yếu theo lao động.\nC. Giải phóng con người, giải phóng xã hội tiến tới xây dựng nền kinh tế phát triển, nâng cao thu nhập cho người dân\nD. Giải phóng con người trên cơ sở điều kiện kinh tế - xã hội phát triển, mà xét đến cùng là trình độ phát triển cao của lực lượng sản xuất",
+        "answer": "Giải phóng con người trên cơ sở điều kiện kinh tế - xã hội phát triển, mà xét đến cùnglà trình độ phát triển cao của lực lượng sản xuất"
+    },
+    {
+        "question": "Quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội cần thiết phải có thời kỳ quá độ khá lâu dài đối với các nước:",
+        "choice": "A. Đã trở thành chủ nghĩa tư bản phát triển\nB. Bị chiến tranh tàn phá nặng nề\nC. Là thuộc địa chủ chủ nghĩa đế quốc\nD. Chưa trải qua chủ nghĩa tư bản phát triển",
+        "answer": "Chưa trải qua chủ nghĩa tư bản phát triển"
+    },
+    {
+        "question": "...(1)... trên cơ sở điều kiện kinh tế - xã hội phát triển, mà xét đến cùng là trình độ phát triển cao của ...(2)...”.",
+        "choice": "A. (1) Giải phóng xã hội (2) Lực lượng sản xuất\nB. (1) Phát triển lực lượng sản xuất (2) Khoa học công nghệ\nC. (1) Giải phóng con người (2) Lực lượng sản xuất\nD. (1) Phát triển con người (2) Quan hệ sản xuất",
+        "answer": "(1) Giải phóng con người (2) Lực lượng sản xuất"
+    },
+    {
+        "question": "Đặc điểm của thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội, xét trên phương diện kinh tế là thời kỳ còn tồn tại nhiều thành phần kinh tế. Việt Nam hiện nay còn tồn tại những thành phần kinh tế nào?",
+        "choice": "A. Kinh tế nhà nước; kinh tế hợp tác; kinh tế tư bản nhà nước; kinh tế cá thể tiểu chủ; kinh tế tư bản tư nhân\nB. Kinh tế nhà nước; kinh tế hợp tác; kinh tế tư bản nhà nước; kinh tế cá thể tiểu chủ; kinh tế tư bản tư nhân; kinh tế có vốn đầu tư nước ngoài\nC. Kinh tế nhà nước; kinh tế tập thể, hợp tác xã; kinh tế tư nhân và kinh tế có vốn dầu tư nước ngoài.\nD. Kinh tế nhà nước; kinh tế tập thể; kinh tế tư nhân và kinh tế có vốn đầu tư nước ngoài",
+        "answer": "Kinh tế nhà nước; kinh tế tập thể, hợp tác xã; kinh tế tư nhân và kinh tế có vốn dầu tưnước ngoài."
+    },
+    {
+        "question": "Nền dân chủ nào xuất hiện đầu tiên trong lịch sử nhân loại?",
+        "choice": "A. Nền dân chủ chủ nô\nB. Nền dân chủ tư sản\nC. Nền dân chủ xã hội chủ nghĩa\nD. Không có câu trả lời đúng",
+        "answer": "Nền dân chủ chủ nô"
+    },
+    {
+        "question": "Căn cứ vào phạm vi tác động của quyền lực nhà nước, chức năng của nhà nước xã hội chủ nghĩa được chia thành:",
+        "choice": "A. Chức năng xây dựng và đối nội, đối ngoại\nB. Chức năng giai cấp và chức năng xã hội\nC. Chức năng chính trị, kinh tế, văn hóa, xã hội\nD. Chức năng đối nội và Chức năng đối ngoại",
+        "answer": "Chức năng đối nội và Chức năng đối ngoại"
+    },
+    {
+        "question": "Căn cứ vào lĩnh vực tác động của quyền lực nhà nước, chức năng của nhà nước xã hội chủ nghĩa được chia thành:",
+        "choice": "A. Chức năng giai cấp và chức năng xã hội\nB. Chức năng đối nội và Chức năng đối ngoại\nC. Chức năng xây dựng và đối nội, đối ngoại\nD. Chức năng chính trị, kinh tế, văn hóa, xã hội",
+        "answer": "Chức năng chính trị, kinh tế, văn hóa, xã hội"
+    },
+    {
+        "question": "Căn cứ vào tính chất của quyền lực nhà nước, chức năng của nhà nước xã hội chủ nghĩa được chia thành:",
+        "choice": "A. Chức năng đối nội và Chức năng đối ngoại\nB. Chức năng xây dựng và đối nội, đối ngoại\nC. Chức năng giai cấp và chức năng xã hội\nD. Chức năng chính trị, kinh tế, văn hóa, xã hội",
+        "answer": "Chức năng giai cấp và chức năng xã hội"
+    },
+    {
+        "question": "Bản chất dân chủ xã hội chủ nghĩa ở Việt Nam được thực hiện thông qua các hình thức nào?",
+        "choice": "A. Hình thức dân chủ gián tiếp và dân chủ trực tiếp\nB. Hình thức dân chủ gián tiếp và dân chủ đại diện\nC. Hình thức dân chủ trực tiếp, gián tiếp và đại diện\nD. Không có câu trả lời đúng",
+        "answer": "Hình thức dân chủ gián tiếp và dân chủ trực tiếp"
+    },
+    {
+        "question": "Dưới góc độ nào dân chủ được xem là một thành tựu văn hoá, một quá trình sáng tạo văn hoá, thể hiện khát vọng tự do được sáng tạo và phát triển của con người?",
+        "choice": "A. Bản chất tư tưởng - văn hóa - xã hội\nB. Bản chất kinh tế\nC. Bản chất chính trị\nD. Tất cả đều đúng",
+        "answer": "Bản chất tư tưởng - văn hóa - xã hội"
+    },
+    {
+        "question": "Nền dân chủ xã hội chủ nghĩa là nền dân chủ:",
+        "choice": "A. Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ\nB. Dân chủ và pháp luật nằm trong sự thống nhất biện chứng\nC. Được thực hiện bằng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Xét về bản chất chính trị, đâu là nền dân chủ vừa có bản chất giai cấp công nhân, vừa có tính nhân dân rộng rãi, tính dân tộc sâu sắc?",
+        "choice": "A. Dân chủ chủ nô\nB. Dân chủ tư sản\nC. Dân chủ xã hội chủ nghĩa\nD. Cả 3 nền dân chủ",
+        "answer": "Dân chủ xã hội chủ nghĩa"
+    },
+    {
+        "question": "Thực hiện chế độ công hữu về tư liệu sản xuất chủ yếu và thực hiện chế độ phân phối lợi ích theo kết quả lao động là chủ yếu. Đây là bản chất kinh tế của nền dân chủ nào?",
+        "choice": "A. Dân chủ nguyên thủy\nB. Dân chủ chủ nô\nC. Dân chủ tư sản\nD. Dân chủ xã hội chủ nghĩa",
+        "answer": "Dân chủ xã hội chủ nghĩa"
+    },
+    {
+        "question": "Nội dung chủ yếu và mục đích cuối cùng của nhà nước xã hội chủ nghĩa là gì?",
+        "choice": "A. Trấn áp phần tử chống đối bảo vệ nhà nước xã hội chủ ngĩa\nB. Cải tạo xã hội cũ, xây dựng thành công xã hội mới\nC. Bảo đảm cho việc thực thi quyền làm chủ của người dân\nD. Thể chế hóa và tổ chức thực hiện những yêu cầu dân chủ chân chính của nhân dân",
+        "answer": "Cải tạo xã hội cũ, xây dựng thành công xã hội mới"
+    },
+    {
+        "question": "Câu nói:“Chế độ dân chủ là một hình thức nhà nước, một trong những hình thái của nhà nước. Cho nên cũng như mọi nhà nước, chế độ dân chủ là việc thi hành có tổ chức, có hệ thống sự cưỡng bức đối với người ta” là của:",
+        "choice": "A. V.I.Lênin\nC.Mác\nC. Ph.Ănghen\nD. Hồ Chí Minh",
+        "answer": "V.I.Lênin"
+    },
+    {
+        "question": "Khác biệt về chất giữa sự thống trị của giai cấp vô sản và sự thống trị của các giai cấp bóc lột trước đây là:",
+        "choice": "A. Sự thống trị của thiểu số đối với tất cả các giai cấp, tầng lớp nhân dân lao động trong xã hội nhằm bảo vệ và duy trì địa vị của mình\nB. Sự thống trị của đa số đối với thiểu số giai cấp bóc lột nhằm giải phóng giai cấp mình và giải phóng tất cả các tầng lớp nhân dân lao động khác trong xã hội\nC. Sự thống trị của thiểu số đối với đa số giai cấp bóc lột nhằm giải phóng giai cấp mình và giải phóng tất cả các tầng lớp nhân dân lao động khác trong xã hội\nD. Sự thống trị của đa số đối với tất cả các giai cấp, tầng lớp nhân dân lao động trong xã hội nhằm bảo vệ và duy trì địa vị của mình",
+        "answer": "Sự thống trị của đa số đối với thiểu số giai cấp bóc lột nhằm giải phóng giai cấpmình và giải phóng tất cả các tầng lớp nhân dân lao động khác trong xã hội"
+    },
+    {
+        "question": "Nền dân chủ xã hội chủ nghĩa là nền dân chủ cao hơn về chất so với nền dân chủ tư sản ở điểm nào?",
+        "choice": "A. Mọi quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ\nB. Dân chủ và pháp luật nằm trong sự thống nhất biện chứng\nC. Được thực hiện bằng nhà nước pháp quyền xã hội chủ nghĩa đặt dưới sự lãnh đạo của Đảng Cộng sản\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Sự khác biệt của nhà nước pháp quyền xã hội chủ nghĩa ở Việt Nam so với các nhà nước pháp quyền khác là gì?",
+        "choice": "A. Mang bản chất giai cấp công nhân, phục vụ lợi ích cho nhân dân\nB. Nhà nước là công cụ chủ yếu để Đảng Cộng sản Việt Nam định hướng đi lên chủ nghĩa xã hội\nC. Mang bản chất giai cấp nông dân, phục vụ lợi ích cho nhân dân\nD. Mang bản chất giai cấp công nhân, phục vụ lợi ích cho nhân dâ n; Nhà nước là  công cụ chủ yếu để Đảng Cộng sản Việt Nam định hướng đi lên chủ nghĩa xã hội",
+        "answer": "Mang bản chất giai cấp công nhân, phục vụ lợi ích cho nhân dâ n; Nhà nước là công cụ chủ yếu để Đảng Cộng sản Việt Nam định hướng đi lên chủ nghĩa xã hội"
+    },
+    {
+        "question": "Nhà nước xã hội chủ nghĩa là kiểu nhà nước mới, có bản chất khác với bản chất của các kiểu nhà nước bóc lột trong lịch sử. Tính ưu việt về mặt bản chất của nhà nước xã hội chủ nghĩa được thể hiện như thế nào?",
+        "choice": "A. Nhà nước xã hội chủ nghĩa mang bản chất của giai cấp công nhân, giai cấp có lợi ích phù hợp với lợi ích chung của quần chúng nhân dân lao động\nB. Bản chất của nhà nước xã hội chủ nghĩa chịu sự quy định của cơ sở kinh tế của xã hội xã hội chủ nghĩa, đó là chế độ sở hữu xã hội về tư liệu sản xuất chủ yếu\nC. Nhà nước xã hội chủ nghĩa được xây dựng trên nền tảng tinh thần là lý luận của chủ nghĩa Mác – Lênin và những giá trị văn hóa tiên tiến, tiến bộ của nhân loại, đồng thời mang những bản sắc riêng của dân tộc\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Xét về chính trị, tính ưu việt về mặt bản chất của nhà nước xã hội chủ nghĩa được thể hiện như thế nào?",
+        "choice": "A. Là sự thống trị của thiểu số đối với tất cả các giai cấp, tầng lớp nhân dân lao động trong xã hội nhằm bảo vệ và duy trì địa vị của mình\nB. Là sự thống trị của đa số đối với thiểu số giai cấp bóc lột nhằm giải phóng giai cấp mình và giải phóng tất cả các tầng lớp nhân dân lao động khác trong xã hội\nC. Nhà nước xã hội chủ nghĩa mang bản chất của giai cấp công nhân, giai cấp có lợi ích phù hợp với lợi ích chung của quần chúng nhân dân lao động\nD. Là sự thống trị của đa số đối với thiểu số",
+        "answer": "Nhà nước xã hội chủ nghĩa mang bản chất của giai cấp công nhân, giai cấp có lợiích phù hợp với lợi ích chung của quần chúng nhân dân lao động"
+    },
+    {
+        "question": "V.I.Lênin cho rằng, giai cấp vô sản sau khi giành được chính quyền, xác lập địa vị thống trị cho đại đa số nhân dân lao động, thì vấn đề quan trọng không chỉ là trấn áp lại sự phản kháng của giai cấp bóc lột, mà điều quan trọng hơn cả là:",
+        "choice": "A. Chính quyền mới tạo ra được năng suất sản xuất cao hơn chế độ xã hội cũ, n hờ đó mang lại cuộc sống tốt đẹp hơn cho đại đa số các giai cấp, tầng lớp nhân dân lao động\nB. Là sự thống trị của đa số đối với thiểu số giai cấp bóc lột nhằm giải phóng giai cấp mình và giải phóng tất cả các tầng lớp nhân dân lao động khác trong xã hội\nC. Mang lại cuộc sống tốt đẹp hơn cho đại đa số các giai cấp\nD. Là sự thống trị của đa số đối với tất cả các giai cấp, tầng lớp nhân dân lao động trong xã hội nhằm bảo vệ và duy trì địa vị của mình",
+        "answer": "Chính quyền mới tạo ra được năng suất sản xuất cao hơn chế độ xã hội cũ, n hờ đómang lại cuộc sống tốt đẹp hơn cho đại đa số các giai cấp, tầng lớp nhân dân lao động"
+    },
+    {
+        "question": "Theo quan điểm của chủ nghĩa Mác – Lênin xét trên phương diện chế độ xã hội và trong lĩnh vực chính trị, dân chủ là:",
+        "choice": "A. Một nguyên tắc - nguyên tắc dân chủ\nB. Một hình thức hay hình thái nhà nước, là chính thể dân chủ hay chế độ dân chủ.\nC. Sản phẩm và là thành quả của quá trình đấu tranh giai cấp\nD. Không có câu trả lới đúng",
+        "answer": "Một hình thức hay hình thái nhà nước, là chính thể dân chủ hay chế độ dân chủ."
+    },
+    {
+        "question": "Nhà nước xã hội chủ nghĩa thực hiện chức năng trấn áp đối với giai cấp và đối tượng nào?",
+        "choice": "A. Nhân dân và những phần tử chống đối để bảo vệ thành quả cách mạng, giữ vững an ninh chính trị, tạo điều kiện thuận lợi cho sự phát triển kinh tế - xã hội\nB. Các giai cấp, tầng lớp để bảo vệ thành quả cách mạng, giữ vững an ninh chính trị, tạo điều kiện thuận lợi cho sự phát triển kinh tế - xã hội\nC. Giai cấp bóc lột đã bị lật đổ và những phần tử chống đối để bảo vệ thành quả cách mạng, giữ vững an ninh chính trị, tạo điều kiện thuận lợi cho sự phát triển kinh tế - xã hội\nD. Những phần tử chống đối để bảo vệ thành quả cách mạng, giữ vững an ninh chính trị, tạo điều kiện thuận lợi cho sự phát triển kinh tế - xã hội",
+        "answer": "Giai cấp bóc lột đã bị lật đổ và những phần tử chống đối để bảo vệ thành quảcách mạng, giữ vững an ninh chính trị, tạo điều kiện thuận lợi cho sự phát triển kinhtế - xã hội"
+    },
+    {
+        "question": "Nền dân chủ vô sản hay còn gọi là nền dân chủ xã hội chủ nghĩa chính thức được xác lập khi nào?",
+        "choice": "A. Thực tiễn đấu tranh giai cấp ở Pháp và Công xã Pari năm 1871\nB. Cách mạng Tháng Mười Nga thành công với sự ra đời của nhà nước xã hội chủ nghĩa đầu tiên trên thế giới (1917)\nC. Chủ nghĩa Mác - Lênin với tư cách cơ sở lý luận tổ chức, tiến hành cách mạng và xây dựng nhà nước của giai cấp công nhân\nD. Không có câu trả lời đúng",
+        "answer": "Cách mạng Tháng Mười Nga thành công với sự ra đời của nhà nước xã hội chủnghĩa đầu tiên trên thế giới (1917)"
+    },
+    {
+        "question": "Với tư cách là một hình thái nhà nước, một chế độ chính trị thì trong lịch sử nhân loại, cho đến nay có bao nhiêu nền (chế độ) dân chủ?",
+        "choice": "A. 4\nB. 5\nC. 3\nD. 2",
+        "answer": "C. 3"
+    },
+    {
+        "question": "Trên cơ sở của chủ nghĩa Mác – Lênin và điều kiện cụ thể của Việt Nam, Chủ tịch Hồ Chí Minh đã phát triển dân chủ theo hướng Dân chủ trước hết là một giá trị nhân loại chung. Và, khi coi dân chủ là một giá trị xã hội mang tính toàn nhân loại, Người đã khẳng định:",
+        "choice": "A. Dân chủ là dân là chủ và dân làm chủ\nB. Dân chủ là dân là chủ\nC. Không có câu trả lời đúng\nD. Dân chủ là dân làm chủ",
+        "answer": "Dân chủ là dân là chủ và dân làm chủ"
+    },
+    {
+        "question": "Thêm cụm từ thích hợp vào chỗ trống của câu sau để được luận điểm đúng: “Khác với nền dân chủ tư sản, … của nền dân chủ xã hội chủ nghĩa là thực hiện chế độ công hữu về tư liệu sản xuất chủ yếu và thực hiện chế độ phân phối lợi ích theo kết quả lao động là chủ yếu”",
+        "choice": "A. Bản chất chính trị\nB. Không có câu trả lời đúng\nC. Bản chất tư tưởng – văn hóa – xã hội\nD. Bản chất kinh tế",
+        "answer": "Bản chất kinh tế"
+    },
+    {
+        "question": "Phạm trù dân chủ xuất hiện khi nào?",
+        "choice": "A. Ngay từ khi có xã hội loài người\nB. Học thuyết Mác ra đời\nC. Khi có nhà nước vô sản\nD. Khi có nhà nước",
+        "answer": "Khi có nhà nước"
+    },
+    {
+        "question": "Nhà nước xã hội chủ nghĩa là:",
+        "choice": "A. Thực hiện chức năng trấn áp đóng vai trò quyết định trong việc duy trì địa vị của giai cấp nắm quyền chiếm hữu tư liệu sản xuất chủ yếu của xã hội\nB. Sự thống trị chính trị thuộc về giai cấp công nhân, do cách mạng xã hội chủ nghĩa sản sinh ra và có sứ mệnh xây dựng thành công chủ nghĩa xã hội\nC. Không có câu trả lời đúng\nD. Nhà nước của thiểu số thống trị đối với đa số nhân dân lao động",
+        "answer": "Sự thống trị chính trị thuộc về giai cấp công nhân, do cách mạng xã hội chủ nghĩa sảnsinh ra và có sứ mệnh xây dựng thành công chủ nghĩa xã hội"
+    },
+    {
+        "question": "Thêm cụm từ thích hợp vào chỗ trống của câu sau để được luận điểm đúng: “Xét về…, dân chủ xã hội chủ nghĩa vừa có bản chất giai cấp công nh ân, vừa có tính nhân dân rộng rãi, tính dân tộc sâu sắc”",
+        "choice": "A. Bản chất kinh tế\nB. Không có câu trả lời đúng\nC. Bản chất chính trị\nD. Bản chất tư tưởng – văn hóa – xã hội",
+        "answer": "Bản chất chính trị"
+    },
+    {
+        "question": "Ngay từ buổi sơ khai của lịch sử nhân loại, dân chủ được hiểu với tư cách là:",
+        "choice": "A. Quyền lực của giai cấp thống trị\nB. Năng lực của giai cấp thống trị\nC. Quyền lực của nhân dân\nD. Năng lực của nhân dân",
+        "answer": "Quyền lực của nhân dân"
+    },
+    {
+        "question": "Đặc trưng nổi bật của nhà nước xã hội chủ nghĩa là:",
+        "choice": "A. Khi những cơ sở kinh tế - xã hội cho sự tồn tại của nhà nước mất đi thì nhà nước không còn\nB. Nhà nước tồn tại vĩnh viễn mặc dù những cơ sở kinh tế - xã hội cho sự tồn tại của nhà nước không còn\nC. Bạo lực đối với bọn bóc lột, bọn phản động\nD. Nhà nước sẽ tự tiêu vong khi không còn cần thiết đối với giai cấp công nhân",
+        "answer": "Nhà nước sẽ tự tiêu vong khi không còn cần thiết đối với giai cấp công nhân"
+    },
+    {
+        "question": "Trên cơ sở của chủ nghĩa Mác – Lênin và điều kiện cụ thể của Việt Nam, Chủ tịch Hồ Chí Minh đã phát triển dân chủ theo hướng Dân chủ trước hết là một giá trị nhân loại chung. Và, khi coi dân chủ là một thể chế chính trị, một chế độ xã hội, Người khẳng định:",
+        "choice": "A. Chính quyền dân chủ có nghĩa là chính quyền do người dân làm chủ\nB. Chế độ ta là chế độ dân chủ, tức là nhân dân là người chủ, mà Chính phủ là người đầy tớ trung thành của nhân dân\nC. Tất cả đều đúng\nD. Dân làm chủ thì chủ tịch, bộ trưởng, thứ trưởng, ủy viên này khác... làm đầy tớ. Làm đầy tớ cho nhân dân, chứ không phải là quan cách mạng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Mỗi chế độ dân chủ gắn với nhà nước đều mang bản chất của:",
+        "choice": "A. Giai cấp bị trị\nB. Giai cấp tư sản\nC. Giai cấp thống trị\nD. Giai cấp công nhân",
+        "answer": "Giai cấp thống trị"
+    },
+    {
+        "question": "Thêm cụm từ thích hợp vào chỗ trống của câu sau để được câu đúng: “Cơ cấu xã hội là những... cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên”.",
+        "choice": "A. Cộng đồng dân cư\nB. Cộng đồng dân tộc\nC. Cộng đồng nghề nghiệp\nD. Cộng đồng người",
+        "answer": "Cộng đồng người"
+    },
+    {
+        "question": "Cơ cấu xã hội nào có vị trí quan trọng hàng đầu, chi phối các loại hình cơ cấu xã hội khác?",
+        "choice": "A. Cơ cấu xã hội - dân cư\nB. Cơ cấu xã hội - nghề nghiệp\nC. Cơ cấu xã hội - giai cấp\nD. Cơ cấu xã hội - tôn giáo",
+        "answer": "Cơ cấu xã hội - giai cấp"
+    },
+    {
+        "question": "Sự biến đổi của cơ cấu xã hội – giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội gắn liền và bị quy định bởi cơ cấu nào sau đây?",
+        "choice": "A. Cơ cấu dân số\nB. Cơ cấu kinh tế\nC. Cơ cấu lãnh thổ\nD. Cơ cấu nghề nghiệp",
+        "answer": "Cơ cấu kinh tế"
+    },
+    {
+        "question": "Theo C.Mác và Ph.Ăngghen, nhiều cuộc đấu tranh của giai cấp công nhân ở châu Âu, nhất là ở nước Anh và Pháp từ giữa thế kỷ XIX thất bại là do:",
+        "choice": "A. Không tổ chức liên minh với tầng lớp trí thức\nB. Không tổ chức liên minh với giai cấp tư sản\nC. Không tổ chức liên minh với giai cấp nông dân\nD. Không tổ chức liên minh với tầng lớp tiểu chủ",
+        "answer": "Không tổ chức liên minh với giai cấp nông dân"
+    },
+    {
+        "question": "Trong cách mạng xã hội chủ nghĩa, dưới sự lãnh đạo của Đảng Cộng sản, giai cấp công nhân phải liên minh với giai cấp, tầng lớp nào?",
+        "choice": "A. Giai cấp nông dân và giai cấp tư sản\nB. Tầng lớp trí thức và tầng lớp tiểu chủ\nC. Tầng lớp trí thức và tầng lớp doanh nhân\nD. Giai cấp nông dân và các tầng lớp nhân dân lao động",
+        "answer": "Giai cấp nông dân và các tầng lớp nhân dân lao động"
+    },
+    {
+        "question": "Nguyên tắc cao nhất của chuyên chính là duy trì khối liên minh giữa giai cấp vô sản và nông dân để giai cấp vô sản có thể giữ được vai trò lãnh đạo và chính quyền nhà nước”.",
+        "choice": "A. Trí thức\nB. Nông dân\nC. Tư sản\nD. Tiểu thương",
+        "answer": "Nông dân"
+    },
+    {
+        "question": "V.I.Lênin đã xem liên minh giữa giai cấp, tầng lớp nào là một hình thức liên minh đặc biệt trong giai đoạn giành chính quyền và xây dựng chủ nghĩa xã hội?",
+        "choice": "A. Giai cấp công nhân với giai cấp nông dân và các tầng lớp xã hội khác\nB. Giai cấp công nhân với giai cấp nông dân và tầng lớp trí thức\nC. Giai cấp công nhân với giai cấp nông dân và tầng lớp tiểu tư sản\nD. Giai cấp công nhân với tầng lớp trí thức và doanh nhân",
+        "answer": "Giai cấp công nhân với giai cấp nông dân và các tầng lớp xã hội khác"
+    },
+    {
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, cơ cấu xã hội - giai cấp biến đổi trong mối quan hệ nào?",
+        "choice": "A. Trong mối quan hệ vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất nghèo đói, bất công dẫn đến sự xích lại gần nhau.\nB. Trong mối quan hệ vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất bình đẳng xã hội dẫn đến sự xích lại gần nhau.\nC. Trong mối quan hệ vừa đấu tranh, vừa liên minh, từng bước xóa bỏ sự áp bức bóc lột dẫn đến sự xích lại gần nhau.\nD. Không có câu trả lời đúng",
+        "answer": "Trong mối quan hệ vừa đấu tranh, vừa liên minh, từng bước xóa bỏ bất bình đẳngxã hội dẫn đến sự xích lại gần nhau."
+    },
+    {
+        "question": "Đâu là nội dung cơ bản quyết định nhất, là cơ sở vật chất – kỹ thuật của liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam?",
+        "choice": "A. Nội dung kinh tế của liên minh\nB. Nội dung chính trị của liên minh\nC. Nội dung văn hóa xã hội của liên minh\nD. Tất cả đều đúng",
+        "answer": "Nội dung kinh tế của liên minh"
+    },
+    {
+        "question": "Theo V.I.Lênin, đâu là vấn đề mang tính nguyên tắc để đảm bảo cho thắng lợi của cuộc cách mạng xã hội chủ nghĩa tháng Mười Nga năm 1917?",
+        "choice": "A. Liên minh công, nông\nB. Liên minh công, nông và trí thức\nC. Liên minh công, tầng lớp lao động\nD. Không có câu trả lời đúng",
+        "answer": "Không có câu trả lời đúng"
+    },
+    {
+        "question": "Nội dung chính trị của liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam thể hiện việc giữ vững lập trường chính trị - tư tưởng của giai cấp nào?",
+        "choice": "A. Giai cấp công nhân\nB. Giai cấp nông dân\nC. Giai cấp tư sản\nD. Tất cả đều đúng",
+        "answer": "Giai cấp công nhân"
+    },
+    {
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam, nhiệm vụ trung tâm là phát triển kinh tế, tiến hành công nghiệp hóa, hiện đại hóa. Vậy giai cấp nào là lực lượng đi đầu thực hiện quá trình này?",
+        "choice": "A. Giai cấp công nhân\nB. Giai cấp nông dân\nC. Đội ngũ trí thức\nD. Đội ngũ doanh nhân",
+        "answer": "Giai cấp công nhân"
+    },
+    {
+        "question": "Theo quan điểm của chủ nghĩa Mác – Lênin, Cơ cấu xã hội – giai cấp biến đổi phức tạp, đa dạng, làm xuất hiện các tầng lớp xã hội mới nào?",
+        "choice": "A. Giai cấp công nhân, giai cấp nông dân, giai cấp tư sản và tầng lớp trí thức\nB. Tầng lớp doanh nhân, tiểu chủ, tầng lớp những người giàu có và trung lưu trong xã hội…\nC. Giai cấp nông dân, tầng lớp doanh nhân, tiểu chủ, tầng lớp những người giàu có và trung lưu trong xã hội\nD. Tất cả đều đúng",
+        "answer": "Tầng lớp doanh nhân, tiểu chủ, tầng lớp những người giàu có và trung lưu trongxã hội…"
+    },
+    {
+        "question": "Đội ngũ nào là lực lượng lao động sáng tạo đặc biệt quan trọng trong tiến trình đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước và hội nhập quốc tế, xây dựng kinh tế tri thức, phát triển nền văn hóa Việt Nam tiên tiến, đậm đà bản sắc dân tộc?",
+        "choice": "A. Công nhân\nB. Nông dân\nC. Trí thức\nD. Thanh niên",
+        "answer": "Trí thức"
+    },
+    {
+        "question": "Yếu tố nào quyết định mối quan hệ hợp tác và gắn bó chặt chẽ với nhau giữa các giai cấp, tầng lớp, các nhóm xã hội trong thời kỳ quá độ lên chủ nghĩa xã hội?",
+        "choice": "A. Họ chung sức hợp tác phát triển kinh tế, xóa đói giảm nghèo, tăng cường đồng thuận xã hội\nB. Họ chung sức cải tạo và xây dựng xã hội mới trên lĩnh vực kinh tế của đời sống xã hội\nC. Họ có cùng mục tiêu phát triển kinh tế, xây dựng chủ nghĩa xã hội, chủ nghĩa cộng sản\nD. Họ chung sức cải tạo xã hội cũ và xây dựng xã hội mới trên mọi lĩnh vực của đời sống xã hội",
+        "answer": "Họ chung sức cải tạo xã hội cũ và xây dựng xã hội mới trên mọi lĩnh vực củađời sống xã hội"
+    },
+    {
+        "question": "Xét dưới góc độ chính trị, trong một chế độ xã hội nhất định để tập hợp lực lượng trong cuộc đấu tranh giai cấp của các giai cấp có lợi ích đối lập nhau đặt ra nhu cầu tất yếu khách quan mỗi giai cấp đứng ở vị trí trung tâm đều phải:",
+        "choice": "A. Liên minh với các giai cấp, tầng lớp xã hội khác mang lại lợi ích cho mình\nB. Liên minh với các giai cấp, tầng lớp xã hội khác có những lợi ích phù hợp với mình để thực hiện nhu cầu và lợi ích chung của mình\nC. Liên minh với các giai cấp, tầng lớp xã hội khác có những lợi ích đối lập với mình\nD. Liên minh với các giai cấp, tầng lớp xã hội khác luôn ủng hộ những hoạt động của mình",
+        "answer": "Liên minh với các giai cấp, tầng lớp xã hội khác có những lợi ích phù hợp vớimình để thực hiện nhu cầu và lợi ích chung của mình"
+    },
+    {
+        "question": "Cơ cấu xã hội – giai cấp được hiểu:",
+        "choice": "A. Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tác động lẫn nhau của các cộng đồng ấy tạo nên.\nB. Là hệ thống các giai cấp, tầng lớp xã hội có những mối quan hệ xã hội do sự tác động lẫn nhau của giai cấp, tầng lớp ấy tạo nên.\nC. Là hệ thống các giai cấp, tầng lớp xã hội tồn tại khách quan trong m ột chế độ xã hội nhất định, thông qua những mối quan hệ về sở hữu tư liệu sản xuất, về tổ chức quản lý quá trình sản xuất, về địa vịchính trị - xã hội…giữa các giai cấp và tầng lớp đó.\nD. Là những cộng đồng người tồn tại khách quan trong một xã hội nhất định có liên hệ với nhau về kinh tế, chính trị, văn hóa và xã hội",
+        "answer": "Là những cộng đồng người cùng toàn bộ những mối quan hệ xã hội do sự tácđộng lẫn nhau của các cộng đồng ấy tạo nên."
+    },
+    {
+        "question": "Trong thời kỳ quá độ lên chủ nghĩa xã hội, mức độ liên minh, xích lại gần nhau giữa các giai cấp, tầng lớp trong xã hội tùy thuộc vào các điều kiện nào?",
+        "choice": "A. Văn hóa – xã hội của đất nước trong từng giai đoạn của thời kỳ quá độ\nB. Chính trị - xã hội của đất nước trong từng giai đoạn của thời kỳ quá độ\nC. Kinh tế - xã hội của đất nước trong từng giai đoạn của thời kỳ quá độ\nD. Tất cả đều đúng",
+        "answer": "Kinh tế - xã hội của đất nước trong từng giai đoạn của thời kỳ quá độ"
+    },
+    {
+        "question": "Xét đến cùng, khối liên minh giai cấp công nhân với giai cấp nông dân và tầng lớp trí thức trong thời kỳ quá độ lên chủ nghĩa xã hội được hình thành xuất phát từ:",
+        "choice": "A. Nhu cầu và lợi ích chính trị\nB. Nhu cầu và lợi ích xã hội\nC. Nhu cầu và lợi ích văn hóa\nD. Nhu cầu và lợi ích kinh tế",
+        "answer": "Nhu cầu và lợi ích kinh tế"
+    },
+    {
+        "question": "Hiện nay ở Việt Nam, tầng lớp xã hội đặc biệt được Đảng ta chủ trương xây dựng thành một đội ngũ vững mạnh là:",
+        "choice": "A. Trí thức\nB. Công nhân\nC. Doanh nhân\nD. Thanh niên",
+        "answer": "Doanh nhân"
+    },
+    {
+        "question": "Theo quan điểm của chủ nghĩa Mác – Lênin đâu chính là nguyên nhân quyết định sự biến đổi của cộng đồng dân tộc?",
+        "choice": "A. Sự biến đổi của phương thức sản xuất\nB. Sự biến đổi của LLSX\nC. Sự biến đổi của QHSX\nD. Sự biến đổi của khoa học kỹ thuật",
+        "answer": "Sự biến đổi của phương thức sản xuất"
+    },
+    {
+        "question": "Ở phương Tây, dân tộc xuất hiện khi nào?",
+        "choice": "A. Khi PTSX TBCN được xác lập thay thế PTSX Phong kiến\nB. Khi PTSX XHCN được xác lập thay thế PTSX TBCN\nC. Khi PTSX Cộng sản được xác lập thay thế PTSX XHCN\nD. Khi PTSX Phong kiến được xác lập thay thế PTSX Công xã nguyên thủy",
+        "answer": "Khi PTSX TBCN được xác lập thay thế PTSX Phong kiến"
+    },
+    {
+        "question": "Ở phương Đông, dân tộc được hình thành dựa trên cơ sở nào?",
+        "choice": "A. Một nền văn hoá, một tâm lý dân tộc đã phát triển tương đối chín muồi và một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung còn kém phát triển và ở trạng thái phân tán\nB. Một nền văn hoá ổn định, một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định\nC. Một tâm lý dân tộc ổn định, một cộng đồng kinh tế tuy đã đạt tới một mức độ nhất định\nD. Một cộng đồng kinh tế phát triển, một tâm lý dân tộc đã phát triển",
+        "answer": "Một nền văn hoá, một tâm lý dân tộc đã phát triển tương đối chín muồi và mộtcộng đồng kinh tế tuy đã đạt tới một mức độ nhất định song nhìn chung cònkém phát triển và ở trạng thái phân tán"
+    },
+    {
+        "question": "Hiểu theo nghĩa Dân tộc (nation) là cộng đồng chính trị - xã hội thì đặc trưng cơ bản nào được xem là đặc trưng quan trọng nhất của dân tộc và là cơ sở liên kết các bộ phận, các thành viên của dân tộc, tạo nên nền tảng vững chắc của dân tộc?",
+        "choice": "A. Có chung phương thức sinh hoạt kinh tế\nB. Có lãnh thổ chung ổn định không bị chia cắt\nC. Có sự quản lý của một nhà nước\nD. Có ngôn ngữ chung của quốc gia",
+        "answer": "Có chung phương thức sinh hoạt kinh tế"
+    },
+    {
+        "question": "Theo nghĩa dân tộc (ethnies) là cộng đồng người được hình thành lâu dài trong lịch sử thì tiêu chí nào được xem là tiêu chí quan trọng nhất để phân định một tộc người và có vị trí quyết định đối với sự tồn tại và phát triển của mỗi tộc người?",
+        "choice": "A. Cộng đồng về ngôn ngữ\nB. Cộng đồng về văn hóa\nC. Cộng đồng về kinh tế\nD. Ý thức tự giác tộc người",
+        "answer": "Ý thức tự giác tộc người"
+    },
+    {
+        "question": "Nghiên cứu vấn đề dân tộc, V.I.Lênin phát hiện ra hai xu hướng khách quan trong sự phát triển quan hệ dân tộc. Vậy xu hướng nào thể hiện rõ nét trong phong trào đấu tranh giành độc lập dân tộc của các dân tộc thuộc địa và phụ thuộc muốn thoát khỏi sự áp bức, bóc lột của các nước thực dân, đế quốc?",
+        "choice": "A. Cộng đồng dân cư muốn tách ra để hình thành cộng đồng dân tộc độc lập\nB. Các dân tộc trong từng quốc gia, thậm chí các dân tộc ở nhiều quốc gia muốn liên hiệp lại với nhau\nC. Đấu tranh để thoát khỏi sự kỳ thị dân tộc, phân biệt chủng tộc\nD. Đấu tranh để thoát khỏi tình trạng bị đồng hóa cưỡng bức của các dân tộc nhỏ dưới ách áp bức của các nước tư bản chủ nghĩa",
+        "answer": "Cộng đồng dân cư muốn tách ra để hình thành cộng đồng dân tộc độc lập"
+    },
+    {
+        "question": "Dựa trên quan điểm của chủ nghĩa Mác – Lênin về Cương lĩnh dân tộc, nội dung nào được xem là cơ sở vững chắc để đoàn kết các tầng lớp nhân dân lao động thuộc các dân tộc trong cuộc đấu tranh chống chủ nghĩa đế quốc vì độc lập d ân tộc và tiến bộ xã hội?",
+        "choice": "A. Các dân tộc hoàn toàn bình đẳng\nB. Các dân tộc được quyền tự quyết\nC. Liên hiệp công nhân tất cả các dân tộc\nD. Các dân tộc hoàn toàn bình đẳng và tự quyết",
+        "answer": "Liên hiệp công nhân tất cả các dân tộc"
+    },
+    {
+        "question": "Dựa trên quan điểm của chủ nghĩa Mác – Lênin về Cương lĩnh dân tộc, nội dung nào được xem là cơ sở để thực hiện quyền dân tộc tự quyết và xây dựng mối quan hệ hữu nghị, hợp tác giữa các dân tộc?",
+        "choice": "A. Các dân tộc hoàn toàn bình đẳng\nB. Các dân tộc được quyền tự quyết\nC. Liên hiệp công nhân tất cả các dân tộc\nD. Các dân tộc hoàn toàn bình đẳng và tự quyết",
+        "answer": "Các dân tộc hoàn toàn bình đẳng"
+    },
+    {
+        "question": "Việt Nam là một quốc gia đa tộc người với 6 đặc điểm nổi bật. Vậy, đặc điểm nào tạo điều kiện thuận lợi để các dân tộc tăng cường hiểu biết lẫn nhau, mở rộng giao lưu giúp đỡ nhau cùng phát triển và tạo nên một nền văn hóa thống nhất trong đa dạng?",
+        "choice": "A. Có sự chênh lệch về số dân giữa các tộc người\nB. Các dân tộc cư trú xen kẽ nhau\nC. Các dân tộc thiểu số ở Việt Nam phân bố chủ yếu ở địa bàn có vị trí chiến lược quan trọng\nD. Các dân tộc Việt Nam có truyền thống đoàn kết gắn bó lâu đời trong cộng đồng dân tộc - quốc gia thống nhất",
+        "answer": "Các dân tộc cư trú xen kẽ nhau"
+    },
+    {
+        "question": "Việt Nam là một quốc gia đa tộc người với 6 đặc điểm nổi bật. Vậy, đặc điểm nào thể hiện dễ bị các thế lực phản động lợi dụng vấn đề dân tộc để chống phá cách mạng Việt Nam?",
+        "choice": "A. Có sự chênh lệch về số dân giữa các tộc người\nB. Các dân tộc cư trú xen kẽ nhau\nC. Các dân tộc thiểu số ở Việt Nam phân bố chủ yếu ở địa bàn có vị trí chiến lược quan trọng\nD. Các dân tộc Việt Nam có truyền thống đoàn kết gắn bó lâu đời trong cộng đồng dân tộc - quốc gia thống nhất",
+        "answer": "Các dân tộc thiểu số ở Việt Nam phân bố chủ yếu ở địa bàn có vị trí chiến lượcquan trọng"
+    },
+    {
+        "question": "Việt Nam là một quốc gia đa tộc người với 6 đặc điểm nổi bật. Vậy, đặc điểm nào dễ nảy sinh mâu thuẫn, xung đột, tạo kẽ hở để các thế lực thù địch lợi dụng vấn đề dân tộc phá hoại an ninh chính trị và sự thống nhất của đất nước?",
+        "choice": "A. Có sự chênh lệch về số dân giữa các tộc người\nB. Các dân tộc cư trú xen kẽ nhau\nC. Các dân tộc thiểu số ở Việt Nam phân bố chủ yếu ở địa bàn có vị trí chiến lược quan trọng\nD. Các dân tộc Việt Nam có truyền thống đoàn kết gắn bó lâu đời trong cộng đồng dân tộc - quốc gia thống nhất",
+        "answer": "Các dân tộc cư trú xen kẽ nhau"
+    },
+    {
+        "question": "Nghiên cứu vấn đề dân tộc, V.I.Lênin phát hiện ra hai xu hướng khách quan trong sự phát triển quan hệ dân tộc. Vậy xu hướng nào thể hiện do sự phát triển của lực lượng sản xuất, của khoa học và công nghệ, của giao lưu kinh tế và văn hoá trong xã hội tư bản chủ nghĩa đã làm xuất hiện nhu cầu xóa bỏ hàng rào ngăn cách giữa các dân tộc, thúc đẩy các dân tộc xích lại gần nhau?",
+        "choice": "A. Cộng đồng dân cư muốn tách ra để hình thành cộng đồng dân tộc độc lập\nB. Các dân tộc trong từng quốc gia, thậm chí các dân tộc ở nhiều quốc gia muốn liên hiệp lại với nhau\nC. Đấu tranh để thoát khỏi sự kỳ thị dân tộc, phân biệt chủng tộc\nD. Đấu tranh để thoát khỏi tình trạng bị đồng hóa cưỡng bức của các dân tộc nhỏ dưới ách áp bức của các nước tư bản chủ nghĩa",
+        "answer": "Các dân tộc trong từng quốc gia, thậm chí các dân tộc ở nhiều quốc gia muốnliên hiệp lại với nhau"
+    },
+    {
+        "question": "Hiểu theo nghĩa Dân tộc (nation) là cộng đồng chính trị - xã hội thì đặc trưng cơ bản nào thể hiện vận mệnh dân tộc một phần rất quan trọng gắn với việc xác lập và bảo vệ lãnh thổ quốc gia dân tộc?",
+        "choice": "A. Có chung phương thức sinh hoạt kinh tế\nB. Có lãnh thổ chung ổn định không bị chia cắt\nC. Có sự quản lý của một nhà nước\nD. Có ngôn ngữ chung của quốc gia",
+        "answer": "B. Có lãnh thổ chung ổn định không bị chia cắt"
+    },
+    {
+        "question": "Theo nghĩa dân tộc (ethnies) là cộng đồng người được hình thành lâu dài trong lịch sử thì có mấy đặc trưng cơ bản?",
+        "choice": "A. 3\nB. 4\nC. 5\nD. 6",
+        "answer": "A. 3"
+    },
+    {
+        "question": "Theo nghĩa Dân tộc (nation) hay quốc gia dân tộc là cộng đồng chính trị - xã hội thì có mấy đặc trưng cơ bản?",
+        "choice": "A. 3\nB. 4\nC. 5\nD. 6",
+        "answer": "C. 5"
+    },
+    {
+        "question": "Dựa trên quan điểm của chủ nghĩa Mác – Lênin về Cương lĩnh dân tộc, nội dung nào được xem là chủ yếu, vừa là giải pháp quan trọng để liên kết các nội dung của cương lĩnh dân tộc thành một chỉnh thể ?",
+        "choice": "A. Các dân tộc bị áp bức phải đoàn kết lại\nB. Các dân tộc hoàn toàn bình đẳng\nC. Liên hiệp công nhân tất cả các dân tộc\nD. Các dân tộc được quyền tự quyết",
+        "answer": "C. Liên hiệp công nhân tất cả các dân tộc"
+    },
+    {
+        "question": "Nội dung nào được xem là cơ bản nhất, tiên quyết nhất của quyền dân tộc tự quyết?",
+        "choice": "A. Tự quyết về chính trị\nB. Tự quyết về văn hóa\nC. Tự quyết về kinh tế\nD. Tự quyết về lãnh thổ",
+        "answer": "A. Tự quyết về chính trị"
+    },
+    {
+        "question": "Nội dung cương lĩnh dân tộc của chủ nghĩa Mác – Lênin:",
+        "choice": "A. Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại\nB. Các dân tộc đoàn kết, bình đẳng và liên hiệp công nhân tất cả các dân tộc lại\nC. Các dân tộc có quyền tự quyết, các dân tộc có quyền bình đẳng, liên hiệp công nhân tất cả các dân tộc lại\nD. Các dân tộc hoàn toàn bình đẳng, tự quyết và liên hiệp công nhân các nước lại",
+        "answer": "A. Các dân tộc hoàn toàn bình đẳng, các dân tộc được quyền tự quyết, liên hiệp công nhân tất cả các dân tộc lại"
+    },
+    {
+        "question": "Câu 19: Trong vấn đề dân tộc, cương lĩnh của chủ nghĩa Mác - Lênin gồm mấy nội dung chủ yếu?",
+        "choice": "A. 2\nB. 3\nC. 4\nD. 5",
+        "answer": "B. 3"
+    },
+    {
+        "question": "Các dân tộc ở Việt Nam còn có sự chênh lệch khá lớn về trình độ phát triển kinh tế, văn hóa, xã hội. Vậy muốn thực hiện bình đẳng dân tộc, chúng ta phải làm gì?",
+        "choice": "A. Các dân tộc đoàn kết đấu tranh, giành và giữ vững nền độc lập của tổ quốc, xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no\nB. Giữ gìn sự thống nhất Tổ quốc xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no\nC. Xây dựng xã hội mới – xã hội xã hội chủ nghĩa để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no\nD. Phải từng bước giảm, tiến tới xóa bỏ khoảng cách phát triển giữa các dân tộc về kinh tế, văn hóa, xã hội",
+        "answer": "D. Phải từng bước giảm, tiến tới xóa bỏ khoảng cách phát triển giữa các dân tộcvề kinh tế, văn hóa, xã hội"
+    },
+    {
+        "question": "Đâu là mục tiêu về tư tưởng khi học tập và nghiên cứu về vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên CNXH?",
+        "choice": "A. Thấy rõ tính khoa học trong quan điểm và cách thức giải quyết vấn đề dân tộc, tôn giáo của chủ nghĩa Mác – Lênin, của ĐCS Việt Nam; từ đó xác định trách nhiệm của bản thân góp phần tuyên truyền và thực hiện chủ trương, chính sách, pháp luật về dân tộc, tôn giáo của Đảng và nhà nước\nB. Rèn luyện tư duy và năng lực vận dụng những nội dung đã học để phân tích, giải thích những vấn đề trong thực tiễn một cách khách quan, có cơ sở khoa học\nC. Nắm được quan điểm cơ bản của CN Mác – Lênin về vấn đề dân tộc, tôn giáo; MQH dân tộc và tôn giáo, nội dung chính sách dân tộc, tôn giáo của Đảng và nhà nước Việt Nam, tầm quan trọng của nó đối với sự nghiệp cách mạng toàn dân dưới sự lãnh đạo của ĐCS Việt Nam\nD. Tất cả câu trả lời đều đúng",
+        "answer": "A. Thấy rõ tính khoa học trong quan điểm và cách thức giải quyết vấn đề dân tộc,tôn giáo của chủ nghĩa Mác – Lênin, của ĐCS Việt Nam; từ đó xác định tráchnhiệm của bản thân góp phần tuyên truyền và thực hiện chủ trương, chính sách,pháp luật về dân tộc, tôn giáo của Đảng và nhà nước"
+    },
+    {
+        "question": "Đâu là mục tiêu về kiến thức khi học tập và nghiên cứu về vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên CNXH?",
+        "choice": "A. Thấy rõ tính khoa học trong quan điểm và cách thức giải quyết vấn đề dân tộc, tôn giáo của chủ nghĩa Mác – Lênin, của ĐCS Việt Nam; từ đó xác định trách nhiệm của bản thân góp phần tuyên truyền và thực hiện chủ trương, chính sách, pháp luật về dân tộc, tôn giáo của Đảng và nhà nước\nB. Rèn luyện tư duy và năng lực vận dụng những nội dung đã học để phân tích, giải thích những vấn đề trong thực tiễn một cách khách quan, có cơ sở khoa học\nC. Nắm được quan điểm cơ bản của CN Mác – Lênin về vấn đề dân tộc, tôn giáo; MQH dân tộc và tôn giáo, nội dung chính sách dân tộc tôn giáo của Đảng và nhà nước Việt Nam, tầm quan trọng của nó đối với sự nghiệp cách mạng toàn dân duwois sự lãnh đạo của ĐCS Việt Nam\nD. Tất cả câu trả lời đều đúng",
+        "answer": "C. Nắm được quan điểm cơ bản của CN Mác – Lênin về vấn đề dân tộc, tôn giáo;MQH dân tộc và tôn giáo, nội dung chính sách dân tộc tôn giáo của Đảng và nhànước Việt Nam, tầm quan trọng của nó đối với sự nghiệp cách mạng toàn dânduwois sự lãnh đạo của ĐCS Việt Nam"
+    },
+    {
+        "question": "Đâu là mục tiêu về kỹ năng khi học tập và nghiên cứu về vấn đề dân tộc và tôn giáo trong thời kỳ quá độ lên CNXH?",
+        "choice": "A. Thấy rõ tính khoa học trong quan điểm và cách thức giải quyết vấn đề dân tộc, tôn giáo của chủ nghĩa Mác – Lênin, của ĐCS Việt Nam; từ đó xác định trách nhiệm của bản thân góp phần tuyên truyền và thực hiện chủ trương, chính sách, pháp luật về dân tộc, tôn giáo của Đảng và nhà nước\nB. Rèn luyện tư duy và năng lực vận dụng những nội dung đã học để phân tích, giải thích những vấn đề trong thực tiễn một cách khách quan, có cơ sở khoa học\nC. Nắm được quan điểm cơ bản của CN Mác – Lênin về vấn đề dân tộc, tôn giáo; MQH dân tộc và tôn giáo, nội dung chính sách dân tộc tôn giáo của Đảng và nhà nước Việt Nam, tầm quan trọng của nó đối với sự nghiệp cách mạng toàn dân duwois sự lãnh đạo của ĐCS Việt Nam\nD. Tất cả câu trả lời đều đúng",
+        "answer": "B. Rèn luyện tư duy và năng lực vận dụng những nội dung đã học để phân tích,giải thích những vấn đề trong thực tiễn một cách khách quan, có cơ sở khoa học"
+    },
+    {
+        "question": "Chỉ rõ bản chất của tôn giáo, chủ nghĩa Mác – Lênin khẳng định rằng: Tôn giáo là một hiện tượng xã hội – văn hóa do con người sáng tạo ra. Vậy, mọi quan niệm về tôn giáo xét đến cùng được sinh ra từ đâu và thay đổi như thế nào?",
+        "choice": "A. Được sinh ra từ những hoạt động sản xuất, những điều kiện sống nhất định trong xã hội và thay đổi theo những thay đổi của cơ sở kinh tế\nB. Được sinh ra từ những mục đích, lợi ích của con người, phản anh ước mơ, nguyện vọng, suy nghĩ của họ\nC. Được sinh ra từ những hoạt động sản xuất giản đơn, những điều kiện sống tối thiểu trong xã hội và thay đổi theo những thay đổi của cơ sở kinh tế\nD. Tất cả câu trả lời đều đúng",
+        "answer": "A. Được sinh ra từ những hoạt động sản xuất, những điều kiện sống nhất địnhtrong xã hội và thay đổi theo những thay đổi của cơ sở kinh tế"
+    },
+    {
+        "question": "Theo quan điểm của chủ nghĩa Mác – Lênin, dân tộc là quá trình phát triển lâu dài của xã hội loài người, trải qua các hình thức cộng đồng từ thấp đến cao, bao gồm: thị tộc, bộ lạc, bộ tộc, dân tộc. Vậy đâu chính là nguyên nhân quyết định sự biến đổi của cộng đồng dân tộc?",
+        "choice": "A. Sự biến đổi của lực lượng sản xuất\nB. Sự biến đổi của quan hệ sản xuất\nC. Sự biến đổi của phương thức sản xuất\nD. Sự biến đổi của khoa học kỹ thuật",
+        "answer": "Sự biến đổi của phương thức sản xuất"
+    },
+    {
+        "question": "Nội dung cao nhất của quyền dân tộc tự quyết ở Việt Nam là gì?",
+        "choice": "A. Xây dựng xã hội mới – xã hội xã hội chủ nghĩa để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no.\nB. Giữ gìn sự thống nhất Tổ quốc xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no.\nC. Các dân tộc đoàn kết đấu tranh, giành và giữ vững nền độc lập của tổ quốc, xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no.\nD. Các dân tộc đoàn kết đấu tranh, giành và giữ vững nền độc lập của tổ quốc, cùng nhau giữ gìn sự thống nhất Tổ quốc, xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dân tộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no.",
+        "answer": "Các dân tộc đoàn kết đấu tranh, giành và giữ vững nền độc lập của tổ quốc, cùng nhaugiữ gìn sự thống nhất Tổ quốc, xây dựng xã hội mới – xã hội xã hội chủ nghĩa, để các dântộc đều được phát triển tự do, đầy đủ và được hạnh phúc ấm no."
+    },
+    {
+        "question": "Nội dung giáo dục của gia đình Việt Nam hiện nay không chỉ nặng về giáo dục đạo đức, ứng xử trong gia đình, dòng họ, làng xã, mà hướng đến giáo dục:",
+        "choice": "A. Kiến thức quản lý tài chính, trang bị công cụ để con cái hòa nhập với thế giới\nB. Kiến thức quản lý thời gian, trang bị công cụ để con cái hòa nhập với thế giới\nC. Kiến thức khoa học hiện đại, trang bị công cụ để con cái hòa nhập với thế giới\nD. Kiến thức khoa học xã hội, trang bị công cụ để con cái hòa nhập với thế giới",
+        "answer": "Kiến thức khoa học hiện đại, trang bị công cụ để con cái hòa nhập với thế giới"
+    },
+    {
+        "question": "Câu 2: Quan hệ nào là mối quan hệ tự nhiên, là yếu tố mạnh mẽ nhất gắn kết các thành viên trong gia đình với nhau?",
+        "choice": "\nA. Quan hệ hôn nhân\nB. Quan hệ huyết thống\nC.Quan hệ dòng tộc\nD.Quan hệ nuôi dưỡng",
+        "answer": "Quan hệ huyết thống"
+    },
+    {
+        "question": "Vì sao phải thực hiện thủ tục pháp lý trong hôn nhân?",
+        "choice": "A. Vì nó thể hiện sự tôn trọng trong tình yêu, trách nhiệm giữa nam và nữ, trách nhiệm của cá nhân đối với gia đình, xã hội và ngược lại\nB. Vì đây là biện pháp ngăn chặn những cá nhân lợi dụng quyền tự do kết hôn, tự do ly hôn để thỏa mãn những nhu cầu không chính đáng\nC. Vì nó là cơ sở để bảo vệ hạnh phúc cá nhân và gia đình\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Sự biến đổi của gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội thể hiện như thế nào?",
+        "choice": "A. Biến đổi quy mô, kết cấu của gia đình\nB. Biến đổi trong thực hiện các chức năng của gia đình\nC. Biến đổi trong các mối quan hệ gia đình\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Chế độ xã hội nào để củng cố, duy trì chế độ bóc lột, với quan hệ gia trưởng, độc đoán, chuyên quyền đã có những quy định khắt khe đối với phụ nữ?",
+        "choice": "A. Xã hội chiếm hữu nô lệ\nB. Xã hội phong kiến\nC. Xã hội tư bản chủ nghĩa\nD. Xã hội xã hội chủ nghĩa",
+        "answer": "Xã hội phong kiến"
+    },
+    {
+        "question": "Chế độ hôn nhân một vợ một chồng đã xuất hiện lần đầu tiên trong xã hội nào?",
+        "choice": "A. Xã hội nguyên thủy\nB. Xã hội chiếm hữu nô lệ\nC. Xã hội tư bản chủ nghĩa\nD. Xã hội xã hội chủ nghĩa",
+        "answer": "Xã hội chiếm hữu nô lệ"
+    },
+    {
+        "question": "Trong các chế độ xã hội dựa trên sở hữu tư nhân về tư liệu sản xuất thì hôn nhân một vợ một chồng thực chất chỉ đối với ai?",
+        "choice": "A. Chỉ đối với người đàn ông\nB. Chỉ đối với người phụ nữ\nC. Cả người đàn ông và phụ nữ\nD. Không bắt buộc đối với cả người đàn ông và người phụ nữ",
+        "answer": "Chỉ đối với người phụ nữ"
+    },
+    {
+        "question": "Trong gia đình Việt Nam hiện đại ngày nay, nhu cầu về con cái đã có những thay đổi căn bản như thế nào?",
+        "choice": "A. Tỷ lệ sinh thấp, nhu cầu phải có con trai tăng\nB. Giảm mức sinh của phụ nữ, giảm số con mong muốn và giảm nhu cầu nhất thiết phải có con trai của các cặp vợ chồng\nC. Phải có con, càng đông con càng tốt và nhất thiết phải có con trai nối dõi\nD. Không có câu trả lới đúng",
+        "answer": "Giảm mức sinh của phụ nữ, giảm số con mong muốn và giảm nhu cầu nhất thiếtphải có con trai của các cặp vợ chồng"
+    },
+    {
+        "question": "Trong gia đình Việt Nam hiện đại, sự bền vững của hôn nhân phụ thuộc rất nhiều vào yếu tố nào?",
+        "choice": "A. Có con hay không có con\nB. Có con trai hay không có con trai\nC. Tâm lý, tình cảm, kinh tế\nD. Địa vị xã hội, kinh tế",
+        "answer": "Tâm lý, tình cảm, kinh tế"
+    },
+    {
+        "question": "Yếu tố nào ảnh hưởng đến chất lượng nguồn lực lao động mà gia đình cung cấp?",
+        "choice": "A. Trình độ phát triển kinh tế, văn hóa, xã hội\nB. Trình độ phát triển kinh tế, văn hóa, nghệ thuật\nC. Trình độ phát triển kinh tế, chính trị\nD. Tất cả đều đúng",
+        "answer": "Trình độ phát triển kinh tế, văn hóa, xã hội"
+    },
+    {
+        "question": "Trong gia đình Việt Nam hiện nay, người chủ gia đình được quan niệm là người:",
+        "choice": "A. Có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên trong gia đình coi trọng; là người kiếm nhiều tiền\nB. Người kiếm ra nhiều tiền, yêu thương và chăm sóc các thành viên trong gia đình\nC. Người có đạo đức, có địa vị trong xã hội và được đồng nghiệp coi trọng\nD. Người có năng lực, có nhiều tiền và có địa vị trong xã hội",
+        "answer": "Có những phẩm chất, năng lực và đóng góp vượt trội, được các thành viên tronggia đình coi trọng; là người kiếm nhiều tiền"
+    },
+    {
+        "question": "Gia đình văn hóa là một mô hình gia đình tiến bộ mà nhiều gia đình Việt Nam hướng đến đó là:",
+        "choice": "A. Gia đình ấm no, hòa thuận, tiến bộ, khỏe mạnh và hạnh phúc; thực hiện tốt nghĩa vụ công dân\nB. Thực hiện kế hoạch hóa gia đình\nC. Đoàn kết tương trợ trong cộng đồng dân cư\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: “Nhiều gia đình cộng lại mới thành xã hội, xã hội tốt thì gia đình càng tốt, gia đình tốt thì xã hội mới tốt. Hạt nhân của xã hội chính là gia đình”?",
+        "choice": "A. Ph. Ăngghen\nC. Mác\nC. V.I. Lênin\nD. Hồ Chí Minh",
+        "answer": "Hồ Chí Minh"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: “Nếu không giải phóng phụ nữ là xây dựng chủ nghĩa xã hội chỉ một nửa”?",
+        "choice": "A. Ph. Ăngghen\nC. Mác\nC. V.I. Lênin\nD. Hồ Chí Minh",
+        "answer": "Hồ Chí Minh"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: “Nếu nghĩa vụ của vợ và chồng là phải yêu thương nhau thì nghĩa vụ của những kẻ yêu nhau há chẳng phải là kết hôn với nhau và không được kết hôn với người khác”?",
+        "choice": "A. Ph. Ăngghen\nC. Mác\nC. V.I. Lênin\nC. Mác và Ph. Ăngghen",
+        "answer": "Ph. Ăngghen"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: \"Chính quyền Xô Viết, một chính quyền của nhân dân lao động, chính quyền đầu tiên và duy nhất trên thế giới đã hủy bỏ tất cả những đặc quyền gắn liền với chế độ tư hữu, những đặc quyền của người đàn ông trong gia đình\"?",
+        "choice": "A. Ph. Ăngghen\nB. V.I..Xtalin\nC. V.I. Lênin\nD. Hồ Chí Minh",
+        "answer": "V.I. Lênin"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: \"Nếu chỉ riêng hôn nhân dựa trên cơ sở tình yêu mới hợp đạo đức thì cũng chỉ riêng hôn nhân trong đó tình yêu được duy trì, mới là hợp đạo đức mà thôi... và nếu tình yêu đã hoàn toàn phai nhạt hoặc bị một tình yêu say đắm mới át đi, thì ly hôn sẽ là điều hay cho đôi bên cũng như cho xã hội\"?",
+        "choice": "A. Ph.Ăngghen\nC. Mác\nC. V.I. Lênin\nC. Mác và Ph.Ăngghen\n30",
+        "answer": "Ph.Ăngghen"
+    },
+    {
+        "question": "Quan điểm sau đây của ai: \"…một mặt là sản xuất ra tư liệu sinh hoạt: thực phẩm, quần áo, nhà ở và những công cụ cần thiết để sản xuất ra những thứ đó; mặt khác là sự sản xuất ra bản thân con người, là sự truyền nòi giống…\". Quan điểm trên đây của ai?",
+        "choice": "A. Ph. Ăngghen\nC. Mác\nC. V.I. Lênin\nC. Mác và Ph. Ăngghen",
+        "answer": "Ph. Ăngghen"
+    },
+    {
+        "question": "Trong gia đình Việt Nam hiện nay, nhu cầu thỏa mãn tâm lý - tình cảm đang tăng lên, là do:",
+        "choice": "A. Đời sống vật chất của gia đình được nâng cao\nB. Gia đình có xu hướng chuyển đổi từ chủ yếu là đơn vị kinh tế sang chủ yếu là đơn vị tình cảm\nC. Chuyển từ gia đình truyền thống sang gia đình hạt nhân\nD. Nhận thức được tầm quan trọng của yếu tố tâm lý – tình cảm trong gia đình",
+        "answer": "Gia đình có xu hướng chuyển đổi từ chủ yếu là đơn vị kinh tế sang chủ yếu làđơn vị tình cảm "
+    },
+    {
+        "question": "Câu 20: Trong xã hội hiện đại, độ bền vững của gia đình Việt Nam phụ thuộc vào những yếu tố nào?",
+        "choice": "A. Sự ràng buộc của các mối quan hệ về trách nhiệm, nghĩa vụ giữa vợ và chồng; cha mẹ và con cái\nB. Sự hy sinh lợi ích cá nhân cho lợi ích gia đình, các mối quan hệ hòa hợp tình cảm giữa chồng và vợ; cha mẹ và con cái\nC. Sự đảm bảo hạnh phúc cá nhân, sinh hoạt tự do, chính đáng của mỗi thành viên gia\nđình trong cuộc sống chung.\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Gia đình là một cộng đồng người đặc biệt, được hình thành, duy trì và củng cố chủ yếu dựa trên cơ sở nào?",
+        "choice": "A. Quan hệ hôn nhân\nB. Quan hệ nuôi dưỡng, cùng với những quy định về quyền và nghĩa vụ của các thành viên trong gia đình\nC. Quan hệ huyết thống\nD. Tất cả đều đúng",
+        "answer": "Tất cả đều đúng"
+    },
+    {
+        "question": "Hôn nhân tiến bộ là hôn nhân dựa trên cơ sở nào?",
+        "choice": "A. Hôn nhân một vợ một chồng, bình đẳng.\nB. Hôn nhân được đảm bảo về pháp lý.\nC. Hôn nhân dựa trên cơ sở tình yêu, tự nguyện.\nD. Cả ba phương án.",
+        "answer": "Cả ba phương án."
+    },
+    {
+        "question": "Thực hiện hôn nhân một vợ một chồng là điều kiện đảm bảo hạnh phúc gia đình, đồng thời cũng phù hợp với gì?",
+        "choice": "A. Phù hợp với quy luật tự nhiên.\nB. Cả ba phương án\nC. Phù hợp với đạo đức.\nD. Phù hợp với tâm lý, tình cảm.",
+        "answer": "Cả ba phương án"
+    },
+    {
+        "question": "Vị trí của gia đình trong xã hội thể hiện như thế nào?",
+        "choice": "A. Gia đình là tế bào của xã hội.\nB. Cả ba phương án.\nC. Gia đình là cầu nối giữa cá nhân với xã hội.\nD. Gia đình là tổ ấm, mang lại các giá trị hạnh phúc, sự hài hòa trong đời sống cá nhân của mỗi thành viên.",
+        "answer": "Cả ba phương án."
+    },
+    {
+        "question": "Có mấy phương hướng cơ bản để xây dựng và phát triển gia đình Việt Nam trong thời kỳ quá độ lên chủ nghĩa xã hội?",
+        "choice": "A. 6\nB. 4\nC. 3\nD. 5",
+        "answer": "B. 4"
+    },
+    {
+        "question": "Chức năng nào được coi là chức năng cơ bản và riêng có của gia đình?",
+        "choice": "A. Tái sản xuất ra con người.\nB. Thoả mãn nhu cầu tâm, sinh lý.\nC. Tổ chức đời sống gia đình.\nD. Giáo dục.",
+        "answer": "Tái sản xuất ra con người."
+    }
+]

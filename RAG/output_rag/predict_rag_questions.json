@@ -1,0 +1,1990 @@
+[
+  {
+    "qid": "test_0001",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0002",
+    "predict": "A",
+    "reason": "Skipped: Length 28 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0003",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0004",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0005",
+    "predict": "A",
+    "reason": "Skipped: Length 28 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0006",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0007",
+    "predict": "A",
+    "reason": "Skipped: Length 37 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0008",
+    "predict": "B",
+    "reason": "Thuật ngữ 'vũ khí hủy diệt hàng loạt' lần đầu tiên được sử dụng trong bối cảnh vụ ném bom Guernica của không quân Đức, được đề cập trên tờ TIME số ra ngày 28/12/1937."
+  },
+  {
+    "qid": "test_0009",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0010",
+    "predict": "A",
+    "reason": "Skipped: Length 53 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0011",
+    "predict": "A",
+    "reason": "Skipped: Length 6 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0012",
+    "predict": "A",
+    "reason": "Skipped: Length 131 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0013",
+    "predict": "A",
+    "reason": "Skipped: Length 4 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0014",
+    "predict": "A",
+    "reason": "Bài hát 'Lean On' đã vượt qua 'Thinking Out Loud' để trở thành bài hát đầu tiên đạt 500 triệu streams trên Spotify vào thời điểm sau khi 'Thinking Out Loud' đạt 500 triệu streams vào ngày 12 tháng 7 năm 2015. Theo thông tin trong đoạn văn, 'Lean On' đã soán ngôi 'Thinking Out Loud' vào tháng 8 năm 2015, nhưng không có thông tin cụ thể về ngày. Tuy nhiên, dựa trên thông tin về việc 'Thinking Out Loud' đạt 500 triệu streams vào ngày 12 tháng 7 năm 2015, có thể suy đoán rằng 'Lean On' đã vượt qua 'Thinking Out Loud' vào thời điểm sau ngày 12 tháng 7 năm 2015."
+  },
+  {
+    "qid": "test_0015",
+    "predict": "A",
+    "reason": "Skipped: Length 74 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0016",
+    "predict": "A",
+    "reason": "Skipped: Length 21 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0017",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn, album 'Ru mãi ngàn năm' của ca sĩ Thanh Lam do Lê Minh Sơn biên tập được bầu chọn là 'Album của năm 2004'."
+  },
+  {
+    "qid": "test_0018",
+    "predict": "B",
+    "reason": "Theo quy trình sản xuất quế Thanh, để tăng cường phẩm chất của quế trước khi phơi khô, vỏ quế bóc về không phơi mà cần ủ để gia tăng phẩm chất. Quá trình ủ bao gồm các công đoạn ngâm nước, để ráo, cho vào sọt đậy kỹ buộc chặt ủ một thời gian cho quế chín rồi đem ra lại rửa, ép, để khô tự nhiên."
+  },
+  {
+    "qid": "test_0019",
+    "predict": "A",
+    "reason": "Skipped: Length 76 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0020",
+    "predict": "C",
+    "reason": "Nguyên nhân chính dẫn đến sự suy giảm dân số Trung Quốc từ 120 triệu xuống còn 60 triệu vào năm 1300 là chiến tranh và xâm lược của Đế quốc Mông Cổ. Điều này được suy luận từ thông tin trong đoạn văn 1, nơi đề cập đến việc dân số Trung Quốc giảm xuống 60 triệu trong điều tra nhân khẩu năm 1300, sau khi Mông Cổ xâm chiếm và chinh phục Trung Quốc."
+  },
+  {
+    "qid": "test_0021",
+    "predict": "A",
+    "reason": "Tên tạm gọi của sân vận động Quốc gia Mỹ Đình trong giai đoạn xây dựng được đề cập trong phần 'Lịch sử' của đoạn thông tin."
+  },
+  {
+    "qid": "test_0022",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0023",
+    "predict": "B",
+    "reason": "Theo tư tưởng Phật giáo Đại thừa Đông Á, giai đoạn Mạt Pháp được cho là bắt đầu sau 1500 năm kể từ khi Đức Phật Thích Ca nhập niết bàn."
+  },
+  {
+    "qid": "test_0024",
+    "predict": "A",
+    "reason": "Dựa trên thông tin trong đoạn 'Trần Nhân Tông - Gia đình', Tuyên Từ Hoàng hậu họ Trần được mô tả là em gái của Khâm Từ Hoàng hậu và mẹ của bà là thị thiếp của Hưng Đạo Đại vương."
+  },
+  {
+    "qid": "test_0025",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0026",
+    "predict": "A",
+    "reason": "Skipped: Length 130 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0027",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0028",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn, sau khi có vi phạm thỏa thuận, lực lượng gìn giữ hòa bình Nga đã yêu cầu cả hai bên tôn trọng thỏa thuận đình chiến. Ngày 13 tháng 12, lực lượng Nga chiếm quyền kiểm soát Hin Tagher. Tuy nhiên, ngày hôm sau, Bộ Quốc phòng Nga phát hành bản đồ cho thấy cả hai ngôi làng nằm ngoài phạm vi của nhiệm vụ gìn giữ hòa bình, và cả hai được trả về cho Azerbaijan."
+  },
+  {
+    "qid": "test_0029",
+    "predict": "A",
+    "reason": "Skipped: Length 28 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0030",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0031",
+    "predict": "A",
+    "reason": "Skipped: Length 11 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0032",
+    "predict": "A",
+    "reason": "Skipped: Length 11 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0033",
+    "predict": "A",
+    "reason": "Skipped: Length 5 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0034",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0035",
+    "predict": "A",
+    "reason": "Skipped: Length 112 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0036",
+    "predict": "A",
+    "reason": "Skipped: Length 78 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0037",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0038",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0039",
+    "predict": "A",
+    "reason": "Skipped: Length 73 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0040",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0041",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0042",
+    "predict": "B",
+    "reason": "Friedrich Wilhelm I được gọi là 'vua chiến sĩ' (der Soldatenkönig) vì ông tập trung vào việc xây dựng một chính quyền trung ương vững mạnh và phát triển Quân đội Phổ, dẫn đến việc thành lập đoàn quân Postdam với những người khổng lồ và xây dựng một quân đội hùng mạnh."
+  },
+  {
+    "qid": "test_0043",
+    "predict": "B",
+    "reason": "Văn bản chỉ rõ lợi ích tiến hóa của hiệu ứng Coolidge là giúp con đực thụ tinh cho nhiều con cái khác nhau, thể hiện qua việc con đực có thể giao phối với nhiều con cái trong một thời gian ngắn."
+  },
+  {
+    "qid": "test_0044",
+    "predict": "A",
+    "reason": "Thông tin trong đoạn văn I. Nội dung cho biết Héctor là cha của Coco Rivera, người đã bị Ernesto de la Cruz giết và lấy trộm các bài hát của mình. Gia đình Rivera đã nhầm lẫn Ernesto de la Cruz là cha của Coco Rivera."
+  },
+  {
+    "qid": "test_0045",
+    "predict": "A",
+    "reason": "Skipped: Length 37 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0046",
+    "predict": "B",
+    "reason": "Gói Home Net 2+ bao gồm dịch vụ Truyền hình MyTV (App) nâng cao và có tốc độ Internet cao nhất (150 Mbps) so với các gói khác."
+  },
+  {
+    "qid": "test_0047",
+    "predict": "A",
+    "reason": "Skipped: Length 21 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0048",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0049",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0050",
+    "predict": "A",
+    "reason": "Skipped: Length 51 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0051",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0052",
+    "predict": "A",
+    "reason": "Skipped: Length 18 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0053",
+    "predict": "A",
+    "reason": "Skipped: Length 65 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0054",
+    "predict": "A",
+    "reason": "Skipped: Length 43 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0055",
+    "predict": "A",
+    "reason": "Skipped: Length 18 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0056",
+    "predict": "A",
+    "reason": "Skipped: Length 46 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0057",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0058",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0059",
+    "predict": "A",
+    "reason": "NPC tạm thời được điều khiển bởi người chơi trong một phiên cụ thể, trong khi DNPC luôn do GM điều khiển nhưng người chơi chịu trách nhiệm về chúng."
+  },
+  {
+    "qid": "test_0060",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0061",
+    "predict": "A",
+    "reason": "Skipped: Length 40 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0062",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0063",
+    "predict": "A",
+    "reason": "Skipped: Length 54 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0064",
+    "predict": "A",
+    "reason": "Skipped: Length 73 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0065",
+    "predict": "A",
+    "reason": "Skipped: Length 130 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0066",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0067",
+    "predict": "A",
+    "reason": "Skipped: Length 109 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0068",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0069",
+    "predict": "B",
+    "reason": "Theo nội dung đoạn thông tin, giống cừu Oxford Down được lai tạo và phát triển vào năm 1830 bằng cách lai giống giữa một loạt giống cừu như cừu Cotswold, cừu Hampshire và cừu Southdown và sử dụng kết quả lai chéo giống để hình thành cơ sở của giống cừu này ngày nay. Điều này dẫn đến việc giống này chủ yếu được nuôi để lấy thịt cừu."
+  },
+  {
+    "qid": "test_0070",
+    "predict": "A",
+    "reason": "Giai đoạn xây dựng Cung điện của Giáo hoàng Avignon được đề cập trong Đoạn văn 1 là từ năm 1334 đến năm 1364, kéo dài khoảng 30 năm. Đồng thời, giai đoạn này trùng với giai đoạn lịch sử 'Giáo hoàng Avignon' (1309-1376) cũng được đề cập trong cùng đoạn văn."
+  },
+  {
+    "qid": "test_0071",
+    "predict": "A",
+    "reason": "Dựa trên thông tin trong đoạn văn, Trần Thanh Phương được nhắc đến là anh họ của Hà Trần."
+  },
+  {
+    "qid": "test_0072",
+    "predict": "A",
+    "reason": "Skipped: Length 13 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0073",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0074",
+    "predict": "A",
+    "reason": "Skipped: Length 69 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0075",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0076",
+    "predict": "A",
+    "reason": "Skipped: Length 13 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0077",
+    "predict": "B",
+    "reason": "Theo đoạn thông tin, Nguyễn Bảo Trị đã đảm nhiệm chức vụ Tổng ủy viên Thông tin Chiêu hồi trong Nội các Chính phủ Thủ tướng Nguyễn Cao Kỳ."
+  },
+  {
+    "qid": "test_0078",
+    "predict": "A",
+    "reason": "Skipped: Length 38 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0079",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0080",
+    "predict": "A",
+    "reason": "Skipped: Length 27 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0081",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0082",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0083",
+    "predict": "C",
+    "reason": "Theo đoạn thông tin, tác phẩm của Michael Prestwich tập trung vào sự nghiệp chính trị của Edward I, miêu tả về tình cảm của ông, nhưng làm nổi bật những hậu quả từ những thất bại chính trị của ông."
+  },
+  {
+    "qid": "test_0084",
+    "predict": "A",
+    "reason": "Skipped: Length 32 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0085",
+    "predict": "A",
+    "reason": "Skipped: Length 18 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0086",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0087",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0088",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0089",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0090",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0091",
+    "predict": "A",
+    "reason": "Thông tin về vật liệu xây dựng mái nhà của The Core được đề cập rõ ràng trong đoạn văn, chỉ ra rằng mái nhà được bọc bằng đồng."
+  },
+  {
+    "qid": "test_0092",
+    "predict": "A",
+    "reason": "Skipped: Length 29 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0093",
+    "predict": "A",
+    "reason": "Skipped: Length 29 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0094",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0095",
+    "predict": "A",
+    "reason": "Skipped: Length 73 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0096",
+    "predict": "B",
+    "reason": "Theo đoạn [3], bộ Ciconiiformes ban đầu được mở rộng để bao gồm nhiều họ mới, nhưng sau đó được xác định là một nhóm paraphyletic (không phải nhánh đơn ngành) và đã bị tách ra thành các nhóm phân loại khác như Metaves hoặc Suliformes."
+  },
+  {
+    "qid": "test_0097",
+    "predict": "A",
+    "reason": "Skipped: Length 26 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0098",
+    "predict": "C",
+    "reason": "Theo Document 5, Karl Marx đã chỉ ra rằng bành trướng tín dụng quá mức dẫn đến sản xuất thừa (overproduction), và quá trình này tiếp tục cho đến khi chuỗi cho vay đứt gãy. Điều này phù hợp với mô tả về nguyên nhân của khủng hoảng 1929-1933 trong Document 4, nơi đề cập đến sự thất bại của ngân hàng và việc cho vay ít hơn, dẫn đến tăng áp lực giảm phát."
+  },
+  {
+    "qid": "test_0099",
+    "predict": "A",
+    "reason": "Skipped: Length 53 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0100",
+    "predict": "A",
+    "reason": "Skipped: Length 108 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][][
+  {
+    "qid": "test_0102",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0102",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0101",
+    "predict": "A",
+    "reason": "Skipped: Length 29 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0102",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0103",
+    "predict": "A",
+    "reason": "Skipped: Length 45 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0104",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0105",
+    "predict": "B",
+    "reason": "Theo ngữ cảnh, Desa là đơn vị được quản lý theo luật tục truyền thống (adat) và thường nằm ở vùng nông thôn."
+  },
+  {
+    "qid": "test_0106",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0107",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0108",
+    "predict": "A",
+    "reason": "Skipped: Length 21 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0109",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn 3 và 4, Cổng Dịch vụ công Bộ Công an đã kết nối, tái sử dụng dữ liệu từ Cơ sở dữ liệu quốc gia về dân cư và Căn cước công dân để cắt giảm tối đa giấy tờ cho người dân, bao gồm việc người dân không phải đến cơ quan Công an để xác nhận CMND/CCCD, cư trú, quan hệ nhân thân."
+  },
+  {
+    "qid": "test_0110",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0111",
+    "predict": "D",
+    "reason": "Theo ngữ cảnh, ba bộ phận chính của Cơ cấu tổ chức Thư viện Quốc gia Ba Lan được liệt kê là Thư viện, Viện thư mục của thư viện quốc gia, và Viện sách và độc giả. Viện bản thảo và ấn phẩm đặc biệt không được đề cập trong danh sách này."
+  },
+  {
+    "qid": "test_0112",
+    "predict": "A",
+    "reason": "Skipped: Length 98 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0113",
+    "predict": "A",
+    "reason": "Skipped: Length 30 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0114",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0115",
+    "predict": "A",
+    "reason": "Skipped: Length 96 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0116",
+    "predict": "A",
+    "reason": "Skipped: Length 35 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0117",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0118",
+    "predict": "B",
+    "reason": "Thay đổi giấy phép từ Affero GPLv3 sang LGPLv3 vào năm 2017 cho phép tích hợp nhiều hơn với các ứng dụng CAD của bên thứ ba."
+  },
+  {
+    "qid": "test_0119",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0120",
+    "predict": "C",
+    "reason": "P.T. Barnum tự nhận mình là 'một người trình diễn chuyên nghiệp' và cho rằng 'tất cả những việc khác không làm gì thêm cho tôi cả', thể hiện sự coi trọng vai trò này hơn các vai trò khác."
+  },
+  {
+    "qid": "test_0121",
+    "predict": "A",
+    "reason": "Skipped: Length 48 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0122",
+    "predict": "A",
+    "reason": "Skipped: Length 67 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0123",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0124",
+    "predict": "A",
+    "reason": "Skipped: Length 18 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0125",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0126",
+    "predict": "A",
+    "reason": "Skipped: Length 66 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0127",
+    "predict": "A",
+    "reason": "Skipped: Length 34 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0128",
+    "predict": "A",
+    "reason": "Theo đoạn thông tin, Ali Hassan al-Majid bị kết án tử hình vào tháng 6 năm 2007 và bị tử hình cho tội ác đã làm trong chiến dịch Anfal thập niên 1980."
+  },
+  {
+    "qid": "test_0129",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0130",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0131",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0132",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0133",
+    "predict": "C",
+    "reason": "Lý do chính dẫn đến việc xây dựng chùa Báo Ân được ngụ ý trong tên gọi của chùa và ý nghĩa sâu xa của nó trong Phật pháp, liên quan đến việc báo đáp Tứ trọng ân."
+  },
+  {
+    "qid": "test_0134",
+    "predict": "A",
+    "reason": "Skipped: Length 84 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0135",
+    "predict": "A",
+    "reason": "Skipped: Length 107 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0136",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0137",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0138",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0139",
+    "predict": "A",
+    "reason": "Theo ngữ cảnh, Trung tâm Cảnh báo Bão Liên hợp (JTWC) đánh giá vận tốc gió của Cecil lớn hơn, đạt 85 dặm/giờ (140 km/giờ), trong khi Cơ quan Khí tượng Nhật Bản (JMA) báo cáo cường độ của Cecil thấp hơn, họ phân loại nó là bão nhiệt đới dữ dội với vận tốc gió duy trì 10 phút đạt 70 dặm/giờ (110 km/giờ)."
+  },
+  {
+    "qid": "test_0140",
+    "predict": "A",
+    "reason": "Skipped: Length 88 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0141",
+    "predict": "C",
+    "reason": "Theo thông tin trong đoạn văn, hệ thống DTS sân khấu sử dụng công nghệ nén âm thanh APT-X100, khác biệt hoàn toàn với định dạng DTS Digital Surround."
+  },
+  {
+    "qid": "test_0142",
+    "predict": "B",
+    "reason": "Biobutanol được cho là cung cấp thay thế trực tiếp cho xăng, vì nó có thể được sử dụng trực tiếp trong động cơ xăng."
+  },
+  {
+    "qid": "test_0143",
+    "predict": "B",
+    "reason": "Khách sạn Dalat Hotel Du Parc có hệ thống diềm mái lợp ngói đỏ nhô ra thay thế cho các ô văng cửa sổ, đây là chi tiết kiến trúc độc đáo không được đề cập ở Khách sạn Du lịch Công đoàn."
+  },
+  {
+    "qid": "test_0144",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0145",
+    "predict": "A",
+    "reason": "Skipped: Length 106 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0146",
+    "predict": "A",
+    "reason": "Theo ngữ cảnh, nhiễm trùng ngoại khoa thường liên quan đến chấn thương kín, vết thương hoặc phẫu thuật, có mô hoại tử và đòi hỏi can thiệp ngoại khoa. Ngược lại, nhiễm trùng nội khoa thường không có hoặc có rất ít mô hoại tử nhưng lại có biểu hiện toàn thân nhiều hơn."
+  },
+  {
+    "qid": "test_0147",
+    "predict": "A",
+    "reason": "Skipped: Length 30 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0148",
+    "predict": "A",
+    "reason": "Skipped: Length 52 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0149",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0150",
+    "predict": "A",
+    "reason": "Sau khi kết thúc nội chiến Sri Lanka năm 2009, những người tị nạn, tha hương trở về lại thành phố Jaffna. Chính phủ trung ương cho xây dựng lại kinh tế và cơ sở hạ tầng, khu vực kinh tế tư nhân bắt đầu được phát triển."
+  },
+  {
+    "qid": "test_0151",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0152",
+    "predict": "A",
+    "reason": "Theo đoạn văn 1, các tác giả người Việt Nam, người phương Tây và cả người Trung Quốc như Quách Mạt Nhược, Viên Ưng hay Hoàng Tranh đã đề cao tác phẩm 'Nhật ký trong tù' của Hồ Chí Minh."
+  },
+  {
+    "qid": "test_0153",
+    "predict": "A",
+    "reason": "Skipped: Length 90 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0154",
+    "predict": "C",
+    "reason": "Nguyên nhân chủ yếu dẫn đến việc thành lập Quốc-Cộng hợp tác lần thứ hai (1937-1945) là sự xâm lược của Nhật Bản vào Trung Quốc. Điều này được thể hiện qua việc cả hai bên đều cần hợp tác để chống lại kẻ thù chung là Nhật Bản, và sự kiện Sự biến Tây An năm 1936, nơi Tưởng Giới Thạch bị bắt giữ và buộc phải chấp nhận thành lập một liên minh với Đảng Cộng sản Trung Quốc nhằm chống lại Nhật Bản."
+  },
+  {
+    "qid": "test_0155",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0156",
+    "predict": "A",
+    "reason": "Skipped: Length 40 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0157",
+    "predict": "A",
+    "reason": "Skipped: Length 11 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0158",
+    "predict": "A",
+    "reason": "Skipped: Length 57 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0159",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0160",
+    "predict": "A",
+    "reason": "Skipped: Length 37 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0161",
+    "predict": "A",
+    "reason": "Skipped: Length 45 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0162",
+    "predict": "A",
+    "reason": "Skipped: Length 70 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0163",
+    "predict": "A",
+    "reason": "Skipped: Length 46 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0164",
+    "predict": "A",
+    "reason": "Theo giả thuyết đầu tiên, tổ tiên của chó Ngao Anh thuộc nhóm Molosser có lông ngắn, mõm ngắn và vuông, đầu to, thân hình to lớn lực lưỡng."
+  },
+  {
+    "qid": "test_0165",
+    "predict": "A",
+    "reason": "Skipped: Length 26 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0166",
+    "predict": "A",
+    "reason": "Theo đoạn văn 'Mạc Đăng Dung - Thân thế và giáo dục', cụ tổ 7 đời của Mạc Đăng Dung là Mạc Đĩnh Chi, Lưỡng quốc Trạng nguyên thời Trần."
+  },
+  {
+    "qid": "test_0167",
+    "predict": "A",
+    "reason": "Skipped: Length 32 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0168",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0169",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0170",
+    "predict": "A",
+    "reason": "Skipped: Length 34 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0171",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0172",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0173",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0174",
+    "predict": "A",
+    "reason": "Skipped: Length 113 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0175",
+    "predict": "A",
+    "reason": "Việc Phaolô Nguyễn Văn Bình kêu gọi thân thiện và hợp tác với chính quyền nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam sau năm 1975 đã gây ra sự khác biệt trong nhận thức của giáo dân Công giáo. Theo đoạn thông tin, đối với các giáo dân ở trong nước, Tổng giám mục Nguyễn Văn Bình được ghi nhận việc ông thể hiện tinh thần hòa nhập của Kitô giáo, hòa giải dân tộc, yêu chuộng hòa bình và khuyến khích cách diễn tả đức tin Công giáo phù hợp với truyền thống Việt Nam. Trong khi đó, đối với những giáo dân rời khỏi Việt Nam sau năm 1975, ông là một kẻ phản bội khi là chức sắc Công giáo đầu tiên kêu gọi thân thiện và hợp tác với chính quyền nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam."
+  },
+  {
+    "qid": "test_0176",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0177",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0178",
+    "predict": "A",
+    "reason": ""
+  },
+  {
+    "qid": "test_0179",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0180",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0181",
+    "predict": "A",
+    "reason": "Skipped: Length 82 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0182",
+    "predict": "A",
+    "reason": "Skipped: Length 56 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0183",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0184",
+    "predict": "A",
+    "reason": ""
+  },
+  {
+    "qid": "test_0185",
+    "predict": "A",
+    "reason": "Skipped: Length 51 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0186",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0187",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0188",
+    "predict": "A",
+    "reason": "Skipped: Length 46 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0189",
+    "predict": "A",
+    "reason": "Skipped: Length 8 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0190",
+    "predict": "A",
+    "reason": "Skipped: Length 109 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0191",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0192",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0193",
+    "predict": "A",
+    "reason": "Skipped: Length 62 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0194",
+    "predict": "A",
+    "reason": "Skipped: Length 70 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0195",
+    "predict": "A",
+    "reason": ""
+  },
+  {
+    "qid": "test_0196",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0197",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0198",
+    "predict": "A",
+    "reason": "Skipped: Length 68 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0199",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0200",
+    "predict": "A",
+    "reason": "Skipped: Length 54 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0178",
+    "predict": "A",
+    "reason": "Theo thông tin trong đoạn 'I. Quá trình thu âm', Thom Yorke giải thích rằng các bài hát 'trừ khử lẫn nhau như một thứ được hoàn thành chung' và 'đến từ hai nơi khác nhau'. Điều này cho thấy sự khác biệt về nguồn gốc sáng tạo giữa các bài hát, dẫn đến quyết định tách chúng thành hai album riêng biệt."
+  }
+][
+  {
+    "qid": "test_0179",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0180",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0181",
+    "predict": "A",
+    "reason": "Skipped: Length 82 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0182",
+    "predict": "A",
+    "reason": "Skipped: Length 56 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0183",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0184",
+    "predict": "C",
+    "reason": "Theo chính sách ưu đãi dịch vụ Check in nhanh tại các sân bay Quốc tế trong nước, Hội viên hạng Kim cương được miễn phí 4 lần sử dụng dịch vụ tại sân bay Quốc tế Nội Bài, Tân Sơn Nhất cho chuyến bay nội địa/quốc tế trong thời gian triển khai chương trình."
+  },
+  {
+    "qid": "test_0185",
+    "predict": "A",
+    "reason": "Skipped: Length 51 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0186",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0187",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0188",
+    "predict": "A",
+    "reason": "Skipped: Length 46 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0189",
+    "predict": "A",
+    "reason": "Skipped: Length 8 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0190",
+    "predict": "A",
+    "reason": "Skipped: Length 109 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0191",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0192",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0193",
+    "predict": "A",
+    "reason": "Skipped: Length 62 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0194",
+    "predict": "A",
+    "reason": "Skipped: Length 70 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0195",
+    "predict": "A",
+    "reason": "Số lượng và vị trí của các viên đá trong Chiêm tinh đài đã được đưa ra nhiều giả thuyết nhằm đại diện cho các nhân vật lịch sử và thiên văn khác nhau. Thân tháp được xây dựng từ 27 lớp đá, có lẽ phản ánh tình trạng của Thiện Đức nữ vương khi bà là vị vua thứ 27 của vương quốc Tân La. Ngoài ra, 27 lớp đá có thể là biểu tượng cho khoảng thời gian 27 ngày để Mặt Trăng quay hết một vòng quanh Trái đất."
+  },
+  {
+    "qid": "test_0196",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0197",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0198",
+    "predict": "A",
+    "reason": "Skipped: Length 68 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0199",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0200",
+    "predict": "A",
+    "reason": "Skipped: Length 54 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0201",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0202",
+    "predict": "C",
+    "reason": "Jacques Lacan được mô tả là 'nhà phân tâm học gây tranh cãi nhất kể từ Freud' và có ảnh hưởng tới các triết gia hậu cấu trúc luận. Tuy nhiên, ông cũng được coi là một trong những nhà tư tưởng nổi bật nhất của chủ nghĩa cấu trúc. Nhưng trong đoạn [6], Jacques Lacan được xếp vào nhóm chủ nghĩa cấu trúc, cùng với Claude Lévi-Strauss và Roman Jakobson."
+  },
+  {
+    "qid": "test_0203",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0204",
+    "predict": "A",
+    "reason": "Skipped: Length 28 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0205",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0206",
+    "predict": "C",
+    "reason": "Đoạn thông tin chỉ rõ rằng Đại học Michigan đóng góp đáng kể cho kinh tế Ann Arbor vì trường này sử dụng khoảng 30.000 nhân công, trong đó có khoảng 12.000 nhân viên y tế. Ngoài ra, kinh tế của thành phố cũng tập trung vào công nghệ cao, với một số công ty thu hút được khu vực này tính theo cơ sở nghiên cứu và phát triển của trường đại học, và tính theo số sinh viên tốt nghiệp."
+  },
+  {
+    "qid": "test_0207",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0208",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0209",
+    "predict": "A",
+    "reason": "Thông tin trong ngữ cảnh nhấn mạnh rằng 'Con đường phát triển của Sony là luôn luôn tìm tòi, nghiên cứu để tạo ra những sản phẩm mới phục vụ đời sống.' và 'Khoảng 6%-10% doanh thu hàng năm của Sony được trích ra dành cho việc nghiên cứu.' Điều này cho thấy đầu tư vào nghiên cứu và phát triển sản phẩm là cốt lõi trong thành công của Sony."
+  },
+  {
+    "qid": "test_0210",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0211",
+    "predict": "C",
+    "reason": "Phương pháp Kroll được phát minh vào năm 1945 để sản xuất zirconi kim loại nguyên chất, thay thế phương pháp Iodide trước đó."
+  },
+  {
+    "qid": "test_0212",
+    "predict": "A",
+    "reason": "Nhiệt độ thấp nhất được ghi nhận ở Hà Nội là 2,7 °C vào năm 1955 do ảnh hưởng của La Nina."
+  },
+  {
+    "qid": "test_0213",
+    "predict": "A",
+    "reason": "Skipped: Length 36 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0214",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0215",
+    "predict": "A",
+    "reason": "Theo thông tin trong Document 1, giá bán áp dụng cho 01 Profile eSIM là 25.000 VNĐ (Đã bao gồm VAT)."
+  },
+  {
+    "qid": "test_0216",
+    "predict": "A",
+    "reason": "Skipped: Length 55 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0217",
+    "predict": "A",
+    "reason": "Skipped: Length 59 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0218",
+    "predict": "A",
+    "reason": "Skipped: Length 27 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0219",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0220",
+    "predict": "A",
+    "reason": "Skipped: Length 7 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0221",
+    "predict": "A",
+    "reason": "Skipped: Length 13 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0222",
+    "predict": "B",
+    "reason": "Theo ngữ cảnh, các nhà sử học cho rằng chính quyền Đức Quốc Xã đã thổi bùng Chủ nghĩa bài Do Thái bằng cách đổ lỗi Liên Xô cho sự sáp nhập Litva gần đây một cách sớm hơn đối với cộng đồng Do Thái, là yếu tố quan trọng dẫn đến sự hợp tác của các tổ chức địa phương Litva trong Holocaust."
+  },
+  {
+    "qid": "test_0223",
+    "predict": "A",
+    "reason": "Theo thông tin trong phần IV. Kết cấu, Rosuvastatin có điểm tương đồng cấu trúc với hầu hết các tổng hợp khác statin, ví dụ, atorvastatin, cerivastatin và pitavastatin, nhưng không giống như statin khác, Rosuvastatin chứa lưu huỳnh (trong nhóm chức năng sulfonyl)."
+  },
+  {
+    "qid": "test_0224",
+    "predict": "B",
+    "reason": "Khách hàng cần sử dụng 1GB dữ liệu trong 7 ngày. Gói RA cung cấp 2GB dữ liệu trong 3 ngày với giá 99.000đ, là lựa chọn kinh tế nhất vì đáp ứng nhu cầu dữ liệu và thời gian sử dụng."
+  },
+  {
+    "qid": "test_0225",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0226",
+    "predict": "A",
+    "reason": "Skipped: Length 66 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0227",
+    "predict": "A",
+    "reason": "Skipped: Length 36 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0228",
+    "predict": "B",
+    "reason": "Tài khoản cấp phát là loại tài khoản đảm bảo rằng kim loại quý của khách hàng được tách biệt khỏi tài sản của nhà môi giới và khách hàng có toàn quyền định đoạt đối với số kim loại này. Theo thông tin trong đoạn III, 'Khách có toàn quyền định đoạt đối với kim loại này, với nhà môi giới chỉ giữ nó thay mặt khách như là người giám hộ bảo quản.'"
+  },
+  {
+    "qid": "test_0229",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0230",
+    "predict": "A",
+    "reason": "Skipped: Length 33 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0231",
+    "predict": "A",
+    "reason": "Skipped: Length 47 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0232",
+    "predict": "A",
+    "reason": "Skipped: Length 27 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0233",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0234",
+    "predict": "A",
+    "reason": "Skipped: Length 71 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0235",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0236",
+    "predict": "A",
+    "reason": "Skipped: Length 38 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0237",
+    "predict": "B",
+    "reason": "Theo nội dung được cung cấp, Đảng Nhân dân Cách mạng Việt Nam trực tiếp và công khai chỉ đạo phong trào chống Mỹ và chính quyền Sài Gòn tại miền Nam, trong đó có Mặt trận Dân tộc Giải phóng miền Nam Việt Nam."
+  },
+  {
+    "qid": "test_0238",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0239",
+    "predict": "A",
+    "reason": "Skipped: Length 61 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0240",
+    "predict": "A",
+    "reason": "Skipped: Length 33 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0241",
+    "predict": "A",
+    "reason": "Theo số liệu năm 2016, hầu hết du khách nghỉ trong các khách sạn tại Lisboa (6,3 triệu), Porto và miền bắc (4,4 triệu), Algarve (4,2 triệu), miền trung (3,2 triệu), Madeira (1,5 triệu), Alentejo (1,2 triệu), và Açores (0,5 triệu). Algarve và Lisboa dẫn đầu về số khách nghỉ qua đêm. Xét riêng du khách ngoại quốc, độ phổ biến lần lượt là Lisboa (4,41 triệu), Algarve (3,01 triệu), miền bắc (2,08 triệu), miền trung (1,23 triệu), Madeira (1,19), Alentejo (0,37), và Açores."
+  },
+  {
+    "qid": "test_0242",
+    "predict": "A",
+    "reason": "Skipped: Length 52 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0243",
+    "predict": "A",
+    "reason": "Skipped: Length 71 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0244",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0245",
+    "predict": "C",
+    "reason": "Công nhận quyền tự quyết của các dân tộc láng giềng Estonia không được nêu rõ trong khung pháp lý của Cộng hòa Dân chủ Độc lập Estonia."
+  },
+  {
+    "qid": "test_0246",
+    "predict": "A",
+    "reason": "Skipped: Length 82 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0247",
+    "predict": "B",
+    "reason": "Nhà thờ Thánh Trophime được xây dựng từ thế kỉ 12 trên nền của một nhà thờ xây từ thế kỉ 5."
+  },
+  {
+    "qid": "test_0248",
+    "predict": "A",
+    "reason": "Skipped: Length 60 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0249",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0250",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0250",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0251",
+    "predict": "A",
+    "reason": "Skipped: Length 63 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0252",
+    "predict": "A",
+    "reason": "Skipped: Length 38 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0253",
+    "predict": "A",
+    "reason": "Skipped: Length 56 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0254",
+    "predict": "C",
+    "reason": "Theo ngữ cảnh, lý do chính mà Công tước Yaroslav quyết định xây dựng pháo đài Yaroslavl là để chặn đứng bọn cướp, cụ thể là để chấm dứt nạn buôn bán nô lệ do Varangians/Varyags thực hiện."
+  },
+  {
+    "qid": "test_0255",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0256",
+    "predict": "B",
+    "reason": "Theo Document 2, Bệ phóng tên lửa lập công bắn rơi máy bay B-52 đầu tiên trong Chiến dịch 'Hà Nội - Điện Biên Phủ trên không' tháng 12/1972."
+  },
+  {
+    "qid": "test_0257",
+    "predict": "A",
+    "reason": "Olivier Messiaen được biết đến với việc sưu tập âm thanh thiên nhiên như tiếng chim hót và sử dụng chúng trong những tác phẩm của mình."
+  },
+  {
+    "qid": "test_0258",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0259",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0260",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0261",
+    "predict": "C",
+    "reason": "Thế Lạc Bình (Lopingian) là đơn vị trẻ nhất trong kỷ Permi, kết thúc bằng sự kiện tuyệt chủng hàng loạt vào cuối kỷ này."
+  },
+  {
+    "qid": "test_0262",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0263",
+    "predict": "B",
+    "reason": "Tên phim 'A Phi chính truyện' không liên quan đến tên của bất kỳ nhân vật cụ thể nào trong phim, mà là cách gọi chung cho lớp thanh niên phóng túng, bốc đồng trong xã hội Trung Hoa, nhằm thể hiện sự thật đằng sau nhân vật phóng túng - bốc đồng của Yuddy."
+  },
+  {
+    "qid": "test_0264",
+    "predict": "A",
+    "reason": "Skipped: Length 58 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0265",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0266",
+    "predict": "A",
+    "reason": "Skipped: Length 33 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0267",
+    "predict": "A",
+    "reason": "Skipped: Length 42 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0268",
+    "predict": "A",
+    "reason": "Skipped: Length 49 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0269",
+    "predict": "A",
+    "reason": "Skipped: Length 13 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0270",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0271",
+    "predict": "A",
+    "reason": "Skipped: Length 54 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0272",
+    "predict": "A",
+    "reason": "Skipped: Length 11 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0273",
+    "predict": "A",
+    "reason": "Skipped: Length 32 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0274",
+    "predict": "A",
+    "reason": "Skipped: Length 82 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0275",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0276",
+    "predict": "B",
+    "reason": "Khi nữ quan được hoàng đế sủng hạnh, họ có thể trở thành phi tần chính thức trong cấp bậc, nhưng vẫn giữ vai trò quản lý hậu cung và có thể được phong cấp bậc phi tần nếu hoàng đế muốn."
+  },
+  {
+    "qid": "test_0277",
+    "predict": "A",
+    "reason": "Skipped: Length 48 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0278",
+    "predict": "A",
+    "reason": "Skipped: Length 41 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0279",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0280",
+    "predict": "A",
+    "reason": "Skipped: Length 12 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0281",
+    "predict": "B",
+    "reason": "Theo thông tin cung cấp, mặc dù phán quyết của Tòa án Nhân quyền Liên Mỹ năm 2018 yêu cầu công nhận hôn nhân đồng giới, nhưng Hiến pháp sửa đổi năm 2005 vẫn cấm hôn nhân đồng giới. Không có thông tin nào cho thấy hôn nhân đồng giới đã được hợp pháp hóa sau phán quyết này."
+  },
+  {
+    "qid": "test_0282",
+    "predict": "A",
+    "reason": "Skipped: Length 7 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0283",
+    "predict": "A",
+    "reason": "Skipped: Length 27 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0284",
+    "predict": "A",
+    "reason": "Skipped: Length 33 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0285",
+    "predict": "C",
+    "reason": "Hệ quả chính của trận Höchstädt lần thứ hai đối với nước Pháp là chấm dứt các cuộc chinh phạt của Louis XIV và khiến Pháp không thể lấy lại thế công tại châu Âu cho đến thời Napoleon Bonaparte."
+  },
+  {
+    "qid": "test_0286",
+    "predict": "A",
+    "reason": "Skipped: Length 32 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0287",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0288",
+    "predict": "A",
+    "reason": "Skipped: Length 33 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0289",
+    "predict": "A",
+    "reason": "Ngữ cảnh mô tả hai câu chuyện khác nhau về việc Maria Ann Smith phát hiện ra giống táo Granny Smith, nhưng không có thông tin nào cho thấy bà đã lai tạo có chủ ý giữa táo dại Pháp và cây dương xỉ. Cả hai câu chuyện đều liên quan đến việc vứt hạt hoặc lõi táo và phát hiện ra cây táo mọc lên."
+  },
+  {
+    "qid": "test_0290",
+    "predict": "D",
+    "reason": "Theo đoạn văn 4, chủ nghĩa Mao khác với Marx, Lenin và Stalin ở chỗ coi giai cấp nông dân là lực lượng cách mạng chủ lực, trong khi Marx, Lenin và Stalin coi giai cấp công nhân là động lực chính của cách mạng."
+  },
+  {
+    "qid": "test_0291",
+    "predict": "A",
+    "reason": "Lần đầu tiên cơ quan lập pháp đối đầu với nhà vua được đề cập trong đoạn văn 1, liên quan đến việc tái tổ chức Hôpital Général vào năm 1749, khi Nghị viện Paris từ chối thảo luận về vấn đề này."
+  },
+  {
+    "qid": "test_0292",
+    "predict": "A",
+    "reason": "Skipped: Length 31 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0293",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0294",
+    "predict": "B",
+    "reason": "Biểu ngữ 'Bao cao su thay thế cho Tòa thánh!' ('Kondome statt Dome!') và hành động ném sơn, cà chua, trứng thối vào chiếc xe của Giáo hoàng cho thấy người biểu tình phản đối quan điểm của Giáo hội về việc sử dụng bao cao su và thái độ với cộng đồng LGBTQ+."
+  },
+  {
+    "qid": "test_0295",
+    "predict": "A",
+    "reason": "Skipped: Length 69 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0296",
+    "predict": "A",
+    "reason": "Skipped: Length 83 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0297",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0298",
+    "predict": "A",
+    "reason": "Skipped: Length 27 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0299",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0300",
+    "predict": "A",
+    "reason": "Skipped: Length 22 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0301",
+    "predict": "A",
+    "reason": "Skipped: Length 47 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0302",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0303",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0304",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn, Setter đỏ trắng (Red-White Setter) có đặc điểm màu lông nền trắng với các khoảng màu đỏ phân bố trên cơ thể."
+  },
+  {
+    "qid": "test_0305",
+    "predict": "A",
+    "reason": "Skipped: Length 88 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0306",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0307",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0308",
+    "predict": "A",
+    "reason": "Skipped: Length 10 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0309",
+    "predict": "A",
+    "reason": "Skipped: Length 13 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0310",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn, Neil Diamond ký hợp đồng với Columbia Records vào năm 1962 với tư cách ca sĩ solo sau khi anh không được mướn nữa tại Sunbeam Music Publishing. Điều này cho thấy sự kiện ký hợp đồng với Columbia Records xảy ra sau khi anh làm việc tại Sunbeam Music Publishing. Tương tự, việc thành lập cặp đôi 'Neil and Jack' với Jack Parker và phát hành đĩa đơn 'At Night' cùng Columbia Records cũng xảy ra sau khi anh ký hợp đồng với Columbia Records. Do đó, sự kiện xảy ra trước tiên trong sự nghiệp âm nhạc của Neil Diamond là anh làm việc tại Sunbeam Music Publishing trong 16 tuần."
+  },
+  {
+    "qid": "test_0311",
+    "predict": "A",
+    "reason": "Theo nội dung văn bản, 'Tứ quý' ( 四 貴 ) bao gồm: Ngụy Nhiễm (Nhương hầu), Mị Nhung (Hoa Dương quân), Doanh Thị (Cao Lăng quân) và Doanh Khôi (Kinh Dương quân). Doanh Tắc (Tần Chiêu Tương vương) không được nhắc đến là một phần của 'Tứ quý'."
+  },
+  {
+    "qid": "test_0312",
+    "predict": "A",
+    "reason": "Skipped: Length 29 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0313",
+    "predict": "A",
+    "reason": "Skipped: Length 9 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0314",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0315",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0316",
+    "predict": "A",
+    "reason": "Skipped: Length 80 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0317",
+    "predict": "A",
+    "reason": "Skipped: Length 70 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0318",
+    "predict": "A",
+    "reason": "Skipped: Length 84 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0319",
+    "predict": "A",
+    "reason": "Skipped: Length 50 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0320",
+    "predict": "A",
+    "reason": "Skipped: Length 85 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0321",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0322",
+    "predict": "A",
+    "reason": "Skipped: Length 26 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0323",
+    "predict": "A",
+    "reason": "Skipped: Length 34 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0324",
+    "predict": "A",
+    "reason": "Skipped: Length 84 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0325",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0326",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0327",
+    "predict": "A",
+    "reason": "Skipped: Length 78 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0328",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0329",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0330",
+    "predict": "A",
+    "reason": "Skipped: Length 8 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0331",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0332",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0333",
+    "predict": "C",
+    "reason": "Theo Document 5, cuối năm 2004, Trung Quốc đã trở thành quốc gia thương mại lớn thứ 3 thế giới sau Mỹ và Đức."
+  },
+  {
+    "qid": "test_0334",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0335",
+    "predict": "A",
+    "reason": "Skipped: Length 3 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0336",
+    "predict": "A",
+    "reason": "Skipped: Length 48 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0337",
+    "predict": "A",
+    "reason": "Skipped: Length 16 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0338",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0339",
+    "predict": "A",
+    "reason": "Skipped: Length 118 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0340",
+    "predict": "B",
+    "reason": "Theo văn bản, chỉ tiêu tối thiểu về thời lượng đào tạo nội bộ cho mỗi người lao động trong năm 2023 được quy định là 10 giờ/người/năm."
+  },
+  {
+    "qid": "test_0341",
+    "predict": "A",
+    "reason": "Skipped: Length 61 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0342",
+    "predict": "A",
+    "reason": "Skipped: Length 56 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0343",
+    "predict": "B",
+    "reason": "Theo Document 1, loài Zaglossus bruijni (thú lông nhím mỏ dài Tây New Guinea) ăn giun đất, không ăn kiến và mối giống như thú lông nhím mỏ ngắn. Điều này được khẳng định thêm trong Document 4, nơi nói rằng các loài thuộc chi 'Zaglossus' (thú lông nhím mỏ dài) thường ăn giun và ấu trùng."
+  },
+  {
+    "qid": "test_0344",
+    "predict": "C",
+    "reason": "Dựa trên thông tin từ các đoạn văn, Chùa Pháp Hoa có tấm bia khắc năm thứ 12 niên hiệu Tự Đức (1860) ghi việc dân làng Pháp Hoa góp tiền của xây dựng chùa vào năm 1860. Đây là năm sớm nhất so với các năm được đề cập trong các tấm bia của Chùa Quang Hoa (1880) và Chùa Thiền Quang (1882)."
+  },
+  {
+    "qid": "test_0345",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0346",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0347",
+    "predict": "A",
+    "reason": "Skipped: Length 38 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0348",
+    "predict": "A",
+    "reason": "Skipped: Length 19 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0349",
+    "predict": "A",
+    "reason": "Skipped: Length 96 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0350",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+][
+  {
+    "qid": "test_0351",
+    "predict": "A",
+    "reason": "Skipped: Length 30 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0352",
+    "predict": "A",
+    "reason": "Skipped: Length 7 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0353",
+    "predict": "A",
+    "reason": "Skipped: Length 18 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0354",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0355",
+    "predict": "A",
+    "reason": "Skipped: Length 17 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0356",
+    "predict": "A",
+    "reason": "Skipped: Length 77 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0357",
+    "predict": "A",
+    "reason": "Skipped: Length 47 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0358",
+    "predict": "A",
+    "reason": "Skipped: Length 24 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0359",
+    "predict": "A",
+    "reason": "Skipped: Length 74 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0360",
+    "predict": "A",
+    "reason": "Skipped: Length 25 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0361",
+    "predict": "A",
+    "reason": "Skipped: Length 23 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0362",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0363",
+    "predict": "A",
+    "reason": "Skipped: Length 15 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0364",
+    "predict": "B",
+    "reason": "Thông tin cụ thể về số lượng ca khúc Trần Thu Hà thể hiện cho mỗi album 'Cánh cung' và 'Thời gian để yêu' của nhạc sĩ Đỗ Bảo được nêu rõ trong đoạn văn 3."
+  },
+  {
+    "qid": "test_0365",
+    "predict": "A",
+    "reason": "Skipped: Length 71 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0366",
+    "predict": "B",
+    "reason": "Theo nội dung phim, nguyên nhân trực tiếp dẫn đến cái chết của Cung Nhị là do vết thương nặng từ trận đấu với Mã Tam năm 1940, khiến cô phải dùng thuốc phiện thường xuyên để giảm đau, dẫn đến sự suy sụp của cô."
+  },
+  {
+    "qid": "test_0367",
+    "predict": "B",
+    "reason": "Theo thông tin trong đoạn văn, cầy thảo nguyên không thuộc họ Cầy (Mustelidae), mà thuộc phân họ Sóc đất trong họ Sóc (Sciuridae)."
+  },
+  {
+    "qid": "test_0368",
+    "predict": "A",
+    "reason": "Skipped: Length 20 <= 500 AND Does not start with 'Đoạn thông tin'"
+  },
+  {
+    "qid": "test_0369",
+    "predict": "B",
+    "reason": "Lĩnh vực nghiên cứu sự hình thành, tương tác và phá hủy của các hóa chất trong vũ trụ, bao gồm cả các đám mây phân tử, sao nhiệt độ thấp, sao lùn nâu và hành tinh được gọi là hóa học thiên thể (Astrochemistry)."
+  },
+  {
+    "qid": "test_0370",
+    "predict": "A",
+    "reason": "Skipped: Length 14 <= 500 AND Does not start with 'Đoạn thông tin'"
+  }
+]

@@ -1,0 +1,1182 @@
+[
+    {
+        "id": 1,
+        "question": "Câu 1 : GDP danh nghĩa năm 1997 là 6000 tỷ . GDP danh nghĩa năm 1998 là 6500 tỷ .  Chỉ số giá năm 1997 là 120. Chỉ số giá năm 1998 là 125. Tỷ lệ tăng trưởng năm 1998 là :  a. 8,33 %  \nb. 4% \nc. 4,5% \nd. 10%",
+        "answer_explanation": "Đáp án: b\nGiải thích: * GDPthực 1997 = 6000/120 = 50 tỷ  \n* GDPthực 1998 = 6500/125 = 52 tỷ  \n => Tỷ lệ tăng trưởng = ( 52-50)/50 x 100% = 4%"
+    },
+    {
+        "id": 2,
+        "question": "Câu 2: Khi nền kinh tế đang có lạm phát cao nên:  \na. Giảm lượng cung tiền, tăng lãi suất  \nb. Giảm chi ngân sách và tăng thuế  \nc. a và b đều đúng  \nd. a và b đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: Khi nền kinh tế có lạm phát , lúc đó đồng tiền bị mất giá ( hay nói  cách khác là dư tiền ) => để lạm phát nên giảm lượng cung tiền và chi ngân  sách. Mặt khác tăng lãi suất và tăng thuế để lượng tiền đầu tư => lạm phát"
+    },
+    {
+        "id": 3,
+        "question": "Câu 3: Cho biết tỷ lệ tiền mặt so với tiền gởi ngân hàng là 60% , tỷ lệ dự trữ ngân hàng  so với tiền gởi ngân hàng là 20% . Ngân hàng trung ương bán ra 5 tỷ đồng trái phiếu sẽ làm cho khối tiền tệ :  \na. Tăng thêm 5 tỷ đồng  \nb. Giảm bớt 5 tỷ đồng \nc. Giảm bớt 10 tỷ đồng  \nd. Tăng thêm 10 tỷ đồng",
+        "answer_explanation": "Đáp án: c\nGiải thích: Theo đề bài ta có : m = 60% = 0,6  \n d = 20% =0,2 \n ∆H = - 5 (tỷ đồng) \nSuy ra : kM= (m+1)/ (m+d) = ( 0,6+1)/(0,6+0,2) = 2 \n Do ở đây m và d không đổi nên ta có : \n ∆M1 = km.∆H = 2 x ( -5) = -10\nVậy khối tiền tệ bớt 10 tỷ đồng"
+    },
+    {
+        "id": 4,
+        "question": "Câu 4: Sản phẩm trung gian và sản phẩm cuối cùng khác nhau ở :  \na. Mục đích sử dụng  \nb. Thời gian tiêu thụ \nc. Độ bền trong quá trình sử dụng  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Giải thích"
+    },
+    {
+        "id": 5,
+        "question": "Câu 5 : Ngân hàng trung ương có thể làm thay đổi cung nội tệ bằng cách :  a. Mua hoặc bán trái phiếu chính phủ  \nb. Mua hoặc bán ngoại tệ  \nc. a và b đều đúng  \nd. a và b đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: Khi muốn thay đổi lượng cung nội tệ , NHTW có thể mua hoặc bán  trái phiếu chính phủ hoặc ngoại tệ vì :  \n+ Trái phiếu chính phủ : \n- Bán : người dân sẽ dùng nội tệ để mua => lượng nội tệ ngoài thị trường  \n- Mua : Người dân sẽ bán trái phiếu lại cho chính phủ => Chính phủ sẽ đưa một  lượng nội tệ ra để mua lại trái phiếu => lượng cung nội tệ  \n+ Ngoại tệ  \n- Bán : Người dân có xu hướng dùng nội tệ mua ngoại tệ để tích lũy hoặc trao đổi  mua bán => lượng cung nội tệ  \n- Mua : Chính phủ dùng nội tệ mua ngoại tệ => lượng cung nội tệ  \nỞ đây có thể xét rộng hơn là : các doanh nghiệp tư nhân , doanh nghiệp NN…"
+    },
+    {
+        "id": 6,
+        "question": "Câu 6 : Thành phần nào sau đây thuộc lực lượng lao động  \na. Học sinh trường trung học chuyên nghiệp \nb. Người nội trợ  \nc. Bộ đội xuất ngũ  \nd. Sinh viên năm cuối",
+        "answer_explanation": "Đáp án: c\nGiải thích: "
+    },
+    {
+        "id": 7,
+        "question": "Câu 7 : Những hoạt động nào sau đây của ngân hàng trung ương sẽ làm tăng cơ sở tiền tệ  ( tiền mạnh ) :  \na. Bán ngoại tệ trên thị trường ngoại hối  \nb. Cho các ngân hàng thương mại vay  \nc. Hạ tỷ lệ dự trữ bẳt buộc với các ngân hàng thương mại  \nd. Tăng lãi suất chiết khấu",
+        "answer_explanation": "Đáp án: b\nGiải thích: NHTW có thể làm tăng cơ sở tiền tệ ( tiền mạnh) bằng cách cho các  NHTM vay . Nhưng trước hết , NHTW phải lãi suất  \nChiết khấu => các NHTM sẽ vay nhiều hơn => lượng tiền mạnh ( cơ sở tiền tệ )"
+    },
+    {
+        "id": 8,
+        "question": "Câu 8 : Những yếu tố nào sau đây có thể dẫn đến thâm hụt cán cân mậu dịch ( cán cân  thương mại ) của 1 nước :  \na. Đồng nội tệ xuống giá so với ngoại tệ  \nb. Sự gia tăng đầu tư trựp tiếp nước ngoài  \nc. Thu nhập của các nước đối tác mậu dịch chủ yếu tăng  \nd. Cả 3 đều sai",
+        "answer_explanation": "Đáp án: d\nGiải thích: Cán cân mậu dịch ( cán cân thương mại) là thg số giữa xuất và nhập  khẩu: X – M  \n Ở đây , đồng nội tệ xuống giá so với ngoại tệ, điều này có thể làm tăng hoặc thâm  hụt cán cân thương mại và còn tùy thuộc vào rất nhiều yếu tố khác…  Sự gia tăng đầu tư trực tiếp từ nươc ngoài điều này cũng không thể xác định được  vì còn phụ thuộc vào mục đích đầu tư …  \n Thu nhập của các nước đối tác mậu dịch chủ yếu tăng : điều này cũng không thể  xác định được vì phụ thuộc vào thị hiếu và nhu cầu của các nước này …"
+    },
+    {
+        "id": 9,
+        "question": "Câu 9 : Những yếu tố nào sau đây có ảnh hưởng đến tổng cung dài hạn :  a. Thu nhập quốc gia tăng  \nb. Xuất khẩu tăng  \nc. Tiền lương tăng  \nd. Đổi mới công nghệ",
+        "answer_explanation": "Đáp án: d\nGiải thích: Vì đầu tư có ảnh hưởng đến tổng cung trong dài hạn . Đầu tư có nghĩa là đổi  mới công nghệ , thay thế công nghệ cũ lỗi thời bằng công nghệ tiên tiến => tạo ra nhiều  sản phẩm => tổng cung"
+    },
+    {
+        "id": 10,
+        "question": "Câu 10 : Những trường hợp nào sau đây có thể tạo ra áp lực lạm phát :  a. Cán cân thanh toán thặng dư trong 1 thời gian dài :  \nb. Giá của các nguyên liệu nhập khẩu chủ yếu gia tăng nhiều  \nc. Một phần lớn các thâm hụt ngân sách được tài trợ bởi ngân hàng trung ương  d. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Cán cân thương mại thặng dư trong thời gian dài => thừa tiền => lạm  phát  \nGiá của các nguyên vật liệu chủ yếu tăng nhiều => chi phí sx => giá sản phẩm ra thị  trường => lạm phát \nMột phần lớn các thâm hụt quốc gia được tài trợ bởi NHTW => chi tiêu của chính  phủ nhiều hơn phần thu được do thuế, lãi suất… và được NHTW tài trợ => lượng  cung tiền => lạm phát"
+    },
+    {
+        "id": 11,
+        "question": "Câu 11 : GDP thực và GDP danh nghĩa của một năm bằng nhau nếu :  \na. Tỷ lệ lạm phát của năm hiện hành bằng tỷ lệ lạm phát của năm trước  \nb. Tỷ lệ lạm phát của năm hiện hành bắng tỷ lệ lạm phát của năm gốc  \nc. Chỉ số giá của năm hiện hành bằng chỉ số giá của năm trước  \nd. Chỉ số giá của năm hiện hành bằng chỉ số giá của năm gốc",
+        "answer_explanation": "Đáp án: d\nGiải thích: Vì chỉ số giá được tính bởi tỉ số giữa GDPdanh nghĩa với GDPthực"
+    },
+    {
+        "id": 12,
+        "question": "Câu 12 : Nếu ngân hàng trung ương giảm tỷ lệ dự trữ bắt buộc và tăng lãi suất chiết khấu  thì khối tiền tệ sẽ :  \na. Tăng  \nb. Giảm \nc. Không đổi  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: d\nGiải thích: Khi tỷ lệ dự trữ bắt buộc thì khối tiền tệ sẽ  \n Khi lãi suất chiết khấu thì làm khối tiền tệ \n=> Không thể kết luận vì không biết được con số cụ thể"
+    },
+    {
+        "id": 13,
+        "question": "Câu 13 : Trên đồ thị , trục ngang ghi sản lượng quốc gia , trục đứng ghi mức giá chung ,  đường tổng cầu , AD dịch chuyển sang phải khi:  \na. Nhập khẩu và xuất khẩu tăng  \nb. Chính phủ tăng chi tiêu cho quốc phòng  \nc. Chính phủ cắt giảm các khoán trợ cấp và giảm thuế \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: AD = C + I + G + X – M  \nTa có : (X – M ) 🡪 AD 🡪 Dịch chuyển sang phải . \nG 🡪 AD 🡪 Dịch chuyển sang phải \n T 🡪 I , C , (X – M ) 🡪 AD 🡪 Dịch chuyển sang phải"
+    },
+    {
+        "id": 14,
+        "question": "Câu 14: Trên đồ thị trục ngang ghi sản lượng quốc gia , trục đứng ghe mức giá chung,  đường tổng cung AS dịch chuyển khi :  \na. Mức giá chung thay đổi  \nb. Chính phủ thay đổi các khoản chi ngân sách  \nc. Thu nhập quốc gia thay đổi  \nd. Công nghệ sản xuất có những thay đổi đáng kể",
+        "answer_explanation": "Đáp án: a\nGiải thích: Khi mức giá chung thay đổi sẽ làm dịch chuyển AS"
+    },
+    {
+        "id": 15,
+        "question": "Câu 15 : Trong cơ chế tỷ giá hối đoái thả nổi hoàn toàn  \na. Dự trữ ngoại tệ của quốc gia thay đổi tùy theo diễn biến trên thị trường ngoại hối  b. Dự trữ ngoại tệ của quốc gia tăng khi tỷ giá hối đoái giảm  \nc. Dự trữ ngoại tệ của quốc gia không thay đổi , bất luận diễn biến trên thị trường  ngoại hối  \nd. Dự trữ ngoại tệ của quốc gia giảm khi tỷ giá hối đoái tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: Thị trường ngoại hối là thị trường mua bán ngoại tệ . Ví dụ như : nếu  ngoại tệ có xu hướng nhiều ngoài thị trường thì nhà nước dùng nội tệ để mua  ngoại tệ nhằm ổn định thị trường ngoại hối => dự trữ ngoại tệ . Và ngược lại"
+    },
+    {
+        "id": 16,
+        "question": "Câu 16 : Nếu tỷ giá hối đoái danh nghĩa không thay đối đáng kể , tốc độ tăng giá trong  nước nhanh hơn giá thế giới , sức cạnh tranh của hàng hóa trong nước sẽ :  a. Tăng  \nb. Giảm \nc. Không thay đổi  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: d\nGiải thích: Nếu tỉ giá hối đoái danh nghĩa không đổi tốc độ giá trong nước  nhanh hơn giá Thế giới , sức cạnh tranh của hàng hóa trong nước sẽ còn phụ  thuộc vào tỉ giá hối đoái của trong nước so với nước ngoài, phụ thuộc vào yếu tố  môi trường , thị hiếu…"
+    },
+    {
+        "id": 17,
+        "question": "Câu 17 : Khi đầu tư nước ngoài vào Việt nam tăng , nếu các yếu khác không đổi , Việt  nam sẽ  \na. Thặng dư hoặc giảm thâm hụt cán cân thanh toán  \nb. Tăng xuất khẩu ròng  \nc. Tăng thu nhập ròng từ tài sản nước ngoài  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Cán cân thanh toán không chỉ bao gồm yếu tố đầu tư từ nước ngoài  mà còn bao gồm xuất – nhập khẩu dịch vụ nước ngoài… \nXuất khẩu ròng ( X-M) : nếu đầu tư từ nước ngoài => Y => thặng dư Ytrong nước => Xuất khẩu => ( X – M )  \nTất yếu : khi Inước ngoài thì thu nhập ròng từ tài sản nước ngoài"
+    },
+    {
+        "id": 18,
+        "question": "Câu 18 : Nếu các yếu tố khác không đổi , lãi suất tăng thì sản lượng cân bằng sẽ là :  a. Tăng  \nb. Giảm  \nc. Không thay đổi  \nd. Không thể thay đổi",
+        "answer_explanation": "Đáp án: b\nGiải thích: Các yếu tố khác không đổi , r thì Y cân bằng sẽ là do I"
+    },
+    {
+        "id": 19,
+        "question": "Câu 19 : Nền kinh tế đang ở mức toàn dụng . Giả sử lãi suất , giá cả và tỷ giá hối đoái  không đổi , nếu chính phủ giảm chi tiêu và giảm thuế một lượng bằng nhau , trạng thái  cảu nền kinh tế sẽ thay đổi :  \na. Từ suy thoái sang lạm phát  \nb. Từ suy thoái sang ổn định  \nc. Từ ổn định sang lạm phát \nd. Từ ổn định sang suy thoái",
+        "answer_explanation": "Đáp án: c\nGiải thích: Từ khi nền kinh tế ở mức toàn dụng thì sản lượng mà nền kinh tế đạt  được tương ứng với tỉ lệ thất nghiệp tự nhiên ( Un) và tỷ lệ lạm phát vừa phải =>  có thể chấp nhận được => ổn định \nT => Yd ( thu nhập khả dụng ) => người dân chi tiêu => lạm phát ( do Yd  => C và I )  \n G => AD => Y => suy thoái \n Xét : AD = C + I + G + X – M  \nNếu C , I , G ( một lượng như nhau ) thì AD => lạm phát  \nVậy nền kinh tế chuyển từ ổn định sang lạm phát"
+    },
+    {
+        "id": 20,
+        "question": "Câu 20 : Tác động ngắn hạn của chính sách nới lỏng tiền tệ ( mở rộng tiền tệ ) trong nền  kinh tế mở với cơ chế tỷ giá hối đoái linh hoạt ( thả nổi ) là :  \na. Sản lượng tăng  \nb. Thặng dư hoặc giảm thâm hụt thương mại  \nc. Đồng nội tệ giảm giá  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Chính sách mở rộng tiền tệ \n- tỷ lệ dự trữ bắt buộc \n- Lãi suất chiết khấu \n- Mua CK của chính phủ \n=> Y  \n => Thặng dư hoặc thâm hụt thương mại vì còn phụ thuộc vào việc bao nhiêu lãi  suất chiết khấu … dẫn đến đầu tư nhiều hay ít  \n => đồng nội tệ giá ( do Y )"
+    },
+    {
+        "id": 21,
+        "question": "Câu 21 : Đối với một nước có cán cân thanh toán thâm hụt , việc thu hút vốn đầu tư nước  ngoài góp phần cải thiện cán cân thanh toán nhờ :  \na. Tài khoản vốn thặng dư hoặc giảm thâm hụt  \nb. Tài khoản vãng lai thặng dư hoặc giảm thâm hụt \nc. Xuất khẩu ròng thặng dư hoặc giảm thâm hụt  \nd. Ngân sách chính phủ thặng dư hoặc giảm thâm hụt",
+        "answer_explanation": "Đáp án: a\nGiải thích: Tài khoản vốn thặng dư hoặc thâm hụt  \nViệc thu hút vốn đầu tư nước ngoài góp phần cải thiện cán cân thanh toán nhờ tài  khoản vốn thặng dư hoặc thâm hụt là do I"
+    },
+    {
+        "id": 22,
+        "question": "Câu 22 : Một nền kinh tế trong trạng thái toàn dụng nhân công có nghĩa là :  a. Không còn lạm phát nhưng có thể còn thất nghiệp  \nb. Không còn thất nghiệp nhưng có thể còn lạm phát  \nc. Không còn thất nghiệp và không còn lạm phát  \nd. Vẫn còn tỷ lệ lạm phát và tỷ lệ thất nghiệp nhất định",
+        "answer_explanation": "Đáp án: d\nGiải thích: Trạng thái toàn dụng có nghĩa là sản lượng mà nền kinh tế đạt được  tương ứng vớit tỷ lệ thất nghiệp tự nhiên (Un) và tỷ lệ lạm phát vừa phải mà nền  kinh tế có thể chấp nhận được => vẫn còn 1 tỷ lệ lạm phát và thất nghiệp nhất  định"
+    },
+    {
+        "id": 23,
+        "question": "Câu 23 : Trong cơ chế tỷ giá hối đoái cố định , muốn làm triệt tiêu lượng dư cung ngoại  tệ , ngân hàng trung ương phải :  \na. Dùng ngoại tệ để mua nội tệ  \nb. Dùng nội tệ để mua ngoại tệ  \nc. Không can thiệp vào thị trường ngoại hối  \nd. Cả 3 câu đều sai",
+        "answer_explanation": "Đáp án: b\nGiải thích: "
+    },
+    {
+        "id": 24,
+        "question": "Câu 24 : Tỷ giá hối đoái thay đổi sẽ ảnh hưởng đến : \na. Cán cân thương mại  \nb. Cán cân thanh toán  \nc. Sản lượng quốc gia  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Vì cán cân thương mại , cán cân thanh toán và sản lượng quốc gia  đều có liên quan đến việc mua bán , trao đổi , xuất nhập khẩu trong nước và nước  ngoài => liên quan đến mối quan hệ giữa nội tệ và ngoại tệ => tỷ giá hối đoái"
+    },
+    {
+        "id": 25,
+        "question": "Câu 25 : Theo lý thuyết của Keynes , những chính sách nào sau đây thích hợp nhất nhằm  giảm tỷ lệ thất nghiệp  \na. Giảm thuế và gia tăng số mua hàng hóa của chính phủ  \nb. Tăng thuế và giảm số mua hàng hóa của chính phủ  \nc. Tăng thuế thu nhập và tăng số mua hàng hóa của chính phủ  \nd. Phá giá , giảm thuế , và giảm số mú hàng hóa của chính phủ",
+        "answer_explanation": "Đáp án: a\nGiải thích: Vì thuế => Yd => C => đòi Y ( sản lượng )  \n=> I phải => đòi hỏi nhiều lao động => thất nghiệp \n G => đòi hỏi Y ( sản lượng ) => I phải  \n => Đòi hỏi nhiều lao động => thất nghiệp"
+    },
+    {
+        "id": 26,
+        "question": "Câu 26 : GDP danh nghĩa là 4000 tỷ vào năm 1 và 4400 tỷ vào năm 2 . Nếu chọn năm 1  là năm cơ sở ( năm gốc ) thì :  \na. Chỉ số giá chung là 110 \nb. Giá gia tăng bình quân là 10% mỗi năm  \nc. GDP thực không đổi  \nd. Cả 3 câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: Chọn năm 1 làm gốc tức là :  \nGDPdanh nghĩa1 = GDP thực1 = 4000 \n=> P1 = 1 \n P2 = ( GDP danh nghĩa 2 )/ GDPthực 1 = 4400/4000 = 110%"
+    },
+    {
+        "id": 27,
+        "question": "Câu 27 : Nếu lạm phát thực tế cao hơn lạm phát dự đoán  \na. Người vay tiền sẽ có lợi \nb. Người cho vay sẽ có lợi  \nc. Cả người cho vay và người đi vay đều bị thiệt  \nd. Cả người cho vay và người đi vay đều có lợi , còn chính phủ bị thiệt",
+        "answer_explanation": "Đáp án: c\nGiải thích: Nếu lạm phát thực tế cao hơn lạm phát dự đoán thì :  - Khi đi vay , người vay đã dự tính được thiệt hơn về số tiền vay => quyết định vay A  ( đvtt) . Lạm phát sẽ làm cho A giá trị ( nghĩa là cũng với số tiền A nhưng giá trị bị  ) => người đi vay bị thiệt \n- Khi cho vay , người cho vay cũng dự tính được phần tiền lời mình thu về sau khi  cho người đi vay vay nợ , Lạm phát làm cho đồng tiền cho vay mất giá. Vì đã cho vay  ( có kí kết hợp đồng về thời gian vay , số tiền lãi người đi vay phải trả …) nên người  cho vay không thể thay đổi phần lợi nhuận đã thỏa thuận ban đầu => Người chovay bị  thiệt  \nNhư vậy cả người cho vay và người đi vay đều bị thiệt."
+    },
+    {
+        "id": 28,
+        "question": "Câu 28 : Hàm số tiêu dùng : C = 20 + 0,9Y ( Y là thu nhập) . Tiết kiệm (S) ở mức thu nhập khả dụng 100 là :  \na. S = 10  \nb. S = 0 \nc. S = -10 \nd. Không thể tính được",
+        "answer_explanation": "Đáp án: d\nGiải thích: Cho : C = 20+0.9Y ( Y là thu nhập )  \n Yd = 100 \nTa có : Yd = C + S \n S = Yd – C  \n = 100 – 20 – 0,9Y \n = 100 – 20 – 0,9 ( Yd + T )  \n = 80 – 0,9 ( 100 + T )  \n = 80 – 90 – 0,9T  \n = -10 – 0,9T  \nVì thiếu T nên không thể tính S ở mức Yd = 100 này được ( Do Y trong C = 20 +  0,9Y là thu nhập ; Y # Yd)"
+    },
+    {
+        "id": 29,
+        "question": "Câu 29 : Tác động “ hất ra” ( còn gọi là tác động “lấn át”) của chính sách tài chính (  chính sách là tài khóa) là do :  \na. Tăng chi tiêu của chính phủ làm giảm lãi suất , dẫn tới tăng đầu tư , làm tăng hiệu  lực kích thích tổng cầu  \nb. Tăng chi tiêu của chính phủ làm tăng lãi suất , dẫn tới giảm đầu tư , làm giảm hiệu  lực kích thích tổng cầu  \nc. Giảm chi tiêu của chính phủ làm tăng lãi suất , dẫn tới gảm đầu tư, làm giảm hiệu  lực kích thích tổng cầu  \nd. Giảm chi tiêu của chính phủ làm giảm lãi suất , dẫn tới tăng đầu tư, làm tăng hiệu  lực kích thích tổng cầu",
+        "answer_explanation": "Đáp án: a\nGiải thích: Khi đó sản lượng thấp hơn sản lượng tiềm năng , muốn Y thì chính  phủ mở rộng tiền tệ làm t/đ “ hất ra” . Cụ thể là : chi tiêu G của chính phủ => r  để kích thích I . Từ đó tạo ra nhiều sản phẩm ( Y ) => AD"
+    },
+    {
+        "id": 30,
+        "question": "Câu 30 : Một chính sách kiều hối khuyến khích người Việt Nam định cư ở nước ngoài  gửi tiền về cho thân nhân trong nước có tác dụng trực tiếp :  \na. Làm tăng GDP của Việt Nam  \nb. Làm cho đồng tiền VN giảm giá so với ngoại tệ  \nc. Làm tăng dự trữ ngoại tệ của VN  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: c\nGiải thích: Một chính sách kiều hối khuyến khích & VN định cư ở nước ngoài  gửi tiền về cho thân nhân trong nước sẽ làm dự trữ ngoại tệ của VN . Vì người \ndân có xu hướng sẽ dùng số tiền đó để chi tiêu cho một khoản cần thiết nào đó (  hoặc có thể họ sẽ tiết kiệm) => dự trữ ngoại tệ của VN"
+    },
+    {
+        "id": 31,
+        "question": "Câu 31 : Theo lý thuyết xác định sản lượng ( được minh họa bằng đồ thị có đường 45o),  nếu tổng chi tiêu theo kế hoạch ( tổng cầu dự kiến ) lớn hơn GDP thực ( hoặc sản lượng )  thì :  \na. Các doanh nghiệp sẽ giảm sản lượng để giải phóng thặng dư tồn kho so với mức  tồn kho dự kiến \nb. Các doanh nghiệp se tăng hoặc giảm sản lượng tùy theo tình hình tồn kho thực tế  ít hơn hay nhiều hơn mức tồn kho dự kiến \nc. Các doanh nghiệp sẽ không thay đổi sản lượng vì tồn kho thực tế đã bằng mức tồn  kho dự kiến  \nd. Các doanh nghiệp sẽ tăng sản lượng để bổ sung tồn kho cho đủ mức tồn kho dự  kiến",
+        "answer_explanation": "Đáp án: a\nGiải thích: ADthực < AD dự kiến => hàng hóa doanh nghiệp sx theo AD dự kiến sẽ bị  tồn kho => để không bị động trong Sx , doanh nghiệp sẽ sản lượng để GP thặng  dư tồn kho so với mức tồn kho dự kiến"
+    },
+    {
+        "id": 32,
+        "question": "Câu 32 : Mở rộng tiền tệ ( hoặc nới lỏng tiền tệ )  \na. Là một chính sách do NHTW thực hiện để kích cầu bằng cách giảm thuế , tăng  trợ cấp xã hội , hoặc tăng chi tiêu ngân sách  \nb. Là một chính sách do NHTW thực hiện để kích cầu bằng cách tăng lãi suất chiết  khấu , tăng tỷ lệ dự trữ bắt buộc , hoặc bán ra chứng khoán nhà nước .  c. Là một chính sách do NHTW thực hiện để kích cầu bằng cách hạ lãi suất chiết  khấu , giảm tỷ lệ dự trữ bắt buộc , hoặc mua các chứng khoán nhà nước d. Là một chính sách do NHTW thực hiện để kích cầu bằng cách phát hành trái  phiếu chính phủ",
+        "answer_explanation": "Đáp án: c\nGiải thích: Là một chính sách do NHTW thực hiện để kích thích cầu bằng cách  hạ lãi suất chiết khấu , tỷ lệ dự trữ bắt buộc , hoặc mua chứng khoán của nhà  nước"
+    },
+    {
+        "id": 33,
+        "question": "Câu 33 : Sản lượng tiềm năng ( sản lượng toàn dụng ) là mức sản lượng :  a. Mà tại đó nếu tăng tổng cầu thì lạm phát sẽ tăng nhanh  \nb. Mà tại đó nền kinh tế có tỷ lệ thất nghiệp thấp nhất  \nc. Tối đa của nền kinh tế \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: Sản lượng tiềm năng là sản lượng mà tại đó nền kinh tế đạt được tương  ứng với tỷ lệ thất nghiệp tự nhiên ( Un) và lạm phát vừa phải , có thể chấp nhận  được , Theo thời gian khả năng sx của nền kinh tế luôn có xu hướng => Yp  cũng . Do đó nếu AD thì lạm phát sẽ nhanh"
+    },
+    {
+        "id": 34,
+        "question": "Câu 34 : Trong một nền kinh tế giả định đóng cửa và không có chính phủ . Cho biết mối  quan hệ giữa tiêu dùng và đầu tư với thu nhập quốc gia như sau :  \nThu nhập quốc gia Tiêu dùng dự kiến Đầu tư dự kiến  100.000 110.000 20.000 \n120.000 120.000 20.000 \n140.000 130.000 20.000 \n160.000 140.000 20.000 \n180.000 150.000 20.000 \nKhuynh hướng tiêu dùng biên (MPC) khuynh hướng tiết kiệm biên (MPS) và thu nhập  cân bằng ( Y ) là :  \na. MPC = 0,7 ; MPS = 0,3 ; Y = 120.000 \nb. MPC = 7 ; MPS = 3 ; Y = 140.000 \nc. MPC = 5 ; MPS = 5 ; Y = 180.000 \nd. MPC = 0,5 ; MPS = 0,5 ; Y = 150.000",
+        "answer_explanation": "Đáp án: d\nGiải thích: Theo đề bài ta có :  \n∆C = 10,000 ; ∆Y = 20,000 \nTa có MPC = ∆C/∆Y = 10,000/20,000 = 0,5  \nMDS = 1 – MPC = 1 – 0,5 = 0,5  \nThu nhập cân bằng lúc này có thể tính :  \nY = C + I  \n = {( 110+120+130+140+150) / 5 }+10 x 1000 \n = 150,000 \n Vậy MPC = 0,5 ; MPS = 0,5 ; Y = 150,000"
+    },
+    {
+        "id": 35,
+        "question": "Câu 35 : Chính sách tài chính là một công cụ điều hành kinh tế vĩ mô vì :  a. Sự thay đổi thuế và chi tiêu ngân sách của chính phủ có tác động đến mức giá ,  mức GDP và mức nhân dụng  \nb. Việc đẩy mạnh cổ phần hóa các doanh nghiệp nhà nước và phát hành cổ phiếu là  cần thiết để tăng trưởng kinh tế  \nc. Sự thay đổi lãi suất tín phiếu kho bạc có tác động đến mức huy động vốn tài trợ  cho bội chi ngân sách của chính phủ  \nd. Việc điều chỉnh lượng phát hành tín phiếu kho bạc và công trái quốc gia có vai trò  quan trọng trong việc ổn định kinh tế",
+        "answer_explanation": "Đáp án: d\nGiải thích: Chú ý rằng tín phiếu kho bạc và công trái quốc gia cũng là quyền lợi  và nghĩa vụ của công dân khi sở hữu , do đó có vai trò rất quan trọng trong ổn  định kinh tế"
+    },
+    {
+        "id": 36,
+        "question": "Câu 36 : Tính theo chi tiêu ( Tính theo luồng sản phẩm ) thì GDP là tổng cộng của :  a. Tiêu dùng , đầu tư , chi tiêu của chính phủ để mua sản phẩm và dịch vụ, xuất khẩu  ròng  \nb. Tiêu dùng , đầu tư , chi tiêu của chính phủ để mua sản phẩm và dịch vụ , xuất  khẩu \nc. Tiêu dùng , đầu tư , chi chuyển nhượng của chính phủ , xuất khẩu ròng  d. Tiêu dùng , đầu tư , chi chuyển nhượng của chính phủ , xuất khẩu",
+        "answer_explanation": "Đáp án: a\nGiải thích: Vì theo phân tích thì \nGDP = C + I + G + X – M (theo chi tiêu )  \nTrong đó  \nC : tiêu dùng \nI : đầu tư \nG : chi tiêu của chính phủ  \nX – M : xuất khẩu ròng  \nX : xuất khẩu \nM : nhập khẩu"
+    },
+    {
+        "id": 37,
+        "question": "Câu 37 : Tính theo thu nhập ( tính theo luồng thu nhập ) thì GDP là tổng cộng của :  a. Tiền lương , tiền lãi , tiền thuế , lợi nhuận  \nb. Tiền lương trợ cấp của chính phủ , tiền lãi , lợi nhuận  \nc. Tiền lương , trợ cấp của chính phủ , tiền thuế , lợi nhuận \nd. Tiền lương , trợ cấp của chính phủ , tiền lãi , tiền thuế \nDùng các dữ liệu sau đây để trả lời các câu 38,39,40 :  \nTrong một nền kinh tế giả định giá cả ,lãi suất , và tỷ giá hối đoái không đổi , Trong năm  19… ,cho biết hàm số tiêu dùng C = 0,75 Yd + 400 ( Yd là thu nhập khả dụng) ; hàm số  thuế Tx = 0,2Y + 400 ( Y là thu nhập hoặc GDP ) ; hàm số nhập khẩu M = 0,1Y + 400 ; chi chuyển nhượng ( dự kiến) của chính phủ Tr = 200 ; chi tiêu của chính phủ để mua sản  phẩm dịch vụ ( dự kiến) G = 1000 ; đầu tư ( dự kiến) I = 750 ; xuất khẩu ( dự kiến) X =  400",
+        "answer_explanation": "Đáp án: a\nGiải thích: Theo phân tích thì  \nGDP = R + W + i + ∏ ( theo thu nhập )  \nTrong đó :  \nR : tiền thuê do sử dụng tài sản hữu hình  \nW : tiền lương do sử dụng lao động  \ni : tiền lãi do sử dụng vốn \n∏ : lợi nhuận do việc quản lý"
+    },
+    {
+        "id": 41,
+        "question": "Câu 41 : Đường LM dịch chuyển khi các yếu tố sau thay đổi  \na. Thuế  \nb. Cung tiền\nc. Lãi suất \nd. Yếu tố khác",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Đường LM được hình thành trong điều kiện lượng cung tiền SMlà không  đổi . Nên khi thay đổi cung tiền thì LM sẽ dịch chuyển"
+    },
+    {
+        "id": 42,
+        "question": "Câu 42 : Nếu chính phủ tăng chi tiêu đầu tư vào các công trình công cộng bằng toàn bộ  nguồn tiền bán trái phiếu của chính phủ trên thị trường : Kết quả là  \na. Sản lượng và lãi suất đều tăng \nb. Sản lượng tăng , lãi suất không đổi  \nc. Sản lượng giảm , lãi suất giảm \nd. Sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng  tăng , nên lượng cầu và tiền gia tăng , với lượng cung tiền cố định , nên lãi suất phải tăng  để giảm bớt lượng cầu"
+    },
+    {
+        "id": 43,
+        "question": "Câu 43 : Ý nghĩa thành lập đường IS là phản ảnh sự tác động của :  \na. Lãi suất vào mức sản lượng cân bằng trên thị trường tiền tệ \nb. Lãi suất vào mức sản lượng cân bằng trên thị trường hàng hóa \nc. Sản lượng vào mức lãi suất cân bằng thị trường tiền tệ  \nd. Sản lượng vào mức lãi suất cân bằng trên thị trường hàng hóa",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi lãi suất tăng hay giảm đều tác động đến chi tiêu của các hộ gia đình từ  đó tác động đến mức sản lượng cân bằng trên thị trường hàng hóa và dịch vụ"
+    },
+    {
+        "id": 44,
+        "question": "Câu 44 : Ý nghĩa thành lập đường LM là để phản ảnh sự tác động của : a. Lãi suất vào mức sản lượng cân bằng trên thị trường tiền tệ  \nb. Lãi suất vào mức sản lượng cân bằng trên thị trường hàng hóa \nc. Sản lượng vào mức lãi suất cân bằng thị trường tiền tệ \nd. Sản lượng vào mức lãi suất cân bằng trên thị trường hàng hóa",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Khi sản lượng tăng , giảm sẽ tác động đến cầu tiền , nên lãi suất sẽ thay  đổi"
+    },
+    {
+        "id": 45,
+        "question": "Câu 45 : Để thực hiện kích cầu , chính sách nào sau đây hiệu quả nhất : \na. Chính phủ tăng chi , giảm thu , NHTW tăng dự trữ bắt buộc đối với HTM  \n\tb. Chính phủ tăng chi , giảm thu , NHTW mua chứng khoán chính phủ trên thị trường mở \nc. Chính phủ tăng chi , giảm thu , NHTW giảm lãi suất chiết khấu đối với NHTM \nd. Chính phủ tăng chi , giảm thu , NHTW bán chứng khoán chính phủ trên thị trường  mở",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Để kích cầu chính phủ phải đưa tiền ra thị trường nên chính phủ phải tăng  chi tiêu , giảm thu và NHTW mua chứng khoán chính phủ trên thị trường"
+    },
+    {
+        "id": 46,
+        "question": "Kinh tế đống, giả sử giá cả , lãi suất , tỷ giá hối đoái không đổi , ta có các hàm dự kiến  sau :  \nC = 200 + 0,8Yd I = 150 – 40i \nG = 700 T = 100 + 0,2Y \nSM= 1500 DM= 800 + 0,3Y – 35i. Câu 46 : Phương trình đường Í và LM sẽ là :  \na. IS : i = -20 + 0,0086Y \nLM : Y = 2695 – 111i \nb. IS : Y = 2695 – 111i \nLM : i = - 20 +0,0086Y \nc. IS : i = 300 – 0,32Y \nLM : Y = 29 + 120i  \nd. Số khác",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : * Y = C + G + I \nC = 200 + 0,8Yd \n= 200 + 0,8 ( Y – T )  \n= 200 + 0,8 ( Y – 100 – 0,2Y)\n= 200 + 0,64Y – 80  \n= 120 + 0,64Y  \nY = 120 + 0,64Y + 700 + 150 – 40i  = 970 + 0,64Y – 40i  \n Y’ = 2695 – 111i  \nVới : SM= M  \n* i = ( M – D0)/Dmi – (DmY/ Dmi).Y \nVới : DM= D0 + Dmii + DmY Y \ni = ( 1500 – 800)/(-35) – ( 0,3 / -35)Y  \n i = -20 + 0,0086Y"
+    },
+    {
+        "id": 47,
+        "question": "Kinh tế đống, giả sử giá cả , lãi suất , tỷ giá hối đoái không đổi , ta có các hàm dự kiến  sau :  \nC = 200 + 0,8Yd I = 150 – 40i \nG = 700 T = 100 + 0,2Y \nSM= 1500 DM= 800 + 0,3Y – 35i. Câu 47 : Thị trường hàng hóa và tiền tệ sẽ cân bằng tại mức sản lượng và lãi suất a. Y = 2514 tỷ và i = 1,62%  \nb. Y = 914 tỷ và i = 7,37%  \nc. Y = 243 tỷ và i = 2,2% \nd. Số khác",
+        "answer_explanation": "Đáp án: a\nGiải thích: Ta có : SM= DM \n1500 = 800 + 0,3Y – 35i  \n35i = 0,3Y – 700 \ni = -20 + 0,0086Y  \n Y = 2695 – 111 ( -20 + 0,0086Y)  \nY + 0,955Y = 4915 \n 2514 \nThế Y = 2514 vào i = -20 + 0,0086Y \n i = -20 + 0,0086 x 2514 = 1,62"
+    },
+    {
+        "id": 48,
+        "question": "Câu 48 : Trong điều kiện giả định các yếu tố không đổi , một sự cắt giảm chi tiêu hàng  hóa và dịch vụ của chính phủ sẽ : \na. Dịch chuyển đường IS sang phải \nb. Dich chuyển đường IS sang trái \nc. Dịch chuyển đường IS sang trái và đường LM sang phải \nd. Dịch chuyển đường LM sang trái và đường IS sang phải",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi có các nhân tố khác lãi suất tác động làm thay đổi tổng cầu AD thì IS  sẽ dịch chuyển tương ứng với sự dịch chuyển của đường AD . Nếu tổng giảm thì đường  AD dịch chuyển xuống dưới , đường IS dịch chuyển sang trái"
+    },
+    {
+        "id": 49,
+        "question": "Câu 49 : Khi NHTW tăng lượng cung tiền và chính phủ tăng thuế : \na. Sản lượng tăng , lãi suất giảm , đầu tư tư nhân tăng \nb. Sản lượng tăng , lãi suất tăng , đầu tư ngân hàng giảm \nc. Sản lượng giảm , lãi suất tăng , đầu tư tư nhân giảm \nd. Sản lượng giảm , lãi suất giảm , đầu tư tư nhân giảm",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi tăng lượng cung tiền thì lãi suất giảm , nhưng do tăng thuế nên đầu  tư tư nhân giảm dẫn đến sản lượng sẽ giảm"
+    },
+    {
+        "id": 50,
+        "question": "Câu 50 : Khi NHTW tăng lượng cung tiền và chính phủ tăng chi tiêu : \na. Sản lượng tăng , lãi suất có thể giảm , hoặc tăng hoặc không đổi \n b. Sản lượng có thể giảm , hoặc tăng hoặc không đổi , lãi suất tăng , đầu tư tư nhân  giảm \nc. Sản lượng tăng , lãi suất tăng , đầu tư tư nhân giảm vì chính sách tài khóa luôn tác  động mạnh hơn chính sách tiền tệ  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu các doanh nghiệp bán được hàng nên tăng  sản xuất từ đó tăng cầu tiền , tăng lãi suất nhưng khi NHTW tăng cung tiền thì lãi suất  có thể tăng hoặc giảm hoặc không đổi tùy vào lượng cung tiền"
+    },
+    {
+        "id": 51,
+        "question": "Câu 51 : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi :  \na. Sự cân bằng trên thị trường tiền tệ , nhưng tổng cầu cung phải vượt quá để khỏi  thiếu hụt hàng hóa \nb. Tổng thu nhập phải bằng với tổng chi tiêu , nhưng cầu tiền phải vượt qua để tránh  lạm phát \nc. Sự cân bằng độc lập của cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ  \nd. Sự cân bằng đồng thời có ở cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi sự cân bằng  đồng thời cả hai thị trường : tiền tệ và thị trường hàng hóa – dịch vụ"
+    },
+    {
+        "id": 52,
+        "question": "Câu 52: Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM, để đạt sự  cân bằng chung :  \na. Sản lượng sẽ tăng và lãi suất giảm  \nb. Sản lượng sẽ tăng và lãi suất tăng  \nc. Sản lượng sẽ giảm và lãi suất giảm \nd. Sản lượng sẽ giảm và lãi suất tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM để  đạt được sự cân bằng chu thì sản lượng sẽ tăng và lãi suất tăng"
+    },
+    {
+        "id": 53,
+        "question": "Câu 53 : Giả sử do dự kiến về tương lai tốt đẹp nên tiêu dùng của dân chúng gia tăng khi  đó : \na. IS dịch sang phải , sản lượng tăng , lãi suất tăng  \nb. IS dịch sang trái , sản lượng giảm , lãi suất giảm  \nc. LM dịch sang phải , sản lượng tăng , lãi suất giảm  \nd. LM dịch sang trái , sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì khi tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng tăng , nên  lượng cung về tiền gia tăng mà nếu lượng cung tiền ổn định thì lãi suất phải tăng"
+    },
+    {
+        "id": 54,
+        "question": "Câu 54 : Khi nền kinh tế nằm phía phải của đường LM : \na. Thị trường hàng hóa có cầu vượt quá , thị trường tiền tệ có cung vượt quá  b. Thị trường hàng hóa và thị trường tiền tệ đều có cầu vượt quá \nc. Thị trường hàng hóa có cung vượt quá , thi trường tiền tệ có cầu vượt quá  d. Thi trường hàng hóa và thị trường tiền tệ đều có cung vượt quá",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì khi LM nằm bên phải là lượng cung tiền tăng lên , lãi suất giảm kích  thích nhà đầu tư tăng , tổng cầu tăng , sản lượng cân bằng tăng , tăng cầu tiền ."
+    },
+    {
+        "id": 55,
+        "question": "Câu 55 : Trên đường LM :  \na. Sản lượng luôn cân bằng , lãi suất có thể cân bằng , có thể không  \nb. Lãi suất luôn cân bằng , sản lượng có thể cân bằng , có thể không  c. Sản lượng cân bằng và lãi suất cân bằng \nd. Sản lượng và lãi suất đều không cân bằng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì theo khái niệm đường LM là tập hợp các tổ hợp khác nhau giữa sản  lượng và lãi suất mà tại đó thị trường tiền tệ cân bằng"
+    },
+    {
+        "id": 56,
+        "question": "Câu 56 : Điểm cân bằng trong mô hình IS – LM thể hiện :  \na. Tổng thu nhập bằng với tổng chi \nb. Cung tiền và cầu tiền bằng nhau  \nc. a hoặc b  \nd. a và b",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì chính phủ đưa phối hợp chính sách tài khóa và chính sách tiền tệ để  giải quyết các vấn đề về kinh tế và đưa nền kinh tế ổn định nên điểm gặp nhau của IS – LM tổng thu nhập bằng với tổng chi , cung tiền bằng cầu tiền tại đó không có biến động  về tiền"
+    },
+    {
+        "id": 57,
+        "question": "Câu 57 : Đường IS dốc xuống thể hiện :  \na. Mối quan hệ nghịch biến giữa lãi suất và sản lượng cân bằng  \nb. Mối quan hệ nghịch biến giữa sản lượng và lãi suất cân bằng  \nc. Mối quan hệ nghịch biếm giữa sản lượng và lãi suất \nd. Mối quan hệ nghịch biến giữa sản lượng cân bằng và lãi suất cân bằng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Đường IS dốc xuống biểu thị lãi suất cao hơn sẽ kéo theo sản lượng cân  bằng thấp hơn"
+    },
+    {
+        "id": 58,
+        "question": "Câu 58 : Đường LM dốc lên thể hiện  \na. Khi sản lượng tăng thì lãi suất tăng  \nb. Khi lãi suất tăng thì sản lượng tăng \nc. Khi sản lượng tăng thì lãi suất cân bằng tăng  \nd. Khi lãi suất tăng thì sản lượng cân bằng tăng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Đường LM dốc lên thể hiện khi sản lượng cao hơn sẽ đòi hỏi lượng cầu  tiền cao hơn , để giảm bớt cầu tiền , lãi suất cân bằng trên thị trường tiền tệ sẽ tăng"
+    },
+    {
+        "id": 59,
+        "question": "Câu 59 : Trong mô hình IS – LM , khi chính phủ tăng chi tiêu đầu tư và NHTW tăng lãi  suất chiết khấu  \na. Lãi suất tăng , sản lượng giảm \nb. Lãi suất giảm , sản lượng tăng \nc. Sản lượng tăng , lãi suất không thể xác định rõ vì còn tùy \nd. Lãi suất tăng , sản lượng không thể xác định rõ vì còn tùy",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi NHTW tăng chiết khấu lên thì lãi suất sẽ tăng , còn về sản lượng  còn tùy thuộc vào chi tiêu của chính phủ"
+    },
+    {
+        "id": 60,
+        "question": "Câu 60 : Nghịch lý của tiết kiệm không còn đúng khi :  \na. Tăng tiết kiệm và dùng tiền đó để tăng đầu tư \nb. Tăng tiết kiệm và dùng tiền đó để mua công trái  \nc. Tăng tiết kiệm và dùng tiền đó để gửi ngân hàng  \nd. Tất cả các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì người tiết kiệm mong muốn làm tăng thu nhập nhưng kết quả là tăng  tiết kiệm sẽ làm giảm thu nhập. Hơn nữa , khi lượng tiết kiệm tăng thêm của dân chúng  lại được đưa vào đầu tư như : gửi tiết kiệm, mua công trái , gửi ngân hàng sẽ không làm  giảm tổng cầu , không làm giảm sản lượng"
+    },
+    {
+        "id": 61,
+        "question": "Câu 61 : Số nhân tổng cầu là một hệ số  \na. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi một đơn vị  \nb. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi lượng ban đầu một đơn  vị  \nc. Phản ánh sự thay đổi của tồng cầu khi sản lượng thay đổi một đơn vị  d. Tất cả các câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì : số nhân của tổng cầu là hệ số phản ánh lượng thay đổi của sản  lượng cân bằng quốc gia khi tổng cầu thay đổi trong phần chi tiêu tự định bằng 1 đơn vị"
+    },
+    {
+        "id": 62,
+        "question": "Câu 62 : Tại điểm cân bằng sản lượng  \na. Giá trị hàng tồn kho bằng 0 \nb. Giá trị hàng tồn kho ngoài dự kiến bằng 0 \nc. Tổng cung bằng tổng cầu tại sản lượng tiềm năng \nd. Sản lượng bằng chi tiêu thực tế cảu dân chúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì ở mức cân bằng tổng cung bằng tổng cầu , lúc này thì sản lượng ở  mức quân bình sẽ bằng với mức chi tiêu thực của dân chúng và sẽ nhiều hơn mức sản  lượng tiềm năng"
+    },
+    {
+        "id": 63,
+        "question": "Câu 63 : Nếu sản lượng thực tế thấp hơn sản lượng dự kiến cân bằng những việc ngoài dự kiến  nào có thể xảy ra. \na. Sản lượng thực tế thấp hơn chi tiêu dự kiến \nb. Hàng tồn khi ngoài dự kiến là số âm  \nc. Sản lượng thực tế sẽ tăng dần \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi Y ( sản lượng thực tế ) < Yd ( sản lượng cân bằng ) có nghĩa là  tổng cầu đang lớn hơn GDP thực do đó người ta chi tiêu thực tế ít hơn so với kế hoạch  dự kiến , Vì thế trên thị trường sẽ khan hiếm hàng hóa --> Doanh nghiệp phải xuất kho  dự trữ , làm giảm tồn kho --> DN tăng sản lượng để bù đắp thiếu hụt"
+    },
+    {
+        "id": 64,
+        "question": "Câu 64 : Trong mô hình số nhân , nếu mọi người gia tăng tiết kiệm thì  a. Sản lượng tăng\nb. Sản lượng giảm \nc. Sản lượng không đổi  \nd. Các khả năng có thể xáy ra",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì khi tiết kiệm tăng sẽ giảm thu nhập 🡪 tổng cầu giảm 🡪 sản lượng  giảm"
+    },
+    {
+        "id": 65,
+        "question": "Câu 65 : Khuynh hướng tiêu dùng biên là :  \na. Phần thu nhập khả dụng tăng thêm khi sản lượng tăng thêm 1 đơn vị  b. Phần tiêu dùng giảm khi thu nhập khả dụng giảm 1 đơn vị  \nc. Phần tiêu dùng tăng khi thu nhập khả dụng tăng 1 đơn vị  \nd. Câu b và c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì tiêu dùng biên Cm phản ánh lượng thay đổi của tiêu dùng khi thu nhập  khả dụng thay đổi 1 đơn vị"
+    },
+    {
+        "id": 66,
+        "question": "Câu 66 : Tiết kiệm là  \na. Phần còn lại của thu nhập sau khi tiêu dùng  \nb. Phần còn lại của thu nhập khả dụng sau khi tiêu dùng  \nc. Phần tiền hộ gia đình gửi vào ngân hàng  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì ta biết : Yd = C + S 🡪 S = Yd – C"
+    },
+    {
+        "id": 67,
+        "question": "Câu 67 : Nếu lãi suất tăng thì sản lượng cân bằng trên thị trường hàng hóa sẽ :  a. Tăng \nb. Giảm  \nc. Không thay đổi  \nd. Không thể tiết kiệm",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Lãi suất là thể hiện giá doanh nghiệp phải trả nếu đi vay ngân hàng . Lãi  suất tăng 🡪 các DN sẽ không đi vay hay ít vay dẫn tới đầu tư giảm 🡪 Sản lượng giảm"
+    },
+    {
+        "id": 68,
+        "question": "Câu 68 : Tiêu dùng của các hộ gia đình phụ thuộc chủ yếu vào :  \na. Thu nhập khả dụng  \nb. Thu nhập dự tính  \nc. Lãi suất  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì thu nhập khả dụng là khoản thu nhập còn lại sau khi người dân đã  nộp thuế cho nhà nước"
+    },
+    {
+        "id": 69,
+        "question": "Câu 69 : Khi tiêu dùng biên thep thu nhập khả dụng là 0.6 nghĩa là : a. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ tăng ( giảm) 0,6 đồng  b. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ giảm (tăng) 0,6 đồng c. Khi thu nhập tăng ( giảm ) 0,6 đồng thi thu nhập khả dụng sẽ tăng ( giảm ) 1 đồng  d. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì nó phản ánh lượng thay đổi của tiêu dùng khi thu nhập khả dụng thay  đổi 1 đơn vị"
+    },
+    {
+        "id": 70,
+        "question": "Câu 70 : Chính phủ tăng trợ cấp xã hội 8 tỷ đồng , biết thuế biên theo thu nhập là 0,2 tiêu  dùng biên theo thu nhập khả dụng 0,9 đầu tư là hằng số . Hỏi lượng trợ cấp đó đã làm cho  : thâm hụt ngân sách” thay đổi như thế nào ? \na. Tăng 8 tỷ  \nb. Giảm 8 tỷ \nc. Tăng 1,6 tỷ \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi nền kinh tế suy thoái chính phủ áp dụng chính sách tài khóa ngược  chiều tăng chi tiêu trợ cấp xã hội 8 tỷ đồng , nhằm giữ cho nền kinh tế luôn ở mức sản  lượng tiềm năng , đổi lại , ngân sách sẽ bị thâm hụt tăng 8 tỷ"
+    },
+    {
+        "id": 71,
+        "question": "Câu 71 : Khoản chi nào sau đây không phải là chi chuyển nhượng ?  a. Tiền lãi mà chính phủ chi trả cho trái phiếu chính phủ đến hạn \nb. Chi mua vũ khí , đạn dược \nc. Tiền cho học bổng cho sinh viên , học sinh giỏi \nd. Câu a và câu b đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chi chuyển nhượng là các khoản trợ cấp từ chính phủ cho công chúng Vd : Chi trợ cấp người nghèo , thất nghiệp"
+    },
+    {
+        "id": 72,
+        "question": "Câu 72 : Ngân sách chính phủ thặng dư khi :  \na. Thuế lớn hơn chi tiêu của chính phủ cho hàng hóa và dịch vụ \nb. Thuế nhỏ hơn chi tiêu cuả chính phủ \nc. Tổng thu ngân sách nhỏ hơn tổng chi ngân sách \nd. Tổng thu ngân sách lớn hơn tổng chi ngân sách",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Ngân sách chính phủ là tổng các kế hoạch chi tiêu và thu nhập hằng năm  của chính phủ  \nDo đó khi : tổng thu > tổng chi thì ngân sách chính phủ sẽ thặng dư"
+    },
+    {
+        "id": 73,
+        "question": "Câu 73: Xuất phát từ điểm cân bằng gia tăng xuất khẩu sẽ : \na. Dẫn đến cân bằng thương mại  \nb. Tạo ra tiết kiệm để đầu tư trong nước \nc. Tạo ra đầu tư để thực hiện tiết kiệm \nd. Dẫn đến sự cân bằng sản lượng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Trong nền kinh tế nước ta hiện nay , nhu cầu xuất khẩu chủ yếu phụ thuộc  vào nước ngoài , do đó gia tăng xuất khẩu sẽ tạo ra tiết kiệm để đầu tư trong nước"
+    },
+    {
+        "id": 74,
+        "question": "Câu 74 : Khi nền kinh tế có mức sản lượng thực tế Yt thấp hơn sản lượng tiềm năng Yp ,  để điều tiết nền kinh tế , chính phủ nên :  \na. Tăng chi ngân sách và tăng thuế \nb. Tăng chi ngân sách va giảm thuế \nc. Giảm chi ngân sách và tăng thuế \nd. Giảm chi ngân sách và giảm thuế",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế có mức sản lượng Yt < Yp , để kích thích tổng cầu tăng lên  , làm tăng sản lượng quốc gia , chính phủ cần tăng thâm hụt ngân sách bằng cách tăng chi  tiêu và giảm thuế"
+    },
+    {
+        "id": 75,
+        "question": "Câu 75 : Những nhân tố ổn định tự động của nền kinh tế là : \na. Tỷ giá hối đoái \nb. Lãi suất và sản lượng cung ứng \nc. Thuế thu nhập lũy tiền và trợ cấp thất nghiệp \nd. Thuế thu nhập và trợ cấp",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Thuế thu nhập lũy tiền là thuế thu nhập cá nhân và lợi nhuận của DN . Khi  thu nhập quốc dân tăng lên , số thu về thuế tăng theo , và ngược lại khi thu nhập giảm ,  thuế giảm ngay \nKhi người lao động bị mất việc họ sẽ được nhận 1 khoản trợ cấp từ bảo hiểm , và khi họ  có việc làm thì sẽ bị cắt trợ cấp này đi. Như vậy tiền sẽ được bơm vào và rút ra khỏi nền  kinh tế  \n Do đó góp phần vào ổn định nền kinh tế"
+    },
+    {
+        "id": 76,
+        "question": "Câu 76 : Điểm khác nhau giữa số nhân của thuế và số nhân trợ cấp là :  a. Số nhân của thuế luôn luôn nhỏ hơn số nhân của trợ cấp \nb. Số nhân của thuế thì âm , số nhân của trợ cấp thì dương  \nc. Số nhân của thuế thì dương , số nhân của trợ cấp thì âm  \nd. Không có câu nào đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Các số nhân về thuế và chi tiêu có dấu ngược nhau . Số nhân về thuế  mang dấu âm (-) hàm ý thuế có tác dụng ngược chiều với thu nhập và sản lượng . Khi  thuế tăng lên , thu nhập và sản lượng giảm đi.Và ngược lại , chính phủ giảm thuế , thu  nhập và sản lượng tăng lên"
+    },
+    {
+        "id": 77,
+        "question": "Câu 77 : Nếu cán cân thương mại thặng dư , khi đó :  \na. Giá trị hàng hóa nhập khẩu lớn hơn xuất khẩu \nb. Giá trị hàng hóa xuất khẩu lớn hơn nhập khẩu  \nc. Giá trị hàng hóa xuất khẩu và nhập khẩu thay đổi  \nd. Giá trị hàng hóa xuất khẩu và nhập khẩu bằng nhau và thay đổi như nhau",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Giá trị hàng hóa xuất khẩu – giá trị hàng hóa nhập khẩu = xuất khẩu ròng (  cán cân thương mại )  \nKhi xuất khẩu lớn hơn nhập khẩu , nền kinh tế có thặng dư cán cân thương mại  Khi nhập khẩu vượt xuất khấu , nền kinh tế bị thâm hụt cán cân thương mại"
+    },
+    {
+        "id": 78,
+        "question": "Câu 78 : Cắt giảm các khoản chi ngân sách của chính phủ là 1 trong những biện pháp để  a. Giảm tỷ lệ thấp nghiệp \nb. Hạn chế lạm phát  \nc. Tăng đầu tư cho giáo dục \nd. Giảm thuế",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi chính phủ cẳt giảm các khoản chi ngân sách nhờ đó mức chi tiêu  chung giảm đi , sản lượng giảm theo và lạm phát sẽ chừng lại"
+    },
+    {
+        "id": 79,
+        "question": "Câu 79 : Chính sách tài khóa là 1 công cụ điều hành kinh tế vĩ mô vì :  a. Việc điều chỉnh lượng phát hành tín phiếu kho bạc và lãi suất có vai trò quan  trọng trong việc ổn định kinh tế \nb. Sự thay đổi lượng cung tiền sẽ tác động đến lãi suất , đầu tư và mức dân dụng c. Sự thay đổi thuế và chi tiêu ngân sách của chính phủ có tác động đến mức giá ,  mức sản lượng và mức nhân dụng  \nd. Sự thay đổi lãi suất tín phiếu kho bạc có tác động đến mức huy động vốn tài trợ  cho bội chi ngân sách của chính phủ",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Chính sách tài khóa là việc chính phủ sử dụng thuế khóa và chi tiêu công cộng để điều tiết mức chi tiêu chung của nền kinh tế ."
+    },
+    {
+        "id": 80,
+        "question": "Câu 80 : Nếu tỷ giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa có nghĩa là :  a. Nội tệ được đánh giá quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới cao  \nb. Nội tệ được đánh quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới thấp  \nc. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước cao  d. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước thấp",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa làm cho hàng  hóa trong nước trở lên rẻ hơn khi tính ra nội tệ và hàng hóa nước ngoài trở nên đắt hơn  khi tính theo nội tệ nên làm tăng sức cạnh tranh của hàng hóa trong nước"
+    },
+    {
+        "id": 81,
+        "question": "Câu 81 : Tình trạng khó khăn hiện nay trong việc thỏa mãn nhu cầu của cải vật chất cho  xã hội chứng tỏ rằng  \na. Có sự giới hạn của cải để đạt được mục đích là thỏa mãn những nhu cầu có giới  hạn của xã hội  \nb. Do nguồn tài nguyên khan hiếm không thể thỏa mãn toàn bộ nhu cầu của xã hội  c. Có sự lựa chọn không quan trọng trong kinh tế học  \nd. Không có nhu cầu nào đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Nguồn tài nguyên là có hạn trong khi nhu cầu của con người là vô hạn"
+    },
+    {
+        "id": 82,
+        "question": "Câu 82 : Yếu tố nào sau đây ảnh hưởng đến tổng cung ngắn hạn \na. Nguồn nhân lực \nb. Công nghệ \nc. Tiền lương danh nghĩa \nd. Phát hiện các loại tài nguyên mới",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Tổng cung ngắn hạn phản ánh quan hệ giữa tổng cung và mức giá trong  điều kiện giá các yếu tố đầu vào chưa thay đổi  \nKhi tiền lương càng tăng thì chi phí sản xuất sẽ càng tăng . Khi đó các doanh nghiệp sẽ  giảm sản lượng muốn cung ứng cho nền kinh tế ở mọi mức giá"
+    },
+    {
+        "id": 83,
+        "question": "Câu 83 : Các nhà kinh tế phải tính cả GDP theo yếu tố sản xuất là để tránh GDP theo giá  thị trường giả tạo do :  \na. Giá tăng  \nb. Thuế tăng \nc. Chi phí tăng \nd. Sản lượng tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Giá thị trường và chi phí cho yếu tố sản xuất phản ánh cơ cấu của giá và  chúng chênh lệch nhau bởi bộ phận thuế gián thu và GDPmp \nGDP danh nghĩa theo chi phí cho yếu tố SX = GDP danh nghĩa theo giá thị trường – Thuế gián thu  \nGDPfc = GDPmp – Ti"
+    },
+    {
+        "id": 84,
+        "question": "Câu 84 : Dùng tỷ lệ tăng của GDP thực để phản ánh tăng trưởng kinh tế vì :  a. Đã loại được yếu tố lạm phát qua các năm  \nb. Tính theo sản lượng của năm hiện hành \nc. Tính theo giá hiện hành \nd. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Sự gia tăng của GDP thực tế chỉ có thể do lượng hàng hóa và dịch vụ cuối  cùng trong nền kinh tế gia tăng qua các năm , nên người ta dùng nó để đo lường tăng  trưởng của nền kinh tế mà trong thực tế người ta tính GDP thực tế bằng cách  GDPr = GDPn \n D% \nTrong đó : GDPr : GDP danh nghĩa  \nGDPn : GDP thực tế  \nD% : Hệ số lạm phát GDP \nNên từ công thức tính GDPr ta thấy được đã loại được yếu tố lạm phát qua các năm"
+    },
+    {
+        "id": 85,
+        "question": "Câu 85 : Để thực hiện kích cầu , chính sách nào sau đây hiệu quả nhất : a. Chính phủ tăng chi , giảm thu , NHTW tăng dự trữ bắt buộc đối với HTM  b. Chính phủ tăng chi , giảm thu , NHTW mua chứng khoán chính phủ trên thị  trường mở \nc. Chính phủ tăng chi , giảm thu , NHTW giảm lãi suất chiết khấu đối với NHTM d. Chính phủ tăng chi , giảm thi , NHTW bán chứng khoán chính phủ trên thị trường  mở",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Để kích cầu chính phủ phải đưa tiền ra thị trường nên chính phủ phải tăng  chi tiêu , giảm thu và NHTW mua chứng khoán chính phủ trên thị trường"
+    },
+    {
+        "id": 86,
+        "question": "Câu 86 : Trong cơ chế tỷ giá hối đoái thả nổi hoàn toàn  \na. Dự trữ ngoại tệ của quốc gia thay đổi tùy theo diễn biến trên thị trường ngoại hối  b. Dự trữ ngoại tệ của quốc gia tăng khi tỷ giá hối đoái giảm  \nc. Dự trữ ngoại tệ của quốc gia không thay đổi , bất luận diễn biến trên thị trường  ngoại hối  \nd. Dự trữ ngoại tệ của quốc gia giảm khi tỷ giá hối đoái tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Thị trường ngoại hối là thị trường mua bán ngoại tệ . Ví dụ như : nếu  ngoại tệ có xu hướng nhiều ngoài thị trường thì nhà nước dùng nội tệ để mua ngoại tệ  nhằm ổn định thị trường ngoại hối => dự trữ ngoại tệ . Và ngược lại"
+    },
+    {
+        "id": 87,
+        "question": "Câu 87 : Nếu tỷ giá hối đoái danh nghĩa không thay đối đáng kể , tốc độ tăng giá trong  nước nhanh hơn giá thế giới , sức cạnh tranh của hàng hóa trong nước sẽ :  a. Tăng  \nb. Giảm  \nc. Không thay đổi  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Nếu tỉ giá hối đoái danh nghĩa không đổi tốc độ giá trong nước nhanh  hơn giá Thế giới , sức cạnh tranh của hàng hóa trong nước sẽ còn phụ thuộc vào tỉ giá hối  đoái của trong nước so với nước ngoài, phụ thuộc vào yếu tố môi trường , thị hiếu…"
+    },
+    {
+        "id": 88,
+        "question": "Câu 88 : Trong điều kiện giả định các yếu tố không đổi , một sự cắt giảm chi tiêu hàng  hóa và dịch vụ của chính phủ sẽ :  \na. Dịch chuyển đường IS sang phải \nb. Dich chuyển đường IS sang trái\nc. Dịch chuyển đường IS sang trái và đường LM sang phải \nd. Dịch chuyển đường LM sang trái và đường IS sang phải",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi có các nhân tố khác lãi suất tác động làm thay đổi tổng cầu AD thì IS  sẽ dịch chuyển tương ứng với sự dịch chuyển của đường AD . Nếu tổng giảm thì đường  AD dịch chuyển xuống dưới , đường IS dịch chuyển sang trái"
+    },
+    {
+        "id": 89,
+        "question": "Câu 89 : Khi NHTW tăng lượng cung tiền và chính phủ tăng thuế : \na. Sản lượng tăng , lãi suất giảm , đầu tư tư nhân tăng \nb. Sản lượng tăng , lãi suất tăng , đầu tư ngân hàng giảm \nc. Sản lượng giảm , lãi suất tăng , đầu tư tư nhân giảm \nd. Sản lượng giảm , lãi suất giảm , đầu tư tư nhân giảm",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi tăng lượng cung tiền thì lãi suất giảm , nhưng do tăng thuế nên đầu tư  tư nhân giảm dẫn đến sản lượng sẽ giảm"
+    },
+    {
+        "id": 90,
+        "question": "Câu 90 : Khi NHTW tăng lượng cung tiền và chính phủ tăng chi tiêu : a. Sản lượng tăng , lãi suất có thể giảm , hoặc tăng hoặc không đổi  b. Sản lượng có thể giảm , hoặc tăng hoặc không đổi , lãi suất tăng , đầu tư tư nhân  giảm \nc. Sản lượng tăng , lãi suất tăng , đầu tư tư nhân giảm vì chính sách tài khóa luôn tác  động mạnh hơn chính sách tiền tệ  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu các doanh nghiệp bán được hàng nên tăng  sản xuất từ đó tăng cầu tiền , tăng lãi suất nhưng khi NHTW tăng cung tiền thì lãi suất  có thể tăng hoặc giảm hoặc không đổi tùy vào lượng cung tiền"
+    },
+    {
+        "id": 91,
+        "question": "Câu 91 : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi :  \na. Sự cân bằng trên thị trường tiền tệ , nhưng tổng cầu cung phải vượt quá để khỏi  thiếu hụt hàng hóa \nb. Tổng thu nhập phải bằng với tổng chi tiêu , nhưng cầu tiền phải vượt qua để tránh  lạm phát \nc. Sự cân bằng độc lập của cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ  \nd. Sự cân bằng đồng thời có ở cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi sự cân bằng  đồng thời cả hai thị trường : tiền tệ và thị trường hàng hóa – dịch vụ"
+    },
+    {
+        "id": 92,
+        "question": "Câu 92: Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM , để đạt sự  cân bằng chung :  \na. Sản lượng sẽ tăng và lãi suất giảm  \nb. Sản lượng sẽ tăng và lãi suất tăng  \nc. Sản lượng sẽ giảm và lãi suất giảm \nd. Sản lượng sẽ giảm và lãi suất tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM để  đạt được sự cân bằng chu thì sản lượng sẽ tăng và lãi suất tăng"
+    },
+    {
+        "id": 93,
+        "question": "Câu 93 : Giả sử do dự kiến về tương lai tốt đẹp nên tiêu dùng của dân chúng gia tăng khi  đó : \na. IS dịch sang phải , sản lượng tăng , lãi suất tăng  \nb. IS dịch sang trái , sản lượng giảm , lãi suất giảm  \nc. LM dịch sang phải , sản lượng tăng , lãi suất giảm  \nd. LM dịch sang trái , sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì khi tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng tăng , nên  lượng cung về tiền gia tăng mà nếu lượng cung tiền ổn định thì lãi suất phải tăng"
+    },
+    {
+        "id": 94,
+        "question": "Câu 94 : Khi nền kinh tế nằm phía phải của đường LM : \na. Thị trường hàng hóa có cầu vượt quá , thị trường tiền tệ có cung vượt quá  b. Thị trường hàng hóa và thị trường tiền tệ đều có cầu vượt quá \nc. Thị trường hàng hóa có cung vượt quá , thi trường tiền tệ có cầu vượt quá  d. Thi trường hàng hóa và thị trường tiền tệ đều có cung vượt quá",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì khi LM nằm bên phải là lượng cung tiền tăng lên , lãi suất giảm kích  thích nhà đầu tư tăng , tổng cầu tăng , sản lượng cân bằng tăng , tăng cầu tiền ."
+    },
+    {
+        "id": 95,
+        "question": "Câu 95 : Trên đường LM :  \na. Sản lượng luôn cân bằng , lãi suất có thể cân bằng , có thể không  b. Lãi suất luôn cân bằng , sản lượng có thể cân bằng , có thể không  c. Sản lượng cân bằng và lãi suất cân bằng  \nd. Sản lượng và lãi suất đều không cân bằng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì theo khái niệm đường LM là tập hợp các tổ hợp khác nhau giữa sản  lượng và lãi suất mà tại đó thị trường tiền tệ cân bằng"
+    },
+    {
+        "id": 96,
+        "question": "Câu 96 : Điểm cân bằng trong mô hình IS – LM thể hiện : \na. Tổng thu nhập bằng với tổng chi \nb. Cung tiền và cầu tiền bằng nhau  \nc. a hoặc b  \nd. a và b",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì chính phủ đưa phối hợp chính sách tài khóa và chính sách tiền tệ để  giải quyết các vấn đề về kinh tế và đưa nền kinh tế ổn định nên điểm gặp nhau của IS – LM tổng thu nhập bằng với tổng chi , cung tiền bằng cầu tiền tại đó không có biến động  về tiền"
+    },
+    {
+        "id": 97,
+        "question": "Câu 97 : Đường IS dốc xuống thể hiện :  \na. Mối quan hệ nghịch biến giữa lãi suất và sản lượng cân bằng  \nb. Mối quan hệ nghịch biến giữa sản lượng và lãi suất cân bằng  \nc. Mối quan hệ nghịch biếm giữa sản lượng và lãi suất \nd. Mối quan hệ nghịch biến giữa sản lượng cân bằng và lãi suất cân bằng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Đường IS dốc xuống biểu thị lãi suất cao hơn sẽ kéo theo sản lượng cân bằng thấp hơn"
+    },
+    {
+        "id": 98,
+        "question": "Câu 98 : Đường LM dốc lên thể hiện  \na. Khi sản lượng tăng thì lãi suất tăng  \nb. Khi lãi suất tăng thì sản lượng tăng \nc. Khi sản lượng tăng thì lãi suất cân bằng tăng  \nd. Khi lãi suất tăng thì sản lượng cân bằng tăng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Đường LM dốc lên thể hiện khi sản lượng cao hơn sẽ đòi hỏi lượng cầu  tiền cao hơn , để giảm bớt cầu tiền , lãi suất cân bằng trên thị trường tiền tệ sẽ tăng"
+    },
+    {
+        "id": 99,
+        "question": "Câu 99 : Trong mô hình IS – LM , khi chính phủ tăng chi tiêu đầu tư và NHTW tăng lãi  suất chiết khấu  \na. Lãi suất tăng , sản lượng giảm \nb. Lãi suất giảm , sản lượng tăng \nc. Sản lượng tăng , lãi suất không thể xác định rõ vì còn tùy \nd. Lãi suất tăng , sản lượng không thể xác định rõ vì còn tùy",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi NHTW tăng chiết khấu lên thì lãi suất sẽ tăng , còn về sản lượng  còn tùy thuộc vào chi tiêu của chính phủ ."
+    },
+    {
+        "id": 100,
+        "question": "Câu 100 : Nghịch lý của tiết kiệm không còn đúng khi :  \na. Tăng tiết kiệm và dùng tiền đó để tăng đầu tư \nb. Tăng tiết kiệm và dùng tiền đó để mua công trái  \nc. Tăng tiết kiệm và dùng tiền đó để gửi ngân hàng  \nd. Tất cả các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì người tiết kiệm mong muốn làm tăng thu nhập nhưng kết quả là tăng  tiết kiệm sẽ làm giảm thu nhập. Hơn nữa , khi lượng tiết kiệm tăng thêm của dân chúng  lại được đưa vào đầu tư như : gửi tiết kiệm, mua công trái , gửi ngân hàng sẽ không làm  giảm tổng cầu , không làm giảm sản lượng"
+    },
+    {
+        "id": 101,
+        "question": "Câu 101 : Số nhân tổng cầu là một hệ số  \na. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi một đơn vị  b. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi lượng ban đầu một đơn  vị  \nc. Phản ánh sự thay đổi của tồng cầu khi sản lượng thay đổi một đơn vị  d. Tất cả các câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì : số nhân của tổng cầu là hệ số phản ánh lượng thay đổi của sản  lượng cân bằng quốc gia khi tổng cầu thay đổi trong phần chi tiêu tự định bằng 1 đơn vị"
+    },
+    {
+        "id": 102,
+        "question": "Câu 102 : Tại điểm cân bằng sản lượng  \na. Giá trị hàng tồn kho bằng 0 \nb. Giá trị hàng tồn kho ngoài dự kiến bằng 0 \nc. Tổng cung bằng tổng cầu tại sản lượng tiềm năng \nd. Sản lượng bằng chi tiêu thực tế cảu dân chúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì ở mức cân bằng tổng cung bằng tổng cầu , lúc này thì sản lượng ở  mức quân bình sẽ bằng với mức chi tiêu thực của dân chúng và sẽ nhiều hơn mức sản  lượng tiềm năng"
+    },
+    {
+        "id": 103,
+        "question": "Câu 103 : Nếu sản lượng thực tế thấp hơn sản lượng cân bằng những việc ngoài dự kiến  nào có thể xảy ra. \na. Sản lượng thực tế thấp hơn chi tiêu dự kiến \nb. Hàng tồn khi ngoài dự kiến là số âm  \nc. Sản lượng thực tế sẽ tăng dần \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi Y ( sản lượng thực tế ) < Yd ( sản lượng cân bằng ) có nghĩa là  tổng cầu đang lớn hơn GDP thực do đó người ta chi tiêu thực tế ít hơn so với kế hoạch  dự kiến , Vì thế trên thị trường sẽ khan hiếm hàng hóa --> Doanh nghiệp phải xuất kho  dự trữ , làm giảm tồn kho --> DN tăng sản lượng để bù đắp thiếu hụt"
+    },
+    {
+        "id": 104,
+        "question": "Câu 104 : Trong mô hình số nhân , nếu mọi người gia tăng tiết kiệm thì  a. Sản lượng tăng \nb. Sản lượng giảm \nc. Sản lượng không đổi \nd. Các khả năng có thể xáy ra",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì khi tiết kiệm tăng sẽ giảm thu nhập 🡪 tổng cầu giảm 🡪 sản lượng  giảm"
+    },
+    {
+        "id": 105,
+        "question": "Câu 105 : Khuynh hướng tiêu dùng biên là :  \na. Phần thu nhập khả dụng tăng thêm khi sản lượng tăng thêm 1 đơn vị  b. Phần tiêu dùng giảm khi thu nhập khả dụng giảm 1 đơn vị  \nc. Phần tiêu dùng tăng khi thu nhập khả dụng tăng 1 đơn vị  \nd. Câu b và c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì tiêu dùng biên Cm phản ánh lượng thay đổi của tiêu dùng khi thu nhập  khả dụng thay đổi 1 đơn vị"
+    },
+    {
+        "id": 106,
+        "question": "Câu 106 : Tiết kiệm là  \na. Phần còn lại của thu nhập sau khi tiêu dùng  \nb. Phần còn lại của thu nhập khả dụng sau khi tiêu dùng  \nc. Phần tiền hộ gia đình gửi vào ngân hàng  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì ta biết : Yd = C + S 🡪 S = Yd – C"
+    },
+    {
+        "id": 107,
+        "question": "Câu 107 : Nếu lãi suất tăng thì sản lượng cân bằng trên thị trường hàng hóa sẽ :  a. Tăng \nb. Giảm  \nc. Không thay đổi  \nd. Không thể tiết kiệm",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Lãi suất là thể hiện giá doanh nghiệp phải trả nếu đi vay ngân hàng . Lãi  suất tăng 🡪 các DN sẽ không đi vay hay ít vay dẫn tới đầu tư giảm 🡪 Sản lượng giảm"
+    },
+    {
+        "id": 108,
+        "question": "Câu 108 : Tiêu dùng của các hộ gia đình phụ thuộc chủ yếu vào :  \na. Thu nhập khả dụng  \nb. Thu nhập dự tính  \nc. Lãi suất  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì thu nhập khả dụng là khoản thu nhập còn lại sau khi người dân đã  nộp thuế cho nhà nước"
+    },
+    {
+        "id": 109,
+        "question": "Câu 109 : Khi tiêu dùng biên thep thu nhập khả dụng là 0.6 nghĩa là : a. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ tăng ( giảm) 0,6 đồng  b. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ giảm (tăng) 0,6 đồng c. Khi thu nhập tăng ( giảm ) 0,6 đồng thi thu nhập khả dụng sẽ tăng ( giảm ) 1 đồng  d. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì nó phản ánh lượng thay đổi của tiêu dùng khi thu nhập khả dụng thay  đổi 1 đơn vị"
+    },
+    {
+        "id": 110,
+        "question": "Câu 110 : Chính phủ tăng trợ cấp xã hội 8 tỷ đồng , biết thuế biên theo thu nhập là 0,2  tiêu dùng biên theo thu nhập khả dụng 0,9 đầu tư là hằng số . Hỏi lượng trợ cấp đó đã làm  cho : thâm hụt ngân sách” thay đổi như thế nào ? \na. Tăng 8 tỷ  \nb. Giảm 8 tỷ \nc. Tăng 1,6 tỷ \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi nền kinh tế suy thoái chính phủ áp dụng chính sách tài khóa ngược  chiều tăng chi tiêu trợ cấp xã hội 8 tỷ đồng , nhằm giữ cho nền kinh tế luôn ở mức sản  lượng tiềm năng , đổi lại , ngân sách sẽ bị thâm hụt tăng 8 tỷ"
+    },
+    {
+        "id": 111,
+        "question": "Câu 111 : Khoản chi nào sau đây không phải là chi chuyển nhượng ?  a. Tiền lãi mà chính phủ chi trả cho trái phiếu chính phủ đến hạn \nb. Chi mua vũ khí , đạn dược \nc. Tiền cho học bổng cho sinh viên , học sinh giỏi \nd. Câu a và câu b đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chi chuyển nhượng là các khoản trợ cấp từ chính phủ cho công chúng Vd : Chi trợ cấp người nghèo , thất nghiệp"
+    },
+    {
+        "id": 112,
+        "question": "Câu 112 : Ngân sách chính phủ thặng dư khi :  \na. Thuế lớn hơn chi tiêu của chính phủ cho hàng hóa và dịch vụ \nb. Thuế nhỏ hơn chi tiêu cuả chính phủ \nc. Tổng thu ngân sách nhỏ hơn tổng chi ngân sách \nd. Tổng thu ngân sách lớn hơn tổng chi ngân sách",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Ngân sách chính phủ là tổng các kế hoạch chi tiêu và thu nhập hằng năm  của chính phủ  \nDo đó khi : tổng thu > tổng chi thì ngân sách chính phủ sẽ thặng dư"
+    },
+    {
+        "id": 113,
+        "question": "Câu 113: Xuất phát từ điểm cân bằng gia tăng xuất khẩu sẽ :  \na. Dẫn đến cân bằng thương mại  \nb. Tạo ra tiết kiệm để đầu tư trong nước\nc. Tạo ra đầu tư để thực hiện tiết kiệm \nd. Dẫn đến sự cân bằng sản lượng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Trong nền kinh tế nước ta hiện nay , nhu cầu xuất khẩu chủ yếu phụ thuộc  vào nước ngoài , do đó gia tăng xuất khẩu sẽ tạo ra tiết kiệm để đầu tư trong nước"
+    },
+    {
+        "id": 114,
+        "question": "Câu 114 : Khi nền kinh tế có mức sản lượng thực tế Yt thấp hơn sản lượng tiềm năng Yp  , để điều tiết nền kinh tế , chính phủ nên :  \na. Tăng chi ngân sách và tăng thuế \nb. Tăng chi ngân sách va giảm thuế \nc. Giảm chi ngân sách và tăng thuế \nd. Giảm chi ngân sách và giảm thuế",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế có mức sản lượng Yt < Yp , để kích thích tổng cầu tăng lên  , làm tăng sản lượng quốc gia , chính phủ cần tăng thâm hụt ngân sách bằng cách tăng chi  tiêu và giảm thuế"
+    },
+    {
+        "id": 115,
+        "question": "Câu 115 : Những nhân tố ổn định tự động của nền kinh tế là : \na. Tỷ giá hối đoái \nb. Lãi suất và sản lượng cung ứng \nc. Thuế thu nhập lũy tiền và trợ cấp thất nghiệp \nd. Thuế thu nhập và trợ cấp",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Thuế thu nhập lũy tiền là thuế thu nhập cá nhân và lợi nhuận của DN . Khi  thu nhập quốc dân tăng lên , số thu về thuế tăng theo , và ngược lại khi thu nhập giảm ,  thuế giảm ngay \nKhi người lao động bị mất việc họ sẽ được nhận 1 khoản trợ cấp từ bảo hiểm , và khi họ  có việc làm thì sẽ bị cắt trợ cấp này đi. Như vậy tiền sẽ được bơm vào và rút ra khỏi nền  kinh tế  \n Do đó góp phần vào ổn định nền kinh tế"
+    },
+    {
+        "id": 116,
+        "question": "Câu 116 : Điểm khác nhau giữa số nhân của thuế và số nhân trợ cấp là :  a. Số nhân của thuế luôn luôn nhỏ hơn số nhân của trợ cấp \nb. Số nhân của thuế thì âm , số nhân của trợ cấp thì dương  \nc. Số nhân của thuế thì dương , số nhân của trợ cấp thì âm  \nd. Không có câu nào đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Các số nhân về thuế và chi tiêu có dấu ngược nhau . Số nhân về thuế  mang dấu âm (-) hàm ý thuế có tác dụng ngược chiều với thu nhập và sản lượng . Khi  thuế tăng lên , thu nhập và sản lượng giảm đi.Và ngược lại , chính phủ giảm thuế , thu  nhập và sản lượng tăng lên"
+    },
+    {
+        "id": 117,
+        "question": "Câu 117 : Nếu cán cân thương mại thặng dư , khi đó :  \na. Giá trị hàng hóa nhập khẩu lớn hơn xuất khẩu \nb. Giá trị hàng hóa xuất khẩu lớn hơn nhập khẩu  \nc. Giá trị hàng hóa xuất khẩu và nhập khẩu thay đổi  \nd. Giá trị hàng hóa xuất khẩu và nhập khẩu bằng nhau và thay đổi như nhau",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Giá trị hàng hóa xuất khẩu – giá trị hàng hóa nhập khẩu = xuất khẩu ròng (  cán cân thương mại )  \nKhi xuất khẩu lớn hơn nhập khẩu , nền kinh tế có thặng dư cán cân thương mại  Khi nhập khẩu vượt xuất khấu , nền kinh tế bị thâm hụt cán cân thương mại"
+    },
+    {
+        "id": 118,
+        "question": "Câu 118 : Cắt giảm các khoản chi ngân sách của chính phủ là 1 trong những biện pháp  để :  \na. Giảm tỷ lệ thấp nghiệp \nb. Hạn chế lạm phát  \nc. Tăng đầu tư cho giáo dục \nd. Giảm thuế",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi chính phủ cẳt giảm các khoản chi ngân sách nhờ đó mức chi tiêu  chung giảm đi , sản lượng giảm theo và lạm phát sẽ chừng lại"
+    },
+    {
+        "id": 119,
+        "question": "Câu 119 : Chính sách tài khóa là 1 công cụ điều hành kinh tế vĩ mô vì :  a. Việc điều chỉnh lượng phát hành tín phiếu kho bạc và lãi suất có vai trò quan  trọng trong việc ổn định kinh tế \nb. Sự thay đổi lượng cung tiền sẽ tác động đến lãi suất , đầu tư và mức dân dụng c. Sự thay đổi thuế và chi tiêu ngân sách của chính phủ có tác động đến mức giá ,  mức sản lượng và mức nhân dụng  \nd. Sự thay đổi lãi suất tín phiếu kho bạc có tác động đến mức huy động vốn tài trợ  cho bội chi ngân sách của chính phủ",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Chính sách tài khóa là việc chính phủ sử dụng thuế khóa và chi tiêu công  cộng để điều tiết mức chi tiêu chung của nền kinh tế ."
+    },
+    {
+        "id": 120,
+        "question": "Câu 120 : Nếu tỷ giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa có nghĩa là :  a. Nội tệ được đánh giá quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới cao  \nb. Nội tệ được đánh quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới thấp  \nc. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước cao  d. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước thấp",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa làm cho hàng  hóa trong nước trở lên rẻ hơn khi tính ra nội tệ và hàng hóa nước ngoài trở nên đắt hơn  khi tính theo nội tệ nên làm tăng sức cạnh tranh của hàng hóa trong nước"
+    },
+    {
+        "id": 121,
+        "question": "Câu 121 : Định nghĩa truyền thống của kinh tế học là :  \na. Vấn đề hiệu quả rất được quan tâm \nb. Tiêu thụ là vấn đề đầu tiên của hoạt động kinh tế  \nc. Những nhu cầu không thể thỏa mãn đầy đủ  \nd. Tất cả các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Theo định nghĩa : kinh tế học là môn học khoa học xã hội nghiên cứu cách  thức sử dụng nguồn tài nguyên có giới hạn để sản xuất của cải vật chất để phục vụ cho  nhu cầu vô hạn của con người"
+    },
+    {
+        "id": 122,
+        "question": "Câu 122 : Sản lượng tiềm năng là mức sản lượng  \na. Tương ứng với tỷ lệ thất nghiệp tự nhiên  \nb. Cao nhất của một quốc gia mà không đưa nền kinh tế vào tình trạng lạm phát cao c. Cao nhất của một quốc gia đạt được \nd. Câu (a) và (b) đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Độ lệch giữa sản lượng thực tế và sản lượng tiềm năng càng lớn thì hai  thái cưc lạm phát cao và thất nghiệp nhiều càng xảy ra nghiêm trọng . Vì vậy , mục tiêu  ổn định là làm cho sản lượng thực tế được duy trì ở một mức nào đó mà giá cả không lên  quá cao , không có hiện tượng tăng dốc , đồng thời thất nghiệp cũng không tăng quá  nhiều  \nMức sản lượng đó chính là mức sản lượng tiềm năng"
+    },
+    {
+        "id": 123,
+        "question": "Câu 123 : GDP thực và GDP danh nghĩa của năm hiện hành bằng nhau nếu  a. Tỷ lệ lạm phát năm hiện hành bằng tỷ lệ lạm phát của năm trước b. Chỉ số giá năm hiện hành bằng chỉ số giá năm trước  \nc. Tỷ lệ lạm phát năm hiện hành bằng tỷ lệ năm gốc  \nd. Chỉ số giá năm hiện hành bằng chỉ số giá năm gốc",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Ta có : GDP thực ( GDPr) = GDPdanhnghia(GDPn) \nHệ số lạm phát (D%) \nMà D% phản ánh mức trượt giá của mặt bằng ở năm hiện hành so với kỳ gốc . Do đó ,  khi chỉ số giá năm hiện hành bằng chỉ số giá năm gốc thì D% = 1  \nLúc đó : GDPthực = GDPdanh nghĩa của năm hiện hành"
+    },
+    {
+        "id": 124,
+        "question": "Câu 124 : Thu nhập ròng từ nước ngoài là hiệu số giữa :  \na. Xuất khẩu và nhập khẩu  \nb. Thu nhập của người nước ngoài trừ thu nhập của người trong nước  c. Thu nhập từ các yếu tố sản xuất đầu tư ở nước ngoài trừ thu nhập từ các yếu tố  sản xuất của người nước ngoài đầu tư ở trong nước  \nd. a và c đúng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Ta có : NIA = C – B \nB là giá trị do công nhân nước khác tạo ra trên lãnh thổ ( thu nhập do nhập khấu các yếu  tố sản xuất )  \nC là giá trị do công nhân một nước tạo ra trên lãnh thổ nước khác ( thu nhập do xuất khấu  các yếu tố sản xuất) \nVới NIA ( Net income Abroad ) : thu nhập ròng từ nước ngoài , là hiệu số của thu nhập  do xuất khẩu yếu tố sản xuất"
+    },
+    {
+        "id": 125,
+        "question": "Câu 125 : Nếu chính phủ tăng chi tiêu đầu tư vào các công trình công cộng bằng toàn bộ  nguồn tiền bán trái phiếu của chính phủ trên thị trường : Kết quả là  a. Sản lượng và lãi suất đều tăng \nb. Sản lượng tăng , lãi suất không đổi  \nc. Sản lượng giảm , lãi suất giảm \nd. Sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng  tăng , nên lượng cầu và tiền gia tăng , với lượng cung tiền cố định , nên lãi suất phải tăng  để giảm bớt lượng cầu"
+    },
+    {
+        "id": 126,
+        "question": "Câu 126 : Khi NHTW tăng lượng cung tiền và chính phủ tăng thuế : a. Sản lượng tăng , lãi suất giảm , đầu tư tư nhân tăng \nb. Sản lượng tăng , lãi suất tăng , đầu tư ngân hàng giảm \nc. Sản lượng giảm , lãi suất tăng , đầu tư tư nhân giảm \nd. Sản lượng giảm , lãi suất giảm , đầu tư tư nhân giảm",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi tăng lượng cung tiền thì lãi suất giảm , nhưng do tăng thuế nên đầu  tư tư nhân giảm dẫn đến sản lượng sẽ giảm"
+    },
+    {
+        "id": 127,
+        "question": "Câu 127 : Nếu tỷ giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa có nghĩa là :  a. Nội tệ được đánh giá quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới cao  \nb. Nội tệ được đánh quá cao , sức cạnh tranh của hàng hóa trong nước trên thị  trường thế giới thấp  \nc. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước cao  d. Nội tệ được đánh giá thấp , sức cạnh tranh của hàng hóa trong nước thấp ",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì giá hối đoái thực tế cao hơn tỷ giá hối đoái danh nghĩa làm cho hàng  hóa trong nước trở lên rẻ hơn khi tính ra nội tệ và hàng hóa nước ngoài trở nên đắt hơn  khi tính theo nội tệ nên làm tăng sức cạnh tranh của hàng hóa trong nước"
+    },
+    {
+        "id": 128,
+        "question": "* Giả thiết sau cho câu 128 và câu 129 \nKinh tế đống , giả sử giá cả , lãi suất , tỷ giá hối đoái không đổi , ta có các hàm dự kiến  sau :  \nC = 200 + 0,8Yd I = 150 – 40i \nG = 700 T = 100 + 0,2Y \nSM= 1500 DM= 800 + 0,3Y – 35i. Câu 128 : Phương trình đường Í và LM sẽ là :  \na. IS : i = -20 + 0,0086Y \nLM : Y = 2695 – 111i\nb. IS : Y = 2695 – 111i \nLM : i = - 20 +0,0086Y \nc. IS : i = 300 – 0,32Y \nLM : Y = 29 + 120i  \nd. Số khác",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : * Y = C + G + I \nC = 200 + 0,8Yd \n= 200 + 0,8 ( Y – T )  \n= 200 + 0,8 ( Y – 100 – 0,2Y) \n= 200 + 0,64Y – 80  \n= 120 + 0,64Y  \nY = 120 + 0,64Y + 700 + 150 – 40i  \n= 970 + 0,64Y – 40i  \n Y’ = 2695 – 111i  \nVới : SM= M  \n* i = ( M – D0)/Dmi – (DmY/ Dmi).Y \nVới : DM= D0 + Dmii + DmY Y \ni = ( 1500 – 800)/(-35) – ( 0,3 / -35)Y  \n i = -20 + 0,0086Y"
+    },
+    {
+        "id": 129,
+        "question": "* Giả thiết sau cho câu 128 và câu 129 \nKinh tế đống , giả sử giá cả , lãi suất , tỷ giá hối đoái không đổi , ta có các hàm dự kiến  sau :  \nC = 200 + 0,8Yd I = 150 – 40i \nG = 700 T = 100 + 0,2Y \nSM= 1500 DM= 800 + 0,3Y – 35i. Câu 129 : Thị trường hàng hóa và tiền tệ sẽ cân bằng tại mức sản lượng và lãi suất a. Y = 2514 tỷ và i = 1,62%  \nb. Y = 914 tỷ và i = 7,37%  \nc. Y = 243 tỷ và i = 2,2% \nd. Số khác",
+        "answer_explanation": "Đáp án: a\nGiải thích: Ta có : SM= DM \n1500 = 800 + 0,3Y – 35i  \n35i = 0,3Y – 700 \ni = -20 + 0,0086Y  \n Y = 2695 – 111 ( -20 + 0,0086Y)  \nY + 0,955Y = 4915 \n 2514 \nThế Y = 2514 vào i = -20 + 0,0086Y \n i = -20 + 0,0086 x 2514 = 1,62"
+    },
+    {
+        "id": 130,
+        "question": "Câu 130 : Để thực hiện kích cầu , chính sách nào sau đây hiệu quả nhất : a. Chính phủ tăng chi , giảm thu , NHTW tăng dự trữ bắt buộc đối với HTM  b. Chính phủ tăng chi , giảm thu , NHTW mua chứng khoán chính phủ trên thị  trường mở \nc. Chính phủ tăng chi , giảm thu , NHTW giảm lãi suất chiết khấu đối với NHTM d. Chính phủ tăng chi , giảm thi , NHTW bán chứng khoán chính phủ trên thị trường  mở",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Để kích cầu chính phủ phải đưa tiền ra thị trường nên chính phủ phải tăng  chi tiêu , giảm thu và NHTW mua chứng khoán chính phủ trên thị trường"
+    },
+    {
+        "id": 131,
+        "question": "Câu 131 : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi :  \na. Sự cân bằng trên thị trường tiền tệ , nhưng tổng cầu cung phải vượt quá để khỏi  thiếu hụt hàng hóa \nb. Tổng thu nhập phải bằng với tổng chi tiêu , nhưng cầu tiền phải vượt qua để tránh  lạm phát \nc. Sự cân bằng độc lập của cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ  \nd. Sự cân bằng đồng thời có ở cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi sự cân bằng đồng  thời cả hai thị trường : tiền tệ và thị trường hàng hóa – dịch vụ"
+    },
+    {
+        "id": 132,
+        "question": "Câu 132 : Ý nghĩa thành lập đường LM là để phản ảnh sự tác động của : a. Lãi suất vào mức sản lượng cân bằng trên thị trường tiền tệ  \nb. Lãi suất vào mức sản lượng cân bằng trên thị trường hàng hóa \nc. Sản lượng vào mức lãi suất cân bằng thị trường tiền tệ \nd. Sản lượng vào mức lãi suất cân bằng trên thị trường hàng hóa",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Khi sản lượng tăng , giảm sẽ tác động đến cầu tiền , nên lãi suất sẽ thay  đổi"
+    },
+    {
+        "id": 133,
+        "question": "Câu 133: Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM , để đạt sự  cân bằng chung :  \na. Sản lượng sẽ tăng và lãi suất giảm  \nb. Sản lượng sẽ tăng và lãi suất tăng  \nc. Sản lượng sẽ giảm và lãi suất giảm \nd. Sản lượng sẽ giảm và lãi suất tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM để đạt  được sự cân bằng chu thì sản lượng sẽ tăng và lãi suất tăng"
+    },
+    {
+        "id": 134,
+        "question": "Câu 134 : Khi NHTW tăng lượng cung tiền và chính phủ tăng chi tiêu : a. Sản lượng tăng , lãi suất có thể giảm , hoặc tăng hoặc không đổi  b. Sản lượng có thể giảm , hoặc tăng hoặc không đổi , lãi suất tăng , đầu tư tư nhân  giảm \nc. Sản lượng tăng , lãi suất tăng , đầu tư tư nhân giảm vì chính sách tài khóa luôn tác  động mạnh hơn chính sách tiền tệ  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu các doanh nghiệp bán được hàng nên tăng sản  xuất từ đó tăng cầu tiền , tăng lãi suất nhưng khi NHTW tăng cung tiền thì lãi suất có thể  tăng hoặc giảm hoặc không đổi tùy vào lượng cung tiền"
+    },
+    {
+        "id": 135,
+        "question": "Câu 135 : Giả sử do dự kiến về tương lai tốt đẹp nên tiêu dùng của dân chúng gia tăng  khi đó :\na. IS dịch sang phải , sản lượng tăng , lãi suất tăng  \nb. IS dịch sang trái , sản lượng giảm , lãi suất giảm  \nc. LM dịch sang phải , sản lượng tăng , lãi suất giảm  \nd. LM dịch sang trái , sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì khi tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng tăng , nên  lượng cung về tiền gia tăng mà nếu lượng cung tiền ổn định thì lãi suất phải tăng"
+    },
+    {
+        "id": 136,
+        "question": "Câu 136: Khi nền kinh tế nằm phía phải của đường LM : \na. Thị trường hàng hóa có cầu vượt quá , thị trường tiền tệ có cung vượt quá  b. Thị trường hàng hóa và thị trường tiền tệ đều có cầu vượt quá \nc. Thị trường hàng hóa có cung vượt quá , thi trường tiền tệ có cầu vượt quá  d. Thi trường hàng hóa và thị trường tiền tệ đều có cung vượt quá",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì khi LM nằm bên phải là lượng cung tiền tăng lên , lãi suất giảm kích  thích nhà đầu tư tăng , tổng cầu tăng , sản lượng cân bằng tăng , tăng cầu tiền ."
+    },
+    {
+        "id": 137,
+        "question": "Câu 137 : Điểm cân bằng trong mô hình IS – LM thể hiện :  \na. Tổng thu nhập bằng với tổng chi \nb. Cung tiền và cầu tiền bằng nhau  \nc. a hoặc b  \nd. a và b",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì chính phủ đưa phối hợp chính sách tài khóa và chính sách tiền tệ để  giải quyết các vấn đề về kinh tế và đưa nền kinh tế ổn định nên điểm gặp nhau của IS – LM tổng thu nhập bằng với tổng chi , cung tiền bằng cầu tiền tại đó không có biến động  về tiền"
+    },
+    {
+        "id": 138,
+        "question": "Câu 138 : Trên đường LM :  \na. Sản lượng luôn cân bằng , lãi suất có thể cân bằng , có thể không  b. Lãi suất luôn cân bằng , sản lượng có thể cân bằng , có thể không  c. Sản lượng cân bằng và lãi suất cân bằng  \nd. Sản lượng và lãi suất đều không cân bằng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì theo khái niệm đường LM là tập hợp các tổ hợp khác nhau giữa sản  lượng và lãi suất mà tại đó thị trường tiền tệ cân bằng"
+    },
+    {
+        "id": 139,
+        "question": "Câu 139 : Đường IS dốc xuống thể hiện :  \na. Mối quan hệ nghịch biến giữa lãi suất và sản lượng cân bằng  \nb. Mối quan hệ nghịch biến giữa sản lượng và lãi suất cân bằng  \nc. Mối quan hệ nghịch biếm giữa sản lượng và lãi suất \nd. Mối quan hệ nghịch biến giữa sản lượng cân bằng và lãi suất cân bằng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Đường IS dốc xuống biểu thị lãi suất cao hơn sẽ kéo theo sản lượng cân  bằng thấp hơn"
+    },
+    {
+        "id": 140,
+        "question": "Câu 140 : Trong mô hình IS – LM , khi chính phủ tăng chi tiêu đầu tư và NHTW tăng lãi  suất chiết khấu  \na. Lãi suất tăng , sản lượng giảm \nb. Lãi suất giảm , sản lượng tăng \nc. Sản lượng tăng , lãi suất không thể xác định rõ vì còn tùy \nd. Lãi suất tăng , sản lượng không thể xác định rõ vì còn tùy",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi NHTW tăng chiết khấu lên thì lãi suất sẽ tăng , còn về sản lượng  còn tùy thuộc vào chi tiêu của chính phủ ."
+    },
+    {
+        "id": 141,
+        "question": "Câu 141 : Đường LM dốc lên thể hiện  \na. Khi sản lượng tăng thì lãi suất tăng  \nb. Khi lãi suất tăng thì sản lượng tăng \nc. Khi sản lượng tăng thì lãi suất cân bằng tăng  \nd. Khi lãi suất tăng thì sản lượng cân bằng tăng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Đường LM dốc lên thể hiện khi sản lượng cao hơn sẽ đòi hỏi lượng cầu  tiền cao hơn , để giảm bớt cầu tiền , lãi suất cân bằng trên thị trường tiền tệ sẽ tăng"
+    },
+    {
+        "id": 142,
+        "question": "Câu 142 : Số nhân tổng cầu là một hệ số  \na. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi một đơn vị  b. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi lượng ban đầu một đơn  vị  \nc. Phản ánh sự thay đổi của tồng cầu khi sản lượng thay đổi một đơn vị  d. Tất cả các câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì : số nhân của tổng cầu là hệ số phản ánh lượng thay đổi của sản  lượng cân bằng quốc gia khi tổng cầu thay đổi trong phần chi tiêu tự định bằng 1 đơn vị"
+    },
+    {
+        "id": 143,
+        "question": "Câu 143 : Nếu sản lượng thực tế thấp hơn sản lượng cân bằng những việc ngoài dự kiến  nào có thể xảy ra. \na. Sản lượng thực tế thấp hơn chi tiêu dự kiến \nb. Hàng tồn khi ngoài dự kiến là số âm  \nc. Sản lượng thực tế sẽ tăng dần\nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì khi Y ( sản lượng thực tế ) < Yd ( sản lượng cân bằng ) có nghĩa là  tổng cầu đang lớn hơn GDP thực do đó người ta chi tiêu thực tế ít hơn so với kế hoạch  dự kiến , Vì thế trên thị trường sẽ khan hiếm hàng hóa --> Doanh nghiệp phải xuất kho  dự trữ , làm giảm tồn kho --> DN tăng sản lượng để bù đắp thiếu hụt"
+    },
+    {
+        "id": 144,
+        "question": "Câu 144 : Tại điểm cân bằng sản lượng  \na. Giá trị hàng tồn kho bằng 0 \nb. Giá trị hàng tồn kho ngoài dự kiến bằng 0 \nc. Tổng cung bằng tổng cầu tại sản lượng tiềm năng \nd. Sản lượng bằng chi tiêu thực tế cảu dân chúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì ở mức cân bằng tổng cung bằng tổng cầu , lúc này thì sản lượng ở  mức quân bình sẽ bằng với mức chi tiêu thực của dân chúng và sẽ nhiều hơn mức sản  lượng tiềm năng"
+    },
+    {
+        "id": 145,
+        "question": "Câu 145 : Trong mô hình số nhân , nếu mọi người gia tăng tiết kiệm thì  a. Sản lượng tăng \nb. Sản lượng giảm \nc. Sản lượng không đổi  \nd. Các khả năng có thể xáy ra",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì khi tiết kiệm tăng sẽ giảm thu nhập 🡪 tổng cầu giảm 🡪 sản lượng  giảm"
+    },
+    {
+        "id": 146,
+        "question": "Câu 146 : Tiết kiệm là  \na. Phần còn lại của thu nhập sau khi tiêu dùng  \nb. Phần còn lại của thu nhập khả dụng sau khi tiêu dùng  \nc. Phần tiền hộ gia đình gửi vào ngân hàng  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì ta biết : Yd = C + S 🡪 S = Yd – C"
+    },
+    {
+        "id": 147,
+        "question": "Câu 147: Khuynh hướng tiêu dùng biên là :  \na. Phần thu nhập khả dụng tăng thêm khi sản lượng tăng thêm 1 đơn vị  b. Phần tiêu dùng giảm khi thu nhập khả dụng giảm 1 đơn vị  \nc. Phần tiêu dùng tăng khi thu nhập khả dụng tăng 1 đơn vị  \nd. Câu b và c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì tiêu dùng biên Cm phản ánh lượng thay đổi của tiêu dùng khi thu nhập  khả dụng thay đổi 1 đơn vị"
+    },
+    {
+        "id": 148,
+        "question": "Câu 148 : Nếu lãi suất tăng thì sản lượng cân bằng trên thị trường hàng hóa sẽ :  a. Tăng \nb. Giảm  \nc. Không thay đổi  \nd. Không thể tiết kiệm",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Lãi suất là thể hiện giá doanh nghiệp phải trả nếu đi vay ngân hàng . Lãi  suất tăng 🡪 các DN sẽ không đi vay hay ít vay dẫn tới đầu tư giảm 🡪 Sản lượng giảm"
+    },
+    {
+        "id": 149,
+        "question": "Câu 149 : Khi tiêu dùng biên thep thu nhập khả dụng là 0.6 nghĩa là : a. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ tăng ( giảm) 0,6 đồng  b. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ giảm (tăng) 0,6 đồng c. Khi thu nhập tăng ( giảm ) 0,6 đồng thi thu nhập khả dụng sẽ tăng ( giảm ) 1 đồng  d. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì nó phản ánh lượng thay đổi của tiêu dùng khi thu nhập khả dụng thay  đổi 1 đơn vị"
+    },
+    {
+        "id": 150,
+        "question": "Câu 150 : Tiêu dùng của các hộ gia đình phụ thuộc chủ yếu vào :  \na. Thu nhập khả dụng  \nb. Thu nhập dự tính  \nc. Lãi suất  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì thu nhập khả dụng là khoản thu nhập còn lại sau khi người dân đã nộp  thuế cho nhà nước"
+    },
+    {
+        "id": 151,
+        "question": "Câu 151 : Chính phủ tăng trợ cấp xã hội 8 tỷ đồng , biết thuế biên theo thu nhập là 0,2  tiêu dùng biên theo thu nhập khả dụng 0,9 đầu tư là hằng số . Hỏi lượng trợ cấp đó đã làm  cho : thâm hụt ngân sách” thay đổi như thế nào ? \na. Tăng 8 tỷ  \nb. Giảm 8 tỷ \nc. Tăng 1,6 tỷ \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi nền kinh tế suy thoái chính phủ áp dụng chính sách tài khóa ngược  chiều tăng chi tiêu trợ cấp xã hội 8 tỷ đồng , nhằm giữ cho nền kinh tế luôn ở mức sản  lượng tiềm năng , đổi lại , ngân sách sẽ bị thâm hụt tăng 8 tỷ"
+    },
+    {
+        "id": 152,
+        "question": "Câu 152: Xuất phát từ điểm cân bằng gia tăng xuất khẩu sẽ :  \na. Dẫn đến cân bằng thương mại  \nb. Tạo ra tiết kiệm để đầu tư trong nước\nc. Tạo ra đầu tư để thực hiện tiết kiệm \nd. Dẫn đến sự cân bằng sản lượng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Trong nền kinh tế nước ta hiện nay , nhu cầu xuất khẩu chủ yếu phụ thuộc  vào nước ngoài , do đó gia tăng xuất khẩu sẽ tạo ra tiết kiệm để đầu tư trong nước"
+    },
+    {
+        "id": 153,
+        "question": "Câu 153 : Khoản chi nào sau đây không phải là chi chuyển nhượng ?  a. Tiền lãi mà chính phủ chi trả cho trái phiếu chính phủ đến hạn \nb. Chi mua vũ khí , đạn dược \nc. Tiền cho học bổng cho sinh viên , học sinh giỏi \nd. Câu a và câu b đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chi chuyển nhượng là các khoản trợ cấp từ chính phủ cho công chúng Vd : Chi trợ cấp người nghèo , thất nghiệp"
+    },
+    {
+        "id": 154,
+        "question": "Câu 154 : Trong cơ chế tỷ giá thả nổi hoàn toàn , tỷ giá sẽ … \na Thay đổi tùy theo diễn tiến trên thị trường ngoại hối  \nb Không thay đổi , bất luận diễn tiến trên thị trường ngoại hối  \nc Tăng khi cung ngoại tệ tăng  \nd Giảm khi cầu ngoại tệ tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Không có sự can thiệp của Chính phủ đến thị trường ngoại hối . Dự trữ  ngoại hối giữ nguyên . Tỷ giá sẽ điều chỉnh để cân bằng giữa cung đồng nội tệ trên thị  trường ngoại hối ."
+    },
+    {
+        "id": 155,
+        "question": "Câu 155 : Ngân sách chính phủ thặng dư khi :  \na. Thuế lớn hơn chi tiêu của chính phủ cho hàng hóa và dịch vụ \nb. Thuế nhỏ hơn chi tiêu cuả chính phủ \nc. Tổng thu ngân sách nhỏ hơn tổng chi ngân sách \nd. Tổng thu ngân sách lớn hơn tổng chi ngân sách",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Ngân sách chính phủ là tổng các kế hoạch chi tiêu và thu nhập hằng năm  của chính phủ  \nDo đó khi : tổng thu > tổng chi thì ngân sách chính phủ sẽ thặng dư"
+    },
+    {
+        "id": 156,
+        "question": "Câu 156 : Khi nền kinh tế có mức sản lượng thực tế Yt thấp hơn sản lượng tiềm năng Yp  , để điều tiết nền kinh tế , chính phủ nên :  \na. Tăng chi ngân sách và tăng thuế \nb. Tăng chi ngân sách va giảm thuế \nc. Giảm chi ngân sách và tăng thuế \nd. Giảm chi ngân sách và giảm thuế",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế có mức sản lượng Yt < Yp , để kích thích tổng cầu tăng lên  , làm tăng sản lượng quốc gia , chính phủ cần tăng thâm hụt ngân sách bằng cách tăng chi  tiêu và giảm thuế"
+    },
+    {
+        "id": 157,
+        "question": "Câu 157 : Điểm khác nhau giữa số nhân của thuế và số nhân trợ cấp là :  a.Số nhân của thuế luôn luôn nhỏ hơn số nhân của trợ cấp \nb. Số nhân của thuế thì âm , số nhân của trợ cấp thì dương  \nc. Số nhân của thuế thì dương , số nhân của trợ cấp thì âm  \nd. Không có câu nào đúng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Các số nhân về thuế và chi tiêu có dấu ngược nhau . Số nhân về thuế  mang dấu âm (-) hàm ý thuế có tác dụng ngược chiều với thu nhập và sản lượng . Khi \nthuế tăng lên , thu nhập và sản lượng giảm đi.Và ngược lại , chính phủ giảm thuế , thu  nhập và sản lượng tăng lên"
+    },
+    {
+        "id": 158,
+        "question": "Câu 158 : Những nhân tố ổn định tự động của nền kinh tế là : \na. Tỷ giá hối đoái \nb. Lãi suất và sản lượng cung ứng \nc. Thuế thu nhập lũy tiền và trợ cấp thất nghiệp \nd. Thuế thu nhập và trợ cấp",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Thuế thu nhập lũy tiền là thuế thu nhập cá nhân và lợi nhuận của DN . Khi  thu nhập quốc dân tăng lên , số thu về thuế tăng theo , và ngược lại khi thu nhập giảm ,  thuế giảm ngay \nKhi người lao động bị mất việc họ sẽ được nhận 1 khoản trợ cấp từ bảo hiểm , và khi họ  có việc làm thì sẽ bị cắt trợ cấp này đi. Như vậy tiền sẽ được bơm vào và rút ra khỏi nền  kinh tế  \n Do đó góp phần vào ổn định nền kinh tế"
+    },
+    {
+        "id": 159,
+        "question": "Câu 159 : Chính sách tài khóa là 1 công cụ điều hành kinh tế vĩ mô vì :  a. Việc điều chỉnh lượng phát hành tín phiếu kho bạc và lãi suất có vai trò quan  trọng trong việc ổn định kinh tế \nb. Sự thay đổi lượng cung tiền sẽ tác động đến lãi suất , đầu tư và mức dân dụng c. Sự thay đổi thuế và chi tiêu ngân sách của chính phủ có tác động đến mức giá ,  mức sản lượng và mức nhân dụng  \nd. Sự thay đổi lãi suất tín phiếu kho bạc có tác động đến mức huy động vốn tài trợ  cho bội chi ngân sách của chính phủ",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Chính sách tài khóa là việc chính phủ sử dụng thuế khóa và chi tiêu công  cộng để điều tiết mức chi tiêu chung của nền kinh tế ."
+    },
+    {
+        "id": 160,
+        "question": "Câu 160 : Nếu cán cân thương mại thặng dư , khi đó :  \na. Giá trị hàng hóa nhập khẩu lớn hơn xuất khẩu \nb. Giá trị hàng hóa xuất khẩu lớn hơn nhập khẩu  \nc. Giá trị hàng hóa xuất khẩu và nhập khẩu thay đổi  \nd. Giá trị hàng hóa xuất khẩu và nhập khẩu bằng nhau và thay đổi như nhau",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Giá trị hàng hóa xuất khẩu – giá trị hàng hóa nhập khẩu = xuất khẩu ròng (  cán cân thương mại )  \nKhi xuất khẩu lớn hơn nhập khẩu , nền kinh tế có thặng dư cán cân thương mại  Khi nhập khẩu vượt xuất khấu , nền kinh tế bị thâm hụt cán cân thương mại"
+    },
+    {
+        "id": 161,
+        "question": "Câu 161 : Phát biểu nào sau đây không đúng .  \na. Lạm phát là tình trạng mà mức giá chung trong nền kinh tế tăng lên cao trong một  khoảng thời gian nào đó  \nb. Thất nghiệp là tình trạng mà những người trong độ tuổi lao động , có đăng ký tìm  việc nhưng chưa có việc làm hoặc chờ được gọi đi làm việc  \nc. Sản lượng tiềm năng là mức sản lượng thực cao nhất mà một quốc gia đạt được  d. Tổng cầu dịch chuyển là do chịu tác động của các nhân tố ngoài mức giá chung  trong nền kinh tế",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Sản lượng tiềm năng chưa phải là mức sản lượng cao nhất mà nền kinh tế  có thể đạt được . Trong thực tế , vào những thời kỳ hưng thịnh các doanh nghiệp có xu  hướng tuyển mộ công nhân ráo riết hơn , kích thích công nhân tăng giờ làm việc. Kết quả  là sản lượng thực tế cao hơn sản lượng tiềm năng ( và thất nghiệp thực tế thấp hơn tỉ lệ  thất nghiệp tư nhiên ) . Tuy nhiên , lúc đó vì phải trả thù lao cho lao động cao hơn trước  nên chi phí sản xuất gia tăng , thúc đẩy tăng giá . Giá tăng lại xuất hiện yêu cầu tăng  lương. Lương tăng lại tiếp tục làm tăng chi phí , đẩy mức giá lên cao hơn nữa . Nền kinh  tế lâm vào tình trạng lạm phát cao."
+    },
+    {
+        "id": 162,
+        "question": "Câu 162 : Mục tiêu ổn định của kinh tế vĩ mô là điều chỉnh tỷ lệ lạm phát và thất nghiệp  ở mức thấp nhất .  \na. Đúng \nb. Sai",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Mục tiêu ổn định là hạn chế chu kì kinh doanh , tránh lạm phát cao và thất  nghiệp nhiều . Nếu điều chỉnh lạm phát ở mức thấp nhất dẫn đến chỉ số giá cao ( đến mức  cực điểm sẽ gây thiệt hại cho người tiêu dùng …)"
+    },
+    {
+        "id": 163,
+        "question": "Câu 163 : Những yếu tố nào sau đây có ảnh hưởng đến tổng cung dài hạn :  a. Thu nhập quốc gia tăng  \nb. Xuất khẩu tăng  \nc. Tiền lương tăng  \nd. Đổi mới công nghệ",
+        "answer_explanation": "Đáp án: d\nGiải thích: Vì đầu tư có ảnh hưởng đến tổng cung trong dài hạn . Đầu tư có nghĩa là đổi  mới công nghệ , thay thế công nghệ cũ lỗi thời bằng công nghệ tiên tiến => tạo ra nhiều  sản phẩm => tổng cung"
+    },
+    {
+        "id": 164,
+        "question": "Câu 164 : Thu nhập khả dụng là khoản thu nhập : \na. Cuối cùng mà hộ gia đình có quyền sử dụng \nb. Còn lại sau khi hộ gia đình đã chi tiêu tiêu dùng \nc. Còn lại sau khi chính phủ đã thu thuế \nd. Cuối cùng sau khi đã đóng góp các quỹ an sinh xã hội",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Theo định nghĩa thu nhập khả dụng ( hay thu nhập cá nhân có quyền sử  dụng ) là khoản thu nhập thực sự mà các hộ gia đình có toàn quyền quyết định trong việc  chi tiêu , tức là khoản thu nhập còn lại sau khi các cá nhân , người tiêu dùng đã nhận các  khoản chi chuyển nhượng từ chính phủ và đã nộp các khoản thuế \nYd – PI – Td"
+    },
+    {
+        "id": 165,
+        "question": "Câu 165 : Trong các thể loại thuế sau đây , loại nào không phải là thuế trực thu :  a. Thuế thu nhập doanh nghiệp \nb. Thuế thu nhập cá nhân  \nc. Thuế giá trị gia tăng \nd. a , b và c đúng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Thuế GTGT không phải là thuế trực thu mà là thuế gián thu vì đây là loại  thuế gián tiếp đánh vào thu nhập xã hội thông qua giá cả hàng hóa , người nộp thuế là các  doanh nghiệp sản xuất kinh doanh nhưng người chịu thuế là người tiêu dùng cuối cùng."
+    },
+    {
+        "id": 166,
+        "question": "Câu 166 : Khi tính GDP ta loại bỏ sản phẩm trung gian vì :  \na. Đó là sản phẩm mua ngoài \nb. Đó là những sản phẩm dở dang \nc. Nếu không loại bỏ sẽ bị tính trùng \nd. Đó là những sản phẩm sẽ được chuyển dần giá trị vào GDP nên không cần tính",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : GDP chỉ giá trị hàng hóa và dich vụ cuối cùng không tính giá trị hàng hóa  và dịch vụ trung gian để tránh hiện tượng tính trùng trong nền kinh tế. Vì giá trị hàng hóa  của dịch vụ trung gian đã được tính trong giá trị hàng hóa và dịch vụ cuối cùng"
+    },
+    {
+        "id": 167,
+        "question": "Câu 167 : Trong cơ chế tỷ giá cố định , khi có áp lực làm tăng cung ngoại tệ NHTW sẽ :  a. Bán nội tệ và mua ngoại tệ  \nb. Bán ngoại tệ và mua nội tệ \nc. Bán và mua hai ngoại tệ \nd. Hoàn toàn không can thiệp",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi tăng cung ngoại tệ NHTW sẽ bỏ ra một khoản nội tệ tương ứng để  mua ngoại tệ , làm tăng dự trữ ngoại tệ"
+    },
+    {
+        "id": 169,
+        "question": "Câu 169 : Tình hình cán cân ngoại thương của Việt Nam từ năm 1990 đến nay :  a. Xuất siêu \nb. Nhập siêu \nc. Cân bằng \na. Có khi xuất siêu , có khi nhập siêu",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì trong thời kỳ 1990 đến nay Việt Nam nhập khẩu nhiều hơn xuất khẩu"
+    },
+    {
+        "id": 170,
+        "question": "Câu 170 : Trong điều kiện kinh tế mở , tỷ giá hối đoái cố định , luồng vốn vận động hoàn  toàn tự do , một sự gia tăng chi tiêu ngân sách, tác động ngắn hạn là :  a. Lãi suất và sản lượng đều tăng  \nb. Lãi suất giảm , sản lượng tăng \nc. Lãi suất cao hơn lãi suất thế giới , sản lượng giảm  \nd. Lãi suất cân bằng lãi suất thế giới , sản lượng tăng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chính phủ cố định tỷ giá cố định là một lời cam kết xác lập một mức lãi  suất phù hợp để loại bỏ hiện tượng chu chuyển vốn một chiều . Do vậy trong ngắn hạn  lãi suất cân bằng lãi suất thế giới , sản lượng tăng"
+    },
+    {
+        "id": 171,
+        "question": "Câu 171 : Tác động của chính sách tài khóa mở rộng trong nền kinh tế mở ( tỷ giá cố  định , vốn luân chuyển tự do ) mạnh hơn tác động của nó trong nền kinh tế đóng vì :  a. Sản lượng tăng \nb. Hạn chế thâm hụt cán cân ngân sách \nc. Hạn chế tháo lui đầu tư \nd. Hạn chế lạm phát",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Do trong trường hợp này , chi tiêu Chính phủ tăng làm tăng lãi suất và đầu  tư giảm"
+    },
+    {
+        "id": 172,
+        "question": "Câu 172 : Tác động dài hạn của chính sách tài khóa mở rộng trong điều kiện kinh tế mở ,  tỷ giá hối đoái cố định , vốn vận động tự do là :  \na. Thặng dư cán cân thượng mại, lãi suất và sản lượng trở về mức cũ  b. Thâm hụt cán cân thương mại , lãi suất và sản lương trở về mức cũ c. Thâm hụt cán cân ngân sách , lãi suất và sản lượng đều tăng \nd. Thặng dư cán cân ngân sách , lãi suất không đổi , sản lượng tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Trong dài hạn sử dụng chính sách tài khoá mở rộng làm tổng cầu tăng lên  kéo giá tăng lên , giảm khả năng cạnh tranh của hàng hóa trong nước trên thị trường thế  giới , xuất khẩu giảm , hàng hóa và dịch vụ giảm, làm giảm sản lượng . Dẫn đến thâm hụt  cán cân thương mại , lãi suất và sản lượng trở về mức cũ ."
+    },
+    {
+        "id": 173,
+        "question": "Câu 173 : Kết quả của chính sách tiền tệ mở rộng trong điều kiện kinh tế mở , tỷ giá cố  định , vốn luân chuyển tự do là :  \na. Lãi suất cân bằng với lãi suất thế giới , sản lượng tăng \nb. Lãi suất nhỏ hơn lãi suất thê giới , sản lượng tăng \nc. Lãi suất và sản lượng trở về mức cũ  \nd. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Trong dài hạn sử dụng chính sách tài khóa mở rộng làm tổng cầu tăng lên  kéo giá tăng lên , giảm khả năng cạnh tranh của hàng hoá trong nước trên thị trường thế  giới , xuất khẩu giảm , hàng hóa và dịch vụ giảm , làm giảm sản lượng . Dẫn đến thâm  hụt cán cân thương mại , lãi suất và sản lượng trở về mức cũ ."
+    },
+    {
+        "id": 174,
+        "question": "Câu 174 : Trong điều kiện kinh tế mở , vốn luân chuyển tự do , các tác động của chính  sách tài khóa và tiền tệ trong cơ chế tỷ giá cố định khác biệt so với tác động của chúnh  khi tỷ giá linh hoạt vì :  \na. Chính phủ phải can thiệp vào thi trường ngoại hối để cố định tỷ giá  b. Chính sách tiền tệ sẽ bị ảnh hưởng nếu muốn cố định giá  \nc. a và b \nd. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Để cố định tỷ giá hối đoái NHTW phải bán dự trữ ngoại tệ và mua nội tệ"
+    },
+    {
+        "id": 175,
+        "question": "Câu 175 : Khi kinh tế mở , vốn luân chuyển tự do , chính sách tài khóa mở rộng trong cơ  chế tỷ giá linh hoạt kém hiệu quả hơn khi tỷ giá cố định vì \na. Sản lượng không tăng lên \nb. Cán cân thương mại xấu đi \nc. Có sự tháo lui đầu tư \nd. a , b , c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Trong trường hợp này đầu tư đổ vào tăng , tỷ giá hối đoái giảm , xuất  khẩu giảm và nhập khấu tăng . Nên sản lượng không tăng lên và cán cân thương mại xấu  đi ."
+    },
+    {
+        "id": 176,
+        "question": "Câu 176 : Với cơ chế tỷ giá cố định , vốn luân chuyển tụ do , chính sách tiền tệ trong  điều kiện kinh tế mở so với chính sách này trong kinh tế đóng là :  \na. Hiệu quả hơn \nb. Kém hiệu quả hơn \nc. Tương đương nhau \nd. Không thể so sánh",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Để cố định tỷ giá hối đoái NHTW phải bán dự trữ ngoại tệ và mua nội tệ .  Mặt khác chính sách này bị triệt tiêu bởi nguồn vốn vận động ra nước ngoài khi lãi suất  giảm. Do vậy chính sách tiền tệ tỏ ra kém hiệu lực hơn so với nền kinh tế mở"
+    },
+    {
+        "id": 177,
+        "question": "Câu 177 : Tác động của chính sách tiền tệ thu hẹp khi kinh tế mở , vốn luân chuyển tự do  , tỷ giá linh hoạt là : \na. Sản lượng giảm , lãi suất trở về mức cũ  \nb. Cán cân thương mại thâm hụt hơn trước  \nc. Đồng nội tệ tăng giá \nd. a , b , c",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi đó vốn đổ ra , tỷ giá hối đoái tăng , xuất khẩu tăng , nhập khẩu giảm"
+    },
+    {
+        "id": 178,
+        "question": "Câu 178 : Khi chính phủ vay nợ nước ngoài để cân đối cán cân thanh toán khoản này sẽ  được ghi vào :  \na. Cán cân vãng lai  \nb. Cán cân vốn  \nc. Hạng mục cân đối \nd. Tài trợ chính thức",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Theo định nghĩa , tài khoản vốn ghi chép mọi luồng vốn đi vào và đi ra  khỏi lãnh thổ quốc gia"
+    },
+    {
+        "id": 179,
+        "question": "Câu 179 : Khi chính phủ vay nợ nước ngoài để đầu tư cho cơ sở hạ tầng hoặc thay đổi cơ  cấu kinh tế , khoản này sẽ được phản ánh ở mục :  \na. Cán cân vãng lai  \nb. Cán cân vốn  \nc. Hạng mục cân đối \n d. Tài trợ chính thức",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Theo định nghĩa , tài khoản vốn ghi chép mọi luồng vốn đi vào và đi ra  khỏi lãnh thổ quốc gia"
+    },
+    {
+        "id": 180,
+        "question": "Câu 180 : Với chính sách tiền tệ mở rộng trong nền kinh tế mở , vốn luân chuyển tự do ,  tỷ giá linh hoạt sẽ gây ra tác động ngắn hạn là :  \na. Sản lượng tăng \nb. Cán cân thương mại thặng dư hơn trước  \nc. Đồng nội tệ giảm giá \nd. a , b , c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi đó vốn đổ ra , tỷ giá hối đoái tăng , xuất khẩu tăng , nhập khẩu giảm"
+    },
+    {
+        "id": 181,
+        "question": "Câu 181 : Tỷ giá hối đoái tăng chậm hơn trong nước ( giả sử giá nước ngoài không đổi )  Muốn tăng sức cạnh tranh của hàng hóa trong nước , biện pháp tốt nhất là :  a. Tăng tỷ giá \nb. Giảm tỷ giá \nc. Tăng năng suất , cải tiến kỹ thuật để làm giảm giá trong nước  \nd. b và c",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Như vậy làm tăng sức cạnh tranh của hàng hóa trong nước , đẩy mạnh  xuất khẩu . Tăng sức mua của nước ngoài đối với hàng trong nước làm tăng cung ngoại tệ  đẩy tỷ giá tăng lên"
+    },
+    {
+        "id": 182,
+        "question": "Câu 182 : Nếu tỷ giá hối đoái danh nghĩa không thay đổi đáng kể , tốc độ tăng giá trong  nước nhanh hơn giá thế giới , sức cạnh tranh của hàng hóa trong nước sẽ  a. Tăng \nb. Giảm \nc. Không thay đổi \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Giá cao làm giảm sức cạnh tranh của hàng hóa trong nước"
+    },
+    {
+        "id": 183,
+        "question": "Câu 183 : Khi đầu tư nước ngoài vào Việt nam tăng , Việt nam sẽ :  a. Thặng dư hoặc giảm thâm hụt cán cân thanh toán \nb. Giảm chuyển nhượng ròng từ nước ngoài \nc. Tăng xuất khẩu ròn \nd. a và b đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Tùy thuộc vào cán cân thanh toán của Việt Nam hiện tại và luồng vốn nhà  đầu tư nước ngoài đổ vào Việt nam là bao nhiêu"
+    },
+    {
+        "id": 184,
+        "question": "Câu 184 : Trong điều kiện giả định các yếu tố không đổi , một sự cắt giảm chi tiêu hàng  hóa và dịch vụ của chính phủ sẽ :  \na. Dịch chuyển đường IS sang phải \nb. Dich chuyển đường IS sang trái \nc. Dịch chuyển đường IS sang trái và đường LM sang phải \nd. Dịch chuyển đường LM sang trái và đường IS sang phải",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi có các nhân tố khác lãi suất tác động làm thay đổi tổng cầu AD thì IS  sẽ dịch chuyển tương ứng với sự dịch chuyển của đường AD . Nếu tổng giảm thì đường  AD dịch chuyển xuống dưới , đường IS dịch chuyển sang trái"
+    },
+    {
+        "id": 185,
+        "question": "Câu 185 : Đường LM dịch chuyển khi các yếu tố sau thay đổi  \na. Thuế  \nb. Cung tiền \nc. Lãi suất \nd. Yếu tố khác",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Đường LM được hình thành trong điều kiện lượng cung tiền SMlà không  đổi . Nên khi thay đổi cung tiền thì LM sẽ dịch chuyển"
+    },
+    {
+        "id": 186,
+        "question": "Câu 186 : Khi NHTW tăng lượng cung tiền và chính phủ tăng thuế : a. Sản lượng tăng , lãi suất giảm , đầu tư tư nhân tăng \nb. Sản lượng tăng , lãi suất tăng , đầu tư ngân hàng giảm \nc. Sản lượng giảm , lãi suất tăng , đầu tư tư nhân giảm \nd. Sản lượng giảm , lãi suất giảm , đầu tư tư nhân giảm",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Khi tăng lượng cung tiền thì lãi suất giảm , nhưng do tăng thuế nên đầu  tư tư nhân giảm dẫn đến sản lượng sẽ giảm"
+    },
+    {
+        "id": 187,
+        "question": "Câu 187 : Nếu các yếu tố khác không đổi , lãi suất tăng thì sản lượng cân bằng sẽ là :  a. Tăng  \nb. Giảm  \nc. Không thay đổi  \nd. Không thể thay đổi",
+        "answer_explanation": "Đáp án: b\nGiải thích: Các yếu tố khác không đổi , r thì Y cân bằng sẽ là do I"
+    },
+    {
+        "id": 188,
+        "question": "Câu 188 : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi :  \na. Sự cân bằng trên thị trường tiền tệ , nhưng tổng cầu cung phải vượt quá để khỏi  thiếu hụt hàng hóa \nb. Tổng thu nhập phải bằng với tổng chi tiêu , nhưng cầu tiền phải vượt qua để tránh  lạm phát \nc. Sự cân bằng độc lập của cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ  \nd. Sự cân bằng đồng thời có ở cả hai thị trường : thị trường tiền tệ và thị trường hàng  hóa – dịch vụ",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Điểm cân bằng chung cho một hệ thống kinh tế đòi hỏi sự cân bằng  đồng thời cả hai thị trường : tiền tệ và thị trường hàng hóa – dịch vụ"
+    },
+    {
+        "id": 189,
+        "question": "Câu 189 : Ý nghĩa thành lập đường LM là để phản ảnh sự tác động của : a. Lãi suất vào mức sản lượng cân bằng trên thị trường tiền tệ  \nb. Lãi suất vào mức sản lượng cân bằng trên thị trường hàng hóa \nc. Sản lượng vào mức lãi suất cân bằng thị trường tiền tệ \nd. Sản lượng vào mức lãi suất cân bằng trên thị trường hàng hóa",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Khi sản lượng tăng , giảm sẽ tác động đến cầu tiền , nên lãi suất sẽ thay  đổi"
+    },
+    {
+        "id": 190,
+        "question": "Câu 190 : Giả sử do dự kiến về tương lai tốt đẹp nên tiêu dùng của dân chúng gia tăng  khi đó : \na. IS dịch sang phải , sản lượng tăng , lãi suất tăng  \nb. IS dịch sang trái , sản lượng giảm , lãi suất giảm  \nc. LM dịch sang phải , sản lượng tăng , lãi suất giảm  \nd. LM dịch sang trái , sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì khi tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng tăng , nên  lượng cung về tiền gia tăng mà nếu lượng cung tiền ổn định thì lãi suất phải tăng"
+    },
+    {
+        "id": 191,
+        "question": "Câu 191 : Số nhân tổng cầu là một hệ số  \na. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi một đơn vị  b. Phản ánh sự thay đổi của sản lượng khi tổng cầu thay đổi lượng ban đầu một đơn  vị  \nc. Phản ánh sự thay đổi của tồng cầu khi sản lượng thay đổi một đơn vị  d. Tất cả các câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì : số nhân của tổng cầu là hệ số phản ánh lượng thay đổi của sản  lượng cân bằng quốc gia khi tổng cầu thay đổi trong phần chi tiêu tự định bằng 1 đơn vị"
+    },
+    {
+        "id": 192,
+        "question": "Câu 192 : Trong mô hình số nhân , nếu mọi người gia tăng tiết kiệm thì  a. Sản lượng tăng \nb. Sản lượng giảm \nc. Sản lượng không đổi  \nd. Các khả năng có thể xáy ra",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì khi tiết kiệm tăng sẽ giảm thu nhập 🡪 tổng cầu giảm 🡪 sản lượng  giảm"
+    },
+    {
+        "id": 193,
+        "question": "Câu 193 : Nếu lãi suất tăng thì sản lượng cân bằng trên thị trường hàng hóa sẽ :  a. Tăng \nb. Giảm  \nc. Không thay đổi  \nd. Không thể tiết kiệm",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Lãi suất là thể hiện giá doanh nghiệp phải trả nếu đi vay ngân hàng . Lãi  suất tăng 🡪 các DN sẽ không đi vay hay ít vay dẫn tới đầu tư giảm 🡪 Sản lượng giảm"
+    },
+    {
+        "id": 194,
+        "question": "Câu 194 : Tiêu dùng của các hộ gia đình phụ thuộc chủ yếu vào :  \na. Thu nhập khả dụng  \nb. Thu nhập dự tính  \nc. Lãi suất  \nd. Các câu trên đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì thu nhập khả dụng là khoản thu nhập còn lại sau khi người dân đã  nộp thuế cho nhà nước"
+    },
+    {
+        "id": 195,
+        "question": "Câu 195: Xuất phát từ điểm cân bằng gia tăng xuất khẩu sẽ :  \na. Dẫn đến cân bằng thương mại  \nb. Tạo ra tiết kiệm để đầu tư trong nước \nc. Tạo ra đầu tư để thực hiện tiết kiệm \nd. Dẫn đến sự cân bằng sản lượng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Trong nền kinh tế nước ta hiện nay , nhu cầu xuất khẩu chủ yếu phụ thuộc  vào nước ngoài , do đó gia tăng xuất khẩu sẽ tạo ra tiết kiệm để đầu tư trong nước"
+    },
+    {
+        "id": 196,
+        "question": "Câu 196 : Trong cơ chế tỷ giá thả nổi hoàn toàn , tỷ giá sẽ … \na. Thay đổi tùy theo diễn tiến trên thị trường ngoại hối  \nb. Không thay đổi , bất luận diễn tiến trên thị trường ngoại hối  \nc. Tăng khi cung ngoại tệ tăng  \nd. Giảm khi cầu ngoại tệ tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Không có sự can thiệp của Chính phủ đến thị trường ngoại hối . Dự trữ  ngoại hối giữ nguyên . Tỷ giá sẽ điều chỉnh để cân bằng giữa cung đồng nội tệ trên thị  trường ngoại hối"
+    },
+    {
+        "id": 197,
+        "question": "Câu 197 : GDP danh nghĩa năm 1997 là 6000 tỷ . GDP danh nghĩa năm 1998 là 6500 tỷ  . Chỉ số giá năm 1997 là 120. Chỉ số giá năm 1998 là 125 . Tỷ lệ tăng trưởng năm 1998 là  :  \na. 8,33 %  \nb. 4% \nc. 4,5% \nd. 10%",
+        "answer_explanation": "Đáp án: b\nGiải thích: * GDPthực 1997 = 6000/120 = 50 tỷ  \n* GDPthực 1998 = 6500/125 = 52 tỷ  \n => Tỷ lệ tăng trưởng = ( 52-50)/50 x 100% = 4%"
+    },
+    {
+        "id": 198,
+        "question": "Câu 198 : Khi nền kinh tế đang có lạm phát cao nên:  \na. Giảm lượng cung tiền , tăng lãi suất  \nb. Giảm chi ngân sách và tăng thuế  \nc. a và b đều đúng  \nd. a và b đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: Khi nền kinh tế có lạm phát , lúc đó đồng tiền bị mất giá ( hay nói  cách khác là dư tiền ) => để lạm phát nên giảm lượng cung tiền và chi ngân  sách. Mặt khác tăng lãi suất và tăng thuế để lượng tiền đầu tư => lạm phát"
+    },
+    {
+        "id": 199,
+        "question": "Câu 199 : Sản phẩm trung gian và sản phẩm cuối cùng khác nhau ở :  a. Mục đích sử dụng  \nb. Thời gian tiêu thụ\nc. Độ bền trong quá trình sử dụng  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Giải thích"
+    },
+    {
+        "id": 200,
+        "question": "Câu 200 : Ngân hàng trung ương có thể làm thay đổi cung nội tệ bằng cách :  a. Mua hoặc bán trái phiếu chính phủ  \nb. Mua hoặc bán ngoại tệ  \nc. a và b đều đúng  \nd. a và b đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: Khi muốn thay đổi lượng cung nội tệ , NHTW có thể mua hoặc bán  trái phiếu chính phủ hoặc ngoại tệ vì :  \n+ Trái phiếu chính phủ :\n- Bán : người dân sẽ dùng nội tệ để mua => lượng nội tệ ngoài thị trường  - Mua : Người dân sẽ bán trái phiếu lại cho chính phủ => Chính phủ sẽ đưa một  lượng nội tệ ra để mua lại trái phiếu => lượng cung nội tệ  \n+ Ngoại tệ  \n- Bán : Người dân có xu hướng dùng nội tệ mua ngoại tệ để tích lũy hoặc trao đổi  mua bán => lượng cung nội tệ  \n- Mua : Chính phủ dùng nội tệ mua ngoại tệ => lượng cung nội tệ  Ở đây có thể xét rộng hơn là : các doanh nghiệp tư nhân , doanh nghiệp NN"
+    },
+    {
+        "id": 201,
+        "question": "Câu 201 : “ Tỷ lệ thất nghiệp ở nhiều nước rất cao” câu nói này thuộc :  a. Kinh tế vĩ mô \nb. Kinh tế vi mô  \nc. Kinh tế thực chứng  \nd. a và c đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Để rút ra được kết luận đó người nói đã có sự nghiên cứu , phân tích một  cách tổng thể thông qua biến số tỷ lệ thất nghiệp ở nhiều nước một cách khách quan và  khoa học , sau khi rút ra kết luận này , người ta sẽ đề ra các biện pháp giảm tỷ lệ thất  nghiệp"
+    },
+    {
+        "id": 202,
+        "question": "Câu 202 : “Chỉ số hàng tiêu dùng ở Việt Nam tăng khoảng 20% mỗi năm trong giai đoạn  1992 – 1995” câu nói này thuộc :  \na. Kinh tế vi mô và thực chứng  \nb. Kinh tế vĩ mô và thực chứng \nc. Kinh tế vi mô và chuẩn tắc \nd. Kinh tế vĩ mô và chuẩn tắc",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì nó nghiên cứu nền kinh tế một cách tổng thể thông qua chỉ số giá hàng  tiêu dùng ở Việt Nam trong giai đoạn 1992 – 1995 một cách khách quan và khoa học  trên cơ sở đó đề ra các biện pháp nhằm ổn định và thúc đẩy tăng trưởng kinh tế"
+    },
+    {
+        "id": 203,
+        "question": "Câu 203 : Tổng cung dài hạn có thể thay đổi khi :  \na. Có sự thay đổi về lãi suất \nb. Các nguồn lực sản xuất thay đổi  \nc. Chính phủ thay đổi chi tiêu ngân sách  \nd. Nhập khẩu máy móc thiết bị",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Các nguồn lực sản xuất như :  \n⮚ Yếu tố đầu vào : nguyên vật liệu \n⮚ Yếu tố đầu ra : Sản phẩm  \n⮚ Tổng cung dài hạn phản ánh quan hệ giữa tổng cung và mức giá trong điều kiện  giá các yếu tố đầu vào thay đổi cùng tỷ lệ với mức giá đầu ra của sản phẩm  ⮚ Gọi là tổng cung dài hạn vì nền kinh tế phải có thời gian đủ dài để thực hiện quá  trình điều chỉnh đồng thời này  \n⮚ Các nguồn lực sản xuất tác động đến các tổng cung dài hạn làm tổng cung dài hạn  thay đổi vì nó tác động năng lực sản xuất của nền kinh tế ."
+    },
+    {
+        "id": 204,
+        "question": "Câu 204 : Tính theo thu nhập GDP là tổng :  \na. Tiền lương , thuế thu nhập , tiền lãi , tiền thuê , lợi nhuận  \nb. Tiền lương , trợ cấp , khấu hao , tiền lãi , tiền thuê \nc. Tiền lương , tiền lãi , tiền thuê , lợi nhuận , khấu hao và thuế gián thu  d. Tiền lãi , tiền thuê , lợi nhuận , khấu hao , thuế gián thu .",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Theo lý thuyết tính GDP theo phương pháp thu nhập là tập hợp tổng thu  nhập phát sinh trên lãnh thổ bao gồm : Tiền lương , tiền lãi , tiền thuê , lợi nhuận , thuế  gián thu ( Ti ) và khấu hao ( De)  \nGDP = Ư + i + R + Pr + Ti + De"
+    },
+    {
+        "id": 205,
+        "question": "Câu 205 : Trong nền kinh tế giả định chỉ có 3 doanh nghiệp : Dệt sợi , dệt vải và may  mặcSản phẩm của doanh nghiệp trước được bán hết cho doanh nghiệp sau và được dùng  hết trong sản xuất. Giá trị sản lượng của dệt sợi 100 tỷ , dệt vải 200 tỷ , may mặc 300 tỷ .  GDP của quốc gia này là :  \na. 600 tỷ  \nb. 400 tỷ  \nc. 500 tỷ \nd. 300 tỷ",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Sợi và vải là nguyên liệu sử dụng để may mặc nên chúng là hàng hóa dịch  vụ trung gian , còn may mặc sẽ là sản phẩm cuối cùng . Vì vậy GDP của quốc gia này là  300 tỷ ( giá trị sản lượng may mặc)"
+    },
+    {
+        "id": 206,
+        "question": "Câu 206 : GDP của một quốc gia \na. Thuộc quyền sở hữu của công dân quốc gia đó  \nb. Không kể thu nhập từ các yếu tố sản xuất kiếm được ở nước ngoài  c. Không kể thu nhập tạo ra trong nước  \nd. a , b , c đều sai",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Theo định nghĩa GDP là giá trị của toàn bộ lượng hàng hóa và dịch vụ  cuối cùng được tạo ra trên lãnh thổ một nước tính trong 1 thời kỳ ( thường là 1 năm )"
+    },
+    {
+        "id": 207,
+        "question": "Câu 207 : Khi đầu tư nước ngoài vào Việt nam tăng , nếu các yếu khác không đổi , Việt  nam sẽ  \na. Thặng dư hoặc giảm thâm hụt cán cân thanh toán  \nb. Tăng xuất khẩu ròng  \nc. Tăng thu nhập ròng từ tài sản nước ngoài \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Cán cân thanh toán không chỉ bao gồm yếu tố đầu tư từ nước ngoài  mà còn bao gồm xuất – nhập khẩu dịch vụ nước ngoài… \nXuất khẩu ròng ( X-M) : nếu đầu tư từ nước ngoài => Y => thặng dư Ytrong nước => Xuất khẩu => ( X – M )  \nTất yếu : khi Inước ngoài thì thu nhập ròng từ tài sản nước ngoài"
+    },
+    {
+        "id": 208,
+        "question": "Câu 208 : Nền kinh tế đang ở mức toàn dụng . Giả sử lãi suất , giá cả và tỷ giá hối đoái  không đổi , nếu chính phủ giảm chi tiêu và giảm thuế một lượng bằng nhau , trạng thái  cảu nền kinh tế sẽ thay đổi :  \na. Từ suy thoái sang lạm phát  \nb. Từ suy thoái sang ổn định  \nc. Từ ổn định sang lạm phát \nd. Từ ổn định sang suy thoái",
+        "answer_explanation": "Đáp án: c\nGiải thích: Từ khi nền kinh tế ở mức toàn dụng thì sản lượng mà nền kinh tế đạt  được tương ứng với tỉ lệ thất nghiệp tự nhiên ( Un) và tỷ lệ lạm phát vừa phải =>  có thể chấp nhận được => ổn định \nT => Yd ( thu nhập khả dụng ) => người dân chi tiêu => lạm phát ( do Yd  => C và I )  \n G => AD => Y => suy thoái \n Xét : AD = C + I + G + X – M  \nNếu C , I , G ( một lượng như nhau ) thì AD => lạm phát  \nVậy nền kinh tế chuyển từ ổn định sang lạm phát"
+    },
+    {
+        "id": 209,
+        "question": "Câu 209 : Tác động ngắn hạn của chính sách nới lỏng tiền tệ ( mở rộng tiền tệ ) trong nền  kinh tế mở với cơ chế tỷ giá hối đoái linh hoạt ( thả nổi ) là :  \na. Sản lượng tăng  \nb. Thặng dư hoặc giảm thâm hụt thương mại  \nc. Đồng nội tệ giảm giá  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Chính sách mở rộng tiền tệ  \n- tỷ lệ dự trữ bắt buộc \n- Lãi suất chiết khấu \n- Mua CK của chính phủ \n=> Y  \n => Thặng dư hoặc thâm hụt thương mại vì còn phụ thuộc vào việc bao nhiêu lãi  suất chiết khấu … dẫn đến đầu tư nhiều hay ít  \n => đồng nội tệ giá ( do Y )"
+    },
+    {
+        "id": 210,
+        "question": "Câu 210 : Theo lý thuyết xác định sản lượng ( được minh họa bằng đồ thị có đường 45o),  nếu tổng chi tiêu theo kế hoạch ( tổng cầu dự kiến ) lớn hơn GDP thực ( hoặc sản lượng )  thì :  \na. Các doanh nghiệp sẽ giảm sản lượng để giải phóng thặng dư tồn kho so với mức  tồn kho dự kiến \nb. Các doanh nghiệp se tăng hoặc giảm sản lượng tùy theo tình hình tồn kho thực tế  ít hơn hay nhiều hơn mức tồn kho dự kiến  \nc. Các doanh nghiệp sẽ không thay đổi sản lượng vì tồn kho thực tế đã bằng mức tồn  kho dự kiến  \nd. Các doanh nghiệp sẽ tăng sản lượng để bổ sung tồn kho cho đủ mức tồn kho dự  kiến",
+        "answer_explanation": "Đáp án: a\nGiải thích: ADthực < AD dự kiến => hàng hóa doanh nghiệp sx theo AD dự kiến sẽ bị  tồn kho => để không bị động trong Sx , doanh nghiệp sẽ sản lượng để GP thặng  dư tồn kho so với mức tồn kho dự kiến"
+    },
+    {
+        "id": 211,
+        "question": "Câu 211 : Nếu chính phủ tăng chi tiêu đầu tư vào các công trình công cộng bằng toàn bộ  nguồn tiền bán trái phiếu của chính phủ trên thị trường : Kết quả là  \na. Sản lượng và lãi suất đều tăng \nb. Sản lượng tăng , lãi suất không đổi  \nc. Sản lượng giảm , lãi suất giảm \nd. Sản lượng giảm , lãi suất tăng",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu đã làm tổng cầu tăng , sản lượng cân bằng  tăng , nên lượng cầu và tiền gia tăng , với lượng cung tiền cố định , nên lãi suất phải tăng  để giảm bớt lượng cầu"
+    },
+    {
+        "id": 212,
+        "question": "Câu 212 : Ý nghĩa thành lập đường LM là để phản ảnh sự tác động của : a. Lãi suất vào mức sản lượng cân bằng trên thị trường tiền tệ  \nb. Lãi suất vào mức sản lượng cân bằng trên thị trường hàng hóa \nc. Sản lượng vào mức lãi suất cân bằng thị trường tiền tệ \nd. Sản lượng vào mức lãi suất cân bằng trên thị trường hàng hóa",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Khi sản lượng tăng , giảm sẽ tác động đến cầu tiền , nên lãi suất sẽ thay  đổi"
+    },
+    {
+        "id": 213,
+        "question": "Câu 213 : Khi NHTW tăng lượng cung tiền và chính phủ tăng chi tiêu : a. Sản lượng tăng , lãi suất có thể giảm , hoặc tăng hoặc không đổi  b. Sản lượng có thể giảm , hoặc tăng hoặc không đổi , lãi suất tăng , đầu tư tư nhân  giảm \nc. Sản lượng tăng , lãi suất tăng , đầu tư tư nhân giảm vì chính sách tài khóa luôn tác  động mạnh hơn chính sách tiền tệ  \nd. Không thể kết luận",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Khi chính phủ tăng chi tiêu các doanh nghiệp bán được hàng nên tăng sản  xuất từ đó tăng cầu tiền , tăng lãi suất nhưng khi NHTW tăng cung tiền thì lãi suất có thể  tăng hoặc giảm hoặc không đổi tùy vào lượng cung tiền"
+    },
+    {
+        "id": 214,
+        "question": "Câu 214: Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM , để đạt sự  cân bằng chung :  \na. Sản lượng sẽ tăng và lãi suất giảm \nb. Sản lượng sẽ tăng và lãi suất tăng  \nc. Sản lượng sẽ giảm và lãi suất giảm \nd. Sản lượng sẽ giảm và lãi suất tăng",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Khi nền kinh tế nằm phía bên trái của đường IS và trên đường LM để đạt  được sự cân bằng chu thì sản lượng sẽ tăng và lãi suất tăng"
+    },
+    {
+        "id": 215,
+        "question": "Câu 215 : Khi nền kinh tế nằm phía phải của đường LM : \na. Thị trường hàng hóa có cầu vượt quá , thị trường tiền tệ có cung vượt quá  b. Thị trường hàng hóa và thị trường tiền tệ đều có cầu vượt quá \nc. Thị trường hàng hóa có cung vượt quá , thi trường tiền tệ có cầu vượt quá  d. Thi trường hàng hóa và thị trường tiền tệ đều có cung vượt quá",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Vì khi LM nằm bên phải là lượng cung tiền tăng lên , lãi suất giảm kích  thích nhà đầu tư tăng , tổng cầu tăng , sản lượng cân bằng tăng , tăng cầu tiền ."
+    },
+    {
+        "id": 216,
+        "question": "Câu 216 : Điểm cân bằng trong mô hình IS – LM thể hiện :  \na. Tổng thu nhập bằng với tổng chi \nb. Cung tiền và cầu tiền bằng nhau  \nc. a hoặc b  \nd. a và b",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì chính phủ đưa phối hợp chính sách tài khóa và chính sách tiền tệ để  giải quyết các vấn đề về kinh tế và đưa nền kinh tế ổn định nên điểm gặp nhau của IS – LM tổng thu nhập bằng với tổng chi , cung tiền bằng cầu tiền tại đó không có biến động  về tiền"
+    },
+    {
+        "id": 217,
+        "question": "Câu 217 : Đường LM dốc lên thể hiện  \na. Khi sản lượng tăng thì lãi suất tăng  \nb. Khi lãi suất tăng thì sản lượng tăng \nc. Khi sản lượng tăng thì lãi suất cân bằng tăng  \nd. Khi lãi suất tăng thì sản lượng cân bằng tăng",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Đường LM dốc lên thể hiện khi sản lượng cao hơn sẽ đòi hỏi lượng cầu  tiền cao hơn , để giảm bớt cầu tiền , lãi suất cân bằng trên thị trường tiền tệ sẽ tăng"
+    },
+    {
+        "id": 218,
+        "question": "Câu 218 : Nghịch lý của tiết kiệm không còn đúng khi :  \na. Tăng tiết kiệm và dùng tiền đó để tăng đầu tư \nb. Tăng tiết kiệm và dùng tiền đó để mua công trái  \nc. Tăng tiết kiệm và dùng tiền đó để gửi ngân hàng  \nd. Tất cả các câu trên đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì người tiết kiệm mong muốn làm tăng thu nhập nhưng kết quả là tăng  tiết kiệm sẽ làm giảm thu nhập. Hơn nữa , khi lượng tiết kiệm tăng thêm của dân chúng lại được đưa vào đầu tư như : gửi tiết kiệm, mua công trái , gửi ngân hàng sẽ không làm  giảm tổng cầu , không làm giảm sản lượng"
+    },
+    {
+        "id": 219,
+        "question": "Câu 219 : Tại điểm cân bằng sản lượng  \na. Giá trị hàng tồn kho bằng 0 \nb. Giá trị hàng tồn kho ngoài dự kiến bằng 0 \nc. Tổng cung bằng tổng cầu tại sản lượng tiềm năng \nd. Sản lượng bằng chi tiêu thực tế cảu dân chúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Vì ở mức cân bằng tổng cung bằng tổng cầu , lúc này thì sản lượng ở mức  quân bình sẽ bằng với mức chi tiêu thực của dân chúng và sẽ nhiều hơn mức sản lượng  tiềm năng"
+    },
+    {
+        "id": 220,
+        "question": "Câu 220 : Trong mô hình số nhân , nếu mọi người gia tăng tiết kiệm thì  a. Sản lượng tăng \nb. Sản lượng giảm \nc. Sản lượng không đổi  \nd. Các khả năng có thể xáy ra",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì khi tiết kiệm tăng sẽ giảm thu nhập 🡪 tổng cầu giảm 🡪 sản lượng  giảm"
+    },
+    {
+        "id": 221,
+        "question": "Câu 221 : Nếu lãi suất tăng thì sản lượng cân bằng trên thị trường hàng hóa sẽ :  a. Tăng \nb. Giảm  \nc. Không thay đổi  \nd. Không thể tiết kiệm",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Lãi suất là thể hiện giá doanh nghiệp phải trả nếu đi vay ngân hàng . Lãi  suất tăng 🡪 các DN sẽ không đi vay hay ít vay dẫn tới đầu tư giảm 🡪 Sản lượng giảm"
+    },
+    {
+        "id": 222,
+        "question": "Câu 222 : Khi tiêu dùng biên thep thu nhập khả dụng là 0.6 nghĩa là : a. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ tăng ( giảm) 0,6 đồng  b. Khi thu nhập khả dụng tăng ( giảm) 1 đồng thì tiêu dùng sẽ giảm (tăng) 0,6 đồng c. Khi thu nhập tăng ( giảm ) 0,6 đồng thi thu nhập khả dụng sẽ tăng ( giảm ) 1 đồng  d. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: ⬄ Giải thích : Vì nó phản ánh lượng thay đổi của tiêu dùng khi thu nhập khả dụng thay  đổi 1 đơn vị"
+    },
+    {
+        "id": 223,
+        "question": "Câu 223 : Khoản chi nào sau đây không phải là chi chuyển nhượng ?  a. Tiền lãi mà chính phủ chi trả cho trái phiếu chính phủ đến hạn \nb. Chi mua vũ khí , đạn dược\nc. Tiền cho học bổng cho sinh viên , học sinh giỏi \nd. Câu a và câu b đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chi chuyển nhượng là các khoản trợ cấp từ chính phủ cho công chúng Vd : Chi trợ cấp người nghèo , thất nghiệp"
+    },
+    {
+        "id": 224,
+        "question": "Câu 224 : Một quốc gia muốn duy trì tỷ giá hối đoái cố định , ngân hàng trung ương phải  dùng các công cụ sau :  \na. Chính sách ngoại thương  \nb. Chính sách quản lý nhu cầu ngoại tệ  \nc. Dự trữ ngoại hối  \nd. Cả 3 yếu tố trên",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Để duy trì tỷ giá hối đoái cố định NHTW phải cân đối số dư cung nội tệ  bằng cách mua hoặc bán một lượng ngoại tệ tương ứng , điều này sẽ làm tăng hoặc giảm  dự trữ ngoại hối , liên quan trực tiếp tới chính sách Xuất - Nhập Khẩu"
+    },
+    {
+        "id": 225,
+        "question": "Câu 225 : Khi tỷ giá hối đoái tăng lên và giá cả hàng hóa ở các nước cũng thay đổi sẽ  làm cho  \na. Xuất khẩu tăng \nb. Nhập khẩu tăng \nc. Xuất khẩu giảm \nd. Không đủ cơ sở để kết luận",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Không biết chính xác hàng hóa ở các nước khi đó tăng hay giảm"
+    },
+    {
+        "id": 226,
+        "question": "Câu 226 : Tỷ giá hối đoái thay đổi sẽ ảnh hưởng đến :  \na. Cán cân thanh toán quốc gia  \nb. Cán cân thương mại \nc. Tổng cầu \nd. Ba đáp số trong câu này đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Tỷ giá hối đoái liên quan trực tiếp tới cung và cầu ngoại tệ , tới Xuất - Nhập khẩu . Do đó , tỷ giá hối đoái thay đổi làm cung , cầu ngoại tệ thay đổi , chính sách  Xuất – Nhập khẩu thay đổi"
+    },
+    {
+        "id": 227,
+        "question": "Câu 227 : Tình hình cán cân ngoại thương của Việt Nam từ năm 1990 đến nay :  a. Xuất siêu \nb. Nhập siêu \nc. Cân bằng \nd. Có khi xuất siêu , có khi nhập siêu",
+        "answer_explanation": "Đáp án: b\nGiải thích: ⬄ Giải thích : Vì trong thời kỳ 1990 đến nay Việt Nam nhập khẩu nhiều hơn xuất khẩu"
+    },
+    {
+        "id": 228,
+        "question": "Câu 228 : Trong điều kiện kinh tế mở , tỷ giá hối đoái cố định , luồng vốn vận động hoàn  toàn tự do , một sự gia tăng chi tiêu ngân sách, tác động ngắn hạn là :  a. Lãi suất và sản lượng đều tăng  \nb. Lãi suất giảm , sản lượng tăng \nc. Lãi suất cao hơn lãi suất thế giới , sản lượng giảm  \nd. Lãi suất cân bằng lãi suất thế giới , sản lượng tăng",
+        "answer_explanation": "Đáp án: d\nGiải thích: ⬄ Giải thích : Chính phủ cố định tỷ giá cố định là một lời cam kết xác lập một mức lãi  suất phù hợp để loại bỏ hiện tượng chu chuyển vốn một chiều . Do vậy trong ngắn hạn  lãi suất cân bằng lãi suất thế giới , sản lượng tăng"
+    },
+    {
+        "id": 229,
+        "question": "Câu 229 : Tác động của chính sách tài khóa mở rộng trong nền kinh tế mở ( tỷ giá cố  định , vốn luân chuyển tự do ) mạnh hơn tác động của nó trong nền kinh tế đóng vì :  a. Sản lượng tăng \nb. Hạn chế thâm hụt cán cân ngân sách \nc. Hạn chế tháo lui đầu tư \nd. Hạn chế lạm phát",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Do trong trường hợp này , chi tiêu Chính phủ tăng làm tăng lãi suất và đầu  tư giảm"
+    },
+    {
+        "id": 230,
+        "question": "Câu 230 : Trong điều kiện kinh tế mở , vốn luân chuyển tự do , các tác động của chính  sách tài khóa và tiền tệ trong cơ chế tỷ giá cố định khác biệt so với tác động của chúnh  khi tỷ giá linh hoạt vì :  \na. Chính phủ phải can thiệp vào thi trường ngoại hối để cố định tỷ giá  b. Chính sách tiền tệ sẽ bị ảnh hưởng nếu muốn cố định giá  \nc. a và b \nd. Các câu trên đều sai",
+        "answer_explanation": "Đáp án: c\nGiải thích: ⬄ Giải thích : Để cố định tỷ giá hối đoái NHTW phải bán dự trữ ngoại tệ và mua nội tệ"
+    },
+    {
+        "id": 231,
+        "question": "Câu 231 : Tính theo chi tiêu ( Tính theo luồng sản phẩm ) thì GDP là tổng cộng của :  a. Tiêu dùng , đầu tư , chi tiêu của chính phủ để mua sản phẩm và dịch vụ, xuất khẩu  ròng \nb. Tiêu dùng , đầu tư , chi tiêu của chính phủ để mua sản phẩm và dịch vụ , xuất  khẩu  \nc. Tiêu dùng , đầu tư , chi chuyển nhượng của chính phủ , xuất khẩu ròng  d. Tiêu dùng , đầu tư , chi chuyển nhượng của chính phủ , xuất khẩu",
+        "answer_explanation": "Đáp án: a\nGiải thích: Vì theo phân tích thì  \nGDP = C + I + G + X – M (theo chi tiêu )  \nTrong đó  \nC : tiêu dùng \nI : đầu tư \nG : chi tiêu của chính phủ  \nX – M : xuất khẩu ròng  \nX : xuất khẩu \nM : nhập khẩu"
+    },
+    {
+        "id": 232,
+        "question": "Câu 232 : Tính theo thu nhập ( tính theo luồng thu nhập ) thì GDP là tổng cộng của :  a. Tiền lương , tiền lãi , tiền thuế , lợi nhuận  \nb. Tiền lương trợ cấp của chính phủ , tiền lãi , lợi nhuận  \nc. Tiền lương , trợ cấp của chính phủ , tiền thuế , lợi nhuận \nd. Tiền lương , trợ cấp của chính phủ , tiền lãi , tiền thuế",
+        "answer_explanation": "Đáp án: a\nGiải thích: Theo phân tích thì  \nGDP = R + W + i + ∏ ( theo thu nhập )  \nTrong đó :  \nR : tiền thuê do sử dụng tài sản hữu hình  \nW : tiền lương do sử dụng lao động  \ni : tiền lãi do sử dụng vốn \n∏ : lợi nhuận do việc quản lý"
+    },
+    {
+        "id": 233,
+        "question": "Câu 233 : Sản lượng tiềm năng ( sản lượng toàn dụng ) là mức sản lượng :  a. Mà tại đó nếu tăng tổng cầu thì lạm phát sẽ tăng nhanh  \nb. Mà tại đó nền kinh tế có tỷ lệ thất nghiệp thấp nhất  \nc. Tối đa của nền kinh tế \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: a\nGiải thích: Sản lượng tiềm năng là sản lượng mà tại đó nền kinh tế đạt được tương  ứng với tỷ lệ thất nghiệp tự nhiên ( Un) và lạm phát vừa phải , có thể chấp nhận  được , Theo thời gian khả năng sx của nền kinh tế luôn có xu hướng => Yp  cũng . Do đó nếu AD thì lạm phát sẽ nhanh"
+    },
+    {
+        "id": 234,
+        "question": "Câu 234 : Trong một nền kinh tế giả định đóng cửa và không có chính phủ . Cho biết  mối quan hệ giữa tiêu dùng và đầu tư với thu nhập quốc gia như sau :  Thu nhập quốc gia Tiêu dùng dự kiến Đầu tư dự kiến  100.000 110.000 20.000 \n120.000 120.000 20.000 \n140.000 130.000 20.000 \n160.000 140.000 20.000 \n180.000 150.000 20.000 \nKhuynh hướng tiêu dùng biên (MPC) khuynh hướng tiết kiệm biên (MPS) và thu nhập  cân bằng ( Y ) là :  \na. MPC = 0,7 ; MPS = 0,3 ; Y = 120.000 \nb. MPC = 7 ; MPS = 3 ; Y = 140.000 \nc. MPC = 5 ; MPS = 5 ; Y = 180.000 \nd. MPC = 0,5 ; MPS = 0,5 ; Y = 150.000",
+        "answer_explanation": "Đáp án: d\nGiải thích: Theo đề bài ta có :  \n∆C = 10,000 ; ∆Y = 20,000 \nTa có MPC = ∆C/∆Y = 10,000/20,000 = 0,5  \nMDS = 1 – MPC = 1 – 0,5 = 0,5  \nThu nhập cân bằng lúc này có thể tính :  \nY = C + I  \n = {( 110+120+130+140+150) / 5 }+10 x 1000 \n = 150,000 \n Vậy MPC = 0,5 ; MPS = 0,5 ; Y = 150,000"
+    },
+    {
+        "id": 235,
+        "question": "Câu 235 : Chính sách tài chính là một công cụ điều hành kinh tế vĩ mô vì :  a. Sự thay đổi thuế và chi tiêu ngân sách của chính phủ có tác động đến mức giá ,  mức GDP và mức nhân dụng  \nb. Việc đẩy mạnh cổ phần hóa các doanh nghiệp nhà nước và phát hành cổ phiếu là  cần thiết để tăng trưởng kinh tế  \nc. Sự thay đổi lãi suất tín phiếu kho bạc có tác động đến mức huy động vốn tài trợ  cho bội chi ngân sách của chính phủ  \nd. Việc điều chỉnh lượng phát hành tín phiếu kho bạc và công trái quốc gia có vai trò  quan trọng trong việc ổn định kinh tế",
+        "answer_explanation": "Đáp án: d\nGiải thích: Chú ý rằng tín phiếu kho bạc và công trái quốc gia cũng là quyền lợi  và nghĩa vụ của công dân khi sở hữu , do đó có vai trò rất quan trọng trong ổn  định kinh tế"
+    },
+    {
+        "id": 236,
+        "question": "Câu 236 : Một nền kinh tế trong trạng thái toàn dụng nhân công có nghĩa là :  a.Không còn lạm phát nhưng có thể còn thất nghiệp  \nb. Không còn thất nghiệp nhưng có thể còn lạm phát  \nc. Không còn thất nghiệp và không còn lạm phát  \nd. Vẫn còn tỷ lệ lạm phát và tỷ lệ thất nghiệp nhất định",
+        "answer_explanation": "Đáp án: d\nGiải thích: Trạng thái toàn dụng có nghĩa là sản lượng mà nền kinh tế đạt được  tương ứng vớit tỷ lệ thất nghiệp tự nhiên (Un) và tỷ lệ lạm phát vừa phải mà nền  kinh tế có thể chấp nhận được => vẫn còn 1 tỷ lệ lạm phát và thất nghiệp nhất  định"
+    },
+    {
+        "id": 237,
+        "question": "Câu 237 : Trong cơ chế tỷ giá hối đoái cố định , muốn làm triệt tiêu lượng dư cung ngoại  tệ , ngân hàng trung ương phải :  \na. Dùng ngoại tệ để mua nội tệ  \nb. Dùng nội tệ để mua ngoại tệ \nc. Không can thiệp vào thị trường ngoại hối  \nd. Cả 3 câu đều sai",
+        "answer_explanation": "Đáp án: b\nGiải thích: "
+    },
+    {
+        "id": 238,
+        "question": "Câu 238 : Tỷ giá hối đoái thay đổi sẽ ảnh hưởng đến : \na. Cán cân thương mại  \nb. Cán cân thanh toán  \nc. Sản lượng quốc gia  \nd. Cả 3 câu đều đúng",
+        "answer_explanation": "Đáp án: d\nGiải thích: Vì cán cân thương mại , cán cân thanh toán và sản lượng quốc gia  đều có liên quan đến việc mua bán , trao đổi , xuất nhập khẩu trong nước và nước  ngoài => liên quan đến mối quan hệ giữa nội tệ và ngoại tệ => tỷ giá hối đoái"
+    },
+    {
+        "id": 239,
+        "question": "Câu 239 : Theo lý thuyết của Keynes , những chính sách nào sau đây thích hợp nhất  nhằm giảm tỷ lệ thất nghiệp  \na. Giảm thuế và gia tăng số mua hàng hóa của chính phủ  \nb. Tăng thuế và giảm số mua hàng hóa của chính phủ  \nc. Tăng thuế thu nhập và tăng số mua hàng hóa của chính phủ  \nd. Phá giá , giảm thuế , và giảm số mú hàng hóa của chính phủ",
+        "answer_explanation": "Đáp án: a\nGiải thích: Vì thuế => Yd => C => đòi Y ( sản lượng )  \n=> I phải => đòi hỏi nhiều lao động => thất nghiệp\n G => đòi hỏi Y ( sản lượng ) => I phải  \n => Đòi hỏi nhiều lao động => thất nghiệp"
+    },
+    {
+        "id": 240,
+        "question": "Câu 240 : GDP danh nghĩa là 4000 tỷ vào năm 1 và 4400 tỷ vào năm 2 . Nếu chọn năm 1  là năm cơ sở ( năm gốc ) thì :  \na. Chỉ số giá chung là 110 \nb. Giá gia tăng bình quân là 10% mỗi năm  \nc. GDP thực không đổi  \nd. Cả 3 câu đều sai",
+        "answer_explanation": "Đáp án: a\nGiải thích: Chọn năm 1 làm gốc tức là :  \nGDPdanh nghĩa1 = GDP thực1 = 4000 \n=> P1 = 1  \n P2 = ( GDP danh nghĩa 2 )/ GDPthực 1 = 4400/4000 = 110%"
+    }
+]

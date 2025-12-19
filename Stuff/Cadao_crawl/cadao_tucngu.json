@@ -1,0 +1,3797 @@
+[
+    {
+        "id": 1,
+        "content": "Ai giàu ba họ, ai khó ba đời.",
+        "type": "li_tag"
+    },
+    {
+        "id": 2,
+        "content": "Ăn cơm với bò thì lo ngay ngáy, ăn cơm với cáy thì ngáy o o.",
+        "type": "li_tag"
+    },
+    {
+        "id": 3,
+        "content": "Ăn tấm trả giặt.",
+        "type": "li_tag"
+    },
+    {
+        "id": 4,
+        "content": "Ăn thì hơn, hờn thì thiệt.",
+        "type": "li_tag"
+    },
+    {
+        "id": 5,
+        "content": "Cao cờ không bằng cao cổ.",
+        "type": "li_tag"
+    },
+    {
+        "id": 6,
+        "content": "Có tiền mua tiên cũng được.",
+        "type": "li_tag"
+    },
+    {
+        "id": 7,
+        "content": "Đã nghèo còn mắc cái eo.",
+        "type": "li_tag"
+    },
+    {
+        "id": 8,
+        "content": "Mạt cưa mướp đắng.",
+        "type": "li_tag"
+    },
+    {
+        "id": 9,
+        "content": "Nhập gia tùy tục.",
+        "type": "li_tag"
+    },
+    {
+        "id": 10,
+        "content": "Sa cơ lỡ vận.",
+        "type": "li_tag"
+    },
+    {
+        "id": 11,
+        "content": "Trời sinh voi sinh cỏ.",
+        "type": "li_tag"
+    },
+    {
+        "id": 12,
+        "content": "Thượng bất chính, hạ tắc loạn.",
+        "type": "li_tag"
+    },
+    {
+        "id": 13,
+        "content": "Phép vua thua lệ làng.",
+        "type": "li_tag"
+    },
+    {
+        "id": 14,
+        "content": "Đất có lề, quê có thói.",
+        "type": "li_tag"
+    },
+    {
+        "id": 15,
+        "content": "Hỡi cô cắt cỏ đồng mầu!",
+        "type": "li_tag"
+    },
+    {
+        "id": 16,
+        "content": "Người trên ở chẳng chính ngôi,Khiến cho kẻ dưới chúng tôi hỗn hào.",
+        "type": "li_tag"
+    },
+    {
+        "id": 17,
+        "content": "Mười năm rèn luyện sách đèn,Công danh gặp bước, chớ quên ơn thầy.",
+        "type": "li_tag"
+    },
+    {
+        "id": 18,
+        "content": "Nhà có láng giềng nhà,Đồng có láng giềng đồng.",
+        "type": "li_tag"
+    },
+    {
+        "id": 19,
+        "content": "Nghèo giữa chợ chẳng ai han hỏi,Giàu đầu non nhiều kẻ viếng thăm.",
+        "type": "li_tag"
+    },
+    {
+        "id": 20,
+        "content": "Muốn sang thì bắc cầu Kiều,Muốn con hay chữ thì yêu kính thầy.",
+        "type": "li_tag"
+    },
+    {
+        "id": 21,
+        "content": "Dại nhà khôn chợ mới ngoan.Khôn nhà dại chợ, thế gian chê cười.",
+        "type": "li_tag"
+    },
+    {
+        "id": 22,
+        "content": "Mẹ cha công đức sinh thành.Ra trường thầy dạy học hành cho hay.",
+        "type": "li_tag"
+    },
+    {
+        "id": 23,
+        "content": "Quốc kêu réo rắt trên ngàn,Gà rừng táo tác gọi con trên đồi.Lạnh lùng thay láng giềng ôi,Láng giềng lạnh ít, sao tôi lạnh nhiều.",
+        "type": "li_tag"
+    },
+    {
+        "id": 24,
+        "content": "Phượng hoàng ở chốn cheo leo,Sa cơ lỡ vận phải theo đàn gà.Bao giờ gió thuận mưa hòa,Thay lông đổi cánh lại ra phượng hoàng.",
+        "type": "li_tag"
+    },
+    {
+        "id": 25,
+        "content": "Ca dao về xã hội hay, ý nghĩa sâu sắc nhất",
+        "type": "p_tag"
+    },
+    {
+        "id": 26,
+        "content": "Ba thương má lúm đồng tiền,\nBốn thương răng lánh hạt huyền kém thua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 27,
+        "content": "Ai xui má đỏ, môi hồng\nĐể anh nhác thấy đem lòng thương yêu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 28,
+        "content": "Lấy cho trả thảo cho cha\nĐền ơn cho mẹ con ra lấy chồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 29,
+        "content": "Chồng người xe ngựa người yêu\nChồng em áo rách, em chiều em thương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 30,
+        "content": "Trăm năm quyết chí một chồng\nDầu ai thêu phụng vẽ rồng mặc ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 31,
+        "content": "Nước trong ai chẳng rửa chân\nCái má trắng ngần ai chẳng muốn hôn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 32,
+        "content": "Trời nào có phụ ai đâu\nHay làm thì giàu, có chí thì nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 33,
+        "content": "Miệng em cười như cánh hoa nhài\nNhư nụ hoa quế như tai hồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 34,
+        "content": "Mắt xanh tươi thắm môi trầu\nMiệng cười lúm má, cho cầu thêm xinh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 35,
+        "content": "Những người con mắt lá răm\nĐôi mày lá liễu đáng trăm quan tiền.",
+        "type": "p_tag"
+    },
+    {
+        "id": 36,
+        "content": "Chân mày vòng nguyệt có duyên\nTóc mây gợn sóng đẹp duyên tơ hồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 37,
+        "content": "Vì cam cho quýt đèo bồng\nVì em nhan sắc cho lòng nhớ thương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 38,
+        "content": "Cổ tay em trắng lại tròn,\nÐể cho ai gối đã mòn một bên?\nGối chăn gối chiếu không êm,\nGối lụa không mềm bằng gối tay em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 39,
+        "content": "Hỡi người tóc tốt xanh non\nLưng ong thắt đáy như con tò vò.\nTóc xanh tươi tốt rậm rà\nRăng đen nhanh nhánh tưởng là hạt na.",
+        "type": "p_tag"
+    },
+    {
+        "id": 40,
+        "content": "Non cao cũng có đường trèo\nĐường dù hiểm nghèo cũng có lối đi.\nNon cao cũng có đường trèo\nNhững bệnh hiểm nghèo có thuốc thần tiên",
+        "type": "p_tag"
+    },
+    {
+        "id": 41,
+        "content": "Ta về ta tắm ao ta,\nDù trong dù đục ao nhà vẫn hơn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 42,
+        "content": "Anh đi anh nhớ quê nhà,\nNhớ canh rau muống nhớ cà dầm tương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 43,
+        "content": "Bể xa mây nước mù mù,\nBiết mô cửa lạch, biết mô sống cùng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 44,
+        "content": "Trời cao, cao bấy không xa,\nĐất kia rộng vậy thế mà dày sâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 45,
+        "content": "Mình về mình nhớ ta chăng\nTa về ta nhớ hàm răng mình cười,\nTrăm quan mua lấy miệng cười\nNghìn quan chẳng tiếc, tiếc người răng đen.",
+        "type": "p_tag"
+    },
+    {
+        "id": 46,
+        "content": "Nhác trông con mắt đáng trăm\nMiệng cười đáng chục, hàm răng đáng nghìn\nNhác trông con mắt ưa nhìn\nĐáng trăm cũng chuộng, đáng nghìn cũng mua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 47,
+        "content": "Gặp em, thấy khéo miệng cười\nThấy xinh con mắt, thấy tươi má hồng\nGặp nhau giữa cánh đồng này\nCon mắt liếc lại lông mày đưa ngang.\nCon mắt em liếc cũng ngoan\nCái chân em bước tựa đàn năm cung",
+        "type": "p_tag"
+    },
+    {
+        "id": 48,
+        "content": "Một thương tóc bỏ đuôi gà\nHai thương ăn nói mặn mà có duyên\nBa thương má lúm đồng tiền\nBốn thương răng nhánh hạt huyền kém thua\nNăm thương cổ yếm đeo bùa\nSáu thương nón thượng quai tua dịu dàng\nBảy thương nết ở khôn ngoan\nTám thương ăn nói lại càng thêm xinh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 49,
+        "content": "Ăn cỗ đi trước, lội nước đi sau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 50,
+        "content": "Ăn lấy đời, chơi lấy thời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 51,
+        "content": "Ăn quả nhớ kẻ trồng cây.",
+        "type": "p_tag"
+    },
+    {
+        "id": 52,
+        "content": "Cái răng, cái tóc là gốc con người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 53,
+        "content": "Chết giả mới biết bụng dạ anh em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 54,
+        "content": "Con mắt là mặt đồng cân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 55,
+        "content": "Của người bồ tát, của mình lạt buộc.",
+        "type": "p_tag"
+    },
+    {
+        "id": 56,
+        "content": "Đánh bạc quen tay, ngủ ngày quen mắt, ăn vặt quen mồm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 57,
+        "content": "Đói cho sạch, rách cho thơm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 58,
+        "content": "Giàu điếc, sang đui.",
+        "type": "p_tag"
+    },
+    {
+        "id": 59,
+        "content": "Làm khi lành, để dành khi đau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 60,
+        "content": "Lòng người như bể khôn dò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 61,
+        "content": "Miếng ăn là miếng nhục.",
+        "type": "p_tag"
+    },
+    {
+        "id": 62,
+        "content": "Người giàu tham việc, thất nghiệp tham ăn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 63,
+        "content": "Người là vàng của là ngãi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 64,
+        "content": "Người năm bảy đấng, của ba bảy loài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 65,
+        "content": "Người sống đống vàng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 66,
+        "content": "Ruột ngựa, phổi bò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 67,
+        "content": "Sáng tai họ, điếc tai cày.",
+        "type": "p_tag"
+    },
+    {
+        "id": 68,
+        "content": "Sống mỗi người một nết, chết mỗi người một tật.",
+        "type": "p_tag"
+    },
+    {
+        "id": 69,
+        "content": "Thấy sang bắt quàng làm họ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 70,
+        "content": "Thương người như thể thương thân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 71,
+        "content": "Trông mặt mà bắt hình dong.",
+        "type": "p_tag"
+    },
+    {
+        "id": 72,
+        "content": "Học là học biết giữ giàng\nBiết điều nhân nghĩa biết đằng hiếu trung",
+        "type": "p_tag"
+    },
+    {
+        "id": 73,
+        "content": "Dương trần phải ráng làm hiền\nĐừng trọng bạc tiền bỏ nghĩa bỏ nhân",
+        "type": "p_tag"
+    },
+    {
+        "id": 74,
+        "content": "Làm trai nết đủ năm đường,\nTrước tiên điều hiếu đạo thường xưa nay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 75,
+        "content": "Thờ cha mẹ, ở hết lòng,\nẤy là chữ hiếu, dạy trong luân thường.",
+        "type": "p_tag"
+    },
+    {
+        "id": 76,
+        "content": "Đời xưa trả oán còn lâu,\nĐời nay trả oán bất câu giờ nào.",
+        "type": "p_tag"
+    },
+    {
+        "id": 77,
+        "content": "Chàng đi trấn chốn phương xa\nNhớ chăng dải đất Cầu Huê quê mình\nBến trăng sóng nước lung linh\nTấm nâu thiếp nhuộm tình riêng Huê Cầu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 78,
+        "content": "Đường giao tiếp cốt vẹn toàn,\nViệc mình không muốn chớ làm cho ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 79,
+        "content": "Trâu ta ăn cỏ đồng ta\nĐừng ham cỏ tốt ăn qua đồng người\nHàng ta, ta bận cũng tươi\nHam chi hàng ngoại, kẻ cười người chê",
+        "type": "p_tag"
+    },
+    {
+        "id": 80,
+        "content": "Gái thì giữ lấy chữ trinh\nSiêng năng chín chắn, trời dành phúc cho",
+        "type": "p_tag"
+    },
+    {
+        "id": 81,
+        "content": "Ruộng hoang người ta khẩn còn thành,\nHuống chi ruộng thuộc sao đành bỏ hoang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 82,
+        "content": "Thương anh dầu dãi nắng mưa,\nHết khơi ruộng thấp lại bừa ruộng cao",
+        "type": "p_tag"
+    },
+    {
+        "id": 83,
+        "content": "Rượu ngon bất luận be sành.\nÁo rách khéo vá, hơn lành vụng may.",
+        "type": "p_tag"
+    },
+    {
+        "id": 84,
+        "content": "Ao sâu ruộng đất bề bề\nKhông bằng tinh xảo một nghề trong tay",
+        "type": "p_tag"
+    },
+    {
+        "id": 85,
+        "content": "Công cha đức mẹ cao dày,\nCưu mang trứng nước những ngày ngây thơ.\nNuôi con khó nhọc đến giờ,\nTrưởng thành con phải biết thờ hai thân.\nThức khuya dậy sớm chuyên cần,\nQuạt nồng ấp lạnh giữ phần đạo con.",
+        "type": "p_tag"
+    },
+    {
+        "id": 86,
+        "content": "Choàng qua cổ bạn khóc rằng\nCăn duyên không tính để lầm vòng thương\nVợ chồng là đạo tào khương\nTrách bà Nguyệt Lão vấn vương không thành",
+        "type": "p_tag"
+    },
+    {
+        "id": 87,
+        "content": "Cá không ăn muối cá ươn,\nCon cãi cha mẹ trăm đường con hư.",
+        "type": "p_tag"
+    },
+    {
+        "id": 88,
+        "content": "Ơn thầy soi lối mở đường\nCho con vững bước dặm trường tương lai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 89,
+        "content": "Ơn đây gần bạn, gần thầy\nCó công mài sắt có ngày nên kim.",
+        "type": "p_tag"
+    },
+    {
+        "id": 90,
+        "content": "Chữ thầy trong cõi người ta\nDặm dài hoa nắng trời xa biển đầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 91,
+        "content": "Dù đi khắp bốn phương trời\nCông cha nghĩa mẹ không ai sánh bằng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 92,
+        "content": "Mấy ai là kẻ không thầy\nThế gian thường nói đố mày làm nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 93,
+        "content": "Đêm nay con ngủ giấc tròn,\nMẹ là ngọn gió của con suốt đời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 94,
+        "content": "Mười năm rèn luyện sách đèn\nCông danh gặp bước chớ quên ơn thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 95,
+        "content": "Anh chỉ quen một cô nàng da trắng tóc dài\nMiệng cười như nhánh hoa nhài nở nang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 96,
+        "content": "Răng đen ai nhuộm cho mình\nCho duyên mình đậm cho tình anh say.",
+        "type": "p_tag"
+    },
+    {
+        "id": 97,
+        "content": "Trăng rằm mười sáu trăng nghiêng,\nThương em chúm chím cười duyên một mình.",
+        "type": "p_tag"
+    },
+    {
+        "id": 98,
+        "content": "Ngọc kia chuốt mãi cũng tròn,\nSắt kia mài mãi cũng còn nên kim.",
+        "type": "p_tag"
+    },
+    {
+        "id": 99,
+        "content": "Ai ơi giữ chí cho bền\nDù ai xoay hướng đổi nền mặc ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 100,
+        "content": "Thương ai hồi nhỏ tới chừ\nDẫu nghèo, dẫu đói không từ ngãi nhân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 101,
+        "content": "Học là học để làm người\nBiết điều hơn thiệt biết lời thị phi",
+        "type": "p_tag"
+    },
+    {
+        "id": 102,
+        "content": "Học trò học hiếu học trung\nHọc cho đến mực anh hùng mới thôi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 103,
+        "content": "Bữa nay nhìn mặt cho tường\nĐến mai dời gót nẻo đường xa xôi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 104,
+        "content": "Cơm này nửa sống nửa khê,\nVợ đơm chồng nếm chẳng chê cơm này.",
+        "type": "p_tag"
+    },
+    {
+        "id": 105,
+        "content": "Mẹ ơi thương lấy rể nghèo\nKhoa tay vớt bọt, lấy bèo nuôi nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 106,
+        "content": "Sông sâu sào ngắn khôn dò\nNgười khôn ít nói, khôn đo tấc lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 107,
+        "content": "Dạo chơi quán cũng như nhà.\nNhà tranh có ngãi hơn tòa nhà cao.",
+        "type": "p_tag"
+    },
+    {
+        "id": 108,
+        "content": "Cái bống là cái bống bình,\nThổi cơm nấu nước một mình mồ côi.\nRạng ngày có khách đến chơi\nCơm ăn rượu uống cho vui lòng chồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 109,
+        "content": "Có con phải khổ vì con\nCó chồng phải gánh giang sơn nhà chồng.\nCó chồng phải lụy cùng chồng\nĐắng cay phải chịu mặn nồng phải theo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 110,
+        "content": "Duyên là tóc, tóc là tơ\nXe tơ kết tóc bậu chờ trông ai\nTóc bậu mới chấm ngang vai\nCha mẹ thương ít, nhưng trai thương nhiều\nCho dầu bậu trong trắng mỹ miều\nNhiều nơi lắm chốn, anh cũng chẳng chiều được đâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 111,
+        "content": "Ngó lên trời thấy cặp cu đang đá,\nNgó ra ngoài biển, thấy cặp cá đang đua.\nĐi về lập miếu thờ vua,\nLập trang thờ mẹ, lập chùa thờ cha.",
+        "type": "p_tag"
+    },
+    {
+        "id": 112,
+        "content": "Ở cho có nghĩa có nhân\nCây đức lắm chồi, người đức lắm con\nBa vuông sánh với bảy tròn\nĐời cha ân đức, đời con sang giàu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 113,
+        "content": "Làm người chẳng biết lo xa,\nTrẻ trung đã vậy tuổi già làm sao.\nLàm người cho biết tiền tằn,\nĐồ ăn thức mặc có ngần thì thôi.\nNhững người đói rách rạc rài,\nBởi phụ của trời làm chẳng nên ăn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 114,
+        "content": "Bần cư náo thị vô nhân đáo,\nPhú tại lâm sơn hữu viễn thân,\nBấy lâu nay không biểu, anh cũng lại gần,\nBấy giờ em sa cơ thất vận,\nEm biểu mấy lần anh cũng không vô.",
+        "type": "p_tag"
+    },
+    {
+        "id": 115,
+        "content": "Lấy điều ăn ở dạy con,\nDẫu mà gặp tiết nước non xoay vần.\nỞ cho có đức, có nhân,\nMới mong thờ tự, được ăn lộc trời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 116,
+        "content": "Trong đầm gì đẹp bằng sen,\nLá xanh bông trắng lại chen nhị vàng.\nNhị vàng bông trắng lá xanh,\nGần bùn mà chẳng hôi tanh mùi bùn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 117,
+        "content": "Đã sinh ra kiếp ở đời,\nTrai thời trung hiếu đôi vai cho tròn.\nGái thời trinh trỉnh lòng son,\nSớm hôm gìn giữ kẻo còn chút sai.\nTrai lành gái tốt ra người,\nKhuyên con trọng bấy nhiêu lời cho chuyên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 118,
+        "content": "Con cò lặn lội bờ sông\nGánh gạo đưa chồng tiếng khóc nỉ non.\nNàng về nuôi cái cùng con\nĐể anh đi trẩy nước non Cao Bằng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 119,
+        "content": "Chàng ơi phải lính thì đi,\nCửa nhà đơn chiếc đã thì có tôi.\nAnh đi em ở lại nhà\nHai vai gánh vác mẹ già con thơ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 120,
+        "content": "Bà chúa đứt tay bằng ăn mày sổ ruột.",
+        "type": "p_tag"
+    },
+    {
+        "id": 121,
+        "content": "Bầu dục chẳng đến bàn thứ tám, cám nhỏ chẳng đến miệng lợn sề.",
+        "type": "p_tag"
+    },
+    {
+        "id": 122,
+        "content": "Cá lớn nuốt cá bé.",
+        "type": "p_tag"
+    },
+    {
+        "id": 123,
+        "content": "Chưa đỗ ông nghè đã đe hàng tổng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 124,
+        "content": "Cốc mò cò xơi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 125,
+        "content": "Con giun xéo lắm cũng quằn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 126,
+        "content": "Công nợ trả dần, cháo nóng húp quanh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 127,
+        "content": "Của bền tại người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 128,
+        "content": "Của bụt mất một đền mười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 129,
+        "content": "Đi buôn nói ngay bằng đi cày nói dối.",
+        "type": "p_tag"
+    },
+    {
+        "id": 130,
+        "content": "Đồng tiền đi trước là đồng tiền khôn, đồng tiền đi sau là đồng tiền dại.",
+        "type": "p_tag"
+    },
+    {
+        "id": 131,
+        "content": "Được làm vua, thua làm giặc.",
+        "type": "p_tag"
+    },
+    {
+        "id": 132,
+        "content": "Hay làm thì đói, hay nói thì no.",
+        "type": "p_tag"
+    },
+    {
+        "id": 133,
+        "content": "Lá lành đùm lá rách.",
+        "type": "p_tag"
+    },
+    {
+        "id": 134,
+        "content": "Làm hàng săng, chết bó chiếu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 135,
+        "content": "Làm nghề gì ăn nghề ấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 136,
+        "content": "Lễ vào quan như than vào lò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 137,
+        "content": "Mạnh về gạo bạo về tiền.",
+        "type": "p_tag"
+    },
+    {
+        "id": 138,
+        "content": "Muốn nói oan làm quan mà nói.",
+        "type": "p_tag"
+    },
+    {
+        "id": 139,
+        "content": "Nén bạc đâm toạc tờ giấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 140,
+        "content": "Nhất quỷ, nhì ma, thứ ba học trò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 141,
+        "content": "Nhất sĩ nhì nông, hết gạo chạy rông, nhất nông nhì sĩ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 142,
+        "content": "Nhất tội, nhì nợ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 143,
+        "content": "Nhiều tiền thì thắm, ít tiền thì phai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 144,
+        "content": "Quan thấy kiện như kiến thấy mỡ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 145,
+        "content": "Quan thời xa, bản nha thời gần.",
+        "type": "p_tag"
+    },
+    {
+        "id": 146,
+        "content": "Ruộng bề bề không bằng nghề trong tay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 147,
+        "content": "Thằng mõ có bỏ đám nào.",
+        "type": "p_tag"
+    },
+    {
+        "id": 148,
+        "content": "Tiền bạc đi trước mực thước đi sau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 149,
+        "content": "Trời sinh voi, trời sinh cỏ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 150,
+        "content": "Tuần hà là cha kẻ cướp.",
+        "type": "p_tag"
+    },
+    {
+        "id": 151,
+        "content": "Tức nước vỡ bờ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 152,
+        "content": "Uống nước nhớ nguồn",
+        "type": "p_tag"
+    },
+    {
+        "id": 153,
+        "content": "Thế gian chuộng của, chuộng công\nNào ai có chuộng người không bao giờ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 154,
+        "content": "Dò sông, dò bể, dò nguồn\nBiết sao được bụng lái buôn mà dò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 155,
+        "content": "Dù ai buôn đâu bán đâu\nNhớ ngày mở hội rủ nhau mà về",
+        "type": "p_tag"
+    },
+    {
+        "id": 156,
+        "content": "Dù ai bận rộn trăm nghề\nTháng 2 mở hội thì về Trường Yên",
+        "type": "p_tag"
+    },
+    {
+        "id": 157,
+        "content": "Cú kêu ba tiếng cứ kêu\nKêu mau đến Tết dựng nêu ăn chè\nDựng nêu thì dựng đầu hè\nĐể sân gieo cải, vãi mè ăn chung",
+        "type": "p_tag"
+    },
+    {
+        "id": 158,
+        "content": "Đi đâu mặc kệ đi đâu\nĐến ngày giỗ Tết phải mua mà về",
+        "type": "p_tag"
+    },
+    {
+        "id": 159,
+        "content": "Con cò chết rũ trên cây\nCò con mở lịch xem ngày làm ma",
+        "type": "p_tag"
+    },
+    {
+        "id": 160,
+        "content": "Ai ơi muôn dặm ngược xa\nCải lương quấn chặt lấy ba măng vòi",
+        "type": "p_tag"
+    },
+    {
+        "id": 161,
+        "content": "Gái Chưa Chồng trông hang Cắc Cứ\nTrai chưa vợ nhớ hội chùa Thầy",
+        "type": "p_tag"
+    },
+    {
+        "id": 162,
+        "content": "Cà cuống uống rượu la đà\nChim ri ríu rít bỏ ra lấy phần\nChào mào thì đánh trống quân\nChim chích cởi trần vác Bó đi lao",
+        "type": "p_tag"
+    },
+    {
+        "id": 163,
+        "content": "Mồng một Tết cha\nMùng 2 Tết mẹ\nMùng 3 tết thầy",
+        "type": "p_tag"
+    },
+    {
+        "id": 164,
+        "content": "Ai về Phú Thọ cùng ta\nVui ngày giỗ tổ tháng ba mùng 10\nDù ai đi ngược về xuôi\nNhớ ngày giỗ tổ Hùng mười tháng ba",
+        "type": "p_tag"
+    },
+    {
+        "id": 165,
+        "content": "Chẳng về hội vật thì thôi\nVề thì nhất định phải thử một nồi lươn măng\nĐã ăn thì ăn đậu rang\nLấy năm bảy cọc cho bằng người ta",
+        "type": "p_tag"
+    },
+    {
+        "id": 166,
+        "content": "Chém cha những đứa sang giàu\nCậy thần cậy thế cúi đầu lính tây",
+        "type": "p_tag"
+    },
+    {
+        "id": 167,
+        "content": "Con cò lặn lội bờ sông\nGánh gạo đưa chồng tiếng khóc nỉ non\nNàng ở nhà nuôi cái cùng con\nĐể anh trấn Thủ nước non Cao Bằng",
+        "type": "p_tag"
+    },
+    {
+        "id": 168,
+        "content": "Đồn Tây dù chắc dù dày\nThuế nộp đủ đầy đồn ắt phải tan",
+        "type": "p_tag"
+    },
+    {
+        "id": 169,
+        "content": "Hải Vân cao ngất từng mây\nGiặc đi đến đó bỏ thây không về",
+        "type": "p_tag"
+    },
+    {
+        "id": 170,
+        "content": "Đứng trên cầu cấm em thề\nChưa xong nhiệm vụ chưa về quê hương",
+        "type": "p_tag"
+    },
+    {
+        "id": 171,
+        "content": "Đeo hoa chỉ tổ nặng tai\nĐeo kiềng nặng cổ hỡi ai có vàng\nLàm lên một nước kẻ vang\nĐem vàng giúp nước giàu sang sau này\nĐổi vàng lấy súng, cối xay\nBắn tan giặc Pháp, dựng ngày vinh quang",
+        "type": "p_tag"
+    },
+    {
+        "id": 172,
+        "content": "Bầu ơi thương lấy bí cùng\nTuy rằng khác giống nhưng chung một giàn",
+        "type": "p_tag"
+    },
+    {
+        "id": 173,
+        "content": "Nhiễu điều phủ lấy giá gương\nNgười trong một nước phải thương nhau cùng",
+        "type": "p_tag"
+    },
+    {
+        "id": 174,
+        "content": "Tay bắt tay trong lòng chung sức\nQuyết duyệt thù cứu quốc bạn ơi",
+        "type": "p_tag"
+    },
+    {
+        "id": 175,
+        "content": "Lòng em khôn tỏ hết lời\nKìa gương phấn cũng rạng ngời nước non",
+        "type": "p_tag"
+    },
+    {
+        "id": 176,
+        "content": "Ru con con ngủ cho lành\nĐể mẹ múc nước rửa bành cho voi\nMuốn coi lên núi mà coi\nCoi bà Triệu tướng cưỡi voi đánh cồng",
+        "type": "p_tag"
+    },
+    {
+        "id": 177,
+        "content": "Ru hời ru hỡi là ru\nCha con còn ở chiến khu chưa về\nCon ơi nhớ trọn lời thề\nTự do độc lập không hề hi sinh",
+        "type": "p_tag"
+    },
+    {
+        "id": 178,
+        "content": "Tục ngữ về truyền thống hiếu học của Việt Nam",
+        "type": "p_tag"
+    },
+    {
+        "id": 179,
+        "content": "Tiên học lễ, hậu học văn",
+        "type": "p_tag"
+    },
+    {
+        "id": 180,
+        "content": "Học khôn đến chết, học nết đến già",
+        "type": "p_tag"
+    },
+    {
+        "id": 181,
+        "content": "Dao có mài mới sắc, người có học mới khôn",
+        "type": "p_tag"
+    },
+    {
+        "id": 182,
+        "content": "Dốt đến đâu, học lâu cũng biết",
+        "type": "p_tag"
+    },
+    {
+        "id": 183,
+        "content": "Luyện mãi thành tài, miệt mài tất giỏi",
+        "type": "p_tag"
+    },
+    {
+        "id": 184,
+        "content": "Học ăn học nói học gói học mở",
+        "type": "p_tag"
+    },
+    {
+        "id": 185,
+        "content": "Học hay cày biết",
+        "type": "p_tag"
+    },
+    {
+        "id": 186,
+        "content": "Học một biết mười",
+        "type": "p_tag"
+    },
+    {
+        "id": 187,
+        "content": "Học thầy chẳng tày học bạn",
+        "type": "p_tag"
+    },
+    {
+        "id": 188,
+        "content": "Học thầy học bạn vô vạn phong lưu",
+        "type": "p_tag"
+    },
+    {
+        "id": 189,
+        "content": "Ăn vóc học hay",
+        "type": "p_tag"
+    },
+    {
+        "id": 190,
+        "content": "Dao có mài mới sắc, người có học mới lên",
+        "type": "p_tag"
+    },
+    {
+        "id": 191,
+        "content": "70 Còn học 71",
+        "type": "p_tag"
+    },
+    {
+        "id": 192,
+        "content": "Có cày có thóc, có học có chữ",
+        "type": "p_tag"
+    },
+    {
+        "id": 193,
+        "content": "Học hành vất vả kết quả ngọt bùi",
+        "type": "p_tag"
+    },
+    {
+        "id": 194,
+        "content": "Dốt đặc còn hơn hay chữ lỏng",
+        "type": "p_tag"
+    },
+    {
+        "id": 195,
+        "content": "Hay học thì sang, hay làm thì có",
+        "type": "p_tag"
+    },
+    {
+        "id": 196,
+        "content": "Một kho vàng không bằng bột năng chữ",
+        "type": "p_tag"
+    },
+    {
+        "id": 197,
+        "content": "Có học có khôn",
+        "type": "p_tag"
+    },
+    {
+        "id": 198,
+        "content": "Dẫu rằng thông hoạt\nChẳng học cũng hư\nĐời tài trí bằng trời\nChẳng học cũng là phải khổ",
+        "type": "p_tag"
+    },
+    {
+        "id": 199,
+        "content": "Câu ca dao, tục ngữ về truyền thống gia đình",
+        "type": "p_tag"
+    },
+    {
+        "id": 200,
+        "content": "Chồng đẹp, vợ đẹp những nhìn mà no",
+        "type": "p_tag"
+    },
+    {
+        "id": 201,
+        "content": "Chồng đã giận, vợ bớt lời",
+        "type": "p_tag"
+    },
+    {
+        "id": 202,
+        "content": "Chồng tới vợ phải lui",
+        "type": "p_tag"
+    },
+    {
+        "id": 203,
+        "content": "Cả Sông Đông chợ, lắm vợ nhiều con",
+        "type": "p_tag"
+    },
+    {
+        "id": 204,
+        "content": "Cau non về hạt, gái đảm về chồng",
+        "type": "p_tag"
+    },
+    {
+        "id": 205,
+        "content": "Chẳng tu vắng vợ cũng như tu",
+        "type": "p_tag"
+    },
+    {
+        "id": 206,
+        "content": "Chẻ củi xem thử, lấy vợ xem tông",
+        "type": "p_tag"
+    },
+    {
+        "id": 207,
+        "content": "Lấy vợ xem tông, lấy chồng Xem giống",
+        "type": "p_tag"
+    },
+    {
+        "id": 208,
+        "content": "Chết trẻ còn hơn lấy lẽ chồng người",
+        "type": "p_tag"
+    },
+    {
+        "id": 209,
+        "content": "Đàn ông xây nhà đàn bà xây tổ ấm",
+        "type": "p_tag"
+    },
+    {
+        "id": 210,
+        "content": "Chiều người lấy việc\nChiều chồng lấy con",
+        "type": "p_tag"
+    },
+    {
+        "id": 211,
+        "content": "Con hơn Cha như nhà có nóc",
+        "type": "p_tag"
+    },
+    {
+        "id": 212,
+        "content": "Con dại cái  mang",
+        "type": "p_tag"
+    },
+    {
+        "id": 213,
+        "content": "Con nhà tông không giống lông cũng giống cánh",
+        "type": "p_tag"
+    },
+    {
+        "id": 214,
+        "content": "Con hư tại mẹ",
+        "type": "p_tag"
+    },
+    {
+        "id": 215,
+        "content": "Cháu hư tại bà",
+        "type": "p_tag"
+    },
+    {
+        "id": 216,
+        "content": "Thương cho roi cho vọt\nGhét cho ngọt cho bùi",
+        "type": "p_tag"
+    },
+    {
+        "id": 217,
+        "content": "Bà phải có ông\nChồng phải có vợ",
+        "type": "p_tag"
+    },
+    {
+        "id": 218,
+        "content": "Chồng chung vợ chạ\nAi khéo hầu hạ thì được chồng riêng",
+        "type": "p_tag"
+    },
+    {
+        "id": 219,
+        "content": "Cha mẹ sinh con trời sinh tính",
+        "type": "p_tag"
+    },
+    {
+        "id": 220,
+        "content": "Con hơn cha là nhà có nóc",
+        "type": "p_tag"
+    },
+    {
+        "id": 221,
+        "content": "Mẹ dạy thì con khéo, Cha dậy thì con khôn",
+        "type": "p_tag"
+    },
+    {
+        "id": 222,
+        "content": "Ơn cha nặng lắm ai ơi, nghĩa mẹ bằng trời chín tháng cưu mang",
+        "type": "p_tag"
+    },
+    {
+        "id": 223,
+        "content": "Con người có tổ có tông\nNhư cây có cội như sông có nguồn",
+        "type": "p_tag"
+    },
+    {
+        "id": 224,
+        "content": "Chị ngã em nâng",
+        "type": "p_tag"
+    },
+    {
+        "id": 225,
+        "content": "Anh em trong nhà đóng cửa bảo nhau",
+        "type": "p_tag"
+    },
+    {
+        "id": 226,
+        "content": "Anh em như trông như mác",
+        "type": "p_tag"
+    },
+    {
+        "id": 227,
+        "content": "Thơ về truyền thống yêu nước, những nét đẹp văn hóa",
+        "type": "p_tag"
+    },
+    {
+        "id": 228,
+        "content": "Dù cho cay đắng trăm điều\nCũng không lay được nghĩa tình keo sơn",
+        "type": "p_tag"
+    },
+    {
+        "id": 229,
+        "content": "Ai về chợ huyện ăn nem\nGhé qua Hưng Thạnh mà xem Tháp Chàm",
+        "type": "p_tag"
+    },
+    {
+        "id": 230,
+        "content": "Chiêm Sơn là lụa Mỹ nhiều\nSớm mai mắc cửi, chiều chiều bán tơ",
+        "type": "p_tag"
+    },
+    {
+        "id": 231,
+        "content": "Nhất Trước Kiều đám ma, nhì Thanh Hà nhà cháy",
+        "type": "p_tag"
+    },
+    {
+        "id": 232,
+        "content": "Hỡi cô thắt áo lưng xanh\nCó về Quảng Bá với anh thì về\nQuảng bá nằm ở bên đê\nBốn mùa xanh tốt với nghề trồng rau\nAnh đi trước em theo sau\nĐể bác mẹ biết trầu cau sang nhà",
+        "type": "p_tag"
+    },
+    {
+        "id": 233,
+        "content": "Dù cho cha đánh mẹ treo\nEm cũng chẳng bỏ chùa Keo hôm rằm\nDù cho cha đánh mẹ vằm\nEm cũng chẳng bỏ hôm rằm chùa Keo",
+        "type": "p_tag"
+    },
+    {
+        "id": 234,
+        "content": "Dù ai buôn bán đâu đâu, hễ trông thấy tháp chùa dâu thì về\nDù ai mua bán trăm nghề nhớ ngày mùng 8 thì về hội Dâu",
+        "type": "p_tag"
+    },
+    {
+        "id": 235,
+        "content": "Tiếng chuông lay bóng Bồ Đề\nCon chim trắng cánh bay về Tây Thiên\nMong sao dân tộc bình yên\nĐạo lành che chở dân Hiền Thương Yêu\nDù cho đất sập trời siêu\nLòng tôi vẫn nhớ những điều giá gương\nKhắp nơi đồng ruộng phố phường\nNhớ lời Phật dạy phải thương nhau cùng\nĐạo vàng điểm núi tô sông\nXây nền văn hóa Lạc Hồng thắm tươi",
+        "type": "p_tag"
+    },
+    {
+        "id": 236,
+        "content": "Hải Vân bát ngát nghìn trùng\nHòn Hành ở đó là trong vịnh Hàn\nXưa nay qua đó còn thuyền\nLối đi lâu giản chẳng biền ra khơi\nDù cho cả nước sôi bùn\nHải Vân hóa cát biển Đông thành đèo",
+        "type": "p_tag"
+    },
+    {
+        "id": 237,
+        "content": "Ăn mặn nói ngay còn hơn ăn chay nói dối",
+        "type": "p_tag"
+    },
+    {
+        "id": 238,
+        "content": "Cái nết đánh chết cái đẹp.",
+        "type": "p_tag"
+    },
+    {
+        "id": 239,
+        "content": "Chết trong còn hơn sống đục.",
+        "type": "p_tag"
+    },
+    {
+        "id": 240,
+        "content": "Đất lành chim đỗ, đất ngỗ chim bay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 241,
+        "content": "Điều lành thì nhớ, điều dở thì quên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 242,
+        "content": "Dù đẹp tám vạn nghìn tư, mà chẳng có nết cũng hư một đời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 243,
+        "content": "Đừng ham nón tốt dột mưa, đừng ham người đẹp mà thưa việc làm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 244,
+        "content": "Khẩu Phật tâm xà.",
+        "type": "p_tag"
+    },
+    {
+        "id": 245,
+        "content": "Kính già yêu trẻ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 246,
+        "content": "Người chết, nết còn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 247,
+        "content": "Người đừng khinh rẻ người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 248,
+        "content": "Sống tết, chết giỗ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 249,
+        "content": "Tốt đẹp phô ra, xấu xa đậy lại.",
+        "type": "p_tag"
+    },
+    {
+        "id": 250,
+        "content": "Tốt gỗ hơn tốt nước sơn, xấu người đẹp nết còn hơn đẹp người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 251,
+        "content": "Uống nước chớ quên người đào mạch.",
+        "type": "p_tag"
+    },
+    {
+        "id": 252,
+        "content": "Uống nước, nhớ kẻ đào giếng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 253,
+        "content": "Vô công bất hưởng lợi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 254,
+        "content": "Xấu hay làm tốt, dốt hay nói chữ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 255,
+        "content": "Yêu trẻ, trẻ đến nhà, kính già, già để tuổi cho.",
+        "type": "p_tag"
+    },
+    {
+        "id": 256,
+        "content": "Nhân chi sơ, tính bản thiện.",
+        "type": "p_tag"
+    },
+    {
+        "id": 257,
+        "content": "Tôn sư trọng đạo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 258,
+        "content": "Thuốc đắng dã tật, sự thật mất lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 259,
+        "content": "Thật vàng, không sợ lửa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 260,
+        "content": "Nói phải củ cải cũng nghe.",
+        "type": "p_tag"
+    },
+    {
+        "id": 261,
+        "content": "Khôn chẳng qua lẽ, khỏe chẳng qua lời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 262,
+        "content": "Cây ngay không sợ chết đứng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 263,
+        "content": "Trọng nghĩa, khinh tài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 264,
+        "content": "Ăn rách cốt cách người thương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 265,
+        "content": "Cây ngay bóng thẳng, cây cong bóng vẹo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 266,
+        "content": "Ăn có mời, làm có khiến.",
+        "type": "p_tag"
+    },
+    {
+        "id": 267,
+        "content": "Mặt trời luôn mọc ở đằng Đông.​",
+        "type": "p_tag"
+    },
+    {
+        "id": 268,
+        "content": "Sự thật che sự bóng.​",
+        "type": "p_tag"
+    },
+    {
+        "id": 269,
+        "content": "Ăn ngay ở thẳng, chẳng sợ mất lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 270,
+        "content": "Ăn ngay nói phải.",
+        "type": "p_tag"
+    },
+    {
+        "id": 271,
+        "content": "Hòn đất ném đi, hòn chì ném lại.",
+        "type": "p_tag"
+    },
+    {
+        "id": 272,
+        "content": "Có đi có lại mới toại lòng nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 273,
+        "content": "Vén mây mù mới thấy trời xanh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 274,
+        "content": "Ăn ngay nói thật mọi tật mọi lành.",
+        "type": "p_tag"
+    },
+    {
+        "id": 275,
+        "content": "Chớ nghe lời phỉnh tiếng phờ\nThò tay vào lờ mắc kẹt cái hom.",
+        "type": "p_tag"
+    },
+    {
+        "id": 276,
+        "content": "Khôn ngoan chẳng lọ thật thà\nLường thưng tráo đấu chẳng qua đong đầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 277,
+        "content": "Người gian thì sợ người ngay\nNgười ngay chẳng sợ đường cày cong queo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 278,
+        "content": "Khôn ngoan ba chốn bốn bề\nĐừng cho ai lấn chớ bề lấn ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 279,
+        "content": "Làm người phải đắn phải đo\nPhải cân nặng nhẹ, phải dò nông sâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 280,
+        "content": "Làm người suy chín xét xa\nCho từng gốc nhọc, cho ra vắn dài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 281,
+        "content": "Quạ đen biết phận quạ đen\nQuạ đâu có dám mon men với cò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 282,
+        "content": "Chịu oan mang tiếng bán vàm\nBám vàm tôi bán điềm đàng tôi lo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 283,
+        "content": "Lời nói không mất tiền mua\nLựa lời mà nói cho vừa lòng nhau​.",
+        "type": "p_tag"
+    },
+    {
+        "id": 284,
+        "content": "Dù cho đất đổi trời thay\nTrăm năm vẫn giữ lòng ngay với đời​.",
+        "type": "p_tag"
+    },
+    {
+        "id": 285,
+        "content": "Làm người mà chẳng biết suy\nĐến khi nghĩ lại còn gì là thân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 286,
+        "content": "Lời hơn lẽ thiệt.\nLời hơn lẽ phải.",
+        "type": "p_tag"
+    },
+    {
+        "id": 287,
+        "content": "Của phi nghĩa có giàu đâu\nỞ cho ngay thật giàu sang mới bền",
+        "type": "p_tag"
+    },
+    {
+        "id": 288,
+        "content": "Khó mà biết lẽ biết trời\nBiết ăn biết ở hơn người giàu sang",
+        "type": "p_tag"
+    },
+    {
+        "id": 289,
+        "content": "Dù ai nói ngả nói nghiêng\nLòng ta vẫn vững như kiềng ba chân",
+        "type": "p_tag"
+    },
+    {
+        "id": 290,
+        "content": "Chữ tín còn quý hơn vàng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 291,
+        "content": "Giấy rách phải giữ lấy lề.",
+        "type": "p_tag"
+    },
+    {
+        "id": 292,
+        "content": "Hứa hươu, hứa vượn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 293,
+        "content": "Lời nói như đinh đóng cột.",
+        "type": "p_tag"
+    },
+    {
+        "id": 294,
+        "content": "Một lần bất tín, vạn lần bất tin.",
+        "type": "p_tag"
+    },
+    {
+        "id": 295,
+        "content": "Mua danh ba vạn, bán danh ba đồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 296,
+        "content": "Nhất ngôn cửu đỉnh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 297,
+        "content": "Nhất ngôn ký xuất, tứ mã nan truy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 298,
+        "content": "Quân tử nhất ngôn, tứ mã nan truy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 299,
+        "content": "Quân tử nhất ngôn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 300,
+        "content": "Rao mật gấu, bán mật heo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 301,
+        "content": "Rao ngọc, bán đá.",
+        "type": "p_tag"
+    },
+    {
+        "id": 302,
+        "content": "Treo đầu dê, bán thịt chó.",
+        "type": "p_tag"
+    },
+    {
+        "id": 303,
+        "content": "Nói chín thì phải làm mười\nNói mười làm chín, kẻ cười người chê.",
+        "type": "p_tag"
+    },
+    {
+        "id": 304,
+        "content": "Người sao một hẹn thì nên\nNgười sao chín hẹn thì quên cả mười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 305,
+        "content": "Nói lời phải giữ lấy lời\nĐừng như con bướm đậu rồi lại bay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 306,
+        "content": "Hay gì lừa đảo kiếm lời\nCả nhà ăn uống, tội trời riêng mang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 307,
+        "content": "Kiếm củi ba năm, thiêu một giờ\nMua danh ba vạn, bán danh ba đồng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 308,
+        "content": "\"Cần kiệm, liêm chính, chí công, vô tư.\" (Chủ tịch Hồ Chí Minh)",
+        "type": "p_tag"
+    },
+    {
+        "id": 309,
+        "content": "Áo rách cốt cách người thương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 310,
+        "content": "Ăn có mời; làm có khiến.",
+        "type": "p_tag"
+    },
+    {
+        "id": 311,
+        "content": "Của mình thì giữ bo bo, của người thì đớp cho no mới về.",
+        "type": "p_tag"
+    },
+    {
+        "id": 312,
+        "content": "Cọp chết để da, người ta chết để tiếng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 313,
+        "content": "Ăn ngay nói thật, mọi tật mọi lành.",
+        "type": "p_tag"
+    },
+    {
+        "id": 314,
+        "content": "Mất lòng trước, được lòng sau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 315,
+        "content": "Thuốc đắng giã tật, sự thật mất lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 316,
+        "content": "Phải trái phân minh, nghĩa tình trọn vẹn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 317,
+        "content": "Giấy rách phải giữ lấy lề.",
+        "type": "p_tag"
+    },
+    {
+        "id": 318,
+        "content": "Lời hơn lẽ thiệt.",
+        "type": "p_tag"
+    },
+    {
+        "id": 319,
+        "content": "Lời hay lẽ phải.",
+        "type": "p_tag"
+    },
+    {
+        "id": 320,
+        "content": "Nghe điều phải thích lời hay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 321,
+        "content": "Sự thật che sự bóng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 322,
+        "content": "Khó mà biết lẽ biết lời\nBiết ăn biết ở như người giàu sang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 323,
+        "content": "Những người tính nết thật thà\nĐi đâu cũng được người ta tin dùng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 324,
+        "content": "Tu thân rồi mới tề gia\nLòng ngay nói thật gian tà mặc ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 325,
+        "content": "Ban ngày quan lớn như thần\nBan đêm quan lớn tần mần như ma.",
+        "type": "p_tag"
+    },
+    {
+        "id": 326,
+        "content": "Cười người chớ vội cười lâu\nCười người hôm trước hôm sau người cười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 327,
+        "content": "Đói cho sạch, rách cho thơm\nChớ có bờm xôm, để đời tiếng xấu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 328,
+        "content": "Của thấy không xin\nCủa công giữ gìn\nCủa rơi không nhặt.",
+        "type": "p_tag"
+    },
+    {
+        "id": 329,
+        "content": "Mặc đẹp chưa hẳn đã là sang\nKém phẩm vô tâm, khạc nhổ càng\nTư cách trang đài, do biết nghĩ\nKín đáo, sạch sẽ tướng thật sang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 330,
+        "content": "Ăn cho đều, kêu cho sòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 331,
+        "content": "Bênh lí, không bênh thân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 332,
+        "content": "Cầm cân nảy mực.",
+        "type": "p_tag"
+    },
+    {
+        "id": 333,
+        "content": "Cần kiệm, liêm chính, chí công, vô tư.",
+        "type": "p_tag"
+    },
+    {
+        "id": 334,
+        "content": "Chớ dong kẻ gian, chớ oan người ngay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 335,
+        "content": "Công ai nấy nhớ, tội ai nấy chịu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 336,
+        "content": "Làm trai chớ nghề bầu chủ, làm gái chớ nghề mụ dầu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 337,
+        "content": "Làm trai cứ nước hai mà nói.",
+        "type": "p_tag"
+    },
+    {
+        "id": 338,
+        "content": "Người trên đứng đắng, kẻ dưới dám nhờn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 339,
+        "content": "Quân pháp bất vị thân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 340,
+        "content": "Tài thượng phân minh thị trượng phu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 341,
+        "content": "Tha kẻ gian, oan người ngay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 342,
+        "content": "Trốn việc quan đi ở chùa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 343,
+        "content": "Vay thì trả, chạm thì đền.",
+        "type": "p_tag"
+    },
+    {
+        "id": 344,
+        "content": "Làm trai bạt núi phá rừng\nNước sông tát cạn vẫy vùng bể khơi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 345,
+        "content": "Làm trai cho đáng nên trai\nKhom lưng uốn gối gánh hai hạt vừng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 346,
+        "content": "Khôn ngoan tính trọn mọi bề\nChẳng cho ai lận, chẳng hề lận ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 347,
+        "content": "Làm trai quyết chí tu thân\nCông danh chớ vội, nợ nần chớ lo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 348,
+        "content": "Bề trên ở chẳng kỷ cương\nCho nên kẻ dưới lập đường mây mưa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 349,
+        "content": "Thương em anh để trong lòng\nViệc quan anh cứ phép công anh làm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 350,
+        "content": "Chí làm trai dặm nghìn yên ngựa\nGieo Thái Sơn nhẹ tựa hồng mao.",
+        "type": "p_tag"
+    },
+    {
+        "id": 351,
+        "content": "Làm trai cho đáng nên trai\nXuống Đông, Đông tĩnh, lên Đoài, Đoài yên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 352,
+        "content": "Làm trai cho đáng nên trai\nPhú Xuân đã trải Đồng Nai đã từng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 353,
+        "content": "Làm trai nết đủ năm đường\nTrước tiên điều hiếu đạo thường xưa nay\nCông cha đức mẹ cao dày\nCưu mang trứng nước những ngày ngây thơ\nNuôi con khó nhọc đến giờ\nTrưởng thành con phải biết nhờ hai thân\nThức khuya dậy sớm chuyên cần\nQuạt nồng ấp lạnh giữ phần đạo con.",
+        "type": "p_tag"
+    },
+    {
+        "id": 354,
+        "content": "Tự trọng người lại trọng thân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 355,
+        "content": "Áo rách cốt cách người thương",
+        "type": "p_tag"
+    },
+    {
+        "id": 356,
+        "content": "Kính lão đắc thọ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 357,
+        "content": "Đất có thổ công, sông có hà bá.",
+        "type": "p_tag"
+    },
+    {
+        "id": 358,
+        "content": "Đường mòn nhân nghĩa không mòn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 359,
+        "content": "Tự trọng người lại trọng than.",
+        "type": "p_tag"
+    },
+    {
+        "id": 360,
+        "content": "Trọng nghĩa khinh tài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 361,
+        "content": "Một chữ cũng là thầy, nửa chữ cũng là thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 362,
+        "content": "Không thầy đố mày làm nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 363,
+        "content": "Chim khôn kêu tiếng rảnh rang\nNgười khôn nói tiếng dịu dàng dễ nghe.",
+        "type": "p_tag"
+    },
+    {
+        "id": 364,
+        "content": "Tánh bần tiện sanh do tánh tham khởi\nMuốn thanh cao phải diệt trừ tham.",
+        "type": "p_tag"
+    },
+    {
+        "id": 365,
+        "content": "Chữ tín thay đức con người\nCủa mượn gìn giữ xong rồi trả ngay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 366,
+        "content": "Ai ơi đừng tham của người\nLấy một phải trả gấp mười về sau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 367,
+        "content": "Của người nhọc đổ mồ hôi\nChớ vì tham đắm cướp về tay ta.",
+        "type": "p_tag"
+    },
+    {
+        "id": 368,
+        "content": "Cười người chớ vội cười lâu\nCười người hôm trước, hôm sau người cười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 369,
+        "content": "Lâu ngày nhớ lại kẻo quên\nTình thân nghĩa cũ có bền hay không?",
+        "type": "p_tag"
+    },
+    {
+        "id": 370,
+        "content": "Làm người suy chín xét xa\nCho tường gốc, ngọn, cho ra vắn dài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 371,
+        "content": "Khó mà biết lẽ biết lời\nBiết ăn biết ở hơn người giàu sang.",
+        "type": "p_tag"
+    },
+    {
+        "id": 372,
+        "content": "Vay chín thì trả cả mười\nPhòng khi túng lỡ có người cho vay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 373,
+        "content": "Kim vàng, ai nỡ uốn câu\nNgười không ai nỡ nói nhau nặng lời​.",
+        "type": "p_tag"
+    },
+    {
+        "id": 374,
+        "content": "Lời nói chẳng mất tiền mua\nLựa lời mà nói cho vừa lòng nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 375,
+        "content": "Chim khôn kêu tiếng rãnh rang\nNgười khôn nói tiếng dịu dàng dễ nghe.",
+        "type": "p_tag"
+    },
+    {
+        "id": 376,
+        "content": "Khó mà biết lẽ biết lời\nBiết ăn biết ở hơn người giàu san",
+        "type": "p_tag"
+    },
+    {
+        "id": 377,
+        "content": "Nói người phải nghĩ đến ta\nThử sờ lên gáy xem xa hay gần\nNói người phải nghĩ đến thân\nThử sờ lên gáy xem gần hay xa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 378,
+        "content": "Thuốc đắng giã tật - Sự thật mất lòng",
+        "type": "p_tag"
+    },
+    {
+        "id": 379,
+        "content": "Ăn ngay nói thẳng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 380,
+        "content": "Một câu nói ngay bằng ăn chay cả tháng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 381,
+        "content": "Cây ngay không sợ chết đứng",
+        "type": "p_tag"
+    },
+    {
+        "id": 382,
+        "content": "Mật ngọt chết ruồi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 383,
+        "content": "Thẳng mực thì đau lòng gỗ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 384,
+        "content": "Thẳng như ruột ngựa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 385,
+        "content": "Đừng bảo rằng trời không tai\nNói đơm nói đặt cậy tài mà chi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 386,
+        "content": "Của phi nghĩa có giàu đâu,\nỞ cho ngay thẳng giàu sau mới bền.",
+        "type": "p_tag"
+    },
+    {
+        "id": 387,
+        "content": "Người gian thì sợ người ngay.\nNgười ngay chẳng sợ đường cày cong queo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 388,
+        "content": "Bề ngoài thơn thớt nói cười\nMà trong gian hiểm giết người không đao.",
+        "type": "p_tag"
+    },
+    {
+        "id": 389,
+        "content": "Đời loạn mới biết tôi trung\nTuế hàn mới biết bá tùng kiên tâm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 390,
+        "content": "Nhà nghèo yêu kẻ thật thà\nNhà quan yêu kẻ giàu ra nịnh thần.",
+        "type": "p_tag"
+    },
+    {
+        "id": 391,
+        "content": "Người ngay mắc cạn, kẻ gian vui cười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 392,
+        "content": "Cứu vật, vật trả ơn, cứu nhân, nhân trả oán.",
+        "type": "p_tag"
+    },
+    {
+        "id": 393,
+        "content": "Chị ngã em nâng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 394,
+        "content": "Làm việc phi pháp, sự ác đến ngay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 395,
+        "content": "Mưu thâm họa diệt thâm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 396,
+        "content": "Sát nhân, giả tử.",
+        "type": "p_tag"
+    },
+    {
+        "id": 397,
+        "content": "Nọc người bằng mười nọc rắn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 398,
+        "content": "Ở hậu gặp hậu, ở bạc gặp bạc.",
+        "type": "p_tag"
+    },
+    {
+        "id": 399,
+        "content": "Đời trước đắp nấm, đời sau ấm mồ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 400,
+        "content": "Ngu si hưởng thái bình.",
+        "type": "p_tag"
+    },
+    {
+        "id": 401,
+        "content": "Thánh nhân đãi kẻ khù khờ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 402,
+        "content": "Khôn sống, mống chết.",
+        "type": "p_tag"
+    },
+    {
+        "id": 403,
+        "content": "Đẹp nết hơn đẹp người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 404,
+        "content": "Sướng một lúc, khổ một đời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 405,
+        "content": "Trách mình trước, trách người sau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 406,
+        "content": "Tốt danh hơn lành áo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 407,
+        "content": "Cười người ba tháng, ai cười ba năm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 408,
+        "content": "Nhà sạch thì mát, bát sạch ngon cơm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 409,
+        "content": "Một miếng khi đói bằng gói khi no.",
+        "type": "p_tag"
+    },
+    {
+        "id": 410,
+        "content": "Một câu nhịn là chín câu lành.",
+        "type": "p_tag"
+    },
+    {
+        "id": 411,
+        "content": "Ăn coi nồi ngồi coi hướng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 412,
+        "content": "Anh em trong nhà, đóng cửa dạy nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 413,
+        "content": "Anh em thuận hòa là nhà có phúc.",
+        "type": "p_tag"
+    },
+    {
+        "id": 414,
+        "content": "Ở hiền gặp lành.",
+        "type": "p_tag"
+    },
+    {
+        "id": 415,
+        "content": "Chết giả mới biết dạ anh em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 416,
+        "content": "Người có lúc vinh, lúc nhục.",
+        "type": "p_tag"
+    },
+    {
+        "id": 417,
+        "content": "Sông có khúc, người có lúc.",
+        "type": "p_tag"
+    },
+    {
+        "id": 418,
+        "content": "Uống nước nhớ nguồn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 419,
+        "content": "Giấy rách phải giữ lề.",
+        "type": "p_tag"
+    },
+    {
+        "id": 420,
+        "content": "Thức lâu mới biết đêm dài, ở lâu mới biết con người có nhân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 421,
+        "content": "Hết tiền tài, hết nhân nghĩa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 422,
+        "content": "Quân tử lông chân, tiểu nhân lông bụng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 423,
+        "content": "Lòng sông lòng bể dễ dò, ai từng bẻ thước mà đo lòng người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 424,
+        "content": "Anh hùng đa nạn, hồng nhân đa truân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 425,
+        "content": "Thấy có thóc mới cho vay gạo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 426,
+        "content": "Biết đâu mà há miệng chờ ho.",
+        "type": "p_tag"
+    },
+    {
+        "id": 427,
+        "content": "Nhác đâm thì đổi chày, nhác xay thì đổi cối.",
+        "type": "p_tag"
+    },
+    {
+        "id": 428,
+        "content": "Giận mất khôn, lo mất ngon.",
+        "type": "p_tag"
+    },
+    {
+        "id": 429,
+        "content": "Đánh nhau chia gạo, chào nhau ăn cơm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 430,
+        "content": "Tiền trong nhà tiển chửa, tiền ra cửa tiền đẻ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 431,
+        "content": "Ăn gian nó giàn ra đấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 432,
+        "content": "Mua bán chợ đen, thân quen nhiều ngách.",
+        "type": "p_tag"
+    },
+    {
+        "id": 433,
+        "content": "Quen mặt đắt hàng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 434,
+        "content": "Buôn có bạn bán có phường.",
+        "type": "p_tag"
+    },
+    {
+        "id": 435,
+        "content": "Bán quạt mùa đông, buôn hồng mùa hè.",
+        "type": "p_tag"
+    },
+    {
+        "id": 436,
+        "content": "Mua trâu bán chả, mua vải bán áo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 437,
+        "content": "Phước đức quí hơn bạc vàng\nMấy người gian ác giàu sang ích gì?",
+        "type": "p_tag"
+    },
+    {
+        "id": 438,
+        "content": "Dò sông, dò bể, dò nguồn,\nBiết sao được bụng lái buôn mà dò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 439,
+        "content": "Chợ đang đông em không toan liệu,\nChợ tan rồi em bán chịu không ai mua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 440,
+        "content": "Đi buôn không lỗ thì lời,\nĐi ra cho biết mặt trời mặt trăng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 441,
+        "content": "Chẳng lo bán ế chợ ròng,\nKhách năng qua lại, đói lòng phải mua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 442,
+        "content": "Cái vòng danh lợi cong cong,\nKẻ hòng ra khỏi, người mong bước vào.",
+        "type": "p_tag"
+    },
+    {
+        "id": 443,
+        "content": "Vay chín thì phải trả mười,\nPhòng khi túng lỡ có người cho vay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 444,
+        "content": "Bánh đúc mà đổ ra sàng\nThuận anh anh bán, thuận nàng nàng mua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 445,
+        "content": "Ăn vóc học hay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 446,
+        "content": "Học thầy không tày học bạn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 447,
+        "content": "Mồng 1 tết cha, mồng ba tết thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 448,
+        "content": "Một gánh sách không bằng một giáo viên giỏi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 449,
+        "content": "Một kho vàng không bằng một nang chữ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 450,
+        "content": "Muốn biết phải hỏi, muốn giỏi phải học.",
+        "type": "p_tag"
+    },
+    {
+        "id": 451,
+        "content": "Muốn sang thì bắc cầu kiều, muốn con hay chữ thì yêu lấy thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 452,
+        "content": "Người không học như ngọc không mài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 453,
+        "content": "Nhất quý nhì sư",
+        "type": "p_tag"
+    },
+    {
+        "id": 454,
+        "content": "Nhất tự vi sư, bán tự vi sư.",
+        "type": "p_tag"
+    },
+    {
+        "id": 455,
+        "content": "Ông bảy mươi học ông bảy mốt.",
+        "type": "p_tag"
+    },
+    {
+        "id": 456,
+        "content": "Tiên học lễ, hậu học văn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 457,
+        "content": "Trọng thầy mới được làm thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 458,
+        "content": "Gươm vàng rớt xuống Hồ Tây\nƠn cha nghĩa trọng công thầy cũng sâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 459,
+        "content": "Mấy ai là kẻ không thầy \nThế gian thường nói đố mày làm nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 460,
+        "content": "Vua, thầy, cha, ấy va ngôi \nKính thờ như một, trẻ ơi ghi lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 461,
+        "content": "Mười năm rèn luyện sách đèn\nCông danh gặp bước, chớ quên ơn thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 462,
+        "content": "Mẹ cha công đức sinh thành\nRa trường thầy dạy học hành cho hay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 463,
+        "content": "Con ơi ham học chớ đùa\nBữa mô ngày Tết thỉnh bùa thầy đeo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 464,
+        "content": "Cơm cha, áo mẹ, chữ thầy\nNghĩ sao cho bõ những ngày ước mong.",
+        "type": "p_tag"
+    },
+    {
+        "id": 465,
+        "content": "Ơn thầy soi lối mở đường\nCho con vững bước dặm trường tương lai",
+        "type": "p_tag"
+    },
+    {
+        "id": 466,
+        "content": "Con ơi ghi nhớ lời này\nCông cha, nghĩa mẹ, công thầy chớ quên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 467,
+        "content": "Dạy con từ thửo tiểu sinh \nGần thầy gần bạn tập tành lễ nghi",
+        "type": "p_tag"
+    },
+    {
+        "id": 468,
+        "content": "Học cho \"cách vật trí tri\"\nVăn chương chữ nghĩa nghề gì cũng thông.",
+        "type": "p_tag"
+    },
+    {
+        "id": 469,
+        "content": "Ai người đánh thức đêm trường mộng\nAi soi đường lồng lộng ánh từ quang",
+        "type": "p_tag"
+    },
+    {
+        "id": 470,
+        "content": "Ơn Thầy không bằng gốc bễ\nNghĩa Thầy gánh vác cuộc đời học sinh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 471,
+        "content": "Ăn quả nhớ kẻ trồng cây\nCó danh có vọng nhớ thầy khi xưa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 472,
+        "content": "Công cha, áo mẹ, chữ thầy\nGắng công mà học có ngày thành danh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 473,
+        "content": "Mười năm rèn luyện sách đèn\nCông danh gặp ước, chớ quên ơn thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 474,
+        "content": "Tạ ơn thầy đã dẫn con vào rừng tri thức\nCảm nghĩa cô đã dắt trò đến biển yêu thương.",
+        "type": "p_tag"
+    },
+    {
+        "id": 475,
+        "content": "Con hơn cha là nhà có phúc\nTrò hơn thầy là đất nước yên vui.",
+        "type": "p_tag"
+    },
+    {
+        "id": 476,
+        "content": "Dốt kia thì phải cậy thầy\nVụng kia cậy thợ thì mày làm nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 477,
+        "content": "Đến đây viếng cảnh viếng thầy\nKhông say mùi đạo cũng khuây mùi trần.",
+        "type": "p_tag"
+    },
+    {
+        "id": 478,
+        "content": "Bẻ lau làm viết chép văn\nÂu Dương có mẹ dạy răn như thầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 479,
+        "content": "Ở đây gần bạn gần thầy\nCó công mài sắt có ngày nên kim",
+        "type": "p_tag"
+    },
+    {
+        "id": 480,
+        "content": "Ai thắp lửa bồ đề tỏa sáng\nĐạo vô vi sưởi ấm cả trần gian.",
+        "type": "p_tag"
+    },
+    {
+        "id": 481,
+        "content": "Khó thì hết thảo hết ngay\nCông cha cũng bỏ, nghĩa thầy cũng quên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 482,
+        "content": "Dòng sông sâu con sào dài đo được\nLòng người đưa đò ai biết được sự bao la.",
+        "type": "p_tag"
+    },
+    {
+        "id": 483,
+        "content": "Ơn dạy dỗ cao tường hơn núi\nNghĩa thầy trò như nước biển khơi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 484,
+        "content": "Lời cô giảng dạy khuyên răn\nLà hành trang của tháng năm vào đời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 485,
+        "content": "Ơn của thầy bao la vô tận \nBiển rộng sông dàu có sánh được đâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 486,
+        "content": "Chân trời góc bể có lúc tận cùng\nƠn thầy cô không bao giờ cùng tận.",
+        "type": "p_tag"
+    },
+    {
+        "id": 487,
+        "content": "Mai đây trên bước đường dài\nCông thành danh toại danh toại nhớ hoài ơn cô.",
+        "type": "p_tag"
+    },
+    {
+        "id": 488,
+        "content": "Ân truyền thụ minh tâm khắc trí\nNghĩa sinh thành tạc dạ lưu tâm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 489,
+        "content": "Thầy cô luôn là ngọn đèn soi sáng \nDẫn lối em đi đến những ước mơ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 490,
+        "content": "Cảm ơn thầy cho em tất cả\nNgười cho em cuộc sống muôn màu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 491,
+        "content": "Ơn cô tô điểm vàng son\nTỏa vầng tri thức trang tròn ước mơ",
+        "type": "p_tag"
+    },
+    {
+        "id": 492,
+        "content": "Ơn thầy vời vợi non cao\nHọc trò khắc cốt ghi sâu suốt đời",
+        "type": "p_tag"
+    },
+    {
+        "id": 493,
+        "content": "Người bắt cầu đưa em sang sông \nDẫu ngàn năm vẫn nhớ câu ơn người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 494,
+        "content": "Dẫu mai đi trọn phương trời\nNhững lời thầy dạy đời đời khắc ghi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 495,
+        "content": "Em vẫn biết đời người là hữu hạn\nNhưng lòng cô là vô hạn tình người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 496,
+        "content": "Ăn cùng mâm, nằm cùng chiếu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 497,
+        "content": "Chọn bạn mà chơi, chọn nơi mà ở.",
+        "type": "p_tag"
+    },
+    {
+        "id": 498,
+        "content": "Giàu vì bạn, sang vì vợ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 499,
+        "content": "Kẻ thù của kẻ thù là bạn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 500,
+        "content": "Kết thù thành bạn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 501,
+        "content": "Lắm kẻ yêu hơn nhiều người ghét.",
+        "type": "p_tag"
+    },
+    {
+        "id": 502,
+        "content": "Một con ngựa đau cả tàu bỏ cỏ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 503,
+        "content": "Tình bạn là bản tình ca tuyệt vời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 504,
+        "content": "Trong hoạn nạn mới biết ai là người bạn tốt.",
+        "type": "p_tag"
+    },
+    {
+        "id": 505,
+        "content": "Tứ hải giai huynh đệ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 506,
+        "content": "Bạn bè chung thủy, dưới trên đàng hoàng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 507,
+        "content": "Khi nào trái đất còn quay\nTrái tim còn đập vẫn là bạn nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 508,
+        "content": "Tình bạn là vạn bông hoa\nTình bạn là vạn bài ca muôn màu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 509,
+        "content": "Bạn bè là nghĩa tương tri\nSao cho sau trước một bờ mới nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 510,
+        "content": "Ai ơi nhớ lấy câu này\nTình bạn là mối duyên thừa trời cho.",
+        "type": "p_tag"
+    },
+    {
+        "id": 511,
+        "content": "Sống trong bể ngọc kim cương\nKhông bằng sống giữa tình thương bạn bè.",
+        "type": "p_tag"
+    },
+    {
+        "id": 512,
+        "content": "Bạn bè là nghĩa tương tri\nSao cho sau trước một bề mới nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 513,
+        "content": "Đi xa mà gặp bạn hiền\nCũng bằng ăn quả đào tiên trên trời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 514,
+        "content": "Tuy rằng xứ bắc, xứ đông\nKhắp trong bờ cõi cũng dòng anh em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 515,
+        "content": "Ra về nhớ bạn khóc thầm\nNăm thân áo vải ướt đầm cả năm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 516,
+        "content": "Chim lạc bầy thương cây nhớ cội\nXa bạn xa bè, lặn lội tìm nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 517,
+        "content": "Mùa hoa phượng là mùa thi cử\nChúc bạn hiền hai chữ thành công.",
+        "type": "p_tag"
+    },
+    {
+        "id": 518,
+        "content": "Bạn bè ít thôi vừa đủ dùng\nChứ đừng để cả thùng",
+        "type": "p_tag"
+    },
+    {
+        "id": 519,
+        "content": "Rồi lâm vào đường cùng\nPhút cuối cùng nó mới đi cúng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 520,
+        "content": "Sông Cửu Long nghìn năm vẫn chảy\nNghĩa bạn bè mãi mãi không phai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 521,
+        "content": "Suốt đời gắn bó keo sơn\nCùng chung trí hướng cùng nhau kết tình.",
+        "type": "p_tag"
+    },
+    {
+        "id": 522,
+        "content": "Bạn bè là nghĩa tương thân\nKhó khăn, thuận lợi ân cần có nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 523,
+        "content": "Bạn bè là nghĩa trước sau\nTuổi thơ cho đến bạc đầu không phai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 524,
+        "content": "Lúc ăn chơi sao không gọi bạn?\nLúc hoạn nạn cứ gọi bạn ơi…\nLúc ăn chơi ở đâu cũng thấy bạn\nLúc hoạn nạn gọi bạn chẳng thấy đâu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 525,
+        "content": "Gần mực thì đen, gần đèn thì rạng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 526,
+        "content": "Sao cho sau trước một bờ mới nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 527,
+        "content": "Thêm bạn bớt thù.",
+        "type": "p_tag"
+    },
+    {
+        "id": 528,
+        "content": "Trong khốn khó mới biết bạn tốt.",
+        "type": "p_tag"
+    },
+    {
+        "id": 529,
+        "content": "Sống trong bể ngọc kim cương,\nKhông bằng sống giữa tình thương bạn bè.",
+        "type": "p_tag"
+    },
+    {
+        "id": 530,
+        "content": "Đã là bạn thì mãi mãi là bạn,\nĐừng như sông lúc cạn lúc đầy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 531,
+        "content": "Anh em bốn bể là nhà,\nNgười dưng khác họ vẫn là anh em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 532,
+        "content": "Chim lạc bầy thương cây nhớ cội,\nXa bạn xa bè, lặn lội tìm nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 533,
+        "content": "Ra về nhớ bạn khóc thầm,\nNăm thân áo vải ướt đầm cả năm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 534,
+        "content": "Bạn bè là nghĩa tương tri,\nSao cho sau trước một bờ mới nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 535,
+        "content": "Bắt con cá lóc nướng trui,\nLàm mâm rượu trắng đãi người phương xa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 536,
+        "content": "Ai ơi nhớ lấy câu này,\nTình bạn là mối duyên thừa trời cho.",
+        "type": "p_tag"
+    },
+    {
+        "id": 537,
+        "content": "Ra đi vừa gặp bạn thân (bạn hiền),\nCũng bằng ăn quả đào tiên trên trời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 538,
+        "content": "Khi nào trái đất còn quay,\nTrái tim còn đập vẫn là bạn nhau.",
+        "type": "p_tag"
+    },
+    {
+        "id": 539,
+        "content": "Tuy rằng xứ Bắc, xứ Đông,\nKhắp trong bờ cõi cũng dòng anh em.",
+        "type": "p_tag"
+    },
+    {
+        "id": 540,
+        "content": "Sông sâu sào vắn khó dò,\nMuốn qua thăm bạn sợ đò không đưa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 541,
+        "content": "Sông Cửu Long nghìn năm vẫn chảy,\nNghĩa bạn bè mãi mãi không phai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 542,
+        "content": "Quen nhau từ thuở hàn vi,\nBây giờ sang trọng sá chi thân hèn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 543,
+        "content": "Suốt đời gắn bó keo sơn,\nCùng chung trí hướng cùng nhau kết tình.",
+        "type": "p_tag"
+    },
+    {
+        "id": 544,
+        "content": "Tình bạn là cái chi chi,\nNướng con cá lóc chơi liền một ve.\nChơi xong mới thấy ngà ngà,\nÔm nhau một cái bạn bè muôn năm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 545,
+        "content": "Thói thường gần mực thì đen,\nAnh em bạn hữu phải nên chọn người.\nNhững người lêu lổng chơi bời,\nCùng là lười biếng ta thời tránh xa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 546,
+        "content": "Bạn bè là nghĩa tương thân,\nKhó khăn, thuận lợi ân cần có nhau.\nBạn bè là nghĩa trước sau,\nTuổi thơ cho đến bạc đầu không phai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 547,
+        "content": "Mùa hoa phượng là mùa thi cử\nChúc bạn hiền hai chữ thành công",
+        "type": "p_tag"
+    },
+    {
+        "id": 548,
+        "content": "Cho tôi tôi chọn hoa hồng\nCho tôi chọn bạn tấm lòng thủy chung",
+        "type": "p_tag"
+    },
+    {
+        "id": 549,
+        "content": "Bạn bè là nghĩa tương thân.\nKhó khăn, thuận lợi ân cần có nhau.\nBạn bè là nghĩa trước sau.\nTuổi thơ cho đến bạc đầu không phai",
+        "type": "p_tag"
+    },
+    {
+        "id": 550,
+        "content": "Mực xanh giấy trắng viết ngắn còn dài\nMong rằng tình bạn nhớ hoài ngàn năm",
+        "type": "p_tag"
+    },
+    {
+        "id": 551,
+        "content": "Tình bạn tươi thắm như hoa\nTình bạn là bản tình ca tuyệt vời",
+        "type": "p_tag"
+    },
+    {
+        "id": 552,
+        "content": "Ai đi đâu đấy hỡi ai?\nHay là trúc đã nhớ mai đi tìm.\nTìm em như thể tìm chim,\nChim bay miền Bắc, đi tìm biển Đông.",
+        "type": "p_tag"
+    },
+    {
+        "id": 553,
+        "content": "Yêu nhau thì ném miếng trầu,\nGhét nhau ném đá vỡ đầu nhau ra.\nYêu nhau cau bổ làm ba,\nGhét nhau cau sáu bổ ra làm mười.",
+        "type": "p_tag"
+    },
+    {
+        "id": 554,
+        "content": "Anh đi đường ấy xa xa,\nĐể em ôm bóng trăng tà năm canh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 555,
+        "content": "Nước non một gánh chung tình,\nNhớ ai ai có nhớ mình hay không?",
+        "type": "p_tag"
+    },
+    {
+        "id": 556,
+        "content": "Yêu nhau chẳng quản lầm than,\nMấy sông cũng lội, mấy ngàn cũng qua.",
+        "type": "p_tag"
+    },
+    {
+        "id": 557,
+        "content": "Bán anh em xa mua láng giếng gần.",
+        "type": "p_tag"
+    },
+    {
+        "id": 558,
+        "content": "Ăn cây nào, rào cây ấy",
+        "type": "p_tag"
+    },
+    {
+        "id": 559,
+        "content": "Kính lão, đắc thọ",
+        "type": "p_tag"
+    },
+    {
+        "id": 560,
+        "content": "Dẫu rằng chí thiễn tài hèn\nChịu khó nhẫn nại làm nên cơ đồ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 561,
+        "content": "Hãy cho bền chí câu cua,\nDù ai câu chạch câu rùa mặc ai.",
+        "type": "p_tag"
+    },
+    {
+        "id": 562,
+        "content": "Người đời ai khỏi gian nan\nGian nan có thuở thanh nhàn có khi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 563,
+        "content": "Có bột mới gột nên hồ\nTay không mà dựng cơ đồ mới ngoan.",
+        "type": "p_tag"
+    },
+    {
+        "id": 564,
+        "content": "Bầu ơi thương lấy bí cùng\nTuy rằng khác giống nhưng chung một giàn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 565,
+        "content": "Một cây làm chẳng nên non\nBa cây chụm lại lên hòn núi cao.",
+        "type": "p_tag"
+    },
+    {
+        "id": 566,
+        "content": "Ăn cây nào, rào cây đó.",
+        "type": "p_tag"
+    },
+    {
+        "id": 567,
+        "content": "Ăn cháo, đá bát.",
+        "type": "p_tag"
+    },
+    {
+        "id": 568,
+        "content": "Ăn chưa no,lo chưa tới.",
+        "type": "p_tag"
+    },
+    {
+        "id": 569,
+        "content": "Ăn cỗ đi trước,lội nước đi sau",
+        "type": "p_tag"
+    },
+    {
+        "id": 570,
+        "content": "Ăn cơm mới,trò chuyện cũ",
+        "type": "p_tag"
+    },
+    {
+        "id": 571,
+        "content": "Ăn khoai nhớ kẻ cho dây mà trồng",
+        "type": "p_tag"
+    },
+    {
+        "id": 572,
+        "content": "Ăn không ngồi rồi",
+        "type": "p_tag"
+    },
+    {
+        "id": 573,
+        "content": "Ăn kĩ no lâu,cày sâu tốt lúa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 574,
+        "content": "Ăn quả nhớ kẻ trồng cây",
+        "type": "p_tag"
+    },
+    {
+        "id": 575,
+        "content": "Ăn trông nồi, ngồi trông hướng",
+        "type": "p_tag"
+    },
+    {
+        "id": 576,
+        "content": "Anh em như thể tay chân",
+        "type": "p_tag"
+    },
+    {
+        "id": 577,
+        "content": "Ba mặt một lời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 578,
+        "content": "Bán anh em xa, mua láng giềng gần.",
+        "type": "p_tag"
+    },
+    {
+        "id": 579,
+        "content": "Bạn bè là nghĩa tương tri.",
+        "type": "p_tag"
+    },
+    {
+        "id": 580,
+        "content": "Bán quạt mùa đông, mua bông mùa hè.",
+        "type": "p_tag"
+    },
+    {
+        "id": 581,
+        "content": "Bắt cá hai tay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 582,
+        "content": "Bắt người có tóc, ai bắt kẻ trọc đầu.",
+        "type": "p_tag"
+    },
+    {
+        "id": 583,
+        "content": "Bé không vịn,lớn cả gãy cành.",
+        "type": "p_tag"
+    },
+    {
+        "id": 584,
+        "content": "Bênh lý không bênh thân",
+        "type": "p_tag"
+    },
+    {
+        "id": 585,
+        "content": "Biết thì thưa thốt, không biết thì dựa cột mà nghe.",
+        "type": "p_tag"
+    },
+    {
+        "id": 586,
+        "content": "Bỏ thì thương, vương thì tội.",
+        "type": "p_tag"
+    },
+    {
+        "id": 587,
+        "content": "Bóc ngắn cắn dài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 588,
+        "content": "Bốn bể mười nhà.",
+        "type": "p_tag"
+    },
+    {
+        "id": 589,
+        "content": "Cái khó ló cái khôn",
+        "type": "p_tag"
+    },
+    {
+        "id": 590,
+        "content": "Cái răng,cái tóc là góc con người.",
+        "type": "p_tag"
+    },
+    {
+        "id": 591,
+        "content": "Cãi thầy núi đè",
+        "type": "p_tag"
+    },
+    {
+        "id": 592,
+        "content": "Cáo chết ba năm quay đầu về núi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 593,
+        "content": "Cây muốn lặng mà gió chẳng dừng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 594,
+        "content": "Cày sâu cuốc bẫm",
+        "type": "p_tag"
+    },
+    {
+        "id": 595,
+        "content": "Chân cứng đá mềm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 596,
+        "content": "Chân yếu tay mềm",
+        "type": "p_tag"
+    },
+    {
+        "id": 597,
+        "content": "Chết đứng còn hơn sống quỳ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 598,
+        "content": "Chết vinh còn hơn sống nhục.",
+        "type": "p_tag"
+    },
+    {
+        "id": 599,
+        "content": "Chị ngã, em nâng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 600,
+        "content": "Chớ dung kẻ gian, chớ oan người ngay",
+        "type": "p_tag"
+    },
+    {
+        "id": 601,
+        "content": "Chớ thấy sóng cả mà rã tay chèo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 602,
+        "content": "Chung lưng đấu sức",
+        "type": "p_tag"
+    },
+    {
+        "id": 603,
+        "content": "Chuột sa chĩnh gạo.",
+        "type": "p_tag"
+    },
+    {
+        "id": 604,
+        "content": "Có công mài sắt, có ngày nên kim.",
+        "type": "p_tag"
+    },
+    {
+        "id": 605,
+        "content": "Con có cha như nhà có nóc",
+        "type": "p_tag"
+    },
+    {
+        "id": 606,
+        "content": "Con hơn cha là nhà có phúc",
+        "type": "p_tag"
+    },
+    {
+        "id": 607,
+        "content": "Con không nghe mẹ nghe cha, mắm không ưa muối thì ắt là đổ đi",
+        "type": "p_tag"
+    },
+    {
+        "id": 608,
+        "content": "Còn nước, còn tát",
+        "type": "p_tag"
+    },
+    {
+        "id": 609,
+        "content": "Của ăn của để",
+        "type": "p_tag"
+    },
+    {
+        "id": 610,
+        "content": "Của một đồng, công một nén.",
+        "type": "p_tag"
+    },
+    {
+        "id": 611,
+        "content": "Đã nghèo còn mắc cái eo",
+        "type": "p_tag"
+    },
+    {
+        "id": 612,
+        "content": "Đèn nhà ai nhà nấy rạng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 613,
+        "content": "Đi hỏi già, về nhà hỏi trẻ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 614,
+        "content": "Đi một ngày đàng học một sàng khôn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 615,
+        "content": "Đi với phật thì mặc áo cà sa, đi với ma thì mặc áo giấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 616,
+        "content": "Đổi trắng thay đen.",
+        "type": "p_tag"
+    },
+    {
+        "id": 617,
+        "content": "Đứng mũi chịu sào.",
+        "type": "p_tag"
+    },
+    {
+        "id": 618,
+        "content": "Đa đa ích thiện",
+        "type": "p_tag"
+    },
+    {
+        "id": 619,
+        "content": "Gần mực thì đen, gần đèn thì sáng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 620,
+        "content": "Gạo chợ,nước sông,củi đồng,nồi đất.",
+        "type": "p_tag"
+    },
+    {
+        "id": 621,
+        "content": "Gậy ông đập lưng ông.",
+        "type": "p_tag"
+    },
+    {
+        "id": 622,
+        "content": "Ghét của nào trời trao của nấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 623,
+        "content": "Giận quá mất khôn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 624,
+        "content": "Giấu đầu hở đuôi.",
+        "type": "p_tag"
+    },
+    {
+        "id": 625,
+        "content": "Gieo gió gặt bão",
+        "type": "p_tag"
+    },
+    {
+        "id": 626,
+        "content": "Gió bấc hiu hiu, sếu kêu thì rét.",
+        "type": "p_tag"
+    },
+    {
+        "id": 627,
+        "content": "Góp gió thành bão",
+        "type": "p_tag"
+    },
+    {
+        "id": 628,
+        "content": "Gừng càng già càng cay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 629,
+        "content": "Gừng cay muối mặn",
+        "type": "p_tag"
+    },
+    {
+        "id": 630,
+        "content": "Khéo ăn thì no, khéo co thì ấm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 631,
+        "content": "Khôn đâu tới trẻ, khỏe đâu tới già.",
+        "type": "p_tag"
+    },
+    {
+        "id": 632,
+        "content": "Khôn không qua lẽ, khỏe chẳng qua lời.",
+        "type": "p_tag"
+    },
+    {
+        "id": 633,
+        "content": "Khôn nhà dại chợ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 634,
+        "content": "Không có lửa làm sao có khói.",
+        "type": "p_tag"
+    },
+    {
+        "id": 635,
+        "content": "Không làm sao nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 636,
+        "content": "Kiến tha lâu cũng đầy tổ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 637,
+        "content": "Kính trên nhường dưới.",
+        "type": "p_tag"
+    },
+    {
+        "id": 638,
+        "content": "Lá lành đùm lá rách",
+        "type": "p_tag"
+    },
+    {
+        "id": 639,
+        "content": "Lá rụng về cội",
+        "type": "p_tag"
+    },
+    {
+        "id": 640,
+        "content": "Liệu cơm gắp mắm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 641,
+        "content": "Lời nói chẳng mất tiền mua lựa lời mà nói cho vừa lòng nhau",
+        "type": "p_tag"
+    },
+    {
+        "id": 642,
+        "content": "Lời nói là đọi máu, lời nói là gói vàng",
+        "type": "p_tag"
+    },
+    {
+        "id": 643,
+        "content": "Lòng tham vô đáy",
+        "type": "p_tag"
+    },
+    {
+        "id": 644,
+        "content": "Lửa thử vàng, gian nan thử sức",
+        "type": "p_tag"
+    },
+    {
+        "id": 645,
+        "content": "Lùi một bước tiến ngàn dặm",
+        "type": "p_tag"
+    },
+    {
+        "id": 646,
+        "content": "Mạnh vì gạo, bạo vì tiền.",
+        "type": "p_tag"
+    },
+    {
+        "id": 647,
+        "content": "Mất lòng thánh, được lòng thần",
+        "type": "p_tag"
+    },
+    {
+        "id": 648,
+        "content": "Mau sao thì nắng,vắng sao thì mưa",
+        "type": "p_tag"
+    },
+    {
+        "id": 649,
+        "content": "Mềm nắn, rắn buông.",
+        "type": "p_tag"
+    },
+    {
+        "id": 650,
+        "content": "Mềm quá thì yếu, cứng quá thì gãy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 651,
+        "content": "Mèo què bị trận chó đòi",
+        "type": "p_tag"
+    },
+    {
+        "id": 652,
+        "content": "Miếng ăn là miếng nhục",
+        "type": "p_tag"
+    },
+    {
+        "id": 653,
+        "content": "Môi hở răng lạnh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 654,
+        "content": "Mống đông vồng tây, chẳng mưa dây bão cũng giật",
+        "type": "p_tag"
+    },
+    {
+        "id": 655,
+        "content": "Một câu nhịn, chín câu lành .",
+        "type": "p_tag"
+    },
+    {
+        "id": 656,
+        "content": "Một cây làm chẳng nên non ba cây chụm lại nên hòn núi cao",
+        "type": "p_tag"
+    },
+    {
+        "id": 657,
+        "content": "Một con chim én không làm nên mùa xuân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 658,
+        "content": "Một con ngựa đau, cả tàu bỏ cỏ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 659,
+        "content": "Một điều nhịn chín điều lành .",
+        "type": "p_tag"
+    },
+    {
+        "id": 660,
+        "content": "Một giọt máu đào hơn ao nước lã.",
+        "type": "p_tag"
+    },
+    {
+        "id": 661,
+        "content": "Một mặt người bằng mười mặt của.",
+        "type": "p_tag"
+    },
+    {
+        "id": 662,
+        "content": "Một miếng khi đói bằng một gói khi no.",
+        "type": "p_tag"
+    },
+    {
+        "id": 663,
+        "content": "Một miệng thì kín, chín miệng thì hở",
+        "type": "p_tag"
+    },
+    {
+        "id": 664,
+        "content": "Một người biết lo bằng kho người làm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 665,
+        "content": "Một nụ cười bằng mười thang thuốc bổ",
+        "type": "p_tag"
+    },
+    {
+        "id": 666,
+        "content": "Mưa dầm thấm lâu",
+        "type": "p_tag"
+    },
+    {
+        "id": 667,
+        "content": "Mưa tháng ba hoa đất, mưa tháng tư hư đất",
+        "type": "p_tag"
+    },
+    {
+        "id": 668,
+        "content": "Mũi dại, lái phải chịu đòn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 669,
+        "content": "Muốn ăn cá cả phải thả câu dài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 670,
+        "content": "Muốn ăn thì lăn vào bếp.",
+        "type": "p_tag"
+    },
+    {
+        "id": 671,
+        "content": "Muốn biết phải hỏi, muốn giỏi phải học..",
+        "type": "p_tag"
+    },
+    {
+        "id": 672,
+        "content": "Muốn gì được nấy",
+        "type": "p_tag"
+    },
+    {
+        "id": 673,
+        "content": "Mưu sự tại nhân thành sự tại thiên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 674,
+        "content": "Năng làm thì nên.",
+        "type": "p_tag"
+    },
+    {
+        "id": 675,
+        "content": "Nghèo sinh bệnh, giàu sinh tật.",
+        "type": "p_tag"
+    },
+    {
+        "id": 676,
+        "content": "Người đẹp vì lụa, lúa tốt vì phân.",
+        "type": "p_tag"
+    },
+    {
+        "id": 677,
+        "content": "Người sống hơn đống vàng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 678,
+        "content": "Người ta là hoa đất",
+        "type": "p_tag"
+    },
+    {
+        "id": 679,
+        "content": "Người thanh tiếng nói cũng thanh, chuông kêu khẽ đánh bên thành cũng kêu",
+        "type": "p_tag"
+    },
+    {
+        "id": 680,
+        "content": "Ngưu tầm ngưu, mã tầm mã.",
+        "type": "p_tag"
+    },
+    {
+        "id": 681,
+        "content": "Nhà giàu đứt tay bằng ăn mày đổ ruột",
+        "type": "p_tag"
+    },
+    {
+        "id": 682,
+        "content": "Nhà sạch thì mát, bát sạch ngon cơm",
+        "type": "p_tag"
+    },
+    {
+        "id": 683,
+        "content": "Nhất canh trì,nhị canh viên, tam canh điền",
+        "type": "p_tag"
+    },
+    {
+        "id": 684,
+        "content": "Nhất nước, nhì phân, tam cần, tứ giống",
+        "type": "p_tag"
+    },
+    {
+        "id": 685,
+        "content": "Nhất quỷ, nhì ma ,thứ 3 học trò.",
+        "type": "p_tag"
+    },
+    {
+        "id": 686,
+        "content": "Nhất thì, nhì thục",
+        "type": "p_tag"
+    },
+    {
+        "id": 687,
+        "content": "No mất ngon, giận mất khôn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 688,
+        "content": "Nói có sách, mách có chứng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 689,
+        "content": "Nước chảy đá mòn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 690,
+        "content": "Nước chảy về nguồn, lá rụng về cội.",
+        "type": "p_tag"
+    },
+    {
+        "id": 691,
+        "content": "Nước đến chân mới nhảy",
+        "type": "p_tag"
+    },
+    {
+        "id": 692,
+        "content": "Nước lã không khuấy nên hồ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 693,
+        "content": "Nước lã mà vã nên hồ, tay không mà nổi cơ đồ mới ngoan",
+        "type": "p_tag"
+    },
+    {
+        "id": 694,
+        "content": "Ở bầu thì tròn, ở ống thì dài.",
+        "type": "p_tag"
+    },
+    {
+        "id": 695,
+        "content": "Ở chọn nơi, chơi chọn bạn",
+        "type": "p_tag"
+    },
+    {
+        "id": 696,
+        "content": "Ở hiền gặp lành, ở ác gặp ác",
+        "type": "p_tag"
+    },
+    {
+        "id": 697,
+        "content": "Oan có đầu, nợ có chủ",
+        "type": "p_tag"
+    },
+    {
+        "id": 698,
+        "content": "Oán không giải được oán",
+        "type": "p_tag"
+    },
+    {
+        "id": 699,
+        "content": "Oan oan tương báo , dỉ hận miên miên",
+        "type": "p_tag"
+    },
+    {
+        "id": 700,
+        "content": "Phúc bất trùng lai, hoạ vô đơn chí.",
+        "type": "p_tag"
+    },
+    {
+        "id": 701,
+        "content": "Phú quý sinh lễ nghĩa , bần cùng sinh đạo tặc",
+        "type": "p_tag"
+    },
+    {
+        "id": 702,
+        "content": "Phòng bệnh hơn chữa bệnh.",
+        "type": "p_tag"
+    },
+    {
+        "id": 703,
+        "content": "Quân tử nhất ngôn",
+        "type": "p_tag"
+    },
+    {
+        "id": 704,
+        "content": "Quả báo nhãn tiền",
+        "type": "p_tag"
+    },
+    {
+        "id": 705,
+        "content": "Ruộng bề bề chẳng bằng nghề trong tay.",
+        "type": "p_tag"
+    },
+    {
+        "id": 706,
+        "content": "Rừng vàng biển bạc",
+        "type": "p_tag"
+    },
+    {
+        "id": 707,
+        "content": "Rau nào sâu nấy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 708,
+        "content": "Rừng nào cọp nấy",
+        "type": "p_tag"
+    },
+    {
+        "id": 709,
+        "content": "Sai một li đi một dặm",
+        "type": "p_tag"
+    },
+    {
+        "id": 710,
+        "content": "Sáng ướt áo, trưa ráo đầu",
+        "type": "p_tag"
+    },
+    {
+        "id": 711,
+        "content": "Sinh lão bệnh tử",
+        "type": "p_tag"
+    },
+    {
+        "id": 712,
+        "content": "Sinh nghề tử nghiệp",
+        "type": "p_tag"
+    },
+    {
+        "id": 713,
+        "content": "Sông có khúc, người có lúc",
+        "type": "p_tag"
+    },
+    {
+        "id": 714,
+        "content": "Sông sâu sóng cả chớ ngã tay chèo",
+        "type": "p_tag"
+    },
+    {
+        "id": 715,
+        "content": "Sóng trước đổ đâu, sóng sau đổ đó",
+        "type": "p_tag"
+    },
+    {
+        "id": 716,
+        "content": "Sóng Trường Giang, sóng sau đập sóng trước",
+        "type": "p_tag"
+    },
+    {
+        "id": 717,
+        "content": "Tấc đất tấc vàng",
+        "type": "p_tag"
+    },
+    {
+        "id": 718,
+        "content": "Tai vách mạch rừng",
+        "type": "p_tag"
+    },
+    {
+        "id": 719,
+        "content": "Tay làm hàm nhai, tay quai miệng trễ",
+        "type": "p_tag"
+    },
+    {
+        "id": 720,
+        "content": "Tham giàu phụ khó, tham sang phụ bần",
+        "type": "p_tag"
+    },
+    {
+        "id": 721,
+        "content": "Thắng không kiêu, bại không nản",
+        "type": "p_tag"
+    },
+    {
+        "id": 722,
+        "content": "Thắng làm vua thua làm giặc",
+        "type": "p_tag"
+    },
+    {
+        "id": 723,
+        "content": "Thẳng như ruột ngựa",
+        "type": "p_tag"
+    },
+    {
+        "id": 724,
+        "content": "Thất bại là mẹ thành công",
+        "type": "p_tag"
+    },
+    {
+        "id": 725,
+        "content": "Thích thì vô không thích thì vô",
+        "type": "p_tag"
+    },
+    {
+        "id": 726,
+        "content": "Thua keo này bày keo khác",
+        "type": "p_tag"
+    },
+    {
+        "id": 727,
+        "content": "Thùng rỗng kêu to",
+        "type": "p_tag"
+    },
+    {
+        "id": 728,
+        "content": "Thuốc đắng dã tật, sự thật mất lòng",
+        "type": "p_tag"
+    },
+    {
+        "id": 729,
+        "content": "Thương người như thể thương thân",
+        "type": "p_tag"
+    },
+    {
+        "id": 730,
+        "content": "Tiên học lễ hậu học văn",
+        "type": "p_tag"
+    },
+    {
+        "id": 731,
+        "content": "Tiền nào của nấy",
+        "type": "p_tag"
+    },
+    {
+        "id": 732,
+        "content": "Tốt danh hơn lành áo",
+        "type": "p_tag"
+    },
+    {
+        "id": 733,
+        "content": "Tốt gỗ hơn tốt nước sơn",
+        "type": "p_tag"
+    },
+    {
+        "id": 734,
+        "content": "Trăng quầng thì hạn, trăng tán thì mưa",
+        "type": "p_tag"
+    },
+    {
+        "id": 735,
+        "content": "Trâu chậm uống nước đục",
+        "type": "p_tag"
+    },
+    {
+        "id": 736,
+        "content": "Trống đánh xuôi, kèn thổi ngược",
+        "type": "p_tag"
+    },
+    {
+        "id": 737,
+        "content": "Vạch áo cho người xem lưng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 738,
+        "content": "Vắng chủ nhà gà mọc đuôi tôm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 739,
+        "content": "Vắng chủ nhà gà vọc niêu tôm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 740,
+        "content": "Vàng thật không sợ lửa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 741,
+        "content": "Vắt chanh bỏ vỏ.",
+        "type": "p_tag"
+    },
+    {
+        "id": 742,
+        "content": "Vắt cổ chày ra nước.",
+        "type": "p_tag"
+    },
+    {
+        "id": 743,
+        "content": "Vặt đầu cá, vá đầu tôm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 744,
+        "content": "Vẽ đường cho hươu chạy.",
+        "type": "p_tag"
+    },
+    {
+        "id": 745,
+        "content": "Việc người thì sáng, việc mình thì quáng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 746,
+        "content": "Việc nhà thì nhác, việc chú bác thì siêng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 747,
+        "content": "Vơ đũa cả nắm.",
+        "type": "p_tag"
+    },
+    {
+        "id": 748,
+        "content": "Vỏ quít dày, móng tay nhọn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 749,
+        "content": "Vỏ quýt dày có móng tay nhọn.",
+        "type": "p_tag"
+    },
+    {
+        "id": 750,
+        "content": "Vong ân bội nghĩa.",
+        "type": "p_tag"
+    },
+    {
+        "id": 751,
+        "content": "Vừa ăn cướp, vừa la làng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 752,
+        "content": "Vụng múa, chê đất lệch.",
+        "type": "p_tag"
+    },
+    {
+        "id": 753,
+        "content": "Xa nhà cách trường.",
+        "type": "p_tag"
+    },
+    {
+        "id": 754,
+        "content": "Xa mặt cách lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 755,
+        "content": "Xanh vỏ đỏ lòng.",
+        "type": "p_tag"
+    },
+    {
+        "id": 756,
+        "content": "Yêu nên tốt, ghét nên xấu",
+        "type": "p_tag"
+    },
+    {
+        "id": 757,
+        "content": "Yêu nhau lắm, cắn nhau đau",
+        "type": "p_tag"
+    },
+    {
+        "id": 758,
+        "content": "Yêu nhau yêu cả đường đi ghét nhau ghét cả tông chi họ hàng",
+        "type": "p_tag"
+    },
+    {
+        "id": 759,
+        "content": "Yêu nhau cau sáu bổ ba, ghét nhau cau sáu bổ ra làm mười",
+        "type": "p_tag"
+    }
+]
