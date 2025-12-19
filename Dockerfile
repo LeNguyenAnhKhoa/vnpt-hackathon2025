@@ -8,34 +8,38 @@ FROM python:3.12-slim
 RUN apt-get update && apt-get install -y \
     curl \
     build-essential \
+    libunwind8 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy Qdrant binary and config
 COPY --from=qdrant-source /qdrant/qdrant /usr/local/bin/qdrant
-# Create config directory
 RUN mkdir -p /qdrant/config
-# Copy config if available, otherwise Qdrant uses defaults
 COPY --from=qdrant-source /qdrant/config /qdrant/config
 
 # Set working directory
 WORKDIR /code
 
-# Install Python dependencies
+# 1. Cài đặt thư viện trước (để tận dụng cache)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
-COPY . .
+# 2. COPY CÁC FILE CODE QUAN TRỌNG (Tránh copy folder qdrant_storage ở đây)
+COPY predict.py .
+COPY entrypoint.sh .
+COPY api-keys.json .
+# Nếu bạn có dùng các file phụ trong vectorDB (trừ storage), hãy copy riêng:
+COPY vectorDB/main_async.py ./vectorDB/
+# COPY thêm các file/folder code khác nếu cần (ví dụ folder img, utils...)
 
-# Setup Qdrant storage
-# Create directory and copy local storage
+# 3. SETUP DATABASE (Đây là dòng quan trọng nhất đảm bảo có Data)
 RUN mkdir -p /qdrant/storage
+# Dòng này đưa dữ liệu vào đúng chỗ Qdrant đọc
 COPY vectorDB/qdrant_storage /qdrant/storage
 
 # Make entrypoint executable
 RUN chmod +x entrypoint.sh
 
-# Expose ports (Qdrant ports)
+# Expose ports
 EXPOSE 6333 6334
 
 # Set entrypoint
