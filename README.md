@@ -118,7 +118,7 @@ pip install -r requirements.txt
 cd vectorDB
 python main_async.py
 ```
-4. Ensure file `test.json` is in folder `data`. Run the workflow pipeline:
+4. Ensure file `private_test.json` is in folder `code`. Run the workflow pipeline:
 ```
 python main.py
 ```

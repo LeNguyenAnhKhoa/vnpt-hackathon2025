@@ -1092,8 +1092,8 @@ def main():
     parser.add_argument(
         '--input',
         type=str,
-        default='data/test.json',
-        help='Path to the input test.json file (default: data/test.json)'
+        default='code/private_test.json',
+        help='Path to the input test.json file (default: code/private_test.json)'
     )
     parser.add_argument(
         '--output-dir',
