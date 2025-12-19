@@ -52,7 +52,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 logger.info(f"Log file created: {log_filename}")
 
-def load_credentials(json_path='./vectorDB/api-keys1.json'):
+def load_credentials(json_path='./api-keys.json'):
     """
     Đọc file api-keys.json và lấy credentials cho tất cả các API
     """
@@ -1051,14 +1051,14 @@ def process_test_file(input_path, output_dir, start_idx=None, end_idx=None):
         #time.sleep(sleep_time)
     
     # Write to CSV
-    csv_path = output_dir / 'submission1.csv'
+    csv_path = output_dir / 'submission.csv'
     with open(csv_path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=['qid', 'answer'])
         writer.writeheader()
         writer.writerows(csv_results)
     
     # Write to JSON
-    json_path = output_dir / 'predict1.json'
+    json_path = output_dir / 'predict.json'
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_results, f, ensure_ascii=False, indent=2)
     

@@ -3,8 +3,10 @@
 ## Pipeline Flow
 
 ## Data Processing
-- Data được crawl từ nhiều nguồn khác nhau. Sau khi crawl, data được gộp lại thành 1 file .csv có 3 cột "id", "title" và "text"
-- 
+- Các nguồn dữ liệu và cách xử lý được để ở link: []()
+- Tổng hợp dữ liệu được để ở link: [Data](https://drive.google.com/drive/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR?usp=sharing). Trong đó, folder `input` chứa các file đã được crawl xong, folder `output` chứa các file được đưa về dạng .csv.
+- Data được crawl từ nhiều nguồn khác nhau. Sau khi crawl, data được gộp lại thành 1 file .csv có 3 cột "id", "title" và "text".
+- Cuối cùng, gộp tất cả lại thành 1 file `vectorDB/data/data.csv` duy nhất.
 ## How to Run
 
 ### 1. Install Requirements

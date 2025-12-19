@@ -1,10 +1,2 @@
-.env
-
 api-keys.json
-.DS_Store
-
-predict1.py
-predict2.py
-predict3.py
-
 *.log
