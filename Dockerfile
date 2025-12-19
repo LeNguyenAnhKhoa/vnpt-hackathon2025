@@ -15,23 +15,23 @@ RUN apt-get update && apt-get install -y \
 COPY --from=qdrant-source /qdrant/qdrant /usr/local/bin/qdrant
 RUN mkdir -p /qdrant/config
 COPY --from=qdrant-source /qdrant/config /qdrant/config
+ENV QDRANT_CONFIG_PATH=/qdrant/config/config.yaml
 
 # Set working directory
 WORKDIR /code
 
-# 1. Cài đặt thư viện trước (để tận dụng cache)
+# 1. SETUP DATABASE (Đây là dòng quan trọng nhất đảm bảo có Data)
+RUN mkdir -p /qdrant/storage
+COPY vectorDB/qdrant_storage /qdrant/storage
+
+# 2. Cài đặt thư viện trước (để tận dụng cache)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 2. COPY CÁC FILE CODE QUAN TRỌNG (Tránh copy folder qdrant_storage ở đây)
+# 3. COPY CÁC FILE CODE QUAN TRỌNG (Tránh copy folder qdrant_storage ở đây)
 COPY predict.py .
 COPY entrypoint.sh .
 COPY api-keys.json .
-
-# 3. SETUP DATABASE (Đây là dòng quan trọng nhất đảm bảo có Data)
-RUN mkdir -p /qdrant/storage
-# Dòng này đưa dữ liệu vào đúng chỗ Qdrant đọc
-COPY vectorDB/qdrant_storage /qdrant/storage
 
 # Make entrypoint executable
 RUN chmod +x entrypoint.sh

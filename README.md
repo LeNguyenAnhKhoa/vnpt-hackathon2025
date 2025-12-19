@@ -130,3 +130,32 @@ python main.py
 7. Note:
 - `main_async.py`: To follow the api rate limit (500 req/m), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`
 - `predict.py`: To follow the api rate limit (40 req/h for LLM Large and 60 req/h for LLM Small), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`. If there is a line say **Default to A** in file `.log`, please run that test case again.
+
+### How to run with docker
+
+We have pre-built the Docker image and pushed it to Docker Hub. You can easily pull and run the solution without building it locally.
+
+1.  **Pull the image:**
+
+    ```bash
+    docker pull khoadeptraivai/vnpt-hackathon-submission:v1
+    ```
+
+2.  **Run the container:**
+
+    Ensure you are in the project root directory where `private_test.json` is located.
+
+    ```bash
+    docker run --rm -v ${PWD}/output:/code/output -v ${PWD}/private_test.json:/code/private_test.json khoadeptraivai/vnpt-hackathon-submission:v1
+    ```
+
+    **Explanation:**
+    *   `--rm`: Automatically remove the container when it exits.
+    *   `-v ${PWD}/output:/code/output`: Mounts your local `output` folder to `/code/output` in the container. This ensures that `submission.csv` and other results are saved to your machine.
+    *   `-v ${PWD}/private_test.json:/code/private_test.json`: Mounts your local input file `private_test.json` to the container so the code can read it.
+
+    > **Note**: If you want to build the image locally instead, you can run:
+    > ```bash
+    > docker build -t khoadeptraivai/vnpt-hackathon-submission:v1 .
+    > ```
+

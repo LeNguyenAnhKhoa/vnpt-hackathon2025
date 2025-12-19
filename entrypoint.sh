@@ -17,7 +17,7 @@ QDRANT_PID=$!
 
 # Wait for Qdrant to be ready
 echo "Waiting for Qdrant to be ready..."
-MAX_RETRIES=30
+MAX_RETRIES=900
 count=0
 while ! curl -s http://localhost:6333/healthz > /dev/null; do
     sleep 1
