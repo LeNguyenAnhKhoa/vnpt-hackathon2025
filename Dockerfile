@@ -39,4 +39,4 @@ RUN chmod +x entrypoint.sh
 EXPOSE 6333 6334
 
 # Set entrypoint
-ENTRYPOINT ["/app/entrypoint.sh"]
+ENTRYPOINT ["/code/entrypoint.sh"]
