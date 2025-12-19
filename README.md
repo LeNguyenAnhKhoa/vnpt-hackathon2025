@@ -126,7 +126,7 @@ python main_async.py
 ```
 python main.py
 ```
-6. `submission.csv` and `predict.json` is in folder `output`
+6. `submission.csv` and `predict.json` and `submission_time.csv is in folder `output`
 7. Note:
 - `main_async.py`: To follow the api rate limit (500 req/m), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`
 - `predict.py`: To follow the api rate limit (40 req/h for LLM Large and 60 req/h for LLM Small), **UNCOMMENT**  lines that have term `.sleep`. Ensure there is no error in file `.log`. If there is a line say **Default to A** in file `.log`, please run that test case again.
