@@ -37,7 +37,7 @@ Every input Query (Question + Choices) is classified by **LLM Small** into 4 str
 - Data sources and processing methods are available at: [sheet](https://docs.google.com/spreadsheets/d/176Hs2OUBhQj6UrNkRyu4dse9xK_ag_6VMZZsd2maLy8/edit?usp=sharing)
 - Aggregated data is available at: [Data](https://drive.google.com/drive/folders/1dUnodqUE3Ea0ESjACpEEGARFgtiua-KR?usp=sharing). In this folder, `input` contains crawled files, and `output` contains files converted to `.csv` format.
 - Data is crawled from various sources. After crawling, data is merged into a single `.csv` file with 3 columns: "id", "title", and "text". The "id" and "title" columns are not critical, while the "text" column contributes directly to the vector database.
-- Finally, everything is merged into a single file: `vectorDB/data/data.csv`.
+- Finally, everything is merged into a single file: `data.csv`. You can donwload it from `data.zip` file in the drive link and put it in folder `vectorDB/data`.
 
 ## Vector Database work flow (High-Performance Indexing)
 
